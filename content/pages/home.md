@@ -1,8 +1,11 @@
 ---
-hero_title: Build a SaaS faster with React
-hero_description: Lalalala
+title: OPINION
+image: /img/opinion_cost.jpg
+subtitle: Measuring Opinionated Communication
 ---
 
-**Serverless SaaS** is aiming to be the perfect starting point for
-your next React app to build full-stack SaaS applications. Visit
-serverless.page for more info.
+# The OPINION Network
+
+This is the website of the OPINION network. Please let us tell you here how cool we are blablabla.
+
+Voila, a [link](https://www.cost.eu/actions/CA21129/) to the COST action page.

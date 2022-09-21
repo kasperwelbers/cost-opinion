@@ -25,6 +25,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
@@ -43,6 +44,25 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   max-width: 100%;
+}
+
+.AppBody {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.Container {
+  max-width: 1111px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.AppFooter {
+  width: 100%;
+  text-align: center;
 }
 
 a {
@@ -253,6 +273,11 @@ blockquote {
 .fade-in {
   animation: fadeIn 0.5s;
   -webkit-animation: fadeIn 0.5s;
+}
+
+.fade-in-slow {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {

@@ -8,7 +8,6 @@
 .NavContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 6rem;
 }
 
@@ -27,9 +26,8 @@
   margin-left: 1rem;
 }
 
-.NavLink:hover,
-.NavLink.active,
-.NavLink:focus {
+.selected,
+.NavLink:hover {
   color: var(--primary);
   border-bottom-color: currentColor;
 }

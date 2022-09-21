@@ -1,12 +1,13 @@
 export default {
   cms_manual_init: true,
   backend: {
-    name: "github",
-    repo: "kasperwelbers/cost-opinion",
+    name: "git-gateway",
     branch: "main",
   },
+
   media_folder: "public/img",
   public_folder: "img",
+
   collections: [
     {
       name: "pages",
@@ -18,18 +19,48 @@ export default {
           file: "content/pages/home.md",
           fields: [
             {
-              label: "Hero Title",
-              name: "hero_title",
+              label: "Title",
+              name: "title",
               widget: "string",
             },
             {
-              label: "Hero Description",
-              name: "hero_description",
-              widget: "markdown",
+              label: "Image",
+              name: "image",
+              widget: "image",
+            },
+            {
+              label: "Subtitle",
+              name: "subtitle",
+              widget: "string",
+            },
+          ],
+        },
+        {
+          label: "WGs",
+          name: "wgs",
+          file: "content/pages/wgs.md",
+          fields: [
+            {
+              label: "Title",
+              name: "title",
+              widget: "string",
+            },
+            {
+              label: "Image",
+              name: "image",
+              widget: "image",
             },
           ],
         },
       ],
+    },
+    {
+      name: "workinggroups",
+      label: "Working Groups",
+      folder: "content/workinggroups",
+      slug: "{{slug}}",
+      create: false,
+      fields: [{ label: "Title", name: "title", widget: "string" }],
     },
   ],
 };
