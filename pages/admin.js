@@ -1,6 +1,8 @@
 import dynamic from "next/dynamic";
 import config from "../cms/config";
 
+// regular js, because can't figure out how to override that dynamic expects a component output
+
 const CMS = dynamic(
   () =>
     import("netlify-cms-app").then((cms) => {
@@ -9,7 +11,7 @@ const CMS = dynamic(
   { ssr: false, loading: () => <p>Loading...</p> }
 );
 
-const AdminPage: React.FC = () => {
+const AdminPage = () => {
   return <CMS />;
 };
 
