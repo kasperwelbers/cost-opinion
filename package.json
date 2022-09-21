@@ -11,8 +11,8 @@
   "dependencies": {
     "netlify-cms-app": "^2.15.72",
     "next": "12.3.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "18.7.18",

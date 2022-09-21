@@ -2,7 +2,7 @@ export default {
   cms_manual_init: true,
   backend: {
     name: "github",
-    repo: "yourname/your-github-repo-name",
+    repo: "kasperwelbers/cost-opinion",
     branch: "main",
   },
   media_folder: "public/img",
