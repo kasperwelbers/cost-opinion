@@ -1,7 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
-
-module.exports = nextConfig
+module.exports = {
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.md$/,
+      loader: "frontmatter-markdown-loader",
+    });
+    return config;
+  },
+};
