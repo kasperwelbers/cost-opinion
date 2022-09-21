@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 import Logo from "./Logo";
+import { BiNetworkChart } from "react-icons/bi";
 
 import styles from "styles/Nav.module.css";
 
@@ -17,6 +18,8 @@ const Navbar = () => {
     <header>
       <nav className={styles.Nav}>
         <div className={styles.NavContainer}>
+          <BiNetworkChart style={{ fontSize: "2rem" }} />
+
           {MENU_LIST.map((menu, i) => (
             <Link href={menu.href} key={menu.text}>
               <a
