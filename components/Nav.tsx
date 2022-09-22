@@ -1,7 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "./Logo";
 import { BiNetworkChart } from "react-icons/bi";
 
 import styles from "styles/Nav.module.css";
@@ -35,17 +33,6 @@ const Navbar = () => {
         </div>
       </nav>
     </header>
-  );
-};
-
-const NavItem = ({ text, href, selected }) => {
-  console.log(selected);
-  return (
-    <Link href={href}>
-      <a className={`${styles.NavLink} ${selected ? styles.selected : ""}`}>
-        {text}
-      </a>
-    </Link>
   );
 };
 

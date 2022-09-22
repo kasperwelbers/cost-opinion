@@ -2,7 +2,6 @@ import { useState } from "react";
 import fs from "fs";
 import { NextPage, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
-import glob from "glob";
 import {
   FaDatabase,
   FaBook,
@@ -14,16 +13,27 @@ import styles from "styles/WGs.module.css";
 const iconsize = "4em";
 
 interface Props {
-  content: { attributes: HomeAttributes };
+  content: Content;
+  workinggroups: WorkingGroup[];
 }
-interface HomeAttributes {
-  title: string;
-  image: string;
+
+interface Content {
+  attributes: {
+    title: string;
+    image: string;
+  };
+}
+interface WorkingGroup {
+  attributes: {
+    title: string;
+  };
+  name: string;
+  body: string;
 }
 
 const WGs: NextPage<Props> = ({ content, workinggroups }) => {
-  const { attributes, body } = content;
-  const [selected, setSelected] = useState(null);
+  const { attributes } = content;
+  const [selected, setSelected] = useState<number>();
 
   return (
     <div
@@ -76,7 +86,9 @@ const WGs: NextPage<Props> = ({ content, workinggroups }) => {
                 >
                   <div
                     className={styles.Icon}
-                    style={{ color: selected === i && "var(--primary-light)" }}
+                    style={{
+                      color: selected === i ? "var(--primary-light)" : "white",
+                    }}
                   >
                     {wg.name === "wp1.md" && (
                       <FaBook key="theory" style={{ fontSize: iconsize }} />
@@ -102,13 +114,19 @@ const WGs: NextPage<Props> = ({ content, workinggroups }) => {
             );
           })}
         </div>
-        <WorkingGroupDetails wg={selected != null && workinggroups[selected]} />
+        {selected != null ? (
+          <WorkingGroupDetails wg={workinggroups[selected]} />
+        ) : null}
       </div>
     </div>
   );
 };
 
-const WorkingGroupDetails = ({ wg }) => {
+interface WGDetailsProps {
+  wg: WorkingGroup;
+}
+
+const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg }) => {
   if (!wg) return null;
   return (
     <div className={`${styles.WorkingGroupDetails} fade-in`}>

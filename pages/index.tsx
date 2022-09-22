@@ -1,16 +1,18 @@
 import { NextPage, GetStaticProps } from "next";
-import Image from "next/image";
 import ReactMarkdown from "react-markdown";
 import styles from "styles/Home.module.css";
 
 interface Props {
-  content: { attributes: HomeAttributes };
+  content: Content;
+}
+interface Content {
+  attributes: HomeAttributes;
+  body: string;
 }
 interface HomeAttributes {
   title: string;
   subtitle: string;
   image: string;
-  body: string;
 }
 
 const HomePage: NextPage<Props> = ({ content }) => {
