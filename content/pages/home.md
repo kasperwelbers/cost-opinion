@@ -1,7 +1,9 @@
 ---
 title: OPINION
-image: /img/opinion_cost.jpg
 subtitle: Measuring Opinionated Communication
+title2: WHAT ARE OPINIONS?
+subtitle2: Integrating Theory & Methods for Automatically Analyzing Opinionated Communication
+image: /img/opinion_cost.jpg
 ---
 
 # The OPINION Network

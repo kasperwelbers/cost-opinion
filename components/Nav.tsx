@@ -1,19 +1,24 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
+import { useRouter } from "next/router";
+
 import { BiNetworkChart } from "react-icons/bi";
 
 import styles from "styles/Nav.module.css";
+import { NextPage } from "next";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "WGs", href: "/wgs" },
-  { text: "People", href: "/" },
-  { text: "Agenda", href: "/" },
+  { text: "People", href: "/people" },
+  { text: "Agenda", href: "/agenda" },
 ];
 
-const Navbar = () => {
-  const [selected, setSelected] = useState(0);
+interface Props {
+  path: string;
+}
 
+const Navbar: NextPage<Props> = ({ path }) => {
   return (
     <header>
       <nav className={styles.Nav}>
@@ -24,9 +29,8 @@ const Navbar = () => {
             <Link href={menu.href} key={menu.text}>
               <a
                 className={`${styles.NavLink} ${
-                  selected === i ? styles.selected : ""
+                  path === menu.href ? styles.selected : ""
                 }`}
-                onClick={() => setSelected(i)}
               >
                 {menu.text}
               </a>

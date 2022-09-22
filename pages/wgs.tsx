@@ -65,7 +65,7 @@ const WGs: NextPage<Props> = ({ content, workinggroups }) => {
             color: "white",
             paddingTop: selected == null ? "4rem" : "1rem",
             zIndex: 10,
-            transition: "font-size 1s, padding 1s",
+            transition: "font-size 0.5s, padding 1s",
             fontSize: selected == null ? "2rem" : "0rem",
           }}
         >

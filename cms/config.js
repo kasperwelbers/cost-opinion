@@ -1,7 +1,9 @@
 export default {
   cms_manual_init: true,
   backend: {
-    name: "git-gateway",
+    //name: "git-gateway",
+    name: "github",
+    repo: "kasperwelbers/cost-opinion",
     branch: "main",
   },
 
@@ -33,6 +35,11 @@ export default {
               name: "subtitle",
               widget: "string",
             },
+            {
+              label: "Body",
+              name: "body",
+              widget: "markdown",
+            },
           ],
         },
         {
@@ -49,6 +56,26 @@ export default {
               label: "Image",
               name: "image",
               widget: "image",
+            },
+            { label: "Body", name: "body", widget: "markdown" },
+          ],
+        },
+        {
+          label: "People",
+          name: "people",
+          file: "content/pages/people.md",
+          fields: [
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Image", name: "image", widget: "image" },
+            { label: "Body", name: "body", widget: "markdown" },
+            {
+              label: "People",
+              name: "people",
+              widget: "list",
+              fields: [
+                { label: "Name", name: "name", widget: "text" },
+                { label: "Location", name: "location", widget: "map" },
+              ],
             },
           ],
         },
