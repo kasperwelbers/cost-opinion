@@ -2,7 +2,7 @@
 title: OPINION
 subtitle: Measuring Opinionated Communication
 title2: WHAT ARE OPINIONS?
-subtitle2: Integrating Theory & Methods for Automatically Analyzing Opinionated Communication
+subtitle2: Integrating Theory & Methods for Automatically Analyzing Opinionated
 image: /img/opinion_cost.jpg
 ---
 

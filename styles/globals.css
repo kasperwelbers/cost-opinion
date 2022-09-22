@@ -38,7 +38,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+#nc-root {
+  position: absolute !important;
+  height: 100% !important;
+  width: 100%;
+  left: 0 !important;
+  top: 0 !important;
+}
+
 .AppContainer {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

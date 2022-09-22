@@ -7,11 +7,9 @@ import { useRouter } from "next/router";
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const path = router.route;
-  console.log(path);
-  if (path === "/admin") return <Component {...pageProps} />;
 
   return (
-    <div className="AppContainer">
+    <div className="AppContainer" style={{ position: "relative" }}>
       <div className="AppBody">
         <Navbar path={path} />
 

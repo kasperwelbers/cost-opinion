@@ -139,10 +139,10 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg }) => {
 export const getStaticProps: GetStaticProps = async () => {
   const content = await import(`content/pages/wgs.md`);
 
-  const files = fs.readdirSync("content/pages/workinggroups");
+  const files = fs.readdirSync("content/workinggroups");
   const workinggroups = [];
   for (let f of files) {
-    const d = await import("content/pages/workinggroups/" + f);
+    const d = await import("content/workinggroups/" + f);
     workinggroups.push({ ...d.default, name: f });
   }
 
