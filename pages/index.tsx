@@ -1,6 +1,7 @@
 import { NextPage, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
 import styles from "styles/Home.module.css";
+import styled from "styled-components";
 
 interface Props {
   content: Content;
@@ -15,20 +16,77 @@ interface HomeAttributes {
   image: string;
 }
 
+const Wrapper = styled.div`
+  & {
+    height: 100%;
+    width: 100%;
+  }
+  & .Home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+
+  & .Header {
+    background-color: var(--primary);
+    color: var(--primary);
+    height: 100%;
+    width: 100%;
+    background: white;
+    padding: clamp(10px, 5vh, 15rem) 0;
+  }
+
+  & .HeaderContainer {
+    position: relative;
+  }
+
+  & .Title {
+    font-size: clamp(18px, 8vw, 70px);
+    margin-bottom: 0;
+    width: 55%;
+  }
+
+  & .Subtitle {
+    font-weight: 400;
+    font-size: clamp(10px, 4vw, 30px);
+    width: 55%;
+  }
+
+  & .Image {
+    position: absolute;
+    top: 0;
+    left: 65%;
+    margin-top: clamp(0px, 2vw, 15px);
+    width: 40%;
+    height: 100%;
+  }
+
+  & .BodyContainer {
+    flex: 1 1 auto;
+    background: var(--primary-light);
+  }
+
+  & .Body {
+    padding-top: 20px;
+    font-size: clamp(10px, 2vw, 15px);
+  }
+`;
+
 const HomePage: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
   return (
-    <main className={styles.Home}>
-      <div className={styles.Header}>
+    <main className={"Home"}>
+      <div className={"Header"}>
         <div className={"Container relative fade-in"}>
           <div>
-            <h1 className={styles.Title}>{attributes.title}</h1>
+            <h1 className={"Title"}>{attributes.title}</h1>
             {attributes.subtitle && (
-              <h3 className={styles.Subtitle}>{attributes.subtitle}</h3>
+              <h3 className={"Subtitle"}>{attributes.subtitle}</h3>
             )}
           </div>
           <div
-            className={styles.Image}
+            className={"Image"}
             style={{
               backgroundImage: `url("${attributes.image}")`,
               backgroundSize: "contain",
@@ -38,8 +96,8 @@ const HomePage: NextPage<Props> = ({ content }) => {
         </div>
       </div>
 
-      <div className={styles.BodyContainer}>
-        <div className={`${styles.Body} container fade-in-slow`}>
+      <div className={"BodyContainer"}>
+        <div className={"Body container fade-in-slow"}>
           <ReactMarkdown>{body}</ReactMarkdown>
         </div>
       </div>

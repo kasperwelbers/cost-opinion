@@ -57,7 +57,16 @@ export default {
               name: "image",
               widget: "image",
             },
-            { label: "Body", name: "body", widget: "markdown" },
+            {
+              label: "Workgroups",
+              name: "workgroups",
+              widget: "list",
+              allow_add: false,
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Body", name: "body", widget: "markdown" },
+              ],
+            },
           ],
         },
         {
@@ -73,21 +82,13 @@ export default {
               name: "people",
               widget: "list",
               fields: [
-                { label: "Name", name: "name", widget: "text" },
+                { label: "Name", name: "name", widget: "string" },
                 { label: "Location", name: "location", widget: "map" },
               ],
             },
           ],
         },
       ],
-    },
-    {
-      name: "workinggroups",
-      label: "Working Groups",
-      folder: "content/workinggroups",
-      slug: "{{slug}}",
-      create: false,
-      fields: [{ label: "Title", name: "title", widget: "string" }],
     },
   ],
 };

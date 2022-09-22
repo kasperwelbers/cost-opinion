@@ -8,7 +8,6 @@ import {
   FaToolbox,
   FaBroadcastTower,
 } from "react-icons/fa";
-import styles from "styles/WGs.module.css";
 
 const iconsize = "4em";
 
@@ -21,39 +20,23 @@ interface Content {
   attributes: {
     title: string;
     image: string;
+    workgroups: {
+      title: string;
+      body: string;
+    };
   };
-}
-interface WorkingGroup {
-  attributes: {
-    title: string;
-  };
-  name: string;
-  body: string;
 }
 
-const WGs: NextPage<Props> = ({ content, workinggroups }) => {
-  const { attributes } = content;
+const WGs: NextPage<Props> = ({ content }) => {
+  const { title, image, workgroups } = content.attributes;
   const [selected, setSelected] = useState<number>();
 
   return (
-    <div
-      style={{
-        flex: "1 1 auto",
-        height: "100%",
-        overflow: "auto",
-        display: "flex",
-        flexDirection: "column",
-        background: "var(--primary)",
-        position: "relative",
-      }}
-    >
+    <div className="WGs">
       <div
-        className={styles.Image}
+        className="Image"
         style={{
-          backgroundImage: `url("${attributes.image}")`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          opacity: 0.4,
+          backgroundImage: `url("${image}")`,
         }}
       />
       <div
@@ -69,44 +52,41 @@ const WGs: NextPage<Props> = ({ content, workinggroups }) => {
             fontSize: selected == null ? "2rem" : "0rem",
           }}
         >
-          <h1>{attributes.title}</h1>
+          <h1>{title}</h1>
         </div>
-        <div className={styles.WorkingGroups}>
-          {workinggroups.map((wg, i) => {
+        <div className="WorkingGroups">
+          {workgroups.map((wg, i) => {
             return (
               <div
-                key={wg.attributes.title}
-                className={`${styles.WorkingGroup} ${
-                  selected != null ? styles.Mini : ""
+                key={wg.title}
+                className={`WorkingGroup ${
+                  selected != null ? "Mini" : ""
                 } fade-in`}
               >
-                <div
-                  className={`${styles.Card} fade-in`}
-                  onClick={() => setSelected(i)}
-                >
+                <div className="Card fade-in" onClick={() => setSelected(i)}>
                   <div
-                    className={styles.Icon}
+                    className="Icon"
                     style={{
                       color: selected === i ? "var(--primary-light)" : "white",
                     }}
                   >
-                    {wg.name === "wp1.md" && (
+                    {i === 0 && (
                       <FaBook key="theory" style={{ fontSize: iconsize }} />
                     )}
-                    {wg.name === "wp2.md" && (
+                    {i === 1 && (
                       <FaToolbox key="tools" style={{ fontSize: iconsize }} />
                     )}
-                    {wg.name === "wp3.md" && (
+                    {i === 2 && (
                       <FaDatabase key="data" style={{ fontSize: iconsize }} />
                     )}
-                    {wg.name === "wp4.md" && (
+                    {i === 3 && (
                       <FaBroadcastTower
                         key="dissemination"
                         style={{ fontSize: iconsize }}
                       />
                     )}
                   </div>
-                  <h3>{wg.attributes.title}</h3>
+                  <h3>{wg.title}</h3>
                 </div>
                 {/* <span>{wg.subtitle}</span> */}
                 {/* <LazyImage src={wg.featuredImage} alt="LazyImage" /> */}
@@ -115,7 +95,7 @@ const WGs: NextPage<Props> = ({ content, workinggroups }) => {
           })}
         </div>
         {selected != null ? (
-          <WorkingGroupDetails wg={workinggroups[selected]} />
+          <WorkingGroupDetails wg={workgroups[selected]} />
         ) : null}
       </div>
     </div>
@@ -128,9 +108,10 @@ interface WGDetailsProps {
 
 const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg }) => {
   if (!wg) return null;
+  console.log(wg.body);
   return (
-    <div className={`${styles.WorkingGroupDetails} fade-in`}>
-      <h1>{wg.attributes.title}</h1>
+    <div className="WorkingGroupDetails fade-in">
+      <h1>{wg.title}</h1>
       <ReactMarkdown>{wg.body}</ReactMarkdown>
     </div>
   );
@@ -138,16 +119,8 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const content = await import(`content/pages/wgs.md`);
-
-  const files = fs.readdirSync("content/workinggroups");
-  const workinggroups = [];
-  for (let f of files) {
-    const d = await import("content/workinggroups/" + f);
-    workinggroups.push({ ...d.default, name: f });
-  }
-
   return {
-    props: { content: content.default, workinggroups },
+    props: { content: content.default },
   };
 };
 

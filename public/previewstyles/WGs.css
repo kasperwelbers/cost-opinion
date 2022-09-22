@@ -1,0 +1,76 @@
+.WGs {
+  flex: 1 1 auto;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  background: var(--primary);
+  position: relative;
+}
+
+.WGs .WorkingGroups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.WGs .WorkingGroup {
+  color: white;
+  text-align: center;
+  flex: 1 0 30%;
+  padding: 1rem;
+  transition: font-size 1s;
+  z-index: 10;
+}
+
+.WGs .Mini {
+  flex: 0 1 10%;
+  font-size: 0.7rem;
+}
+
+.WGs .Mini h3 {
+  transition: font-size 0s;
+  font-size: 0em;
+}
+
+.WGs .Card {
+  cursor: pointer;
+  /* border: 1px solid white;
+    padding: 1em; */
+  border-radius: 10px;
+  height: 100%;
+}
+
+.WGs .Card:hover {
+  color: var(--primary-light);
+  transition: transform 0.2s;
+  transform: translateY(-0.5rem);
+}
+
+.WGs .Icon {
+}
+
+.WGs .WorkingGroup h3 {
+  color: white;
+}
+
+.WGs .Image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+.WGs .WorkingGroupDetails {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 5rem 0 5rem;
+  z-index: 10;
+  color: white;
+}

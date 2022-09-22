@@ -21,17 +21,13 @@ interface Props {
 const Navbar: NextPage<Props> = ({ path }) => {
   return (
     <header>
-      <nav className={styles.Nav}>
-        <div className={styles.NavContainer}>
+      <nav className="Nav">
+        <div className="NavContainer">
           <BiNetworkChart style={{ fontSize: "2rem", paddingRight: "1rem" }} />
 
           {MENU_LIST.map((menu, i) => (
             <Link href={menu.href} key={menu.text}>
-              <a
-                className={`${styles.NavLink} ${
-                  path === menu.href ? styles.selected : ""
-                }`}
-              >
+              <a className={`NavLink ${path === menu.href ? "selected" : ""}`}>
                 {menu.text}
               </a>
             </Link>

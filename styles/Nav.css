@@ -7,13 +7,13 @@
   font-size: clamp(1rem, 3vw, 1.5rem);
 }
 
-.NavContainer {
+.Nav .NavContainer {
   display: flex;
   align-items: center;
   height: 6rem;
 }
 
-.NavLink {
+.Nav .NavLink {
   padding: 0.5rem 1rem;
   display: block;
   font-weight: 500;
@@ -24,11 +24,11 @@
   border-bottom-color: transparent;
 }
 
-.NavLink + .NavLink {
+.Nav .NavLink + .NavLink {
   margin-left: 1rem;
 }
 
-.selected,
+.Nav .selected,
 .NavLink:hover {
   color: var(--primary);
   border-bottom-color: currentColor;
