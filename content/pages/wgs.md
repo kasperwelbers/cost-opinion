@@ -3,11 +3,11 @@ title: Working Groups
 image: /img/europe.jpeg
 workgroups:
   - title: Theory
-    body: Some explanation of what the \*\*Theory\*\* group is up to
+    body: Some explanation of what the **Theory** group is up to
   - title: Tools
-    body: Explanation of the \*\*Tools\*\* group
+    body: Explanation of the **Tools** group
   - title: Data
-    body: A bit of detail about the \*\*Data\*\* group
+    body: A bit of detail about the **Data** group
   - title: Dissemination
-    body: Something about the \*\*Dissemination\*\* group
+    body: Something about the **Dissemination** group
 ---
