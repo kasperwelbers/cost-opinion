@@ -16,7 +16,7 @@ const Navbar = () => {
     <header>
       <nav className={styles.Nav}>
         <div className={styles.NavContainer}>
-          <BiNetworkChart style={{ fontSize: "2rem" }} />
+          <BiNetworkChart style={{ fontSize: "2rem", paddingRight: "1rem" }} />
 
           {MENU_LIST.map((menu, i) => (
             <Link href={menu.href} key={menu.text}>
