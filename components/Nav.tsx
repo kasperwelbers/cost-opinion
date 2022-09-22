@@ -7,6 +7,8 @@ import styles from "styles/Nav.module.css";
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "WGs", href: "/wgs" },
+  { text: "People", href: "/" },
+  { text: "Agenda", href: "/" },
 ];
 
 const Navbar = () => {
