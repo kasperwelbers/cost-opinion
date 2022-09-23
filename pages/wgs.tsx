@@ -108,7 +108,6 @@ interface WGDetailsProps {
 
 const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg }) => {
   if (!wg) return null;
-  console.log(wg.body);
   return (
     <div className="WorkingGroupDetails fade-in">
       <h1>{wg.title}</h1>

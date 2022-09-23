@@ -14,11 +14,19 @@ const CMS = dynamic(
     cms.registerPreviewStyle("previewstyles/WGs.css");
 
     cms.registerPreviewTemplate("home", ({ entry }) => {
-      return <Index content={asContent(entry)} />;
+      return (
+        <div className="AppContainer">
+          <Index content={asContent(entry)} />;
+        </div>
+      );
     });
 
     cms.registerPreviewTemplate("wgs", ({ entry }) => {
-      return <WGs content={asContent(entry)} />;
+      return (
+        <div className="AppContainer">
+          <WGs content={asContent(entry)} />;
+        </div>
+      );
     });
   },
   { ssr: false, loading: () => <p>Loading...</p> }

@@ -1,6 +1,7 @@
 import { NextPage, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
 import styles from "styles/Home.module.css";
+import MapChart from "../components/Map";
 
 interface Props {
   content: Content;
@@ -17,7 +18,7 @@ interface HomeAttributes {
 
 const HomePage: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
-  return <div></div>;
+  return <MapChart />;
 };
 
 export const getStaticProps: GetStaticProps = async () => {

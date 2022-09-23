@@ -82,8 +82,10 @@ export default {
               name: "people",
               widget: "list",
               fields: [
-                { label: "Name", name: "name", widget: "string" },
-                { label: "Location", name: "location", widget: "map" },
+                { label: "Firstname", name: "firstname", widget: "string" },
+                { label: "Lastname", name: "lastname", widget: "string" },
+                { label: "Homepage", name: "homepage", widget: "string" },
+                { label: "Country", name: "country", widget: "string" },
               ],
             },
           ],
