@@ -1,15 +1,18 @@
 .WGs {
+  --icon-size: 4em;
   overflow: auto;
   display: flex;
   flex-direction: column;
   background: var(--primary);
   position: relative;
+  margin: 0 auto;
 }
 
 .WGs .WorkingGroups {
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: column;
+  justify-content: center;
   padding: 2rem;
   margin: 0 auto;
 }
@@ -17,20 +20,43 @@
 .WGs .WorkingGroup {
   color: white;
   text-align: center;
-  flex: 1 0 30%;
-  padding: 1rem;
-  transition: font-size 1s;
+  transition: transform 1s;
   z-index: 10;
 }
 
-.WGs .Mini {
-  flex: 0 1 10%;
-  font-size: 0.7rem;
+.WGs.Mini .WorkingGroup {
+  transform: scale(0.5);
 }
 
-.WGs .Mini h3 {
-  transition: font-size 0s;
-  font-size: 0em;
+.Mini h3 {
+  transition: transform 1s, font-size 1s;
+  transform: scale(0);
+  font-size: 0;
+}
+
+.WGs .Title {
+  text-align: center;
+  color: white;
+  padding-top: 4rem;
+  z-index: 10;
+  transition: font-size 1s, padding 1s;
+  font-size: 2rem;
+}
+
+.WGs.Mini .Title {
+  padding-top: 1rem;
+  font-size: 0rem;
+}
+
+@media screen and (max-width: 600px) {
+  .WGs:not(.Mini) .WorkingGroups {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .WGs.Mini h3 {
+    transition: font-size 0s;
+    font-size: 0rem;
+  }
 }
 
 .WGs .Card {
@@ -48,6 +74,7 @@
 }
 
 .WGs .Icon {
+  font-size: var(--icon-size);
 }
 
 .WGs .WorkingGroup h3 {

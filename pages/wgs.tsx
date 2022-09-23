@@ -9,8 +9,6 @@ import {
   FaBroadcastTower,
 } from "react-icons/fa";
 
-const iconsize = "4em";
-
 interface Props {
   content: Content;
 }
@@ -32,7 +30,7 @@ const WGs: NextPage<Props> = ({ content }) => {
   const [selected, setSelected] = useState<number>();
 
   return (
-    <div className="AppComponent WGs">
+    <div className={`AppComponent WGs ${selected != null ? "Mini" : ""}`}>
       <div
         className="Image"
         style={{
@@ -42,27 +40,11 @@ const WGs: NextPage<Props> = ({ content }) => {
       <div
         style={{ display: "flex", flexDirection: "column", overflow: "auto" }}
       >
-        <div
-          style={{
-            textAlign: "center",
-            color: "white",
-            paddingTop: selected == null ? "4rem" : "1rem",
-            zIndex: 10,
-            transition: "font-size 0.5s, padding 1s",
-            fontSize: selected == null ? "2rem" : "0rem",
-          }}
-        >
-          <h1>{title}</h1>
-        </div>
+        <h1 className="Title">{title}</h1>
         <div className="WorkingGroups">
           {workgroups.map((wg, i) => {
             return (
-              <div
-                key={wg.title}
-                className={`WorkingGroup ${
-                  selected != null ? "Mini" : ""
-                } fade-in`}
-              >
+              <div key={wg.title} className="WorkingGroup fade-in">
                 <div className="Card fade-in" onClick={() => setSelected(i)}>
                   <div
                     className="Icon"
@@ -70,21 +52,10 @@ const WGs: NextPage<Props> = ({ content }) => {
                       color: selected === i ? "var(--primary-light)" : "white",
                     }}
                   >
-                    {i === 0 && (
-                      <FaBook key="theory" style={{ fontSize: iconsize }} />
-                    )}
-                    {i === 1 && (
-                      <FaToolbox key="tools" style={{ fontSize: iconsize }} />
-                    )}
-                    {i === 2 && (
-                      <FaDatabase key="data" style={{ fontSize: iconsize }} />
-                    )}
-                    {i === 3 && (
-                      <FaBroadcastTower
-                        key="dissemination"
-                        style={{ fontSize: iconsize }}
-                      />
-                    )}
+                    {i === 0 && <FaBook key="theory" />}
+                    {i === 1 && <FaToolbox key="tools" />}
+                    {i === 2 && <FaDatabase key="data" />}
+                    {i === 3 && <FaBroadcastTower key="dissemination" />}
                   </div>
                   <h3>{wg.title}</h3>
                 </div>
@@ -109,7 +80,7 @@ interface WGDetailsProps {
 const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg }) => {
   if (!wg) return null;
   return (
-    <div className="WorkingGroupDetails fade-in">
+    <div className="WorkingGroupDetails fade-in-slow">
       <h1>{wg.title}</h1>
       <ReactMarkdown>{wg.body}</ReactMarkdown>
     </div>

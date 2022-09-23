@@ -36,7 +36,11 @@ const People: NextPage<Props> = ({ content }) => {
         <ReactMarkdown>{body}</ReactMarkdown>
       </div>
       <div className="PeopleTableBox">
-        <GridTable data={attributes.people} columns={columns} />
+        <GridTable
+          data={attributes.people}
+          columns={columns}
+          backgroundColor="var(--primary-light)"
+        />
       </div>
     </div>
   );

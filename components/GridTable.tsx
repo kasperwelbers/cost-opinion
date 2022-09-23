@@ -4,6 +4,10 @@ import { CSSProperties } from "react";
 interface Props {
   data: Record<string, any>[];
   columns: ColumnSpec[];
+  /** Backgroundcolor needs to be set within the gridtable css, to make
+   * the sticky header work
+   */
+  backgroundColor: string;
 }
 interface ColumnSpec {
   name: string;
@@ -13,8 +17,11 @@ interface ColumnSpec {
   style?: any; // somehow CSSProperties is not allowed this time...
 }
 
-const GridTable: NextPage<Props> = ({ data, columns }) => {
-  const style = { "--columns": columns.length } as CSSProperties;
+const GridTable: NextPage<Props> = ({ data, columns, backgroundColor }) => {
+  const style = {
+    "--columns": columns.length,
+    "--background-color": backgroundColor || "white",
+  } as CSSProperties;
 
   return (
     <div className="GridTable" style={style}>
