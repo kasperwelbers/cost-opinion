@@ -21,7 +21,7 @@ interface Props {
 const Navbar: NextPage<Props> = ({ path }) => {
   return (
     <header>
-      <nav className="Nav">
+      <nav className="Container Nav">
         <div className="NavContainer">
           <BiNetworkChart style={{ fontSize: "2rem", paddingRight: "1rem" }} />
 

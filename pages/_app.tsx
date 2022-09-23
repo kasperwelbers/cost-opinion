@@ -11,18 +11,25 @@ import "../styles/GridTable.css";
 import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const path = router.route;
 
   return (
-    <div className="AppContainer" style={{ position: "relative" }}>
-      <div className="AppBody">
-        <Navbar path={path} />
-        <Component {...pageProps} />
+    <div>
+      <div className="AppContainer" style={{ position: "relative" }}>
+        <div className="AppBody">
+          <Navbar path={path} />
+          <Component {...pageProps} />
+        </div>
       </div>
-      <div className="AppFooter"></div>
+      <div className="AppFooter">
+        <a href="https://www.cost.eu/" style={{ width: "100px" }}>
+          <img src="/img/cost.png" style={{ height: "70px" }} />
+        </a>
+      </div>
     </div>
   );
 }

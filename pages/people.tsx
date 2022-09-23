@@ -1,6 +1,7 @@
 import { NextPage, GetStaticProps } from "next";
 import preparePeopleContent from "../util/preparePeopleContent";
 import GridTable from "components/GridTable";
+import ReactMarkdown from "react-markdown";
 
 interface Props {
   content: Content;
@@ -30,7 +31,10 @@ const columns = [
 const People: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
   return (
-    <div className="AppComponent People">
+    <div className="Container People">
+      <div className="PeopleBody">
+        <ReactMarkdown>{body}</ReactMarkdown>
+      </div>
       <div className="PeopleTableBox">
         <GridTable data={attributes.people} columns={columns} />
       </div>

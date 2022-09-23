@@ -65,7 +65,8 @@ body {
 
 .AppComponent {
   flex: 1 1 auto;
-  height: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .Container {
@@ -76,8 +77,8 @@ body {
 }
 
 .AppFooter {
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 a {
