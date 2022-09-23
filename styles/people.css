@@ -1,0 +1,23 @@
+.People {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.PeopleTableBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  max-width: 400px;
+  height: 95%;
+  border: 1px solid var(--primary);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+
+.PeopleTable {
+  height: 100%;
+}

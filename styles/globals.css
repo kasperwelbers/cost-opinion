@@ -63,6 +63,11 @@ body {
   min-height: 0;
 }
 
+.AppComponent {
+  flex: 1 1 auto;
+  height: 0;
+}
+
 .Container {
   max-width: 1111px;
   width: 90%;
@@ -246,6 +251,27 @@ blockquote {
       rgba(255, 255, 255, 0) 50%,
       rgba(255, 255, 255, 0)
     );
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary-light);
+  margin-right: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
 }
 
 .left-in {

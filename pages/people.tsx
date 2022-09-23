@@ -1,29 +1,47 @@
 import { NextPage, GetStaticProps } from "next";
-import ReactMarkdown from "react-markdown";
-import styles from "styles/Home.module.css";
-import MapChart from "../components/Map";
+import preparePeopleContent from "../util/preparePeopleContent";
+import GridTable from "components/GridTable";
 
 interface Props {
   content: Content;
 }
 interface Content {
-  attributes: HomeAttributes;
+  attributes: PeopleAttributes;
   body: string;
 }
-interface HomeAttributes {
+interface PeopleAttributes {
   title: string;
-  subtitle: string;
   image: string;
+  people: Person[];
+}
+interface Person {
+  name: string;
+  homepage: string;
+  country: string;
+  countryCode: string;
+  countryFlag: string;
 }
 
-const HomePage: NextPage<Props> = ({ content }) => {
+const columns = [
+  { name: "countryFlag", label: "🌎", style: { textAlign: "center" } },
+  { name: "name", label: "The Network", href: "homepage" },
+];
+
+const People: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
-  return <MapChart />;
+  return (
+    <div className="AppComponent People">
+      <div className="PeopleTableBox">
+        <GridTable data={attributes.people} columns={columns} />
+      </div>
+    </div>
+  );
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const content = await import(`../content/pages/people.md`);
-  return { props: { content: content.default } };
+  const contentMd = await import(`../content/pages/people.md`);
+  const content = preparePeopleContent(contentMd.default);
+  return { props: { content: content } };
 };
 
-export default HomePage;
+export default People;

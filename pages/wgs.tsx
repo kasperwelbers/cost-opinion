@@ -32,7 +32,7 @@ const WGs: NextPage<Props> = ({ content }) => {
   const [selected, setSelected] = useState<number>();
 
   return (
-    <div className="WGs">
+    <div className="AppComponent WGs">
       <div
         className="Image"
         style={{

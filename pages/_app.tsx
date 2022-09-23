@@ -5,6 +5,8 @@ import "../styles/globals.css";
 import "../styles/index.css";
 import "../styles/Nav.css";
 import "../styles/WGs.css";
+import "../styles/people.css";
+import "../styles/GridTable.css";
 
 import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";
@@ -18,7 +20,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className="AppContainer" style={{ position: "relative" }}>
       <div className="AppBody">
         <Navbar path={path} />
-
         <Component {...pageProps} />
       </div>
       <div className="AppFooter"></div>

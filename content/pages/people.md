@@ -80,11 +80,11 @@ people:
     country: France (FR)
   - firstname: Mariken
     lastname: van der Velden
-    homepage: NA
+    homepage:
     country: Netherlands (NL)
   - firstname: Ledia
     lastname: Kazazi
-    homepage: NA
+    homepage:
     country: Albania (AL)
   - firstname: Gabriella
     lastname: Szabó
@@ -96,7 +96,7 @@ people:
     country: Belgium (BE)
   - firstname: Chung-hong
     lastname: Chan
-    homepage: NA
+    homepage:
     country: Germany (DE)
   - firstname: Damian
     lastname: Trilling
@@ -120,7 +120,7 @@ people:
     country: Austria (AT)
   - firstname: Hajo
     lastname: Boomgaarden
-    homepage: NA
+    homepage:
     country: Austria (AT)
   - firstname: Elena
     lastname: Negrea Busuioc
@@ -144,7 +144,7 @@ people:
     country: Spain (ES)
   - firstname: Dimitra
     lastname: Milioni
-    homepage: NA
+    homepage:
     country: Cyprus (CY)
   - firstname: Anne
     lastname: Kroon
@@ -160,7 +160,7 @@ people:
     country: Portugal (PT)
   - firstname: Jaromir
     lastname: Mazak
-    homepage: NA
+    homepage:
     country: Czech Republic (CZ)
   - firstname: Sophia
     lastname: Hunger
@@ -184,7 +184,7 @@ people:
     country: Albania (AL)
   - firstname: Şule Yüksel
     lastname: Özmen
-    homepage: NA
+    homepage:
     country: Turkey (TR)
   - firstname: Aukse
     lastname: Balcytiene
@@ -224,7 +224,7 @@ people:
     country: Lithuania (LT)
   - firstname: Carlos
     lastname: Cunha
-    homepage: NA
+    homepage:
     country: Portugal (PT)
   - firstname: Hartmut
     lastname: Wessler
@@ -256,7 +256,7 @@ people:
     country: Ireland (IE)
   - firstname: Constantinos
     lastname: Djouvas
-    homepage: NA
+    homepage:
     country: Cyprus (CY)
   - firstname: Emese
     lastname: Domahidi
@@ -268,7 +268,7 @@ people:
     country: Slovakia (SK)
   - firstname: Moran
     lastname: Yarchi
-    homepage: NA
+    homepage:
     country: Israel (IL)
   - firstname: Agnieszka
     lastname: Hess
@@ -292,7 +292,7 @@ people:
     country: Israel (IL)
   - firstname: Igor
     lastname: Micevski
-    homepage: NA
+    homepage:
     country: North Macedonia (MK)
   - firstname: Anja
     lastname: Bechmann
@@ -324,7 +324,7 @@ people:
     country: Germany (DE)
   - firstname: Aleksandra
     lastname: Urman
-    homepage: NA
+    homepage:
     country: Switzerland (CH)
   - firstname: Maria
     lastname: Brown
@@ -368,7 +368,7 @@ people:
     country: Turkey (TR)
   - firstname: Carlo
     lastname: Strapparava
-    homepage: NA
+    homepage:
     country: Italy (IT)
   - firstname: Ardita
     lastname: Reçi
@@ -392,7 +392,7 @@ people:
     country: Poland (PL)
   - firstname: Mirjana
     lastname: Ilić
-    homepage: NA
+    homepage:
     country: Serbia (RS)
   - firstname: Bruno
     lastname: YUN
@@ -412,7 +412,7 @@ people:
     country: Turkey (TR)
   - firstname: Marina
     lastname: Popescu
-    homepage: NA
+    homepage:
     country: Romania (RO)
   - firstname: Cengiz
     lastname: Erisen
