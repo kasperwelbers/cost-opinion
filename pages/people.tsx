@@ -1,12 +1,12 @@
 import { NextPage, GetStaticProps } from "next";
 import preparePeopleContent from "../util/preparePeopleContent";
-import GridTable from "components/GridTable";
+import GridTable from "../components/GridTable";
 import ReactMarkdown from "react-markdown";
 
 interface Props {
-  content: Content;
+  content: PeopleContent;
 }
-interface Content {
+interface PeopleContent {
   attributes: PeopleAttributes;
   body: string;
 }

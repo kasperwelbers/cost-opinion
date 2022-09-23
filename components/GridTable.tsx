@@ -1,6 +1,23 @@
-const GridTable = ({ data, columns }) => {
+import { NextPage } from "next";
+import { CSSProperties } from "react";
+
+interface Props {
+  data: Record<string, any>[];
+  columns: ColumnSpec[];
+}
+interface ColumnSpec {
+  name: string;
+  label: string;
+  /** if given, the label will be clickable to direct to href */
+  href?: string;
+  style?: any; // somehow CSSProperties is not allowed this time...
+}
+
+const GridTable: NextPage<Props> = ({ data, columns }) => {
+  const style = { "--columns": columns.length } as CSSProperties;
+
   return (
-    <div className="GridTable" style={{ "--columns": columns.length }}>
+    <div className="GridTable" style={style}>
       <div className="GTHeader">
         {columns.map((column) => (
           <div className="GTCell" key={column.name} style={column.style}>
@@ -10,29 +27,41 @@ const GridTable = ({ data, columns }) => {
       </div>
       <div className="GTBody">
         {data.map((row) => (
-          <GridRow row={row} columns={columns} />
+          <GridRow key={row.name} row={row} columns={columns} />
         ))}
       </div>
     </div>
   );
 };
 
-const GridRow = ({ row, columns }) => {
+interface RowProps {
+  row: Record<string, string | number>;
+  columns: ColumnSpec[];
+}
+
+const GridRow: NextPage<RowProps> = ({ row, columns }) => {
   return (
-    <div key={row.name} className="GTRow">
+    <div className="GTRow">
       {columns.map((column) => (
-        <GridCell row={row} column={column} />
+        <GridCell key={column.name} row={row} column={column} />
       ))}
     </div>
   );
 };
 
-const GridCell = ({ row, column }) => {
-  let content = row[column.name];
+interface CellProps {
+  row: Record<string, string | number>;
+  column: ColumnSpec;
+}
+
+const GridCell: NextPage<CellProps> = ({ row, column }) => {
+  let content = <span>{row[column.name]}</span>;
+
   if (column.href && row[column.href])
-    content = <a href={row[column.href]}>{content}</a>;
+    content = <a href={String(row[column.href])}>{content}</a>;
+
   return (
-    <div key={column.name} className="GTCell" style={{ ...column.style }}>
+    <div className="GTCell" style={{ ...column.style }}>
       {content}
     </div>
   );

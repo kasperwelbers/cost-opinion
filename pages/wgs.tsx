@@ -13,18 +13,18 @@ const iconsize = "4em";
 
 interface Props {
   content: Content;
-  workinggroups: WorkingGroup[];
 }
 
 interface Content {
   attributes: {
     title: string;
     image: string;
-    workgroups: {
-      title: string;
-      body: string;
-    };
+    workgroups: WorkGroup[];
   };
+}
+interface WorkGroup {
+  title: string;
+  body: string;
 }
 
 const WGs: NextPage<Props> = ({ content }) => {
@@ -103,7 +103,7 @@ const WGs: NextPage<Props> = ({ content }) => {
 };
 
 interface WGDetailsProps {
-  wg: WorkingGroup;
+  wg: WorkGroup;
 }
 
 const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg }) => {

@@ -27,7 +27,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       </div>
       <div className="AppFooter">
         <a href="https://www.cost.eu/" style={{ width: "100px" }}>
-          <img src="/img/cost.png" style={{ height: "70px" }} />
+          <img
+            src="/img/cost.png"
+            alt="COST Association logo"
+            style={{ height: "70px" }}
+          />
         </a>
       </div>
     </div>
