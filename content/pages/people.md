@@ -7,6 +7,7 @@ people:
     name: Kasper Welbers
     workgroups:
       - Tools
+      - Theory
     mc: true
     homepage: https://kasperwelbers.com
 ---
