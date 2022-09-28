@@ -43,7 +43,6 @@ const asContent = (entry) => {
     content.body = content.attributes.body;
     delete content.attributes.body;
   }
-  console.log(content);
   return content;
 };
 

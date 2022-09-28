@@ -18,6 +18,8 @@ interface PeopleAttributes {
 interface Person {
   name: string;
   homepage: string;
+  workgroups: string[];
+  role: string;
   country: string;
   countryCode: string;
   countryFlag: string;

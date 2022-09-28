@@ -28,8 +28,10 @@ export default function preparePeopleContent(content: any) {
       );
 
     people.push({
-      name: person.firstname + " " + person.lastname,
+      name: person.name,
       homepage: person.homepage,
+      workgroups: person.workgroups,
+      role: person.role,
       country: country.name,
       countryCode: country.code,
       countryFlag: country.emoji,

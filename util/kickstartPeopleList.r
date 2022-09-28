@@ -1,58 +1,51 @@
 ## Just a simple R script to kickstart the 'people' list in content/pages/people.md
 ## Keeping it here just in case
+library(tidyverse)
 
 ## DATA FROM E-COST OVERVIEW
 ## The converted excel export from MC Participants
-mc = read.csv('~/Downloads/cost_mc.csv')
+mc = read_csv('~/Downloads/cost_mc.csv')
 ## The csv export from WG Applications
-d = read.csv2('~/Downloads/WG_applications_export_24-09-2022.csv')
+d = read_csv2('~/Downloads/WG_applications_export_28-09-2022.csv') %>%
+  filter(status == 'approved')
+countries = read_csv('~/projects/cost-opinion/util/countries.csv')
 
-## we'll need to merge the mc and d data, but its not a perfect match.
-## some MC members are not (yet) in WGs. For these we have no
-## homepage, and the country format is different.
-mc$country = NA
-
-fix_country <- function(d, code, country) {
-  d$country[d$CTRY.. == code] = country
-  d
+## first make sure mc and d match with country data
+fix_country_code <- function(x) {
+  x[x == 'UK'] = 'GB'
+  x[x == 'EL'] = 'GR'
+  x
 }
+mc$country_code = mc$`CTRY *` %>% fix_country_code
+d$country_code = str_extract(d$country, '(?<=\\()[A-Z]+(?=\\))') %>% fix_country_code
 
-## some country names we can get from the workgroup data
-for (co in unique(mc$CTRY..)) {
-  match = grepl(paste0('(',co,')'), unique(d$country))
-  if (sum(match) == 1) {
-    countryname = unique(d$country)[match]
-    mc = fix_country(mc, co, countryname)
-  }
-}
-## add the missing ones manually
-unique(mc[is.na(mc$country),])
-mc = mc |>
-  fix_country('LU', 'Luxemburg (LU)') |>
-  fix_country('SE', 'Sweden (SE)')
+## if there are mismatches left, add them to fix countries
+mismatches = unique(c(mc$country_code, d$country_code))
+mismatches[!mismatches %in% countries$code]
 
-if (any(is.na(mc$country))) stop('Dude, you missed some countries')
 
 d$workgroups = sapply(1:nrow(d), function(i) {
   wgs = which(d[i,grep('WG[1-4]', colnames(d))] == 'y')
   wgs= c("Theory", "Tools", "Data", "Dissemination")[wgs]
-  wgs
+  paste0(wgs, collapse=';')
 })
+
 
 d = data.frame(
   name = paste(d$firstName, d$lastName, sep=' '),
   homepages = d$homepages,
-  country = d$country,
+  country_code = d$country_code,
   email = d$email,
   role = NA,
   workgroups = d$workgroups,
   mc = d$email %in% mc$Email
 )
+
 add = mc[!mc$Email %in% d$email,]
 add = data.frame(
   name = paste(add$Firstname, add$Lastname, sep=' '),
   homepages = '',
-  country = add$country,
+  country_code = add$country_code,
   email = add$Email,
   role = NA,
   workgroups = '',
@@ -78,6 +71,7 @@ d = d |>
   set_role("Marina Popescu", "WG3L") |>
   set_role("Carlos Arcila Calderon", "WV4L")
 
+
 ## we won't publish the email address, just needed it
 ## for matching
 d$email = NULL
@@ -86,16 +80,24 @@ d$email = NULL
 d = rbind(d, data.frame(
   name = 'To be determined',
   homepages = 'vu homepage',
-  country = 'Netherlands (NL)',
+  country_code = 'NL',
   role = 'GHM',
   workgroups = '',
   mc = FALSE
 ))
 
 d$role[is.na(d$role)] = ''
-people = sapply(1:nrow(d), function(i) {
-  sprintf('- name: %s\n  homepage: %s\n  country: %s\n  workgroups: %s\n  role: %s\n  mc: %s',
-          d$name[i], d$homepages[i], d$country[i], d$workgroups[i], d$role[i], as.numeric(d$mc[i]))
-})
 
+people = sapply(1:nrow(d), function(i) {
+  workgroups = strsplit(d$workgroups[6], ';')[[1]]
+  workgroups = paste(paste('    -', workgroups), collapse='\n')
+  sprintf('- name: %s\n  homepage: %s\n  country: %s\n  workgroups:\n%s\n  role: %s\n  mc: %s',
+          d$name[i], d$homepages[i], d$country_code[i], workgroups, d$role[i], as.numeric(d$mc[i]))
+})
+## create yaml string for people
 cat('people:\n', paste(people, collapse='\n'))
+
+## create option array for countries in config.js
+items = sprintf('{label: "%s", value: "%s"}', countries$name, countries$code)
+cat('[', paste(items, collapse=','), ']')
+
