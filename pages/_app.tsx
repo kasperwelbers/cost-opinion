@@ -7,6 +7,7 @@ import "../styles/Nav.css";
 import "../styles/WGs.css";
 import "../styles/people.css";
 import "../styles/GridTable.css";
+import "../styles/PeopleList.css";
 
 import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";

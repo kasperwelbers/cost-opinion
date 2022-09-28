@@ -91,10 +91,16 @@ export default {
                   options: ["Theory", "Tools", "Data", "Dissemination"],
                 },
                 { label: "MC", name: "mc", widget: "boolean" },
-                { label: "Homepage", name: "homepage", widget: "string" },
+                {
+                  label: "Homepage",
+                  name: "homepage",
+                  required: false,
+                  widget: "string",
+                },
                 {
                   label: "Role",
                   name: "role",
+                  required: false,
                   widget: "select",
                   options: [
                     { label: "Action Chair", value: "AC" },
@@ -103,6 +109,11 @@ export default {
                     {
                       label: "GH Vice Scientific Representative",
                       value: "GHSRV",
+                    },
+                    { label: "GH Manager", value: "GHM" },
+                    {
+                      label: "GH Financial & Legal Representative",
+                      value: "GHFL",
                     },
                     { label: "Theory Workgroup Leader", value: "WG1L" },
                     { label: "Theory Workgroup Vice 1", value: "WG1V1" },

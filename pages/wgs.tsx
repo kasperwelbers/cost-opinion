@@ -32,7 +32,7 @@ const WGs: NextPage<Props> = ({ content }) => {
   return (
     <div className={`AppComponent WGs ${selected != null ? "Mini" : ""}`}>
       <div
-        className="Image"
+        className="AppComponentImage"
         style={{
           backgroundImage: `url("${image}")`,
         }}

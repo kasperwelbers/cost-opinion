@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import { CSSProperties } from "react";
+import { ColumnSpec } from "../types";
 
 interface Props {
   data: Record<string, any>[];
@@ -8,13 +9,6 @@ interface Props {
    * the sticky header work
    */
   backgroundColor: string;
-}
-interface ColumnSpec {
-  name: string;
-  label: string;
-  /** if given, the label will be clickable to direct to href */
-  href?: string;
-  style?: any; // somehow CSSProperties is not allowed this time...
 }
 
 const GridTable: NextPage<Props> = ({ data, columns, backgroundColor }) => {

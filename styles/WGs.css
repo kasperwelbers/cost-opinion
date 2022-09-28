@@ -40,7 +40,7 @@
   padding-top: 4rem;
   z-index: 10;
   transition: font-size 1s, padding 1s;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .WGs.Mini .Title {
@@ -79,17 +79,6 @@
 
 .WGs .WorkingGroup h3 {
   color: white;
-}
-
-.WGs .Image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.4;
 }
 
 .WGs .WorkingGroupDetails {

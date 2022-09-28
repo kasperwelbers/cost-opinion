@@ -87,6 +87,7 @@ d = rbind(d, data.frame(
 ))
 
 d$role[is.na(d$role)] = ''
+d$homepages[is.na(d$homepages)] = ''
 
 people = sapply(1:nrow(d), function(i) {
   workgroups = strsplit(d$workgroups[6], ';')[[1]]

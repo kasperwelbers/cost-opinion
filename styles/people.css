@@ -1,20 +1,54 @@
-.People {
-  display: flex;
-  height: 100%;
+.PeopleContainer {
+  background: var(--primary);
+}
 
+.People {
+  display: grid;
+  height: 100%;
+  color: white;
+  padding: 2rem;
+  grid-template-columns: minmax(250px, 100%);
+  grid-template-rows: 120px minmax(250px, 1fr) minmax(250px, 1fr);
+  grid-template-areas:
+    "header"
+    "body"
+    "table";
   position: relative;
 }
 
+.People .Title {
+  grid-area: header;
+  justify-self: center;
+  color: white;
+  padding-top: 2rem;
+  font-size: 4rem;
+}
+
 .PeopleBody {
-  padding: 2rem;
-  flex: 1 1 auto;
+  grid-area: body;
+  padding: 2rem 0;
+
+  justify-self: center;
 }
 
 .PeopleTableBox {
-  flex: 1 1 auto;
-  max-width: 300px;
+  grid-area: table;
   max-height: 400px;
-  border: 1px solid var(--primary);
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
+  margin: 2rem;
+  justify-self: center;
+}
+
+@media (min-width: 700px) {
+  .People {
+    grid-template-columns: minmax(250px, 2fr) minmax(250px, 1fr);
+    grid-template-areas:
+      "header header"
+      "body table";
+  }
+
+  .PeopleTableBox {
+    justify-self: right;
+  }
 }
