@@ -37,15 +37,15 @@
 .WGs .Title {
   text-align: center;
   color: white;
-  padding-top: 4rem;
+  margin-top: 4rem;
   z-index: 10;
-  transition: font-size 1s, padding 1s;
+  transition: transform 1s, margin 1s;
   font-size: 4rem;
 }
 
 .WGs.Mini .Title {
-  padding-top: 1rem;
-  font-size: 0rem;
+  margin-top: -4rem;
+  transform: scale(0);
 }
 
 @media screen and (max-width: 600px) {

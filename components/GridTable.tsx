@@ -61,6 +61,8 @@ const GridCell: NextPage<CellProps> = ({ row, column }) => {
   if (column.href && row[column.href])
     content = <a href={String(row[column.href])}>{content}</a>;
 
+  if (column.function) content = column.function(row);
+
   return (
     <div className="GTCell" style={{ ...column.style }}>
       {content}
