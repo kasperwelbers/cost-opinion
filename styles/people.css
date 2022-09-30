@@ -8,7 +8,6 @@
   color: white;
   padding: 2rem;
   grid-template-columns: minmax(250px, 100%);
-  grid-template-rows: 120px minmax(250px, 1fr) minmax(250px, 1fr);
   grid-template-areas:
     "header"
     "body"
@@ -39,7 +38,7 @@
 
 .PeopleTableBox {
   grid-area: table;
-  max-height: 400px;
+  max-height: 310px;
   border-radius: 5px;
   overflow: hidden;
   margin: 2rem;
@@ -49,7 +48,7 @@
 
 @media (min-width: 700px) {
   .People {
-    grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr);
+    grid-template-columns: minmax(250px, 1fr) minmax(250px, 1.5fr);
     grid-template-areas:
       "header header"
       "body map"

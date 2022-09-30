@@ -128,7 +128,7 @@ export default {
                     { label: "Dissemination Workgroup Vice 1", value: "WG4V1" },
                     {
                       label: "Science Communication Coordinator / WG4 Vice 2",
-                      value: "SCC/WG4VL2",
+                      value: "WG4V2",
                     },
                     { label: "Grant Awarding Coordinator", value: "GAC" },
                   ],

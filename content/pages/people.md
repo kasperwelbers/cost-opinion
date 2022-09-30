@@ -96,7 +96,7 @@ people:
     workgroups:
       - Theory
       - Dissemination
-    role: SCC
+    role: WG4V2
     mc: 0
   - name: José Santana Pereira
     homepage: https://www.researchgate.net/profile/Jose-Santana-Pereira;

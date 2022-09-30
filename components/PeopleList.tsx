@@ -27,9 +27,9 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
           label="vice scientific representative"
           roles={roles}
         />
-        <Person role="GSC" label="grant awarding coordinator" roles={roles} />
+        <Person role="GAC" label="grant awarding coordinator" roles={roles} />
         <Person
-          role="GHSRV"
+          role="WG4V2"
           label="science communication coordinator"
           roles={roles}
         />

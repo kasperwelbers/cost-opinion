@@ -11,9 +11,7 @@
   --lightGreen: #a8cfc7;
   --darkGreen: #306156;
   --font-primary: "Open Sans", sans-serif;
-  --font-system: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  --font-system: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   --borderRadius: 3px;
 }
 
@@ -114,7 +112,6 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
-  font-family: "Lucida Sans";
   /* lucida fax */
 }
 
