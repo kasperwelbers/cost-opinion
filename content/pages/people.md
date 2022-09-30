@@ -140,7 +140,7 @@ people:
     role: null
     mc: 0
   - name: Mariken van der Velden
-    homepage:
+    homepage: null
     country: NL
     workgroups:
       - Theory
@@ -148,7 +148,7 @@ people:
     role: null
     mc: 0
   - name: Ledia Kazazi
-    homepage:
+    homepage: null
     country: AL
     workgroups:
       - Theory
@@ -172,7 +172,7 @@ people:
     role: null
     mc: 1
   - name: Chung-hong Chan
-    homepage:
+    homepage: null
     country: DE
     workgroups:
       - Theory
@@ -221,7 +221,7 @@ people:
     role: null
     mc: 1
   - name: Hajo Boomgaarden
-    homepage:
+    homepage: null
     country: AT
     workgroups:
       - Theory
@@ -268,10 +268,10 @@ people:
     workgroups:
       - Theory
       - Dissemination
-    role: WV4L
+    role: WG4L
     mc: 1
   - name: Dimitra Milioni
-    homepage:
+    homepage: null
     country: CY
     workgroups:
       - Theory
@@ -304,7 +304,7 @@ people:
     role: null
     mc: 0
   - name: Jaromir Mazak
-    homepage:
+    homepage: null
     country: CZ
     workgroups:
       - Theory
@@ -344,7 +344,7 @@ people:
     role: null
     mc: 0
   - name: Şule Yüksel Özmen
-    homepage:
+    homepage: null
     country: TR
     workgroups:
       - Theory
@@ -424,7 +424,7 @@ people:
     role: null
     mc: 0
   - name: Carlos Cunha
-    homepage:
+    homepage: null
     country: PT
     workgroups:
       - Theory
@@ -489,7 +489,7 @@ people:
     role: null
     mc: 1
   - name: Constantinos Djouvas
-    homepage:
+    homepage: null
     country: CY
     workgroups:
       - Theory
@@ -513,7 +513,7 @@ people:
     role: null
     mc: 0
   - name: Moran Yarchi
-    homepage:
+    homepage: null
     country: IL
     workgroups:
       - Theory
@@ -561,7 +561,7 @@ people:
     role: AC
     mc: 1
   - name: Igor Micevski
-    homepage:
+    homepage: null
     country: MK
     workgroups:
       - Theory
@@ -618,7 +618,7 @@ people:
     role: null
     mc: 0
   - name: Aleksandra Urman
-    homepage:
+    homepage: null
     country: CH
     workgroups:
       - Theory
@@ -651,8 +651,7 @@ people:
     role: null
     mc: 0
   - name: Ilija Tomanic Trivundza
-    homepage:
-      https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije;
+    homepage: https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije;
       https://www.researchgate.net/profile/Tomanic-Trivundza-Ilija
     country: SI
     workgroups:
@@ -703,7 +702,7 @@ people:
     role: null
     mc: 0
   - name: Carlo Strapparava
-    homepage:
+    homepage: null
     country: IT
     workgroups:
       - Theory
@@ -751,7 +750,7 @@ people:
     role: null
     mc: 0
   - name: Mirjana Ilić
-    homepage:
+    homepage: null
     country: RS
     workgroups:
       - Theory
@@ -792,7 +791,7 @@ people:
     role: null
     mc: 1
   - name: Marina Popescu
-    homepage:
+    homepage: null
     country: RO
     workgroups:
       - Theory
