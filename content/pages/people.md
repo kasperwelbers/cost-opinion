@@ -96,7 +96,7 @@ people:
     workgroups:
       - Theory
       - Dissemination
-    role: null
+    role: SCC
     mc: 0
   - name: José Santana Pereira
     homepage: https://www.researchgate.net/profile/Jose-Santana-Pereira;
@@ -615,7 +615,7 @@ people:
     workgroups:
       - Theory
       - Dissemination
-    role: null
+    role: GAC
     mc: 0
   - name: Aleksandra Urman
     homepage: null
@@ -651,7 +651,8 @@ people:
     role: null
     mc: 0
   - name: Ilija Tomanic Trivundza
-    homepage: https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije;
+    homepage:
+      https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije;
       https://www.researchgate.net/profile/Tomanic-Trivundza-Ilija
     country: SI
     workgroups:

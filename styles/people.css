@@ -12,6 +12,7 @@
   grid-template-areas:
     "header"
     "body"
+    "map"
     "table";
   position: relative;
 }
@@ -31,6 +32,11 @@
   justify-self: center;
 }
 
+.PeopleMap {
+  grid-area: map;
+  padding: 2rem 2rem 0rem 4rem;
+}
+
 .PeopleTableBox {
   grid-area: table;
   max-height: 400px;
@@ -46,6 +52,7 @@
     grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr);
     grid-template-areas:
       "header header"
+      "body map"
       "body table";
   }
 

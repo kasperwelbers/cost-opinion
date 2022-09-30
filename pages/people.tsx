@@ -2,8 +2,10 @@ import { NextPage, GetStaticProps } from "next";
 import preparePeopleContent from "../util/preparePeopleContent";
 import GridTable from "../components/GridTable";
 import PeopleList from "../components/PeopleList";
-import ReactMarkdown from "react-markdown";
 import { ColumnSpec, Person } from "../types";
+import ReactTooltip from "react-tooltip";
+import MapChart from "../components/MapChart";
+import { useState } from "react";
 
 interface Props {
   content: PeopleContent;
@@ -22,6 +24,8 @@ interface PeopleAttributes {
 
 const People: NextPage<Props> = ({ content, columns }) => {
   const { attributes, body } = content;
+  const [tooltip, setTooltip] = useState(null);
+
   return (
     <div className="AppComponent PeopleContainer">
       <div
@@ -36,6 +40,10 @@ const People: NextPage<Props> = ({ content, columns }) => {
         <div className="PeopleBody">
           {/* <ReactMarkdown>{body}</ReactMarkdown> */}
           <PeopleList roles={attributes.roles} />
+        </div>
+        <div className="PeopleMap">
+          <MapChart setTooltipContent={setTooltip} />
+          <ReactTooltip backgroundColor="#000000bb">{tooltip}</ReactTooltip>
         </div>
         <div className="PeopleTableBox">
           <GridTable

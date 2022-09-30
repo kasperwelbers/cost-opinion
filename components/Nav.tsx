@@ -11,7 +11,7 @@ const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "WGs", href: "/wgs" },
   { text: "People", href: "/people" },
-  { text: "Agenda", href: "/agenda" },
+  { text: "Updates", href: "/updates" },
 ];
 
 interface Props {
