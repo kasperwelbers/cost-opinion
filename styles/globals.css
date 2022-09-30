@@ -114,6 +114,8 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+  font-family: "Lucida Sans";
+  /* lucida fax */
 }
 
 pre {

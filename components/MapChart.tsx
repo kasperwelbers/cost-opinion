@@ -6,6 +6,9 @@ import {
   Geography,
 } from "react-simple-maps";
 
+// include TURKEY as nomral
+// include CYpres, Israel, states as separaten nodes
+
 const MapChart = ({ setTooltipContent }) => {
   return (
     <div data-tip="">
