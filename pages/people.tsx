@@ -20,6 +20,7 @@ interface PeopleAttributes {
   image: string;
   people: Person[];
   roles: { [role: string]: Person };
+  countries: { [countryCode: string]: Person };
 }
 
 const People: NextPage<Props> = ({ content, columns }) => {
@@ -42,8 +43,13 @@ const People: NextPage<Props> = ({ content, columns }) => {
           <PeopleList roles={attributes.roles} />
         </div>
         <div className="PeopleMap">
-          <MapChart setTooltipContent={setTooltip} />
-          <ReactTooltip backgroundColor="#000000bb">{tooltip}</ReactTooltip>
+          <MapChart
+            setTooltipContent={setTooltip}
+            countries={attributes.countries}
+          />
+          <ReactTooltip html={true} backgroundColor="#000000ff">
+            {tooltip}
+          </ReactTooltip>
         </div>
         <div className="PeopleTableBox">
           <GridTable

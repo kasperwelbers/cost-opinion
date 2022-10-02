@@ -65,11 +65,13 @@ d = d |>
   set_role('Christian Baden', 'AC') |>
   set_role('Helle Sjovaag', 'ACV') |>
   set_role('Kasper Welbers', 'GHSR') |>
-  #set_role("Wouter van Atteveldt", "GHSRV") |>
+  set_role("Wouter van Atteveldt", "GHSRV") |>
   set_role('Agnieszka Stepinska', "WG1L") |>
   set_role("Damian Trilling", "WG2L") |>
   set_role("Marina Popescu", "WG3L") |>
-  set_role("Carlos Arcila Calderon", "WV4L")
+  set_role("Carlos Arcila Calderon", "WG4L") |>
+  set_role('Nina Springer', 'GAC') |>
+  set_role('Ana Milojevic', 'WG4V2')
 
 
 ## we won't publish the email address, just needed it

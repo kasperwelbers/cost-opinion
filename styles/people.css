@@ -1,5 +1,5 @@
 .PeopleContainer {
-  background: var(--primary);
+  background: black;
 }
 
 .People {
@@ -48,11 +48,11 @@
 
 @media (min-width: 700px) {
   .People {
-    grid-template-columns: minmax(250px, 1fr) minmax(250px, 1.5fr);
+    grid-template-columns: minmax(250px, 1fr) repeat(3, minmax(125px, 1fr));
     grid-template-areas:
-      "header header"
-      "body map"
-      "body table";
+      "header header header header"
+      "body map map map"
+      ". table table .";
   }
 
   .PeopleTableBox {

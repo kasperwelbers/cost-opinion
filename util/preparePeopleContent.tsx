@@ -6,6 +6,7 @@ for (let c of countries) countryCodeLookup[c.code] = c;
 export default function preparePeopleContent(content: any) {
   const people = [];
   const roles = {};
+  const countries = {};
 
   for (let person of content.attributes.people) {
     const country = countryCodeLookup[person.country];
@@ -27,9 +28,14 @@ export default function preparePeopleContent(content: any) {
 
     people.push(personObj);
     if (person.role) roles[person.role] = personObj;
+    if (!countries[country.code]) countries[country.code] = [];
+    countries[country.code].push(personObj);
   }
 
   // deep copy content to overwrite the people array
   // (don't know what next does, but overwriting seems to mess up)
-  return { ...content, attributes: { ...content.attributes, people, roles } };
+  return {
+    ...content,
+    attributes: { ...content.attributes, people, roles, countries },
+  };
 }
