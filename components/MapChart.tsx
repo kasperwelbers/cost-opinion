@@ -1,9 +1,9 @@
 import React, { createRef, memo, RefObject } from "react";
 import {
-  ZoomableGroup,
   ComposableMap,
   Geographies,
   Geography,
+  Annotation,
   Marker,
 } from "react-simple-maps";
 import { geoCentroid } from "d3-geo";
@@ -12,11 +12,12 @@ import { geoCentroid } from "d3-geo";
 // include CYpres, Israel, states as separaten nodes
 
 const memberCountryStyle = {
+  fill: "#ffffff",
   default: {
     fill: "#ffffff",
     outline: "none",
-    stroke: "black",
     cursor: "pointer",
+    stroke: "black",
   },
   hover: {
     fill: "var(--primary-light)",
@@ -71,6 +72,9 @@ const MapChart = ({ setTooltipContent, setPopup, countries }) => {
                 missedCountries.delete(geo.properties["Alpha-2"]);
               return !!membercountry;
             });
+            const miniGeographies = geographies.filter((geo) =>
+              ["MT"].includes(geo.properties["Alpha-2"])
+            );
             if (missedCountries.size > 0) {
               console.log(
                 "SOME MEMBER COUNTRIES NOT CORRECTLY MATCHED (CHECK THE COUNTRY CODES)",
@@ -80,9 +84,7 @@ const MapChart = ({ setTooltipContent, setPopup, countries }) => {
             return (
               <>
                 {geographies.map((geo) => {
-                  const centroid = geoCentroid(geo);
                   const countryCode = geo.properties["Alpha-2"];
-                  const countryPerson = countries[countryCode][0];
 
                   return (
                     <Geography
@@ -93,45 +95,24 @@ const MapChart = ({ setTooltipContent, setPopup, countries }) => {
                       onMouseEnter={() => onMouseEnter(countryCode)}
                       onMouseLeave={onMouseLeave}
                       style={memberCountryStyle}
-                    >
-                      <Marker coordinates={centroid}>
-                        <text fontSize={14} textAnchor="middle" y="2">
-                          test
-                        </text>
-                      </Marker>
-                    </Geography>
+                    ></Geography>
                   );
                 })}
-                {geographies.map((geo) => {
+                {miniGeographies.map((geo) => {
                   const centroid = geoCentroid(geo);
                   const countryCode = geo.properties["Alpha-2"];
-                  const countryPerson = countries[countryCode][0];
-                  let size = "10px";
-                  let offsetX = "0";
-                  if (["MT", "CY"].includes(countryCode)) {
-                    size = "20px";
-                    offsetX = "10";
-                  }
+                  console.log(geo);
 
                   return (
-                    <g
-                      key={geo.rsmKey}
-                      geography={geo}
-                      style={memberCountryStyle}
-                    >
+                    <g key={geo.rsmKey} geography={geo}>
                       <Marker
                         coordinates={centroid}
-                        onClick={() => onClick(countryCode)}
+                        style={memberCountryStyle}
+                        onClick={(e) => onClick(countryCode, e)}
                         onMouseEnter={() => onMouseEnter(countryCode)}
                         onMouseLeave={onMouseLeave}
                       >
-                        <text
-                          style={{ fontSize: size, cursor: "pointer" }}
-                          x={offsetX}
-                          y="5"
-                        >
-                          {countryPerson.countryFlag}
-                        </text>
+                        <rect height={"10px"} width="10px" />
                       </Marker>
                     </g>
                   );
@@ -143,24 +124,36 @@ const MapChart = ({ setTooltipContent, setPopup, countries }) => {
         <Marker
           coordinates={[-10, 70]}
           style={memberCountryStyle}
-          onClick={() => onClick("US")}
+          onClick={(e) => onClick("US", e)}
           onMouseEnter={() => onMouseEnter("US")}
           onMouseLeave={onMouseLeave}
         >
-          <text style={{ fontSize: "25px", cursor: "pointer" }} x="25" y="18">
-            🇺🇸
+          <text
+            style={{
+              fontSize: "15px",
+              cursor: "pointer",
+              stroke: "white",
+            }}
+            x="25"
+            y="18"
+          >
+            United States
           </text>
           <rect height={"20px"} width="20px" />
         </Marker>
         <Marker
           coordinates={[-9.7, 67]}
           style={memberCountryStyle}
-          onClick={() => onClick("IL")}
+          onClick={(e) => onClick("IL", e)}
           onMouseEnter={() => onMouseEnter("IL")}
           onMouseLeave={onMouseLeave}
         >
-          <text style={{ fontSize: "25px", cursor: "pointer" }} x="25" y="18">
-            🇮🇱
+          <text
+            style={{ fontSize: "15px", cursor: "pointer", stroke: "white" }}
+            x="25"
+            y="18"
+          >
+            Israel
           </text>
           <rect height={"20px"} width="20px" />
         </Marker>

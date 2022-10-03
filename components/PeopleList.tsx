@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import { FunctionComponent } from "react";
 import { ReactElement } from "react-markdown/lib/react-markdown";
 import { Person } from "../types";
 
@@ -53,7 +54,7 @@ interface GroupProps {
   children: ReactElement[];
 }
 
-const Group = ({ name, children }) => {
+const Group: FunctionComponent<GroupProps> = ({ name, children }) => {
   return (
     <div className="RoleGroupContainer">
       <h4>{name}</h4>
@@ -68,7 +69,7 @@ interface PersonProps {
   roles: { [role: string]: Person };
 }
 
-const Person = ({ role, label, roles }) => {
+const Person: FunctionComponent<PersonProps> = ({ role, label, roles }) => {
   return (
     <div className="Person">
       <div>{roles?.[role]?.name || "..."}</div>

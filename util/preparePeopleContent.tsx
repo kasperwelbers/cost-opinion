@@ -21,6 +21,7 @@ export default function preparePeopleContent(content: any) {
       homepage: person.homepage,
       workgroups: person.workgroups,
       role: person.role,
+      mc: person.mc === 1,
       country: country.name,
       countryCode: country.code,
       countryFlag: country.emoji,

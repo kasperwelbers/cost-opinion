@@ -59,3 +59,40 @@
     justify-self: right;
   }
 }
+
+.People .PopupContainer {
+  display: flex;
+}
+
+.People .Popup {
+  color: black;
+  padding: 0rem 0.5rem;
+}
+
+.People .Country {
+  color: black;
+  text-align: center;
+}
+
+.People .Popup .Member {
+  cursor: pointer;
+  display: flex;
+}
+
+.People .PersonPopup {
+  padding-left: 1rem;
+  margin: auto;
+  color: black;
+}
+
+.People .PersonPopup .h3 {
+  text-align: center;
+}
+
+.People .IconGroup {
+  display: flex;
+}
+
+.People .Icon {
+  padding: 0.1rem 0.4rem 0.1rem 0rem;
+}

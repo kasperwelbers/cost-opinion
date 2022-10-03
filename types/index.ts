@@ -1,3 +1,5 @@
+import { ReactElement } from "react-markdown/lib/react-markdown";
+
 export interface Person {
   name: string;
   homepage: string;
@@ -15,4 +17,10 @@ export interface ColumnSpec {
   href?: string;
   style?: any; // somehow CSSProperties is not allowed this time...
   function?: ()
+}
+
+export interface PortalData {
+  x: number;
+  y: number;
+  content: ReactElement
 }
