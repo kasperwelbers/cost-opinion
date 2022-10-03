@@ -5,7 +5,8 @@ import PeopleList from "../components/PeopleList";
 import { ColumnSpec, Person } from "../types";
 import ReactTooltip from "react-tooltip";
 import MapChart from "../components/MapChart";
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import Portal from "../components/Portal";
 
 interface Props {
   content: PeopleContent;
@@ -26,6 +27,17 @@ interface PeopleAttributes {
 const People: NextPage<Props> = ({ content, columns }) => {
   const { attributes, body } = content;
   const [tooltip, setTooltip] = useState(null);
+  const [openPortal, setOpenPortal] = useState(false);
+  const [portalData, setPortalData] = useState<{
+    x: Number;
+    y: number;
+    content: string;
+  }>({ x: null, y: null, content: null });
+
+  const setPopup = useCallback((x: number, y: number, people: Person[]) => {
+    setPortalData({ x, y, content: "test" });
+    setOpenPortal(true);
+  });
 
   return (
     <div className="AppComponent PeopleContainer">
@@ -36,7 +48,7 @@ const People: NextPage<Props> = ({ content, columns }) => {
         }}
       />
 
-      <div className="Container People">
+      <div className="WideContainer People">
         <h1 className="Title">{attributes.title}</h1>
         <div className="PeopleBody">
           {/* <ReactMarkdown>{body}</ReactMarkdown> */}
@@ -45,19 +57,27 @@ const People: NextPage<Props> = ({ content, columns }) => {
         <div className="PeopleMap">
           <MapChart
             setTooltipContent={setTooltip}
+            setPopup={setPopup}
             countries={attributes.countries}
           />
           <ReactTooltip html={true} backgroundColor="#000000ff">
             {tooltip}
           </ReactTooltip>
+          <Portal
+            open={openPortal}
+            setOpen={setOpenPortal}
+            portalData={portalData}
+          >
+            test
+          </Portal>
         </div>
-        <div className="PeopleTableBox">
+        {/* <div className="PeopleTableBox">
           <GridTable
             data={attributes.people}
             columns={columns}
-            backgroundColor="var(--primary-light)"
+            backgroundColor="white"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { createRef, memo, RefObject } from "react";
 import {
   ZoomableGroup,
   ComposableMap,
@@ -30,9 +30,10 @@ const memberCountryStyle = {
   },
 };
 
-const MapChart = ({ setTooltipContent, countries }) => {
-  const onClick = (countryCode: String) => {
-    if (countries[countryCode]) alert(countryCode);
+const MapChart = ({ setTooltipContent, setPopup, countries }) => {
+  const onClick = (countryCode: String, e: MouseEvent) => {
+    if (countries[countryCode])
+      setPopup(e.clientX, e.clientY, countries[countryCode]);
   };
 
   const onMouseEnter = (countryCode: String) => {
@@ -52,16 +53,17 @@ const MapChart = ({ setTooltipContent, countries }) => {
     <div data-tip="">
       <ComposableMap
         width={600}
-        height={600}
+        height={450}
         //projection="geoAzimuthalEqualArea"
         projectionConfig={{
-          center: [17, 48],
-          scale: 900,
+          center: [18, 50],
+          scale: 800,
         }}
         //style={{ borderRight: "0.5px solid #ffffff77" }}
       >
         <Geographies geography="/data/world.json">
           {({ geographies }) => {
+            const ref = createRef();
             const missedCountries = new Set(Object.keys(countries));
             geographies = geographies.filter((geo) => {
               const membercountry = countries[geo.properties["Alpha-2"]];
@@ -85,8 +87,9 @@ const MapChart = ({ setTooltipContent, countries }) => {
                   return (
                     <Geography
                       key={geo.rsmKey}
+                      ref={ref}
                       geography={geo}
-                      onClick={() => onClick(countryCode)}
+                      onClick={(e) => onClick(countryCode, e)}
                       onMouseEnter={() => onMouseEnter(countryCode)}
                       onMouseLeave={onMouseLeave}
                       style={memberCountryStyle}
@@ -99,11 +102,16 @@ const MapChart = ({ setTooltipContent, countries }) => {
                     </Geography>
                   );
                 })}
-                {/* {geographies.map((geo) => {
+                {geographies.map((geo) => {
                   const centroid = geoCentroid(geo);
-                  console.log(centroid);
                   const countryCode = geo.properties["Alpha-2"];
                   const countryPerson = countries[countryCode][0];
+                  let size = "10px";
+                  let offsetX = "0";
+                  if (["MT", "CY"].includes(countryCode)) {
+                    size = "20px";
+                    offsetX = "10";
+                  }
 
                   return (
                     <g
@@ -118,8 +126,8 @@ const MapChart = ({ setTooltipContent, countries }) => {
                         onMouseLeave={onMouseLeave}
                       >
                         <text
-                          style={{ fontSize: "15px", cursor: "pointer" }}
-                          x="0"
+                          style={{ fontSize: size, cursor: "pointer" }}
+                          x={offsetX}
                           y="5"
                         >
                           {countryPerson.countryFlag}
@@ -127,7 +135,7 @@ const MapChart = ({ setTooltipContent, countries }) => {
                       </Marker>
                     </g>
                   );
-                })} */}
+                })}
               </>
             );
           }}
@@ -141,6 +149,18 @@ const MapChart = ({ setTooltipContent, countries }) => {
         >
           <text style={{ fontSize: "25px", cursor: "pointer" }} x="25" y="18">
             🇺🇸
+          </text>
+          <rect height={"20px"} width="20px" />
+        </Marker>
+        <Marker
+          coordinates={[-9.7, 67]}
+          style={memberCountryStyle}
+          onClick={() => onClick("IL")}
+          onMouseEnter={() => onMouseEnter("IL")}
+          onMouseLeave={onMouseLeave}
+        >
+          <text style={{ fontSize: "25px", cursor: "pointer" }} x="25" y="18">
+            🇮🇱
           </text>
           <rect height={"20px"} width="20px" />
         </Marker>

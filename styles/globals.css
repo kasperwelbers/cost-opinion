@@ -86,6 +86,13 @@ body {
   margin: 0 auto;
 }
 
+.WideContainer {
+  max-width: 1611px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .AppFooter {
   display: flex;
   justify-content: center;

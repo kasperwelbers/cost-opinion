@@ -33,26 +33,26 @@
 
 .PeopleMap {
   grid-area: map;
-  padding: 2rem 2rem 0rem 4rem;
+  padding: 2rem 0rem 0rem 4rem;
 }
 
 .PeopleTableBox {
   grid-area: table;
   max-height: 310px;
   border-radius: 5px;
+  width: 100%;
   overflow: hidden;
-  margin: 2rem;
   color: black;
   justify-self: center;
 }
 
 @media (min-width: 700px) {
   .People {
-    grid-template-columns: minmax(250px, 1fr) repeat(3, minmax(125px, 1fr));
+    grid-template-columns: minmax(250px, 1.5fr) repeat(3, minmax(125px, 1fr));
     grid-template-areas:
       "header header header header"
       "body map map map"
-      ". table table .";
+      "body table table table";
   }
 
   .PeopleTableBox {
