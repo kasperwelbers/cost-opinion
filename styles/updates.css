@@ -1,0 +1,19 @@
+.Updates {
+  display: flex;
+  flex-direction: column;
+}
+
+.Updates .Header {
+  background-color: var(--primary);
+  color: var(--primary);
+  height: 100%;
+  width: 100%;
+  background: white;
+  padding: clamp(10px, 5vh, 15rem) 0;
+  padding-bottom: 2rem;
+}
+
+.Updates .BodyContainer {
+  flex: 1 1 auto;
+  background: var(--primary-light);
+}

@@ -17,33 +17,22 @@ interface HomeAttributes {
 const HomePage: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
   return (
-    <main className={"AppComponent Home"}>
+    <main className={"AppComponent Updates"}>
       <div className={"Header"}>
         <div
           className={"Container relative fade-in"}
           style={{ minHeight: "min(20vw, 300px)" }}
         >
-          <div>
-            <h1 className={"Title"}>{attributes.title}</h1>
-            {attributes.subtitle && (
-              <h3 className={"Subtitle"}>{attributes.subtitle}</h3>
-            )}
+          <div style={{ display: "flex", height: "100%" }}>
+            <h1 style={{ margin: "auto" }}>
+              TODO: page for publishing updates on the project
+            </h1>
           </div>
-          <div
-            className={"Image"}
-            style={{
-              backgroundImage: `url("${attributes.image}")`,
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-            }}
-          />
         </div>
       </div>
       <div className="spacer wave" />
-      <div className={"BodyContainer"}>
-        <div className={"Body container fade-in-slow"}>
-          <ReactMarkdown>{body}</ReactMarkdown>
-        </div>
+      <div className="BodyContainer">
+        <div style={{ height: "100%" }}></div>
       </div>
     </main>
   );

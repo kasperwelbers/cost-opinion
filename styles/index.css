@@ -10,6 +10,7 @@
   width: 100%;
   background: white;
   padding: clamp(10px, 5vh, 15rem) 0;
+  padding-bottom: 2rem;
 }
 
 .Home .HeaderContainer {
@@ -45,4 +46,16 @@
 .Home .Body {
   padding-top: 20px;
   font-size: clamp(10px, 2vw, 15px);
+}
+
+.spacer {
+  aspect-ratio: 960/150;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wave {
+  background-image: url("./wave.svg");
 }

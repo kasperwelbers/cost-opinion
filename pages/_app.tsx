@@ -6,6 +6,8 @@ import "../styles/index.css";
 import "../styles/Nav.css";
 import "../styles/WGs.css";
 import "../styles/people.css";
+import "../styles/updates.css";
+
 import "../styles/GridTable.css";
 import "../styles/PeopleList.css";
 
