@@ -5,6 +5,7 @@ export interface Person {
   homepage: string;
   workgroups: string[];
   role: string;
+  mc: boolean;
   country: string;
   countryCode: string;
   countryFlag: string;
@@ -16,11 +17,10 @@ export interface ColumnSpec {
   /** if given, the label will be clickable to direct to href */
   href?: string;
   style?: any; // somehow CSSProperties is not allowed this time...
-  function?: ()
+  func?: (row: Record<string, any>) => any;
 }
 
-export interface PortalData {
+export interface Position {
   x: number;
   y: number;
-  content: ReactElement
 }

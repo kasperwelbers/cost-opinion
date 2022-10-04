@@ -33,6 +33,7 @@
 
 .PeopleMap {
   grid-area: map;
+  position: relative;
   padding: 2rem 0rem 0rem 4rem;
 }
 
@@ -74,19 +75,34 @@
   text-align: center;
 }
 
-.People .Popup .Member {
-  cursor: pointer;
+.People .Member {
   display: flex;
+  line-height: 2rem;
+
+  padding-left: 8px;
+  position: relative;
 }
 
-.People .PersonPopup {
-  padding-left: 1rem;
-  margin: auto;
-  color: black;
+.People .Member.selected {
+  font-weight: 900;
+
+  color: var(--primary);
 }
 
-.People .PersonPopup .h3 {
-  text-align: center;
+.People .Member.selected::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--primary);
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+.People .Popup .Member span {
+  width: 20rem;
 }
 
 .People .IconGroup {
@@ -94,5 +110,23 @@
 }
 
 .People .Icon {
-  padding: 0.1rem 0.4rem 0.1rem 0rem;
+  padding: 0.1rem;
+  color: #333;
+}
+
+.People .SearchPerson {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  text-align: center;
+  font-size: 12px;
+  width: 18rem;
+  color: black;
+}
+
+.SearchPerson label {
+  font-weight: 800;
+  background: #0005;
+  border-radius: 10px;
+  color: white;
 }

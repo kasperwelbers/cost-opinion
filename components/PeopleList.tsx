@@ -64,8 +64,8 @@ const Group: FunctionComponent<GroupProps> = ({ name, children }) => {
 };
 
 interface PersonProps {
-  role: String;
-  label: String;
+  role: string;
+  label: string;
   roles: { [role: string]: Person };
 }
 

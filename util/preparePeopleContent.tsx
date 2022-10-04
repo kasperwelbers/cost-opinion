@@ -1,12 +1,13 @@
 import countries from "../content/data/countries.json";
+import { Person } from "../types";
 
 const countryCodeLookup: Record<string, any> = {};
 for (let c of countries) countryCodeLookup[c.code] = c;
 
 export default function preparePeopleContent(content: any) {
   const people = [];
-  const roles = {};
-  const countries = {};
+  const roles: Record<string, Person> = {};
+  const countries: Record<string, Person[]> = {};
 
   for (let person of content.attributes.people) {
     const country = countryCodeLookup[person.country];

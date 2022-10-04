@@ -12,7 +12,6 @@ import "../styles/PeopleList.css";
 import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";
 import { useRouter } from "next/router";
-import Image from "next/image";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();

@@ -1,3 +1,4 @@
+import { relative } from "path";
 import {
   useEffect,
   useRef,
@@ -5,46 +6,54 @@ import {
   FunctionComponent,
   Dispatch,
   SetStateAction,
+  ReactElement,
+  RefObject,
 } from "react";
-import { PortalData } from "../types";
+import { FaWindowClose } from "react-icons/fa";
+import { Position } from "../types";
 
 interface Props {
-  portalData: PortalData;
-  setPortalData: Dispatch<SetStateAction<PortalData>>;
+  children: ReactElement;
+  position: Position | undefined;
+  setPosition: Dispatch<SetStateAction<Position | undefined>>;
 }
 
-const Portal: FunctionComponent<Props> = ({ portalData, setPortalData }) => {
-  const portalref = useRef(null);
+const Portal: FunctionComponent<Props> = ({
+  children,
+  position,
+  setPosition,
+}) => {
+  const portalref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     // close popup on document click
     const closePortal = (e: any) => {
       if (portalref.current && !portalref.current.contains(e.target))
-        setPortalData(undefined);
+        setPosition(undefined);
     };
     document.addEventListener("mouseup", closePortal);
     return () => {
       document.removeEventListener("mouseup", closePortal);
     };
-  }, [setPortalData]);
+  }, [setPosition]);
 
   useEffect(() => {
-    if (!portalData || !portalref.current) return;
+    if (!position || !portalref.current) return;
     setTimeout(
-      () => fitOnScreen(portalref.current, portalData.x, portalData.y),
+      () => fitOnScreen(portalref.current, position.x, position.y),
       10
     );
 
     let portalWidth = portalref.current.clientWidth;
     const interval = setInterval(() => {
-      if (portalref.current.clientWidth === portalWidth) return;
-      fitOnScreen(portalref.current, portalData.x, portalData.y);
-      portalWidth = portalref.current.clientWidth;
+      if (portalref?.current?.clientWidth === portalWidth) return;
+      fitOnScreen(portalref.current, position.x, position.y);
+      portalWidth = portalref?.current?.clientWidth || 0;
     }, 100);
     return () => clearInterval(interval);
-  }, [portalData]);
+  }, [position]);
 
-  if (!portalData) return null;
+  if (!position) return null;
   return (
     <div
       ref={portalref}
@@ -60,16 +69,28 @@ const Portal: FunctionComponent<Props> = ({ portalData, setPortalData }) => {
         marginTop: "14px",
         borderRadius: "5px",
         border: "1px solid #136bae",
+        boxShadow: "0px 0px 10px black",
         opacity: "0",
         transition: "opacity 500ms, width 500ms, padding 100ms, left 200ms",
       }}
     >
-      {portalData.content}
+      <FaWindowClose
+        style={{
+          position: "absolute",
+          top: 0,
+          right: 0,
+          padding: "0.3rem",
+          cursor: "pointer",
+          color: "var(--primary)",
+        }}
+        onClick={() => setPosition(undefined)}
+      />
+      {children}
     </div>
   );
 };
 
-const fitOnScreen = (portalEl: HTMLElement, x: number, y: number) => {
+const fitOnScreen = (portalEl: HTMLElement | null, x: number, y: number) => {
   // move portal up if it doesn't fit on screen
   if (!portalEl || x == null || y == null) return;
   const portal = portalEl.getBoundingClientRect();

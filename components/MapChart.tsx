@@ -1,12 +1,17 @@
-import React, { createRef, memo, RefObject } from "react";
+import React, {
+  Dispatch,
+  FunctionComponent,
+  memo,
+  SetStateAction,
+} from "react";
 import {
   ComposableMap,
   Geographies,
   Geography,
-  Annotation,
   Marker,
 } from "react-simple-maps";
 import { geoCentroid } from "d3-geo";
+import { Person } from "../types";
 
 // include TURKEY as nomral
 // include CYpres, Israel, states as separaten nodes
@@ -31,13 +36,23 @@ const memberCountryStyle = {
   },
 };
 
-const MapChart = ({ setTooltipContent, setPopup, countries }) => {
-  const onClick = (countryCode: String, e: MouseEvent) => {
+interface Props {
+  setTooltipContent: Dispatch<SetStateAction<string | undefined>>;
+  setPopup: (x: number, y: number, people: Person[]) => void;
+  countries: Record<string, Person[]>;
+}
+
+const MapChart: FunctionComponent<Props> = ({
+  setTooltipContent,
+  setPopup,
+  countries,
+}) => {
+  const onClick = (countryCode: string, e: any) => {
     if (countries[countryCode])
       setPopup(e.clientX, e.clientY, countries[countryCode]);
   };
 
-  const onMouseEnter = (countryCode: String) => {
+  const onMouseEnter = (countryCode: string) => {
     if (countries[countryCode]) {
       const members = countries[countryCode];
       const label = `<b>${members[0].country} ${members[0].countryFlag} <br/> ${members.length} members</b>`;
@@ -64,7 +79,6 @@ const MapChart = ({ setTooltipContent, setPopup, countries }) => {
       >
         <Geographies geography="/data/world.json">
           {({ geographies }) => {
-            const ref = createRef();
             const missedCountries = new Set(Object.keys(countries));
             geographies = geographies.filter((geo) => {
               const membercountry = countries[geo.properties["Alpha-2"]];
@@ -89,7 +103,6 @@ const MapChart = ({ setTooltipContent, setPopup, countries }) => {
                   return (
                     <Geography
                       key={geo.rsmKey}
-                      ref={ref}
                       geography={geo}
                       onClick={(e) => onClick(countryCode, e)}
                       onMouseEnter={() => onMouseEnter(countryCode)}
@@ -101,10 +114,9 @@ const MapChart = ({ setTooltipContent, setPopup, countries }) => {
                 {miniGeographies.map((geo) => {
                   const centroid = geoCentroid(geo);
                   const countryCode = geo.properties["Alpha-2"];
-                  console.log(geo);
 
                   return (
-                    <g key={geo.rsmKey} geography={geo}>
+                    <g key={geo.rsmKey}>
                       <Marker
                         coordinates={centroid}
                         style={memberCountryStyle}

@@ -1,11 +1,18 @@
 import { NextPage, GetStaticProps } from "next";
 import preparePeopleContent from "../util/preparePeopleContent";
-import GridTable from "../components/GridTable";
 import PeopleList from "../components/PeopleList";
-import { ColumnSpec, Person, PortalData } from "../types";
+import { ColumnSpec, Person, Position } from "../types";
 import ReactTooltip from "react-tooltip";
 import MapChart from "../components/MapChart";
-import { useCallback, useState } from "react";
+import {
+  FunctionComponent,
+  SetStateAction,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import Portal from "../components/Portal";
 
 import {
@@ -13,7 +20,9 @@ import {
   FaBook,
   FaToolbox,
   FaBroadcastTower,
+  FaLink,
 } from "react-icons/fa";
+import ReactSelect, { SingleValue } from "react-select";
 
 interface Props {
   content: PeopleContent;
@@ -29,18 +38,50 @@ interface PeopleAttributes {
   people: Person[];
   mc: boolean;
   roles: { [role: string]: Person };
-  countries: { [countryCode: string]: Person };
+  countries: { [countryCode: string]: Person[] };
 }
 
 const People: NextPage<Props> = ({ content, columns }) => {
   const { attributes, body } = content;
-  const [tooltip, setTooltip] = useState(null);
-  const [portalData, setPortalData] = useState<PortalData>();
+  const [tooltip, setTooltip] = useState<string>();
+  const [portalPosition, setPortalPosition] = useState<Position>();
+  const [people, setPeople] = useState<Person[]>();
+  const [person, setPerson] = useState<Person>();
+  const searchRef = useRef<HTMLDivElement>(null);
 
-  const setPopup = useCallback((x: number, y: number, people: Person[]) => {
-    const content = <PersonPopup people={people} />;
-    setPortalData({ x, y, content });
-  });
+  const dropdownOptions = useMemo(
+    () =>
+      content.attributes.people
+        .map((p) => ({
+          label: p.name,
+          value: p.name,
+        }))
+        .sort((a, b) => (a.value > b.value ? 1 : b.value > a.value ? -1 : 0)),
+    [content]
+  );
+
+  const onDropdownSelect = (
+    value: SingleValue<{ label: string; value: string }>
+  ) => {
+    const person = content.attributes.people.find(
+      (p) => p.name === value?.value
+    );
+    if (!person || !searchRef.current) return;
+    const people = content.attributes.countries[person.countryCode];
+    const bc = searchRef.current.getBoundingClientRect();
+    setPortalPosition({ x: bc.x, y: bc.y - bc.height });
+    setPeople(people);
+    setPerson(person);
+  };
+
+  const setPopup = useCallback(
+    (x: number, y: number, people: Person[]) => {
+      setPortalPosition({ x, y });
+      setPeople(people);
+      setPerson(undefined);
+    },
+    [setPortalPosition, setPeople]
+  );
 
   return (
     <div className="AppComponent PeopleContainer">
@@ -63,25 +104,37 @@ const People: NextPage<Props> = ({ content, columns }) => {
             setPopup={setPopup}
             countries={attributes.countries}
           />
+          <div className="SearchPerson">
+            <label>Search person</label>
+            <br />
+            <ReactSelect
+              options={dropdownOptions}
+              onChange={(value) => onDropdownSelect(value)}
+            />
+            <div ref={searchRef} />
+          </div>
           <ReactTooltip html={true} backgroundColor="#000000ff">
             {tooltip}
           </ReactTooltip>
-          <Portal portalData={portalData} setPortalData={setPortalData} />
+          <Portal position={portalPosition} setPosition={setPortalPosition}>
+            <PersonPopup people={people} person={person} />
+          </Portal>
         </div>
-        {/* <div className="PeopleTableBox">
-          <GridTable
-            data={attributes.people}
-            columns={columns}
-            backgroundColor="white"
-          />
-        </div> */}
       </div>
     </div>
   );
 };
 
-const PersonPopup = ({ people }) => {
-  const [person, setPerson] = useState<Person>();
+interface PersonPopupProps {
+  people: Person[] | undefined;
+  person: Person | undefined;
+}
+
+const PersonPopup: FunctionComponent<PersonPopupProps> = ({
+  people,
+  person,
+}) => {
+  if (!people) return null;
   const mc = people.filter((p) => p.mc);
   const member = people.filter((p) => !p.mc);
 
@@ -92,9 +145,14 @@ const PersonPopup = ({ people }) => {
       </h3>
       <div className="PopupContainer">
         <div className="Popup">
-          <b>Management Committee</b>
+          {mc.length > 0 ? (
+            <b>
+              <br />
+              Management Committee
+            </b>
+          ) : null}
           {mc.map((p) => (
-            <PersonPopupItem p={p} person={person} setPerson={setPerson} />
+            <PersonPopupItem key={p.name} p={p} person={person} />
           ))}
           {member.length > 0 ? (
             <b>
@@ -103,7 +161,7 @@ const PersonPopup = ({ people }) => {
             </b>
           ) : null}
           {member.map((p) => (
-            <PersonPopupItem p={p} person={person} setPerson={setPerson} />
+            <PersonPopupItem key={p.name} p={p} person={person} />
           ))}
         </div>
       </div>
@@ -111,13 +169,29 @@ const PersonPopup = ({ people }) => {
   );
 };
 
-const PersonPopupItem = ({ p, person, setPerson }) => {
-  const personPopup = person && (
-    <div className="PersonPopup">
-      {person.homepage ? <a href={person.homepage}>homepage</a> : null}
+interface PersonPopupItemProps {
+  p: Person | undefined;
+  person: Person | undefined;
+}
+
+const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
+  p,
+  person,
+}) => {
+  if (!p) return null;
+  return (
+    <div className={`Member ${person?.name === p.name ? "selected" : ""}`}>
+      <span key="name">
+        {p.name}{" "}
+        {p.homepage ? (
+          <a href={p.homepage}>
+            <FaLink size={12} />
+          </a>
+        ) : null}
+      </span>{" "}
       <div className="IconGroup">
-        {person.workgroups.map((wg) => (
-          <div className="Icon">
+        {p.workgroups.map((wg) => (
+          <div key={wg} className="Icon">
             {wg === "Theory" && <FaBook key="theory" />}
             {wg === "Tools" && <FaToolbox key="tools" />}
             {wg === "Data" && <FaDatabase key="data" />}
@@ -125,20 +199,6 @@ const PersonPopupItem = ({ p, person, setPerson }) => {
           </div>
         ))}
       </div>
-    </div>
-  );
-
-  return (
-    <div
-      className="Member"
-      onClick={() => setPerson(p)}
-      style={{
-        color: person?.name === p.name ? "black" : "var(--primary)",
-        minWidth: person?.name === p.name ? "250px" : "100px",
-      }}
-    >
-      - {p.name}
-      {p === person ? personPopup : null}
     </div>
   );
 };
