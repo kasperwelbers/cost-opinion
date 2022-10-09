@@ -71,6 +71,7 @@ const Portal: FunctionComponent<Props> = ({
         border: "1px solid #136bae",
         boxShadow: "0px 0px 10px black",
         opacity: "0",
+        fontSize: "clamp(1.2rem, 1.5vw, 1.5rem)",
         transition: "opacity 500ms, width 500ms, padding 100ms, left 200ms",
       }}
     >

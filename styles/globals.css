@@ -11,8 +11,8 @@
   --lightGreen: #a8cfc7;
   --darkGreen: #306156;
   --font-primary: "Open Sans", sans-serif;
-  --font-system: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-  --borderRadius: 3px;
+  --font-system: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana, sans-serif";
 }
 
 html {

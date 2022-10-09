@@ -9,9 +9,9 @@ const CMS = dynamic(
   async () => {
     const cms = await import("netlify-cms-app");
     cms.init({ config });
-    cms.registerPreviewStyle("previewstyles/globals.css");
-    cms.registerPreviewStyle("previewstyles/index.css");
-    cms.registerPreviewStyle("previewstyles/WGs.css");
+    cms.registerPreviewStyle("styles/globals.css");
+    cms.registerPreviewStyle("styles/index.css");
+    cms.registerPreviewStyle("styles/WGs.css");
 
     cms.registerPreviewTemplate("home", ({ entry }) => {
       return (

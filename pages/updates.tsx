@@ -1,20 +1,25 @@
 import { NextPage, GetStaticProps } from "next";
+import prepareUpdatesList from "../util/prepareUpdatesList";
 import ReactMarkdown from "react-markdown";
 
 interface Props {
   content: Content;
 }
 interface Content {
-  attributes: HomeAttributes;
+  attributes: UpdatesAttributes;
   body: string;
 }
-interface HomeAttributes {
+interface UpdatesAttributes {
   title: string;
-  subtitle: string;
   image: string;
+  updates: Update[];
+}
+interface Update {
+  short_title: string;
+  date: string;
 }
 
-const HomePage: NextPage<Props> = ({ content }) => {
+const Updates: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
   return (
     <main className={"AppComponent Updates"}>
@@ -31,15 +36,15 @@ const HomePage: NextPage<Props> = ({ content }) => {
         </div>
       </div>
       <div className="spacer wave" />
-      <div className="BodyContainer">
-        <div style={{ height: "100%" }}></div>
-      </div>
+      <div className="BodyContainer"></div>
     </main>
   );
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const content = await import(`../content/pages/home.md`);
+  const content = await import(`../content/pages/updates.md`);
+  const updates = prepareUpdatesList();
+
   return { props: { content: content.default } };
 };
 

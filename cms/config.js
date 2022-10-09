@@ -408,6 +408,33 @@ export default {
             },
           ],
         },
+        {
+          label: "Updates",
+          name: "updates",
+          file: "content/pages/updates.md",
+          fields: [
+            {
+              label: "Title",
+              name: "title",
+              widget: "string",
+            },
+            {
+              label: "Image",
+              name: "image",
+              widget: "image",
+            },
+            {
+              label: "Workgroups",
+              name: "workgroups",
+              widget: "list",
+              allow_add: false,
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Body", name: "body", widget: "markdown" },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],

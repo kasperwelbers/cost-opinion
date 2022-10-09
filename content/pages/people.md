@@ -1,5 +1,5 @@
 ---
-title: People
+title: The OPINION Network
 image: img/europe.jpeg
 people:
   - name: Ben Wagner

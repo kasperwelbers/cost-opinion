@@ -4,11 +4,10 @@ import PeopleList from "../components/PeopleList";
 import { ColumnSpec, Person, Position } from "../types";
 import ReactTooltip from "react-tooltip";
 import MapChart from "../components/MapChart";
+import LogoNet from "../public/logos/logo_net.svgr";
 import {
   FunctionComponent,
-  SetStateAction,
   useCallback,
-  useEffect,
   useMemo,
   useRef,
   useState,
@@ -93,7 +92,11 @@ const People: NextPage<Props> = ({ content, columns }) => {
       />
 
       <div className="WideContainer People">
-        <h1 className="Title">{attributes.title}</h1>
+        <div className="Title">
+          <h1>{attributes.title}</h1>
+          <LogoNet />
+        </div>
+
         <div className="PeopleBody">
           {/* <ReactMarkdown>{body}</ReactMarkdown> */}
           <PeopleList roles={attributes.roles} />

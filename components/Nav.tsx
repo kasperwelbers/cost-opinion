@@ -1,10 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { useRouter } from "next/router";
+import Logo from "../public/logos/logo_cg.svgr";
 
-import { BiNetworkChart } from "react-icons/bi";
-
-import styles from "styles/Nav.module.css";
 import { NextPage } from "next";
 
 const MENU_LIST = [
@@ -23,7 +20,7 @@ const Navbar: NextPage<Props> = ({ path }) => {
     <header>
       <nav className="Container Nav">
         <div className="NavContainer">
-          <BiNetworkChart style={{ fontSize: "2rem", paddingRight: "1rem" }} />
+          <Logo className="Logo" />
 
           {MENU_LIST.map((menu, i) => (
             <Link href={menu.href} key={menu.text}>

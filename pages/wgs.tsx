@@ -1,13 +1,11 @@
 import { useState } from "react";
-import fs from "fs";
 import { NextPage, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
-import {
-  FaDatabase,
-  FaBook,
-  FaToolbox,
-  FaBroadcastTower,
-} from "react-icons/fa";
+
+import LogoWG1 from "../public/logos/logo_wg1.svgr";
+import LogoWG2 from "../public/logos/logo_wg2.svgr";
+import LogoWG3 from "../public/logos/logo_wg3.svgr";
+import LogoWG4 from "../public/logos/logo_wg4.svgr";
 
 interface Props {
   content: Content;
@@ -43,20 +41,15 @@ const WGs: NextPage<Props> = ({ content }) => {
         <h1 className="Title">{title}</h1>
         <div className="WorkingGroups">
           {workgroups.map((wg, i) => {
+            let logoclass = i === selected ? "Logo selected" : "Logo";
+
             return (
               <div key={wg.title} className="WorkingGroup fade-in">
                 <div className="Card fade-in" onClick={() => setSelected(i)}>
-                  <div
-                    className="Icon"
-                    style={{
-                      color: selected === i ? "var(--primary-light)" : "white",
-                    }}
-                  >
-                    {i === 0 && <FaBook key="theory" />}
-                    {i === 1 && <FaToolbox key="tools" />}
-                    {i === 2 && <FaDatabase key="data" />}
-                    {i === 3 && <FaBroadcastTower key="dissemination" />}
-                  </div>
+                  {i === 0 && <LogoWG1 className={logoclass} />}
+                  {i === 1 && <LogoWG2 className={logoclass} />}
+                  {i === 2 && <LogoWG3 className={logoclass} />}
+                  {i === 3 && <LogoWG4 className={logoclass} />}
                   <h3>{wg.title}</h3>
                 </div>
                 {/* <span>{wg.subtitle}</span> */}

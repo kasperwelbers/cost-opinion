@@ -1,15 +1,13 @@
-// use global styles, because module styles don't work with
-// netlify-cms previews. Note that the styles must also be
-// copied to public/previewstyles
-import "../styles/globals.css";
-import "../styles/index.css";
-import "../styles/Nav.css";
-import "../styles/WGs.css";
-import "../styles/people.css";
-import "../styles/updates.css";
-
-import "../styles/GridTable.css";
-import "../styles/PeopleList.css";
+// we store the styles in public, because that way they can also
+// be used in the netlify preview
+import "../public/styles/globals.css";
+import "../public/styles/index.css";
+import "../public/styles/Nav.css";
+import "../public/styles/WGs.css";
+import "../public/styles/people.css";
+import "../public/styles/updates.css";
+import "../public/styles/GridTable.css";
+import "../public/styles/PeopleList.css";
 
 import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";
