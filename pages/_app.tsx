@@ -13,6 +13,8 @@ import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";
 import { useRouter } from "next/router";
 
+import Cost from "../public/logos/logo_cost.svgr";
+
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const path = router.route;
@@ -24,15 +26,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Navbar path={path} />
           <Component {...pageProps} />
         </div>
-      </div>
-      <div className="AppFooter">
-        <a href="https://www.cost.eu/" style={{ width: "100px" }}>
-          <img
-            src="/img/cost.png"
-            alt="COST Association logo"
-            style={{ height: "70px" }}
-          />
-        </a>
+        <div className="AppFooter">
+          <a href="https://www.cost.eu/" style={{ width: "100px" }}>
+            <Cost height="50px" />
+          </a>
+        </div>
       </div>
     </div>
   );

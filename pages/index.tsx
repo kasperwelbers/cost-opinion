@@ -1,5 +1,6 @@
 import { NextPage, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
+import readMd from "../util/readMd";
 
 interface Props {
   content: Content;
@@ -33,8 +34,6 @@ const HomePage: NextPage<Props> = ({ content }) => {
             className={"Image"}
             style={{
               backgroundImage: `url("${attributes.image}")`,
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
             }}
           />
         </div>
@@ -50,8 +49,8 @@ const HomePage: NextPage<Props> = ({ content }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const content = await import(`../content/pages/home.md`);
-  return { props: { content: content.default } };
+  const content = readMd("content/pages/home.md");
+  return { props: { content } };
 };
 
 export default HomePage;

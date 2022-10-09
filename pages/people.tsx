@@ -22,6 +22,7 @@ import {
   FaLink,
 } from "react-icons/fa";
 import ReactSelect, { SingleValue } from "react-select";
+import readMd from "../util/readMd";
 
 interface Props {
   content: PeopleContent;
@@ -207,8 +208,8 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const contentMd = await import(`../content/pages/people.md`);
-  const content = preparePeopleContent(contentMd.default);
+  const contentMd = readMd("content/pages/people.md");
+  const content = preparePeopleContent(contentMd);
 
   const columns = [
     { name: "countryFlag", label: "🌎", style: { textAlign: "center" } },

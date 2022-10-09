@@ -10,9 +10,8 @@
   grid-template-columns: minmax(250px, 100%);
   grid-template-areas:
     "header"
-    "body"
     "map"
-    "table";
+    "body";
   position: relative;
 }
 
@@ -59,13 +58,12 @@
   justify-self: center;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .People {
     grid-template-columns: minmax(250px, 1.5fr) repeat(3, minmax(125px, 1fr));
     grid-template-areas:
       "header header header header"
-      "body map map map"
-      "body table table table";
+      "body map map map";
   }
 
   .PeopleTableBox {

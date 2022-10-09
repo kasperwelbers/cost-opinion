@@ -3,7 +3,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  padding-left: 5%;
+  padding: 0 1rem;
   font-size: clamp(1rem, 3vw, 1.5rem);
 }
 
@@ -14,7 +14,7 @@
 }
 
 .Nav .NavLink {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem clamp(0.5rem, 2vw, 2rem);
   display: block;
   font-weight: 500;
   transition: color 0.2s, border-bottom-color 0.2s;
@@ -23,10 +23,6 @@
   position: relative;
   /* border-bottom: 2px solid;
   border-bottom-color: transparent; */
-}
-
-.Nav .NavLink + .NavLink {
-  margin-left: 1rem;
 }
 
 .Nav .selected,

@@ -23,6 +23,7 @@ html {
 }
 
 body {
+  box-sizing: border-box;
   margin: 0;
   font-family: var(--font-system);
   min-height: 100%;
@@ -96,6 +97,10 @@ body {
 .AppFooter {
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
 }
 
 a {

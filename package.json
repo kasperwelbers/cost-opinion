@@ -12,6 +12,7 @@
     "@svgr/webpack": "^6.4.0",
     "d3-geo": "^3.0.1",
     "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "netlify-cms-app": "^2.15.72",
     "next": "12.3.1",
     "react": "^18.2.0",
@@ -29,7 +30,6 @@
     "@types/react-simple-maps": "^1.0.8",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.1",
-    "frontmatter-markdown-loader": "^3.6.1",
     "typescript": "4.8.3"
   },
   "overrides": {

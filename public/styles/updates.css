@@ -1,9 +1,12 @@
 .Updates {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .Updates .Header {
+  box-sizing: border-box;
+
   background-color: var(--primary);
   color: var(--primary);
   height: 100%;
@@ -11,10 +14,115 @@
   background: white;
   padding: clamp(10px, 5vh, 15rem) 0;
   padding-bottom: 2rem;
-  flex: 1 1 auto;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 0rem 2rem;
 }
 
-.Updates .BodyContainer {
+.Updates .Body {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  margin: auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+}
+
+.UpdatesList {
+  height: 100%;
+}
+
+.UpdateLink {
+  margin: 1rem 0rem;
+  border-radius: 10px;
+  border: 1px solid var(--primary);
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 10rem;
+  transition: 0.5s;
+  cursor: pointer;
+  display: grid;
+  grid-template-areas: "image text";
+  grid-template-columns: 40% 60%;
+  --image-width: 100%;
+}
+
+.UpdateLink:hover {
+  --image-width: 250%;
+}
+
+.UpdateLink .Image {
+  grid-area: image;
+  transition: width 0.4s;
+  height: 100%;
+  width: var(--image-width);
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-right: 1px solid var(--primary-light);
+  z-index: 1;
+}
+.UpdateLink .Text {
+  grid-area: text;
+  color: white;
+  z-index: 2;
+  background: #003d3099;
+  backdrop-filter: invert(80%);
+}
+
+.UpdateLink .Date {
+  color: var(--primary-light);
+  padding: 0.2rem 1rem;
+  font-size: clamp(0.8rem, 3vw, 1.5rem);
+}
+.UpdateLink .Title {
+  overflow: hidden;
+  align-self: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 100%;
+  padding: 0.2rem 1rem;
+  text-align: left;
+  font-size: clamp(1.1rem, 4vw, 2rem);
+}
+
+.Updates .Underwater {
   flex: 1 1 auto;
   background: var(--primary-light);
+}
+
+.Update {
+  padding: 2rem;
+  margin: auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.Update img {
+  margin: 2.5rem 1rem 2rem 2rem;
+  width: 50%;
+
+  max-width: 500px;
+  float: right;
+  border-radius: 5px;
+}
+.Update .UpdateBody {
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  margin: auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .Update img {
+    width: 100%;
+  }
 }

@@ -6,6 +6,7 @@ import LogoWG1 from "../public/logos/logo_wg1.svgr";
 import LogoWG2 from "../public/logos/logo_wg2.svgr";
 import LogoWG3 from "../public/logos/logo_wg3.svgr";
 import LogoWG4 from "../public/logos/logo_wg4.svgr";
+import readMd from "../util/readMd";
 
 interface Props {
   content: Content;
@@ -81,9 +82,9 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const content = await import(`content/pages/wgs.md`);
+  const content = readMd("content/pages/wgs.md");
   return {
-    props: { content: content.default },
+    props: { content: content },
   };
 };
 
