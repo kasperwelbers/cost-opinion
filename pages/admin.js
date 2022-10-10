@@ -2,6 +2,10 @@ import dynamic from "next/dynamic";
 import config from "../cms/config";
 import Index from "pages/index.tsx";
 import WGs from "pages/wgs.tsx";
+import Updates from "./updates";
+import People from "./people";
+import preparePeopleContent from "../util/preparePeopleContent";
+import Update from "./updates/[id]";
 
 // regular js, because can't figure out how to override that dynamic expects a component output
 
@@ -10,7 +14,12 @@ const CMS = dynamic(
     const cms = await import("netlify-cms-app");
     cms.init({ config });
     cms.registerPreviewStyle("styles/globals.css");
+    cms.registerPreviewStyle("styles/GridTable.css");
     cms.registerPreviewStyle("styles/index.css");
+    cms.registerPreviewStyle("styles/Nav.css");
+    cms.registerPreviewStyle("styles/people.css");
+    cms.registerPreviewStyle("styles/PeopleList.css");
+    cms.registerPreviewStyle("styles/updates.css");
     cms.registerPreviewStyle("styles/WGs.css");
 
     cms.registerPreviewTemplate("home", ({ entry }) => {
@@ -25,6 +34,48 @@ const CMS = dynamic(
       return (
         <div className="AppContainer">
           <WGs content={asContent(entry)} />;
+        </div>
+      );
+    });
+
+    cms.registerPreviewTemplate("people", ({ entry }) => {
+      const contentMd = asContent(entry);
+      const content = preparePeopleContent(contentMd);
+      return (
+        <div className="AppContainer">
+          <People content={content} />;
+        </div>
+      );
+    });
+
+    cms.registerPreviewTemplate("updates", ({ entry }) => {
+      const content = asContent(entry);
+      content.attributes.updates = [
+        {
+          id: "1",
+          title: "Title goes here",
+          image: "img/europe.jpeg",
+          date: "2020-01-01",
+          author: "Author goes here",
+        },
+      ];
+
+      return (
+        <div className="AppContainer">
+          <Updates content={content} />;
+        </div>
+      );
+    });
+
+    cms.registerPreviewTemplate("update", ({ entry }) => {
+      const content = asContent(entry);
+      content.attributes.date = content.attributes.date
+        .toISOString()
+        .split("T")[0];
+      content.attributes.id = "id";
+      return (
+        <div className="AppContainer">
+          <Update content={content} />;
         </div>
       );
     });

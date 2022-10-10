@@ -76,7 +76,6 @@ export default {
           fields: [
             { label: "Title", name: "title", widget: "string" },
             { label: "Image", name: "image", widget: "image" },
-            { label: "Body", name: "body", widget: "markdown" },
             {
               label: "People",
               name: "people",
@@ -84,11 +83,19 @@ export default {
               fields: [
                 { label: "Name", name: "name", widget: "string" },
                 {
-                  label: "Workgroups",
+                  label: "Primary workgroup",
                   name: "workgroups",
                   widget: "select",
-                  multiple: true,
-                  options: ["Theory", "Tools", "Data", "Dissemination"],
+                  multiple: false,
+                  options: [
+                    { label: "Theory", value: "Theory" },
+                    { label: "Tools", value: "Tools" },
+                    { label: "Application & Data", value: "Data" },
+                    {
+                      label: "Inclusion & Dissemination",
+                      value: "Dissemination",
+                    },
+                  ],
                 },
                 { label: "MC", name: "mc", widget: "boolean" },
                 {
@@ -417,21 +424,6 @@ export default {
               label: "Title",
               name: "title",
               widget: "string",
-            },
-            {
-              label: "Image",
-              name: "image",
-              widget: "image",
-            },
-            {
-              label: "Workgroups",
-              name: "workgroups",
-              widget: "list",
-              allow_add: false,
-              fields: [
-                { label: "Title", name: "title", widget: "string" },
-                { label: "Body", name: "body", widget: "markdown" },
-              ],
             },
           ],
         },

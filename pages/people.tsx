@@ -1,7 +1,7 @@
 import { NextPage, GetStaticProps } from "next";
 import preparePeopleContent from "../util/preparePeopleContent";
 import PeopleList from "../components/PeopleList";
-import { ColumnSpec, Person, Position } from "../types";
+import { Person, Position } from "../types";
 import ReactTooltip from "react-tooltip";
 import MapChart from "../components/MapChart";
 import LogoNet from "../public/logos/logo_net.svgr";
@@ -19,19 +19,12 @@ import LogoWG2 from "../public/logos/logo_wg2.svgr";
 import LogoWG3 from "../public/logos/logo_wg3.svgr";
 import LogoWG4 from "../public/logos/logo_wg4.svgr";
 
-import {
-  FaDatabase,
-  FaBook,
-  FaToolbox,
-  FaBroadcastTower,
-  FaLink,
-} from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
 import ReactSelect, { SingleValue } from "react-select";
 import readMd from "../util/readMd";
 
 interface Props {
   content: PeopleContent;
-  columns: ColumnSpec[];
 }
 interface PeopleContent {
   attributes: PeopleAttributes;
@@ -46,7 +39,7 @@ interface PeopleAttributes {
   countries: { [countryCode: string]: Person[] };
 }
 
-const People: NextPage<Props> = ({ content, columns }) => {
+const People: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
   const [tooltip, setTooltip] = useState<string>();
   const [portalPosition, setPortalPosition] = useState<Position>();
@@ -217,12 +210,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const contentMd = readMd("content/pages/people.md");
   const content = preparePeopleContent(contentMd);
 
-  const columns = [
-    { name: "countryFlag", label: "🌎", style: { textAlign: "center" } },
-    { name: "name", label: "The Network", href: "homepage" },
-  ];
-
-  return { props: { content, columns } };
+  return { props: { content } };
 };
 
 export default People;

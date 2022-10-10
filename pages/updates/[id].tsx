@@ -20,7 +20,7 @@ interface UpdateAttributes {
 
 const Update: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
-
+  console.log(attributes.image);
   return (
     <div className={"AppComponent Updates"}>
       <div className={"Header fade-in"}>
@@ -31,7 +31,7 @@ const Update: NextPage<Props> = ({ content }) => {
       </div>
       <div className="Update">
         {attributes.image ? (
-          <img src={attributes.image} alt={"Image for "} />
+          <img src={"/" + attributes.image} alt={attributes.image} />
         ) : null}
         <div className="UpdateBody">
           <ReactMarkdown>{body}</ReactMarkdown>
@@ -59,18 +59,11 @@ export const getStaticProps: GetStaticProps = ({ params }) => {
   const ids: string | string[] = params?.id || "";
   const id: string = Array.isArray(ids) ? ids[0] : ids;
   const content = readMd(`content/pages/updates/${id}.md`);
+  content.attributes.date = content.attributes.date.toISOString().split("T")[0];
+  content.attributes.id = id;
 
   return {
-    props: {
-      content: {
-        ...content,
-        attributes: {
-          ...content.attributes,
-          date: content.attributes.date.toISOString().split("T")[0],
-          id,
-        },
-      },
-    },
+    props: { content },
   };
 };
 

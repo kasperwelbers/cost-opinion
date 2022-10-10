@@ -825,5 +825,3 @@ people:
     role: GHM
     mc: 0
 ---
-
-These be our people

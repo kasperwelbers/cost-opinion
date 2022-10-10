@@ -1,9 +1,10 @@
 ---
-title: Text create update
+title: Test create update
 date: 2022-10-10T07:01:21.550Z
 author: Kasper Welbers
 image: img/europe.jpeg
 ---
+
 Test for creating an update via the CMS.
 
 Lorem ipsum dolor sit amet. Est nisi officiis eos sapiente nulla eos quod quibusdam a voluptatibus aliquam. Et quaerat esse ut dicta dolore et numquam repellendus.
