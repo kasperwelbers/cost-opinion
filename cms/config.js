@@ -3,8 +3,8 @@ export default {
   backend: {
     name: "git-gateway",
     //name: "github",
-    //repo: "kasperwelbers/cost-opinion",
-    //branch: "main",
+    repo: "kasperwelbers/cost-opinion",
+    branch: "main",
   },
 
   media_folder: "public/img",
