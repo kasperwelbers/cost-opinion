@@ -437,5 +437,19 @@ export default {
         },
       ],
     },
+    {
+      name: "update",
+      label: "Update",
+      folder: "content/pages/updates",
+      create: true,
+      slug: "{{slug}}_{{year}}-{{month}}-{{day}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Date", name: "date", widget: "date" },
+        { label: "Author", name: "author", widget: "string" },
+        { label: "Body", name: "body", widget: "markdown" },
+        { label: "Image", name: "image", widget: "image", required: false },
+      ],
+    },
   ],
 };

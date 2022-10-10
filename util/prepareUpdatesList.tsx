@@ -10,7 +10,7 @@ export default function prepareUpdatesList() {
     return {
       id: f.replace(/\.md$/, ""),
       title: attributes.title,
-      image: attributes.image,
+      image: attributes.image || "",
       date: attributes.date.toISOString().split("T")[0],
       author: attributes.author,
     };

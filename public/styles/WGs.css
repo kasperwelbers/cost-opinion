@@ -8,6 +8,13 @@
   margin: 0 auto;
 }
 
+.WGsBody {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding-bottom: 70px;
+}
+
 .WGs .WorkingGroups {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

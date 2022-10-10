@@ -1,15 +1,9 @@
 import { NextPage, GetStaticProps } from "next";
 import prepareUpdatesList from "../util/prepareUpdatesList";
-import ReactMarkdown from "react-markdown";
 import readMd from "../util/readMd";
-import {
-  Dispatch,
-  FunctionComponent,
-  SetStateAction,
-  useEffect,
-  useState,
-} from "react";
+import { FunctionComponent, useState } from "react";
 import { useRouter } from "next/router";
+import { FaCaretDown, FaChevronCircleDown } from "react-icons/fa";
 
 interface Props {
   content: Content;
@@ -53,20 +47,15 @@ interface UpdateListProps {
 }
 
 const UpdateList: FunctionComponent<UpdateListProps> = ({ updates }) => {
-  const [nItems, setNItems] = useState(3);
+  const pagesize = 5;
+  const [nItems, setNItems] = useState(pagesize);
   const router = useRouter();
 
-  useEffect(() => {
-    // infinite scroll
-    addItemsIfBottom(setNItems);
-    window.addEventListener("scroll", () => addItemsIfBottom(setNItems));
-    return () => {
-      window.removeEventListener("scroll", () => addItemsIfBottom(setNItems));
-    };
-  }, [setNItems]);
-
   const showUpdates = updates.slice(0, nItems);
-  if (showUpdates.length === 0) return <div>There are no updates :(</div>;
+  if (showUpdates.length === 0)
+    return (
+      <div style={{ textAlign: "center" }}>There are no updates yet :(</div>
+    );
 
   return (
     <div className="UpdatesList">
@@ -93,6 +82,14 @@ const UpdateList: FunctionComponent<UpdateListProps> = ({ updates }) => {
           </div>
         );
       })}
+      {nItems >= updates.length ? null : (
+        <div className="ShowMore">
+          <FaChevronCircleDown
+            size="5rem"
+            onClick={() => setNItems((current) => current + pagesize)}
+          />
+        </div>
+      )}
     </div>
   );
 };
@@ -101,14 +98,6 @@ export const getStaticProps: GetStaticProps = async () => {
   const content = readMd("content/pages/updates.md");
   content.attributes.updates = prepareUpdatesList();
   return { props: { content } };
-};
-
-const addItemsIfBottom = (setNItems: Dispatch<SetStateAction<number>>) => {
-  const { scrollTop, offsetHeight } = document.documentElement;
-  const { innerHeight } = window;
-  const bottomOfWindow = Math.round(scrollTop) + innerHeight === offsetHeight;
-
-  if (bottomOfWindow) setNItems((current) => current + 5);
 };
 
 export default Updates;

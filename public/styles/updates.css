@@ -59,6 +59,7 @@
   width: var(--image-width);
   left: 0;
   top: 0;
+  background: #212121;
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,7 +92,7 @@
 }
 
 .Updates .Underwater {
-  flex: 1 1 auto;
+  height: 70px;
   background: var(--primary-light);
 }
 
@@ -107,7 +108,7 @@
 .Update img {
   margin: 2.5rem 1rem 2rem 2rem;
   width: 50%;
-
+  height: 100%;
   max-width: 500px;
   float: right;
   border-radius: 5px;
@@ -125,4 +126,13 @@
   .Update img {
     width: 100%;
   }
+}
+
+.ShowMore {
+  text-align: center;
+  color: var(--secondary);
+  padding-top: 1rem;
+}
+.ShowMore svg {
+  cursor: pointer;
 }

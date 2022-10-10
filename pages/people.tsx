@@ -14,6 +14,11 @@ import {
 } from "react";
 import Portal from "../components/Portal";
 
+import LogoWG1 from "../public/logos/logo_wg1.svgr";
+import LogoWG2 from "../public/logos/logo_wg2.svgr";
+import LogoWG3 from "../public/logos/logo_wg3.svgr";
+import LogoWG4 from "../public/logos/logo_wg4.svgr";
+
 import {
   FaDatabase,
   FaBook,
@@ -155,8 +160,8 @@ const PersonPopup: FunctionComponent<PersonPopupProps> = ({
               Management Committee
             </b>
           ) : null}
-          {mc.map((p) => (
-            <PersonPopupItem key={p.name} p={p} person={person} />
+          {mc.map((p, i) => (
+            <PersonPopupItem key={i + p.name} p={p} person={person} />
           ))}
           {member.length > 0 ? (
             <b>
@@ -164,8 +169,8 @@ const PersonPopup: FunctionComponent<PersonPopupProps> = ({
               Members
             </b>
           ) : null}
-          {member.map((p) => (
-            <PersonPopupItem key={p.name} p={p} person={person} />
+          {member.map((p, i) => (
+            <PersonPopupItem key={i + p.name} p={p} person={person} />
           ))}
         </div>
       </div>
@@ -193,15 +198,16 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
           </a>
         ) : null}
       </span>{" "}
-      <div className="IconGroup">
-        {p.workgroups.map((wg) => (
-          <div key={wg} className="Icon">
-            {wg === "Theory" && <FaBook key="theory" />}
-            {wg === "Tools" && <FaToolbox key="tools" />}
-            {wg === "Data" && <FaDatabase key="data" />}
-            {wg === "Dissemination" && <FaBroadcastTower key="dissemination" />}
-          </div>
-        ))}
+      <div key="wtf" className="IconGroup">
+        {p.workgroups.map((wg) => {
+          if (wg === "Theory")
+            return <LogoWG1 key={"theory"} className="Icon" />;
+          if (wg === "Tools") return <LogoWG2 key={"tools"} className="Icon" />;
+          if (wg === "Data") return <LogoWG3 key={"data"} className="Icon" />;
+          if (wg === "Dissemination")
+            return <LogoWG4 key={"dissemination"} className="Icon" />;
+          return null;
+        })}
       </div>
     </div>
   );

@@ -30,7 +30,9 @@ const Update: NextPage<Props> = ({ content }) => {
         <span>{attributes.date}</span>
       </div>
       <div className="Update">
-        <img src={attributes.image} alt={"Image for "} />
+        {attributes.image ? (
+          <img src={attributes.image} alt={"Image for "} />
+        ) : null}
         <div className="UpdateBody">
           <ReactMarkdown>{body}</ReactMarkdown>
         </div>

@@ -36,9 +36,7 @@ const WGs: NextPage<Props> = ({ content }) => {
           backgroundImage: `url("${image}")`,
         }}
       />
-      <div
-        style={{ display: "flex", flexDirection: "column", overflow: "auto" }}
-      >
+      <div className="WGsBody">
         <h1 className="Title">{title}</h1>
         <div className="WorkingGroups">
           {workgroups.map((wg, i) => {

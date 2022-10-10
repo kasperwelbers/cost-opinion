@@ -7,6 +7,7 @@
   height: 100%;
   color: white;
   padding: 2rem;
+  padding-bottom: 70px;
   grid-template-columns: minmax(250px, 100%);
   grid-template-areas:
     "header"
@@ -95,8 +96,7 @@
 
 .People .Member {
   display: flex;
-  line-height: 2rem;
-
+  align-items: flex-end;
   padding-left: 8px;
   position: relative;
 }
@@ -125,11 +125,14 @@
 
 .People .IconGroup {
   display: flex;
+  justify-content: flex-end;
 }
 
 .People .Icon {
-  padding: 0.1rem;
   color: #333;
+  stroke: black;
+  height: 2rem;
+  width: 2rem;
 }
 
 .People .SearchPerson {
