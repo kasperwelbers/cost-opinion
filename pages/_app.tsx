@@ -12,6 +12,7 @@ import "../public/styles/PeopleList.css";
 import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";
 import { useRouter } from "next/router";
+import AuthContextProvider from "../contexts/authContext";
 
 import Cost from "../public/logos/logo_cost.svgr";
 
@@ -20,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const path = router.route;
 
   return (
-    <div>
+    <AuthContextProvider>
       <div className="AppContainer" style={{ position: "relative" }}>
         <div className="AppBody">
           <Navbar path={path} />
@@ -35,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           </a>
         </div>
       </div>
-    </div>
+    </AuthContextProvider>
   );
 }
 
