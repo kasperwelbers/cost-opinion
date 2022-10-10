@@ -45,6 +45,7 @@
 
 .PeopleMap {
   grid-area: map;
+  border-radius: 20px;
   position: relative;
   padding: 2rem 0rem 0rem 0rem;
 }

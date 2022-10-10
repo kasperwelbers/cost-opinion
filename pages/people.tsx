@@ -86,6 +86,8 @@ const People: NextPage<Props> = ({ content }) => {
       <div
         className="AppComponentImage"
         style={{
+          filter: "saturate(0)",
+
           backgroundImage: `url("${attributes.image}")`,
         }}
       />

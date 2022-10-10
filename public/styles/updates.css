@@ -122,7 +122,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
   .Update img {
     width: 100%;
   }

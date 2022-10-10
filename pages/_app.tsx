@@ -27,7 +27,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </div>
         <div className="AppFooter">
-          <a href="https://www.cost.eu/" style={{ width: "100px" }}>
+          <a
+            href="https://www.cost.eu/actions/CA21129/"
+            style={{ width: "100px" }}
+          >
             <Cost height="50px" />
           </a>
         </div>

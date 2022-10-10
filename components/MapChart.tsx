@@ -35,6 +35,19 @@ const memberCountryStyle = {
     cursor: "pointer",
   },
 };
+const nonMemberStyle = {
+  default: {
+    fill: "#ffffff44",
+    outline: "none",
+    cursor: "pointer",
+    stroke: "black",
+  },
+  hover: {
+    fill: "#ffffff44",
+    outline: "none",
+    stroke: "black",
+  },
+};
 
 interface Props {
   setTooltipContent: Dispatch<SetStateAction<string | undefined>>;
@@ -48,6 +61,8 @@ const MapChart: FunctionComponent<Props> = ({
   countries,
 }) => {
   const onClick = (countryCode: string, e: any) => {
+    e.preventDefault();
+    e.stopPropagation();
     if (countries[countryCode])
       setPopup(e.clientX, e.clientY, countries[countryCode]);
   };
@@ -80,12 +95,14 @@ const MapChart: FunctionComponent<Props> = ({
         <Geographies geography="/data/world.json">
           {({ geographies }) => {
             const missedCountries = new Set(Object.keys(countries));
-            geographies = geographies.filter((geo) => {
-              const membercountry = countries[geo.properties["Alpha-2"]];
-              if (membercountry)
-                missedCountries.delete(geo.properties["Alpha-2"]);
-              return !!membercountry;
+            geographies = geographies.filter((geo, i) => {
+              const code = geo.properties["Alpha-2"];
+              const membercountry = countries[code];
+              if (!showCountries.includes(code)) return false;
+              if (membercountry) missedCountries.delete(code);
+              return true;
             });
+
             const miniGeographies = geographies.filter((geo) =>
               ["MT"].includes(geo.properties["Alpha-2"])
             );
@@ -95,11 +112,12 @@ const MapChart: FunctionComponent<Props> = ({
                 missedCountries
               );
             }
+
             return (
               <>
                 {geographies.map((geo) => {
                   const countryCode = geo.properties["Alpha-2"];
-
+                  const isMember = countries[countryCode];
                   return (
                     <Geography
                       key={geo.rsmKey}
@@ -107,7 +125,7 @@ const MapChart: FunctionComponent<Props> = ({
                       onClick={(e) => onClick(countryCode, e)}
                       onMouseEnter={() => onMouseEnter(countryCode)}
                       onMouseLeave={onMouseLeave}
-                      style={memberCountryStyle}
+                      style={isMember ? memberCountryStyle : nonMemberStyle}
                     ></Geography>
                   );
                 })}
@@ -134,7 +152,7 @@ const MapChart: FunctionComponent<Props> = ({
           }}
         </Geographies>
         <Marker
-          coordinates={[-10, 70]}
+          coordinates={[39, 63]}
           style={memberCountryStyle}
           onClick={(e) => onClick("US", e)}
           onMouseEnter={() => onMouseEnter("US")}
@@ -142,36 +160,86 @@ const MapChart: FunctionComponent<Props> = ({
         >
           <text
             style={{
-              fontSize: "15px",
+              fontSize: "12px",
               cursor: "pointer",
               stroke: "white",
+              strokeWidth: "0.3px",
             }}
             x="25"
-            y="18"
+            y="15"
           >
             United States
           </text>
-          <rect height={"20px"} width="20px" />
+          <path d="M 0,10 20,0 20,20" />
         </Marker>
         <Marker
-          coordinates={[-9.7, 67]}
+          coordinates={[42, 58.5]}
           style={memberCountryStyle}
           onClick={(e) => onClick("IL", e)}
           onMouseEnter={() => onMouseEnter("IL")}
           onMouseLeave={onMouseLeave}
         >
           <text
-            style={{ fontSize: "15px", cursor: "pointer", stroke: "white" }}
-            x="25"
-            y="18"
+            style={{
+              fontSize: "12px",
+              cursor: "pointer",
+              stroke: "white",
+              strokeWidth: "0.3px",
+            }}
+            x="-3"
+            y="-7"
           >
             Israel
           </text>
-          <rect height={"20px"} width="20px" />
+          <path d="M 10,20 0,0 20,0" />
         </Marker>
       </ComposableMap>
     </div>
   );
 };
+
+const showCountries = [
+  "AL",
+  "AT",
+  "BI",
+  "BE",
+  "BG",
+  "BA",
+  "CH",
+  "CY",
+  "CZ",
+  "DE",
+  "DK",
+  "ES",
+  "EE",
+  "FI",
+  "FR",
+  "GB",
+  "GR",
+  "HR",
+  "HU",
+  "IE",
+  "IL",
+  "IT",
+  "LT",
+  "LU",
+  "LV",
+  "MD",
+  "MK",
+  "MT",
+  "ME",
+  "NL",
+  "NO",
+  "PL",
+  "PT",
+  "RO",
+  "RS",
+  "SK",
+  "SI",
+  "SE",
+  "TR",
+  "UA",
+  "US",
+];
 
 export default memo(MapChart);

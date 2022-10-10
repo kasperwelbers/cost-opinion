@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Logo from "../public/logos/logo_cg.svgr";
+// import Logo from "../public/logos/logo_cg.svgr";
 
 import { NextPage } from "next";
 
@@ -20,7 +20,7 @@ const Navbar: NextPage<Props> = ({ path }) => {
     <header>
       <nav className="Container Nav">
         <div className="NavContainer">
-          <Logo className="Logo" />
+          {/* <Logo className="Logo" /> */}
 
           {MENU_LIST.map((menu, i) => (
             <Link href={menu.href} key={menu.text}>

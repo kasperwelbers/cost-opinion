@@ -47,8 +47,16 @@
 }
 
 .Home .Body {
-  padding-top: 20px;
-  font-size: clamp(10px, 2vw, 15px);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: clamp(12px, 2vw, 15px);
+  column-count: 1;
+}
+
+@media (min-width: 600px) {
+  .Home .Body {
+    column-count: 2;
+  }
 }
 
 .spacer {

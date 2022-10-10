@@ -21,11 +21,15 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
 
       <Group key="leaders" name="Action Management">
         <Person role="AC" label="action chair" roles={roles} />
-        <Person role="ACV" label="vice action chair" roles={roles} />
-        <Person role="GHSR" label="scientific representative" roles={roles} />
+        <Person role="ACV" label="action vice chair" roles={roles} />
+        <Person
+          role="GHSR"
+          label="grant holder scientific representative"
+          roles={roles}
+        />
         <Person
           role="GHSRV"
-          label="vice scientific representative"
+          label="GH vice scientific representative"
           roles={roles}
         />
         <Person role="GAC" label="grant awarding coordinator" roles={roles} />
@@ -37,14 +41,56 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
         {/* <Person role="GHM" roles={roles} />
         <Person role="GHFL" roles={roles} /> */}
       </Group>
-      {["Theory", "Tools", "Data", "Dissemination"].map((wp, i) => (
-        <Group key={wp} name={`Workgroup ${i + 1}: ${wp}`}>
-          <Person role={`WG${i + 1}L`} label="chair" roles={roles} />
-          <Person role={`WG${i + 1}V1`} label="vice chair 1" roles={roles} />
-          <div className="Person" />
-          <Person role={`WG${i + 1}V2`} label="vice chair 2" roles={roles} />
-        </Group>
-      ))}
+
+      <Group key={"wgchairs"} name={`Working group chairs`}>
+        <Person key={"theory"} role={`WG1L`} label="Theory" roles={roles} />
+        <Person key={"tools"} role={`WG2L`} label="Tools" roles={roles} />
+        <Person
+          key={"data"}
+          role={`WG3L`}
+          label="Application & Data"
+          roles={roles}
+        />
+        <Person
+          key={"dissemination"}
+          role={`WG4L`}
+          label="Inclusion & Dissemination"
+          roles={roles}
+        />
+      </Group>
+      <Group key={"wgvicechairs"} name={`Working group vice chairs`}>
+        <Person key="theory1" role={`WG1V1`} label="Theory" roles={roles} />
+        <Person key="theory2" role={`WG1V2`} label="Theory" roles={roles} />
+
+        <Person key="tools1" role={`WG2V1`} label="Tools" roles={roles} />
+        <Person key="tools2" role={`WG2V2`} label="Tools" roles={roles} />
+
+        <Person
+          key="data1"
+          role={`WG3V1`}
+          label="Application & Data"
+          roles={roles}
+        />
+        <Person
+          key="data2"
+          role={`WG3V2`}
+          label="Application & Data"
+          roles={roles}
+        />
+
+        <Person
+          key="diss1"
+          role={`WG4V1`}
+          label="Inclusion & Dissemination"
+          roles={roles}
+        />
+        <Person
+          key="diss2"
+          role={`WG4V2`}
+          label="Inclusion & Dissemination"
+          roles={roles}
+        />
+      </Group>
     </div>
   );
 };

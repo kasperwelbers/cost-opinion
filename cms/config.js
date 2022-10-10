@@ -1,10 +1,10 @@
 export default {
   cms_manual_init: true,
   backend: {
-    //name: "git-gateway",
-    name: "github",
-    repo: "kasperwelbers/cost-opinion",
-    branch: "main",
+    name: "git-gateway",
+    //name: "github",
+    //repo: "kasperwelbers/cost-opinion",
+    //branch: "main",
   },
 
   media_folder: "public/img",

@@ -20,7 +20,6 @@ interface UpdateAttributes {
 
 const Update: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
-  console.log(attributes.image);
   return (
     <div className={"AppComponent Updates"}>
       <div className={"Header fade-in"}>

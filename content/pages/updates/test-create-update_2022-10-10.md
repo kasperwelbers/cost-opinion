@@ -1,14 +1,8 @@
 ---
-title: Test create update
-date: 2022-10-10T07:01:21.550Z
-author: Kasper Welbers
-image: img/europe.jpeg
+title: OPINION Network officially launched
+date: 2022-09-22T07:01:21.550Z
+author: Christian Baden
+image: img/first_meeting.jpeg
 ---
 
-Test for creating an update via the CMS.
-
-Lorem ipsum dolor sit amet. Est nisi officiis eos sapiente nulla eos quod quibusdam a voluptatibus aliquam. Et quaerat esse ut dicta dolore et numquam repellendus.
-
-Eum incidunt voluptatem quo labore ullam et mollitia rerum sed unde officiis et laboriosam mollitia? Ab magni totam 33 repellendus quasi et magnam voluptas non voluptatum autem ex accusamus doloribus eos sunt enim est illum illo.
-
-A laborum optio ut laudantium autem est nesciunt sint et reprehenderit ducimus eum repellendus excepturi. Est suscipit minus non suscipit assumenda in nostrum ut molestiae internos vel similique impedit est aspernatur dolor id aliquam recusandae.
+On Thursday, 22 September, the OPINION Management Committee officially launched the network with an inaugural meeting at the COST Organization in Brussels. With 29 representatives from 23 countries, we elected the network's leadership, laid down key policies for the conduct of the network, and created four working groups (on Theory, Tools, Data & Application, and Inclusion & Dissemination). Commencing our discussions, we focused on how to make the most out of the exciting joint work over the coming four years. Read the Minutes of the MC Meeting here: (to be added)
