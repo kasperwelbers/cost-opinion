@@ -93,7 +93,12 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg, people }) => {
 
   const printPerson = (person: Person) => {
     if (!person) return "...";
-    return person.name + " " + person.countryFlag;
+    return (
+      <div style={{ display: "flex" }}>
+        <span style={{ paddingRight: "1rem" }}>{person.countryFlag}</span>
+        <div>{person.name}</div>
+      </div>
+    );
   };
 
   return (
@@ -103,19 +108,16 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg, people }) => {
       <div className="WGPeople">
         <div className="WGChairs">
           <div key="leader" className="Person">
-            <label>CHAIR</label>
-            <div>
-              <FaEnvelope
-                style={{
-                  transform: "translateY(8px)",
-                  padding: "5px 10px",
-                  cursor: "pointer",
-                }}
-                onClick={() => alert("implement send email")}
-              />
-              {printPerson(leader)}
-              {}
-            </div>
+            <label>CHAIR </label>{" "}
+            <FaEnvelope
+              style={{
+                padding: "0px 10px 0px 10px",
+                transform: "translateY(5px)",
+                cursor: "pointer",
+              }}
+              onClick={() => alert("implement send email")}
+            />
+            <div style={{ marginTop: "10px" }}>{printPerson(leader)}</div>
           </div>
           <div key="vices" className="Person">
             <label>VICE CHAIRS</label>
