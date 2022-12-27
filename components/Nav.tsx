@@ -19,20 +19,22 @@ const Navbar: NextPage<Props> = ({ path }) => {
   return (
     <header>
       <nav className="Container Nav">
-        <div className="LogoAndName">
+        {/* <div className="LogoAndName">
           <Logo className="Logo" />
           <div className="Name">
             <span>OPINION</span>
             <br />
             <span>Network</span>
           </div>
-        </div>
+        </div> */}
         <div className="NavContainer">
           {MENU_LIST.map((menu, i) => (
-            <Link href={menu.href} key={menu.text}>
-              <a className={`NavLink ${path === menu.href ? "selected" : ""}`}>
-                {menu.text}
-              </a>
+            <Link
+              className={`NavLink ${path === menu.href ? "selected" : ""}`}
+              href={menu.href}
+              key={menu.text}
+            >
+              {menu.text}
             </Link>
           ))}
         </div>

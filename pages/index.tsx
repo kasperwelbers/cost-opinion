@@ -19,6 +19,12 @@ const HomePage: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
   return (
     <main className={"AppComponent Home"}>
+      <div
+        className="AppComponentImage"
+        style={{
+          backgroundImage: `url("${attributes.image}")`,
+        }}
+      />
       <div className={"Header"}>
         <div
           className={"Container relative fade-in"}
@@ -30,20 +36,21 @@ const HomePage: NextPage<Props> = ({ content }) => {
               <h3 className={"Subtitle"}>{attributes.subtitle}</h3>
             )}
           </div>
-          <div
-            className={"Image"}
+          {/* <div
+            className={"Logo"}
             style={{
               backgroundImage: `url("${attributes.image}")`,
             }}
-          />
+          /> */}
         </div>
       </div>
-      <div className="spacer wave" />
       <div className={"BodyContainer"}>
         <div className={"Body container fade-in-slow"}>
           <ReactMarkdown>{body}</ReactMarkdown>
         </div>
       </div>
+      <div className="spacer wave" />
+      <div className="Underwater"></div>
     </main>
   );
 };

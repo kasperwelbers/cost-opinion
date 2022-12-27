@@ -36,6 +36,7 @@ interface WGPeople {
 
 const WGs: NextPage<Props> = ({ content, wgPeople }) => {
   const { title, image, workgroups } = content.attributes;
+  const [people, setPeople] = useState<WGPeople>();
   const [selected, setSelected] = useState<number>();
 
   return (
@@ -55,7 +56,18 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
 
             return (
               <div key={wg.title} className="WorkingGroup fade-in">
-                <div className="Card fade-in" onClick={() => setSelected(i)}>
+                <div
+                  className="Card fade-in"
+                  onClick={() => {
+                    setSelected(i);
+                    if (selected === undefined) {
+                      setPeople(undefined);
+                      setTimeout(() => setPeople(wgPeople[i]), 500);
+                    } else {
+                      setPeople(wgPeople[i]);
+                    }
+                  }}
+                >
                   {i === 0 && <LogoWG1 className={logoclass} />}
                   {i === 1 && <LogoWG2 className={logoclass} />}
                   {i === 2 && <LogoWG3 className={logoclass} />}
@@ -69,10 +81,7 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
           })}
         </div>
         {selected != null ? (
-          <WorkingGroupDetails
-            wg={workgroups[selected]}
-            people={wgPeople[selected]}
-          />
+          <WorkingGroupDetails wg={workgroups[selected]} people={people} />
         ) : null}
       </div>
     </div>
@@ -81,11 +90,12 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
 
 interface WGDetailsProps {
   wg: WorkGroup;
-  people: WGPeople;
+  people: WGPeople | undefined;
 }
 
 const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg, people }) => {
   if (!wg) return null;
+  if (!people) return null;
 
   const leader = people.leader;
   const vices = people.vices;

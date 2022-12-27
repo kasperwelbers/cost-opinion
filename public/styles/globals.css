@@ -3,6 +3,7 @@
   --primary-light: #6fadff; */
   --primary: #003d30;
   --primary-light: #a8cfc7;
+  --primary-light-opacity: #a8cfc7dd;
   --secondary: #212121;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
@@ -10,9 +11,6 @@
   --danger: #ff3d3d;
   --lightGreen: #a8cfc7;
   --darkGreen: #306156;
-  --font-primary: "Open Sans", sans-serif;
-  --font-system: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", "Geneva", "Verdana, sans-serif";
 }
 
 html {
@@ -25,7 +23,6 @@ html {
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family: var(--font-system);
   min-height: 100%;
   position: relative;
   background: white;
@@ -78,6 +75,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.3;
+  
 }
 
 .Container {
@@ -365,4 +363,25 @@ blockquote {
   100% {
     opacity: 0;
   }
+}
+
+.spacer {
+  aspect-ratio: 960/150;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fffb;
+}
+
+
+.wave {
+  background-image: url("./wave.svg");
+}
+
+
+.Underwater {
+  height: 70px;
+  background: var(--primary-light);
 }

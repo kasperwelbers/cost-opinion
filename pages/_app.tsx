@@ -13,6 +13,12 @@ import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";
 import { useRouter } from "next/router";
 import AuthContextProvider from "../contexts/authContext";
+import { Poppins } from "@next/font/google";
+
+const font = Poppins({
+  weight: "500",
+  subsets: ["devanagari"],
+});
 
 import Cost from "../public/logos/logo_cost.svgr";
 
@@ -22,6 +28,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <AuthContextProvider>
+      <style jsx global>{`
+        html {
+          font-family: ${font.style.fontFamily};
+        }
+      `}</style>
       <div className="AppContainer" style={{ position: "relative" }}>
         <div className="AppBody">
           <Navbar path={path} />

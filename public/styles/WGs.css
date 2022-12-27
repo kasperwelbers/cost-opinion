@@ -6,6 +6,7 @@
   background: var(--primary);
   position: relative;
   margin: 0 auto;
+  min-height: 1500px;
 }
 
 .WGsBody {
