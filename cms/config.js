@@ -25,19 +25,44 @@ export default {
               name: "title",
               widget: "string",
             },
-            {
-              label: "Image",
-              name: "image",
-              widget: "image",
-            },
+
             {
               label: "Subtitle",
               name: "subtitle",
               widget: "string",
             },
             {
+              label: "Who",
+              name: "who",
+              widget: "markdown",
+            },
+
+            {
+              label: "What",
+              name: "what",
+              widget: "markdown",
+            },
+
+            {
               label: "Body",
               name: "body",
+              widget: "markdown",
+            },
+          ],
+        },
+        {
+          label: "About",
+          name: "about",
+          file: "content/pages/about.md",
+          fields: [
+            {
+              label: "Title",
+              name: "title",
+              widget: "string",
+            },
+            {
+              label: "Aim & Objectives",
+              name: "aim_objectives",
               widget: "markdown",
             },
           ],
@@ -74,8 +99,6 @@ export default {
           name: "people",
           file: "content/pages/people.md",
           fields: [
-            { label: "Title", name: "title", widget: "string" },
-            { label: "Image", name: "image", widget: "image" },
             {
               label: "People",
               name: "people",

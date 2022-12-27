@@ -2,6 +2,7 @@
   /* --primary: #0984d2;
   --primary-light: #6fadff; */
   --primary: #003d30;
+  --primary-opacity: #003d30aa;
   --primary-light: #a8cfc7;
   --primary-light-opacity: #a8cfc7dd;
   --secondary: #212121;
@@ -70,12 +71,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: calc(100% + 400px);
+  width: calc(100% + 400px);
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -400px;
+  margin-left: -400px;
   opacity: 0.3;
-  
 }
 
 .Container {
@@ -365,6 +368,10 @@ blockquote {
   }
 }
 
+.EmptyFlex {
+  flex: 1 1 auto;
+}
+
 .spacer {
   aspect-ratio: 960/150;
   width: 100%;
@@ -372,14 +379,11 @@ blockquote {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #fffb;
 }
-
 
 .wave {
   background-image: url("./wave.svg");
 }
-
 
 .Underwater {
   height: 70px;

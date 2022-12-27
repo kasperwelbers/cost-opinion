@@ -11,13 +11,16 @@ export default function prepareUpdatesList() {
       id: f.replace(/\.md$/, ""),
       title: attributes.title,
       image: attributes.image || "",
-      date: attributes.date.toISOString().split("T")[0],
+      date: attributes.date,
       author: attributes.author,
     };
-    return attributes;
   });
 
   updates.sort((a, b) => (a.date > b.date ? -1 : b.date > a.date ? 1 : 0));
 
-  return updates;
+  return updates.map((update) => {
+    if (typeof update.date !== "string")
+      update.date = update.date.toISOString().split("T")[0];
+    return update;
+  });
 }

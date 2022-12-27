@@ -1,6 +1,7 @@
 .RoleGroupContainer {
   text-align: left;
   padding-bottom: 2rem;
+  max-width: 600px;
 }
 
 .RoleGroupContainer h4 {
@@ -8,6 +9,8 @@
   border-radius: 5px;
   padding-left: 5px;
   color: var(--primary);
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 .RoleGroup {
@@ -19,16 +22,16 @@
 .Person {
   width: calc(50% - 10px);
   padding: 5px 5px;
-  line-height: 1.1em;
+  line-height: 1.8rem;
 }
 
 .Person div {
-  font-size: 1em;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .Person label {
-  font-size: 0.8em;
-  line-height: 0;
+  font-size: 1.3rem;
+  line-height: 0.5rem;
   color: var(--primary-light);
 }

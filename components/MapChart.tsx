@@ -17,17 +17,18 @@ import { Person } from "../types";
 // include CYpres, Israel, states as separaten nodes
 
 const memberCountryStyle = {
-  fill: "#ffffff",
+  fill: "var(--primary-light)",
   default: {
-    fill: "#ffffff",
+    fill: "var(--primary)",
     outline: "none",
     cursor: "pointer",
-    stroke: "black",
+    stroke: "white",
   },
   hover: {
     fill: "var(--primary-light)",
     outline: "none",
     cursor: "pointer",
+    stroke: "black",
   },
   pressed: {
     fill: "#E42",
@@ -37,7 +38,7 @@ const memberCountryStyle = {
 };
 const nonMemberStyle = {
   default: {
-    fill: "#ffffff44",
+    fill: "#66616144",
     outline: "none",
     cursor: "pointer",
     stroke: "black",

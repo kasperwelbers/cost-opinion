@@ -1,8 +1,11 @@
 .Nav {
-  background: white;
+  background: var(--primary-opacity);
+  color: var(--primary-light);
+  box-shadow: 5px 0px 10px var(--primary-opacity);
   position: sticky;
-  width: 100%;
-  
+  width: 100vw;
+
+  padding-top: 0.5rem;
   top: 0;
   z-index: 1;
   font-size: clamp(1.2rem, 3vw, 1.5rem);
@@ -20,6 +23,7 @@
 
 .Nav .NavLink {
   padding: 0.3rem clamp(0.5rem, 2vw, 2rem);
+
   display: block;
   font-weight: 500;
   transition: color 0.2s, border-bottom-color 0.2s;
@@ -32,7 +36,7 @@
 
 .Nav .selected,
 .NavLink:hover {
-  color: var(--primary);
+  color: white;
   border-bottom-color: currentColor;
 }
 

@@ -1,6 +1,4 @@
 ---
-title: The OPINION Network
-image: img/europe.jpeg
 people:
   - name: Ben Wagner
     homepage: https://benwagner.org
@@ -569,6 +567,14 @@ people:
       - Data
     role:
     mc: 0
+  - name: Samia Touileb
+    homepage: http://www.mn.uio.no/ifi/english/people/aca/samiat/index.html
+    country: NO
+    workgroups:
+      - Tools
+      - Data
+    role:
+    mc: 1
   - name: Nina Springer
     homepage: https://www.uni-muenster.de/Kowi/en/personen/nina-springer.html
     country: DE
@@ -754,6 +760,217 @@ people:
       - Data
     role:
     mc: 0
+  - name: Raluca Buturoiu
+    homepage: https://www.researchgate.net/profile/Raluca-Buturoiu-2
+    country: RO
+    workgroups:
+      - Theory
+      - Tools
+    role:
+    mc: 0
+  - name: Jamal Abdul Nasir
+    homepage: https://scholar.google.com.pk/citations?user=V86JSRwAAAAJ&hl=en&authuser=2; https://www.linkedin.com/in/jamal-nasir-44153ba/
+    country: IE
+    workgroups:
+      - Tools
+      - Data
+    role:
+    mc: 0
+  - name: Henrik Örnebring
+    homepage: https://inslaget.kau.se/users/henrik-ornebring
+    country: SE
+    workgroups:
+      - Theory
+    role:
+    mc: 1
+  - name: Leendert (Leon) van der Torre
+    homepage: icr.uni.lu
+    country: LU
+    workgroups:
+      - Theory
+    role:
+    mc: 1
+  - name: Sarah (Sally) Broughton Micova
+    homepage: https://research-portal.uea.ac.uk/en/persons/sally-broughton-micova
+    country: MK
+    workgroups:
+      - Data
+    role:
+    mc: 1
+  - name: Anne Kaun
+    homepage: www.sh.se
+    country: SE
+    workgroups:
+      - Theory
+    role:
+    mc: 1
+  - name: Louis Escouflaire
+    homepage: https://www.researchgate.net/profile/Louis-Escouflaire
+    country: BE
+    workgroups:
+      - Theory
+      - Tools
+    role:
+    mc: 0
+  - name: Gal Harpaz
+    homepage: https://www.researchgate.net/profile/Gal-Harpaz; https://www.openu.ac.il/en/personalsites/GalHarpaz.aspx
+    country: IL
+    workgroups:
+      - Theory
+      - Data
+    role:
+    mc: 0
+  - name: Tonja Jerele
+    homepage: https://www.fdv.uni-lj.si/obvestila-in-informacije/imenik-sodelavcev/raziskovalci/kartica/tonja-jerele/
+    country: SI
+    workgroups:
+      - Theory
+      - Tools
+    role:
+    mc: 0
+  - name: Serena Villata
+    homepage: http://www-sop.inria.fr/members/Serena.Villata/
+    country: FR
+    workgroups:
+      - Tools
+    role:
+    mc: 0
+  - name: Truls Pedersen
+    homepage: https://www.uib.no/en/persons/Truls.Andr%C3%A9.Pedersen
+    country: NO
+    workgroups:
+      - Theory
+    role:
+    mc: 0
+  - name: Nelda Kote
+    homepage:
+    country: AL
+    workgroups:
+      - Tools
+      - Data
+    role:
+    mc: 0
+  - name: Anela Mulahmetović Ibrišimović
+    homepage: http://www.ff.untz.ba/index.php?page=ma-anela-mulahmetovic-ibrisimovic; https://www.researchgate.net/profile/Anela-Mulahmetovic
+    country: BA
+    workgroups:
+      - Data
+      - Dissemination
+    role:
+    mc: 0
+  - name: Madalina Botan
+    homepage: https://www.researchgate.net/profile/Madalina-Botan; https://www.comunicare.ro/en/uploads/Profesori/Madalina%20Botan/CV_MadalinaBotanEN.pdf
+    country: RO
+    workgroups:
+      - Theory
+      - Data
+    role:
+    mc: 0
+  - name: Chaya LIEBESKIND
+    homepage:
+    country: IL
+    workgroups:
+      - Tools
+      - Data
+    role:
+    mc: 0
+  - name: Alba Haveriku
+    homepage: https://www.researchgate.net/profile/Alba-Haveriku/research
+    country: AL
+    workgroups:
+      - Tools
+      - Data
+    role:
+    mc: 0
+  - name: Wouter van Atteveldt
+    homepage: https://vanatteveldt.com
+    country: NL
+    workgroups:
+      - Tools
+    role: GHSRV
+    mc: 0
+  - name: Michaela Maier
+    homepage: https://www.uni-koblenz-landau.de/de/landau/fb8/ikms/kompsych/mmaier
+    country: DE
+    workgroups:
+      - Tools
+    role:
+    mc: 0
+  - name: Neta Kligler Vilenchik
+    homepage: http://www.netakv.com
+    country: IL
+    workgroups:
+      - Theory
+    role:
+    mc: 1
+  - name: Susan Vermeer
+    homepage: https://www.uva.nl/en/profile/v/e/s.a.m.vermeer/s.a.m.vermeer.html
+    country: NL
+    workgroups:
+      - Tools
+    role:
+    mc: 0
+  - name: Henning Wachsmuth
+    homepage:
+    country: DE
+    workgroups:
+      - Tools
+    role:
+    mc: 0
+  - name: Dren Gerguri
+    homepage: https://www.drengerguri.com
+    country: XK
+    workgroups:
+      - Theory
+      - Tools
+    role:
+    mc: 0
+  - name: Simon Chauchard
+    homepage: https://www.simonchauchard.com
+    country: ES
+    workgroups:
+      - Tools
+      - Data
+    role:
+    mc: 0
+  - name: Ema Kristo
+    homepage: https://de.linkedin.com/in/ema-kristo-727702141; https://orcid.org/0000-0001-7715-222X
+    country: AL
+    workgroups:
+      - Tools
+      - Dissemination
+    role:
+    mc: 0
+  - name: Lasma Skestere
+    homepage: https://www.rsu.lv/en
+    country: LV
+    workgroups:
+      - Theory
+      - Data
+    role:
+    mc: 0
+  - name: Anna Baczkowska
+    homepage:
+    country: PL
+    workgroups:
+      - Theory
+      - Tools
+    role:
+    mc: 0
+  - name: Boris Mance
+    homepage:
+    country: SI
+    workgroups:
+      - Tools
+    role:
+    mc: 0
+  - name: Christina Viehmann
+    homepage: https://www.blogs.uni-mainz.de/fb02pubcomsc/team/christina-viehmann-dr/
+    country: DE
+    workgroups:
+      - Tools
+    role:
+    mc: 0
   - name: Dimitra Dimitrakopoulou
     homepage:
     country: GR
@@ -768,41 +985,6 @@ people:
       -
     role:
     mc: 1
-  - name: Leendert (Leon) van der Torre
-    homepage:
-    country: LU
-    workgroups:
-      -
-    role:
-    mc: 1
-  - name: Sarah (Sally) Broughton Micova
-    homepage:
-    country: MK
-    workgroups:
-      -
-    role:
-    mc: 1
-  - name: Samia Touileb
-    homepage:
-    country: NO
-    workgroups:
-      -
-    role:
-    mc: 1
-  - name: Anne Kaun
-    homepage:
-    country: SE
-    workgroups:
-      -
-    role:
-    mc: 1
-  - name: Henrik Örnebring
-    homepage:
-    country: SE
-    workgroups:
-      -
-    role:
-    mc: 1
   - name: Jonila Godole
     homepage:
     country: AL
@@ -810,15 +992,8 @@ people:
       -
     role:
     mc: 1
-  - name: Neta Kligler Vilenchik
-    homepage:
-    country: IL
-    workgroups:
-      -
-    role:
-    mc: 1
-  - name: To be determined
-    homepage: vu homepage
+  - name: Ruud van Ooijen
+    homepage: https://vu.nl
     country: NL
     workgroups:
       -

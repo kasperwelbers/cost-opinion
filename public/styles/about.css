@@ -1,0 +1,96 @@
+.AboutContainer {
+  background: var(--primary);
+}
+
+.About {
+  display: grid;
+  height: 100%;
+  color: white;
+  padding: 2rem;
+  padding-bottom: 70px;
+  grid-template-columns: minmax(250px, 100%);
+  grid-template-areas:
+    "body"
+    "management"
+    "people";
+  position: relative;
+}
+
+.About .Title {
+  grid-area: header;
+  justify-self: center;
+  color: white;
+  padding-top: 2rem;
+  display: flex;
+  padding-left: 0px;
+}
+
+.About h1 {
+  text-align: center;
+}
+
+.About .Title svg {
+  width: 100px;
+  height: 100px;
+  stroke: white;
+  padding: 0 0 0px 20px;
+  transform: translateY(-20%);
+}
+
+.AboutBody {
+  grid-area: body;
+  padding: 2rem 0;
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
+  max-width: 800px;
+  text-align: justify;
+  justify-self: center;
+}
+
+.AboutTableBox {
+  grid-area: table;
+  max-height: 310px;
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
+  color: black;
+  justify-self: center;
+}
+
+.About .Management {
+  grid-area: management;
+  padding: 2rem 0;
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
+  max-width: 800px;
+  text-align: justify;
+  justify-self: center;
+}
+
+.About .People {
+  grid-area: people;
+  padding: 2rem 0;
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
+  max-width: 800px;
+  text-align: justify;
+  justify-self: center;
+}
+
+@media (min-width: 800px) {
+  /* .People {
+    grid-template-columns: minmax(250px, 1.5fr) repeat(3, minmax(125px, 1fr));
+    grid-template-areas:
+      "header header header header"
+      "body map map map";
+  } */
+
+  .PeopleTableBox {
+    justify-self: right;
+  }
+
+  .PeopleMap {
+    padding: 2rem 0rem 0rem 4rem;
+  }
+
+  .People .Title {
+    padding-left: 100px;
+  }
+}

@@ -38,7 +38,6 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
   const { title, image, workgroups } = content.attributes;
   const [people, setPeople] = useState<WGPeople>();
   const [selected, setSelected] = useState<number>();
-
   return (
     <div className={`AppComponent WGs ${selected != null ? "Mini" : ""}`}>
       <div
@@ -72,7 +71,10 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
                   {i === 1 && <LogoWG2 className={logoclass} />}
                   {i === 2 && <LogoWG3 className={logoclass} />}
                   {i === 3 && <LogoWG4 className={logoclass} />}
-                  <h3>{wg.title}</h3>
+                  <div className="WorkingGroupLabel">
+                    <h3>{wg.title}</h3>
+                    <p>{wg.shortDescription}</p>
+                  </div>
                 </div>
                 {/* <span>{wg.subtitle}</span> */}
                 {/* <LazyImage src={wg.featuredImage} alt="LazyImage" /> */}

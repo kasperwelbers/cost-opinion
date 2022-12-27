@@ -4,7 +4,7 @@ import "../public/styles/globals.css";
 import "../public/styles/index.css";
 import "../public/styles/Nav.css";
 import "../public/styles/WGs.css";
-import "../public/styles/people.css";
+import "../public/styles/about.css";
 import "../public/styles/updates.css";
 import "../public/styles/GridTable.css";
 import "../public/styles/PeopleList.css";

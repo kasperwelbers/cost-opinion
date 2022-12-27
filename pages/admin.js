@@ -3,7 +3,7 @@ import config from "../cms/config";
 import Index from "pages/index.tsx";
 import WGs from "pages/wgs.tsx";
 import Updates from "./updates";
-import People from "./people";
+import People from "./about";
 import preparePeopleContent from "../util/preparePeopleContent";
 import Update from "./updates/[id]";
 

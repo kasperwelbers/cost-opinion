@@ -6,13 +6,11 @@
 
 .Home .Header {
   position: relative;
-  background-color: #fffb;
   color: var(--primary);
   height: 100%;
   width: 100%;
-  padding: clamp(10px, 5vh, 15rem) 0;
-  padding-bottom: 2rem;
-
+  padding: 5rem 0;
+  text-shadow: 1px 1px 5px var(--primary-light);
 }
 
 .Home .HeaderContainer {
@@ -21,7 +19,7 @@
 }
 
 .Home .Title {
-  font-size: clamp(18px, 8vw, 70px);
+  font-size: clamp(2rem, 8vw, 5rem);
   text-align: center;
   margin-bottom: 0;
 }
@@ -29,17 +27,15 @@
 .Home .Subtitle {
   font-weight: 400;
   text-align: center;
-  font-size: clamp(10px, 4vw, 30px);
+  font-size: clamp(1.8rem, 6vw, 3rem);
 }
 
 .Home .AppComponentImage {
-  filter: grayscale(100%) invert(1);
+  filter: grayscale(100%) invert(100%);
   top: -110px;
-  opacity: 1;
+  opacity: 0.5;
   z-index: 0;
 }
-
-
 
 .Home .Logo {
   position: absolute;
@@ -48,34 +44,83 @@
   margin-top: clamp(0px, 2vw, 15px);
   width: 40%;
   height: 100%;
+  background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.Home .BodyContainer {
+.Home .Body {
   position: relative;
-  flex: 1 1 auto;
-  padding-bottom: 60px;
-  background-color: var(--primary-light-opacity);
-  margin: 10px;
-  margin-bottom: 0;
-  border-radius: 8px;
-  backdrop-filter: blur(1px);
+  z-index: 1000;
+  padding: 1rem;
 }
 
-.Home .Body {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-size: clamp(12px, 2vw, 15px);
-  column-count: 1;
-  max-width: 600px;
+.BodyCard {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px black;
+  border: 1px solid var(--primary);
+  overflow: hidden;
+}
+
+.BodyContainer {
+  position: relative;
+  display: flex;
+
+  background-color: var(--primary-opacity);
+  color: white;
+  padding: 2rem;
+  align-items: center;
+}
+
+.BodyContainer a {
+  color: var(--primary-light);
+}
+
+.Home .BodyContainer svg {
+  height: 100px;
+  width: 150px;
+  stroke: white;
+}
+
+.MapContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff8;
+  color: white;
+  padding: 2rem;
+  align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+.MapContainer .Who {
+  display: flex;
+  color: var(--primary);
+  align-items: center;
+}
+
+.MapContainer .Who svg {
+  height: 100px;
+  width: 350px;
+  stroke: var(--primary);
+  margin: 1rem 2rem 1rem 1rem;
+}
+
+.Body div {
+  font-size: clamp(1.6rem, 2vw, 2rem);
   text-align: justify;
 }
 
-@media (min-width: 600px) {
-  .Home .Body {
-    column-count: 1;
+@media (max-width: 600px) {
+  .Home .BodyContainer {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .Home .MapContainer .Who {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
-
-

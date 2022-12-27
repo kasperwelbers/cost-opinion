@@ -1,10 +1,6 @@
-import { NextPage, GetStaticProps } from "next";
-import preparePeopleContent from "../util/preparePeopleContent";
-import PeopleList from "../components/PeopleList";
 import { Person, Position } from "../types";
 import ReactTooltip from "react-tooltip";
 import MapChart from "../components/MapChart";
-import LogoNet from "../public/logos/logo_net.svgr";
 import {
   FunctionComponent,
   useCallback,
@@ -14,19 +10,13 @@ import {
 } from "react";
 import Portal from "../components/Portal";
 
-import LogoWG1 from "../public/logos/logo_wg1.svgr";
-import LogoWG2 from "../public/logos/logo_wg2.svgr";
-import LogoWG3 from "../public/logos/logo_wg3.svgr";
-import LogoWG4 from "../public/logos/logo_wg4.svgr";
-
 import { FaLink } from "react-icons/fa";
-import ReactSelect, { SingleValue } from "react-select";
-import readMd from "../util/readMd";
+import { SingleValue } from "react-select";
 
 interface Props {
   content: PeopleContent;
 }
-interface PeopleContent {
+export interface PeopleContent {
   attributes: PeopleAttributes;
   body: string;
 }
@@ -39,7 +29,7 @@ interface PeopleAttributes {
   countries: { [countryCode: string]: Person[] };
 }
 
-const People: NextPage<Props> = ({ content }) => {
+const PeopleMap: FunctionComponent<Props> = ({ content }: Props) => {
   const { attributes, body } = content;
   const [tooltip, setTooltip] = useState<string>();
   const [portalPosition, setPortalPosition] = useState<Position>();
@@ -82,49 +72,53 @@ const People: NextPage<Props> = ({ content }) => {
   );
 
   return (
-    <div className="AppComponent PeopleContainer">
-      <div
-        className="AppComponentImage"
-        style={{
-          filter: "saturate(0)",
+    <div className="PeopleMap">
+      <style jsx>{`
+        .PeopleMap {
+          grid-area: map;
+          border-radius: 20px;
+          position: relative;
+          padding: 2rem 0rem 0rem 0rem;
+          font-size: 1.5rem;
+        }
 
-          backgroundImage: `url("${attributes.image}")`,
-        }}
+        .SearchPerson {
+          position: absolute;
+          top: 2rem;
+          right: 2rem;
+          text-align: center;
+          width: 18rem;
+          color: black;
+          padding: 0 0 5px 10px;
+          background: #0007;
+          border-radius: 5px;
+        }
+
+        .SearchPerson label {
+          font-weight: 800;
+          color: white;
+        }
+      `}</style>
+      <MapChart
+        setTooltipContent={setTooltip}
+        setPopup={setPopup}
+        countries={attributes.countries}
       />
-
-      <div className="WideContainer People">
-        <div className="Title">
-          <h1>{attributes.title}</h1>
-          <LogoNet />
-        </div>
-
-        <div className="PeopleBody">
-          {/* <ReactMarkdown>{body}</ReactMarkdown> */}
-          <PeopleList roles={attributes.roles} />
-        </div>
-        <div className="PeopleMap">
-          <MapChart
-            setTooltipContent={setTooltip}
-            setPopup={setPopup}
-            countries={attributes.countries}
-          />
-          <div className="SearchPerson">
-            <label>Search person</label>
-            <br />
-            <ReactSelect
-              options={dropdownOptions}
-              onChange={(value) => onDropdownSelect(value)}
-            />
-            <div ref={searchRef} />
-          </div>
-          <ReactTooltip html={true} backgroundColor="#000000ff">
-            {tooltip}
-          </ReactTooltip>
-          <Portal position={portalPosition} setPosition={setPortalPosition}>
-            <PersonPopup people={people} person={person} />
-          </Portal>
-        </div>
-      </div>
+      {/* <div className="SearchPerson">
+        <label>Search person</label>
+        <br />
+        <ReactSelect
+          options={dropdownOptions}
+          onChange={(value) => onDropdownSelect(value)}
+        />
+        <div ref={searchRef} />
+      </div> */}
+      <ReactTooltip html={true} backgroundColor="#000000ff">
+        {tooltip}
+      </ReactTooltip>
+      <Portal position={portalPosition} setPosition={setPortalPosition}>
+        <PersonPopup people={people} person={person} />
+      </Portal>
     </div>
   );
 };
@@ -144,6 +138,23 @@ const PersonPopup: FunctionComponent<PersonPopupProps> = ({
 
   return (
     <div>
+      <style jsx>{`
+        .Country {
+          color: black;
+          text-align: center;
+        }
+
+        .PopupContainer {
+          position: relative;
+          display: flex;
+          z-index: 100;
+        }
+
+        .Popup {
+          color: black;
+          padding: 0rem 0.5rem;
+        }
+      `}</style>
       <h3 className="Country">
         {people[0].country + " " + people[0].countryFlag}{" "}
       </h3>
@@ -185,6 +196,50 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
   if (!p) return null;
   return (
     <div className={`Member ${person?.name === p.name ? "selected" : ""}`}>
+      <style jsx>{`
+        .Member {
+          display: flex;
+          align-items: flex-end;
+          padding-left: 8px;
+          position: relative;
+        }
+
+        .Member.selected {
+          font-weight: 900;
+
+          color: var(--primary);
+        }
+
+        .Member.selected::before {
+          content: "";
+          display: block;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background: var(--primary);
+          position: absolute;
+          left: 0;
+          top: 8px;
+        }
+        .Member span {
+          width: 20rem;
+        }
+
+        .IconGroup {
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        .IconGroup svg {
+          color: #333;
+          stroke: black;
+          height: 2rem;
+          width: 2rem;
+        }
+        span {
+          font-size: 1.5rem;
+        }
+      `}</style>
       <span key="name">
         {p.name}{" "}
         {p.homepage ? (
@@ -193,7 +248,7 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
           </a>
         ) : null}
       </span>{" "}
-      <div key="wtf" className="IconGroup">
+      {/* <div key="icongroup" className="IconGroup">
         {p.workgroups.map((wg) => {
           if (wg === "Theory")
             return <LogoWG1 key={"theory"} className="Icon" />;
@@ -203,16 +258,9 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
             return <LogoWG4 key={"dissemination"} className="Icon" />;
           return null;
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
-  const contentMd = readMd("content/pages/people.md");
-  const content = preparePeopleContent(contentMd);
-
-  return { props: { content } };
-};
-
-export default People;
+export default PeopleMap;

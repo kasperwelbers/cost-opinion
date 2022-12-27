@@ -6,7 +6,7 @@
   background: var(--primary);
   position: relative;
   margin: 0 auto;
-  min-height: 1500px;
+  min-height: 1800px;
 }
 
 .WGsBody {
@@ -33,11 +33,21 @@
   z-index: 10;
 }
 
+.WGs .WorkingGroup p {
+  color: var(--primary-light);
+  margin-left: 10%;
+  max-width: 80%;
+}
+
 .WGs.Mini .WorkingGroup {
   transform: scale(0.5);
 }
 
-.Mini h3 {
+.WorkingGroupLabel h3 {
+  min-height: 6rem;
+}
+
+.Mini .WorkingGroupLabel {
   transition: transform 1s, font-size 1s;
   transform: scale(0);
   font-size: 0;
@@ -65,6 +75,7 @@
   .WGs:not(.Mini) .WorkingGroups {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 5rem;
   }
   .WGs.Mini h3 {
     transition: font-size 0s;

@@ -1,9 +1,8 @@
 ---
 title: OPINION
 subtitle: Measuring Opinionated Communication
-title2: WHAT ARE OPINIONS?
-subtitle2: Integrating Theory & Methods for Automatically Analyzing Opinionated
-image: /img/europe.jpeg
+who: Our network consists of over 130 researchers across 34 European countries, Israel and the US. OPINION turns the diversity of European discourses into a key asset toward the development of a multilingual, culturally sensitive field of computational text analysis.
+what: OPINION is a [COST Action network](https://www.cost.eu/cost-actions/what-are-cost-actions/), aimed at developing united conceptual foundations, research agendas and computational measurement strategies for the study of **opinionated text**.
 ---
 
-OPINION convenes early- and mid-career researchers from 30 European countries, Israel, and the US, integrating cutting-edge expertise from different disciplines (notably, communication science, computational linguistics, IT) while networking the many, hitherto largely disconnected language communities of textual researchers. The Action will develop **united conceptual foundations and research agendas**, as well as versatile computational measurement strategies for the study of opinionated text, while advancing computational skills and building a community of computational textual opinion researchers. Thereby, OPINION turns the linguistic and political-cultural fragmentation of European digital discourses into a key asset toward the development of a truly multilingual, culturally sensitive field of computational text analysis.
+OPINION convenes early- and mid-career researchers from 34 European countries, Israel, and the US, integrating cutting-edge expertise from different disciplines (notably, communication science, computational linguistics, IT) while networking the many, hitherto largely disconnected language communities of textual researchers.

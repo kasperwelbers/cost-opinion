@@ -1,13 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import Logo from "../public/logos/logo_net2.svgr";
 
 import { NextPage } from "next";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
+  { text: "About", href: "/about" },
   { text: "WGs", href: "/wgs" },
-  { text: "People", href: "/people" },
   { text: "Updates", href: "/updates" },
 ];
 
@@ -18,7 +17,7 @@ interface Props {
 const Navbar: NextPage<Props> = ({ path }) => {
   return (
     <header>
-      <nav className="Container Nav">
+      <nav className="Nav">
         {/* <div className="LogoAndName">
           <Logo className="Logo" />
           <div className="Name">
@@ -34,7 +33,7 @@ const Navbar: NextPage<Props> = ({ path }) => {
               href={menu.href}
               key={menu.text}
             >
-              {menu.text}
+              <span>{menu.text}</span>{" "}
             </Link>
           ))}
         </div>
