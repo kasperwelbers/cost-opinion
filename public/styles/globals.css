@@ -290,6 +290,7 @@ blockquote {
 
 .Button {
   background: var(--primary);
+  border: 2px solid black;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -298,10 +299,9 @@ blockquote {
   font-size: 1.4rem;
   display: inline-block;
   padding: 1.25rem 3rem;
-  border: none;
   transition: all 0.2s ease;
   cursor: pointer;
-  border-radius: var(--borderRadius);
+  border-radius: 5px;
 }
 .Button:hover,
 .Button:focus {

@@ -50,7 +50,8 @@ const Contact: NextPage = ({}) => {
           border: 3px solid white;
           border-radius: 5px;
         }
-        button:hover {
+        button:hover,
+        button:focus {
           background: var(--primary-light);
           color: var(--primary);
         }

@@ -2,6 +2,8 @@ import { NextPage, GetStaticProps, GetStaticPaths } from "next";
 import readMd from "../../util/readMd";
 import fs from "fs";
 import ReactMarkdown from "react-markdown";
+import { FaBackward } from "react-icons/fa";
+import Link from "next/link";
 
 interface Props {
   content: Content;
@@ -23,6 +25,18 @@ const Update: NextPage<Props> = ({ content }) => {
   return (
     <div className={"AppComponent Updates"}>
       <div className={"Header fade-in"}>
+        <Link href="/updates">
+          <button
+            className="Button"
+            style={{
+              width: "10rem",
+              background: "#fff3",
+              marginBottom: "2rem",
+            }}
+          >
+            <FaBackward size="2rem" />
+          </button>
+        </Link>
         <h1>{attributes.title}</h1>
         <b>{attributes.author}</b>
         <br />
@@ -56,7 +70,10 @@ export const getStaticProps: GetStaticProps = ({ params }) => {
   const ids: string | string[] = params?.id || "";
   const id: string = Array.isArray(ids) ? ids[0] : ids;
   const content = readMd(`content/pages/updates/${id}.md`);
-  content.attributes.date = content.attributes.date.toISOString().split("T")[0];
+  if (typeof content.attributes.date !== "string")
+    content.attributes.date = content.attributes.date
+      .toISOString()
+      .split("T")[0];
   content.attributes.id = id;
 
   return {
