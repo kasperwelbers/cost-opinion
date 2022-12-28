@@ -82,7 +82,7 @@
 
 .BodyContainer.inverse {
   flex-direction: row-reverse;
-  background-color: #fff8;
+  background-color: #fffb;
   color: var(--primary);
   backdrop-filter: blur(2px);
 }

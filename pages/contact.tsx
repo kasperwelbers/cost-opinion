@@ -4,26 +4,28 @@ const Contact: NextPage = ({}) => {
   return (
     <main className={"AppComponent"}>
       <style jsx>{`
-          .ContactForm {
-            margin: auto;
-            width: 500px;
-            max-width: 100%
-            color: white;
-            padding: 5rem 2rem 2rem 2rem;
-          }
-          .ContactForm label {
-            min-width: 100rem;
-          }
-          form p {
-            display: flex;
-            flex-direction: column;
-            align-items: stretch;
-            color: white;
-          }
-          
-        `}</style>
+        .ContactForm {
+          display: flex;
+          margin: auto;
+          color: white;
+          max-width: 400px;
+          padding: 5rem 2rem 2rem 2rem;
+        }
+
+        form {
+          margin: auto;
+          width: 100%;
+        }
+        form p {
+          display: flex;
+          flex-direction: column;
+          align-items: stretch;
+          color: white;
+        }
+      `}</style>
       <div className="ContactForm">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>Your Name:</label>
             <input type="text" name="name" />
