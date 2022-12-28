@@ -27,6 +27,7 @@ interface Content {
 interface WorkGroup {
   title: string;
   body: string;
+  shortDescription: string;
 }
 interface WGPeople {
   leader: Person;
@@ -40,13 +41,6 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
   const [selected, setSelected] = useState<number>();
   return (
     <div className={`AppComponent WGs ${selected != null ? "Mini" : ""}`}>
-      <div
-        className="AppComponentImage"
-        style={{
-          filter: "saturate(0)",
-          backgroundImage: `url("${image}")`,
-        }}
-      />
       <div className="WGsBody">
         <h1 className="Title">{title}</h1>
         <div className="WorkingGroups">
@@ -73,7 +67,7 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
                   {i === 3 && <LogoWG4 className={logoclass} />}
                   <div className="WorkingGroupLabel">
                     <h3>{wg.title}</h3>
-                    <p>{wg.shortDescription}</p>
+                    <ReactMarkdown>{wg.shortDescription}</ReactMarkdown>
                   </div>
                 </div>
                 {/* <span>{wg.subtitle}</span> */}

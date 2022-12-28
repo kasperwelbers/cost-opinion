@@ -7,7 +7,9 @@ const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
   { text: "WGs", href: "/wgs" },
+  { text: "People", href: "/people" },
   { text: "Updates", href: "/updates" },
+  { text: "Contact", href: "/contact" },
 ];
 
 interface Props {
@@ -18,14 +20,6 @@ const Navbar: NextPage<Props> = ({ path }) => {
   return (
     <header>
       <nav className="Nav">
-        {/* <div className="LogoAndName">
-          <Logo className="Logo" />
-          <div className="Name">
-            <span>OPINION</span>
-            <br />
-            <span>Network</span>
-          </div>
-        </div> */}
         <div className="NavContainer">
           {MENU_LIST.map((menu, i) => (
             <Link

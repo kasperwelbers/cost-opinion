@@ -12,21 +12,10 @@ import Portal from "../components/Portal";
 
 import { FaLink } from "react-icons/fa";
 import { SingleValue } from "react-select";
+import { PeopleContent } from "../types";
 
 interface Props {
   content: PeopleContent;
-}
-export interface PeopleContent {
-  attributes: PeopleAttributes;
-  body: string;
-}
-interface PeopleAttributes {
-  title: string;
-  image: string;
-  people: Person[];
-  mc: boolean;
-  roles: { [role: string]: Person };
-  countries: { [countryCode: string]: Person[] };
 }
 
 const PeopleMap: FunctionComponent<Props> = ({ content }: Props) => {
@@ -75,6 +64,8 @@ const PeopleMap: FunctionComponent<Props> = ({ content }: Props) => {
     <div className="PeopleMap">
       <style jsx>{`
         .PeopleMap {
+          max-width: 1000px;
+          margin: auto;
           grid-area: map;
           border-radius: 20px;
           position: relative;
@@ -230,7 +221,13 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
           justify-content: flex-end;
         }
 
-        .IconGroup svg {
+        .IconGroup .Icon {
+          height: 1rem;
+          width: 1rem;
+          stroke: blue;
+        }
+
+        .Member a {
           color: #333;
           stroke: black;
           height: 2rem;
@@ -243,7 +240,7 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
       <span key="name">
         {p.name}{" "}
         {p.homepage ? (
-          <a href={p.homepage}>
+          <a href={p.homepage} target="_blank" rel="noreferrer">
             <FaLink size={12} />
           </a>
         ) : null}

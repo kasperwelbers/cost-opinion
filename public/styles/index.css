@@ -6,11 +6,11 @@
 
 .Home .Header {
   position: relative;
-  color: var(--primary);
+  color: var(--primary-light);
   height: 100%;
   width: 100%;
   padding: 5rem 0;
-  text-shadow: 1px 1px 5px var(--primary-light);
+  text-shadow: 1px 1px 5px black;
 }
 
 .Home .HeaderContainer {
@@ -30,12 +30,12 @@
   font-size: clamp(1.8rem, 6vw, 3rem);
 }
 
-.Home .AppComponentImage {
+/* .Home .AppComponentImage {
   filter: grayscale(100%) invert(100%);
   top: -110px;
   opacity: 0.5;
   z-index: 0;
-}
+} */
 
 .Home .Logo {
   position: absolute;
@@ -51,35 +51,67 @@
 
 .Home .Body {
   position: relative;
-  z-index: 1000;
-  padding: 1rem;
-}
-
-.BodyCard {
-  position: relative;
-  margin: auto;
-  max-width: 1000px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 15px black;
-  border: 1px solid var(--primary);
-  overflow: hidden;
+  z-index: 900;
+  margin: 1rem;
 }
 
 .BodyContainer {
   position: relative;
   display: flex;
-
+  box-shadow: 2px 2px 15px black;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  overflow: hidden;
   background-color: var(--primary-opacity);
   color: white;
   padding: 2rem;
+  margin: 2rem auto;
   align-items: center;
+  max-width: 800px;
 }
 
 .BodyContainer a {
   color: var(--primary-light);
 }
 
-.Home .BodyContainer svg {
+.BodyContainer svg {
+  height: 100px;
+  width: 150px;
+  stroke: white;
+}
+
+.BodyContainer.inverse {
+  flex-direction: row-reverse;
+  background-color: #fff8;
+  color: var(--primary);
+  backdrop-filter: blur(2px);
+}
+
+.BodyContainer.inverse svg {
+  stroke: var(--primary);
+}
+
+.Cost {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 2rem 1rem 2rem;
+  color: var(--primary-light);
+  font-size: 2rem;
+  position: relative;
+
+  text-align: center;
+  display: flex;
+}
+
+.Cost p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.Cost svg {
   height: 100px;
   width: 150px;
   stroke: white;
@@ -87,26 +119,13 @@
 
 .MapContainer {
   position: relative;
+  z-index: 1000;
   display: flex;
   flex-direction: column;
   background-color: #fff8;
-  color: white;
   padding: 2rem;
   align-items: center;
   backdrop-filter: blur(2px);
-}
-
-.MapContainer .Who {
-  display: flex;
-  color: var(--primary);
-  align-items: center;
-}
-
-.MapContainer .Who svg {
-  height: 100px;
-  width: 350px;
-  stroke: var(--primary);
-  margin: 1rem 2rem 1rem 1rem;
 }
 
 .Body div {
@@ -119,6 +138,7 @@
     flex-direction: column-reverse;
     gap: 2rem;
   }
+
   .Home .MapContainer .Who {
     flex-direction: column;
     gap: 2rem;

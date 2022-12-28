@@ -36,8 +36,6 @@ const Updates: NextPage<Props> = ({ content }) => {
       <div className="Body">
         <UpdateList updates={attributes.updates} />
       </div>
-      <div className="spacer wave" />
-      <div className="Underwater"></div>
     </div>
   );
 };

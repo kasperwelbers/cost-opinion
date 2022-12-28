@@ -36,8 +36,6 @@ const Update: NextPage<Props> = ({ content }) => {
           <ReactMarkdown>{body}</ReactMarkdown>
         </div>
       </div>
-      <div className="spacer wave" />
-      <div className="Underwater"></div>
     </div>
   );
 };

@@ -5,6 +5,7 @@ library(tidyverse)
 ## DATA FROM E-COST OVERVIEW
 ## The converted excel export from MC Participants
 mc = read_csv('~/Downloads/cost_mc.csv')
+
 ## The csv export from WG Applications
 d = read_csv2('~/Downloads/WG_applications_export_27-12-2022.csv') %>%
   filter(status == 'approved')
@@ -97,7 +98,8 @@ people = sapply(1:nrow(d), function(i) {
           d$name[i], d$homepages[i], d$country_code[i], workgroups, d$role[i], as.numeric(d$mc[i]))
 })
 ## create yaml string for people
-cat('people:\n', paste(head(people,50), collapse='\n'))
+cat('people:\n', paste(people, collapse='\n'))
+
 
 ## create option array for countries in config.js
 items = sprintf('{label: "%s", value: "%s"}', countries$name, countries$code)

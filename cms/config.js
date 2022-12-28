@@ -78,6 +78,11 @@ export default {
               widget: "string",
             },
             {
+              label: "Short description",
+              name: "shortDescription",
+              widget: "string",
+            },
+            {
               label: "Image",
               name: "image",
               widget: "image",
@@ -94,11 +99,17 @@ export default {
             },
           ],
         },
+
         {
           label: "People",
           name: "people",
           file: "content/pages/people.md",
           fields: [
+            {
+              label: "Title",
+              name: "title",
+              widget: "string",
+            },
             {
               label: "People",
               name: "people",
@@ -121,6 +132,13 @@ export default {
                   ],
                 },
                 { label: "MC", name: "mc", widget: "boolean" },
+                {
+                  label: "Email",
+                  name: "email",
+                  required: false,
+                  widget: "string",
+                },
+
                 {
                   label: "Homepage",
                   name: "homepage",

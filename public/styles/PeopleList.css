@@ -1,16 +1,67 @@
+.PeopleList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.PeopleList h2 {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
 .RoleGroupContainer {
   text-align: left;
   padding-bottom: 2rem;
-  max-width: 600px;
+  width: 100%;
+  line-height: 3rem;
+}
+
+.RoleGroupContainer.workgroup {
+  width: calc(25% - 1rem);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .RoleGroupContainer.workgroup {
+    width: calc(50% - 1rem);
+  }
+}
+
+.RoleGroupContainer .GroupLabel {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3.5rem;
 }
 
 .RoleGroupContainer h4 {
+  vertical-align: middle;
+
   background: white;
   border-radius: 5px;
   padding-left: 5px;
   color: var(--primary);
   font-size: 1.6rem;
   text-align: center;
+
+  line-height: 2rem;
+}
+
+.RoleGroupContainer.workgroup h4 {
+  border-radius: 0px;
+}
+
+.RoleGroupContainer.workgroup .GroupLabel {
+  min-height: 5rem;
+  border-radius: 0;
 }
 
 .RoleGroup {
@@ -19,15 +70,35 @@
   justify-content: center;
 }
 
+.RoleGroup.management {
+  width: 100%;
+}
+
+.RoleGroup.workgroup {
+  width: calc(25% - 10px);
+}
+
 .Person {
-  width: calc(50% - 10px);
+  min-height: 5rem;
+  width: calc(33% - 10px);
   padding: 5px 5px;
   line-height: 1.8rem;
 }
 
+.workgroup .Person {
+  width: 100%;
+}
+
 .Person div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+.Person .Mail {
+  cursor: pointer;
 }
 
 .Person label {

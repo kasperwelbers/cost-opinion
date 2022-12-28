@@ -2,7 +2,7 @@ import { NextPage, GetStaticProps } from "next";
 import preparePeopleContent from "../util/preparePeopleContent";
 import PeopleList from "../components/PeopleList";
 import readMd from "../util/readMd";
-import { PeopleContent } from "../components/PeopleMap";
+import { PeopleContent } from "../types";
 import ReactMarkdown from "react-markdown";
 
 interface Props {
@@ -21,15 +21,6 @@ const About: NextPage<Props> = ({ content, peopleContent }) => {
 
   return (
     <div className="AppComponent AboutContainer">
-      <div
-        className="AppComponentImage"
-        style={{
-          filter: "saturate(0)",
-
-          backgroundImage: `url("/img/europe.jpeg")`,
-        }}
-      />
-
       <div className="WideContainer About fade-in">
         <div className="AboutBody">
           <h1>{attributes.title}</h1>
@@ -37,7 +28,6 @@ const About: NextPage<Props> = ({ content, peopleContent }) => {
           <ReactMarkdown>{attributes.aim_objectives}</ReactMarkdown>
         </div>
         <div className="Management">
-          <h1>Management</h1>
           <PeopleList roles={peopleContent.attributes.roles} />
         </div>
         <div className="People"></div>

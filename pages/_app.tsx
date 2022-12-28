@@ -15,12 +15,12 @@ import { useRouter } from "next/router";
 import AuthContextProvider from "../contexts/authContext";
 import { Poppins } from "@next/font/google";
 
+import Footer from "../components/Footer";
+
 const font = Poppins({
   weight: "500",
   subsets: ["devanagari"],
 });
-
-import Cost from "../public/logos/logo_cost.svgr";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -34,18 +34,17 @@ function MyApp({ Component, pageProps }: AppProps) {
         }
       `}</style>
       <div className="AppContainer" style={{ position: "relative" }}>
+        <div
+          className="AppContainerImage"
+          style={{
+            backgroundImage: `url("/img/europe.jpeg")`,
+          }}
+        />
         <div className="AppBody">
           <Navbar path={path} />
           <Component {...pageProps} />
         </div>
-        <div className="AppFooter">
-          <a
-            href="https://www.cost.eu/actions/CA21129/"
-            style={{ width: "100px" }}
-          >
-            <Cost height="50px" />
-          </a>
-        </div>
+        <Footer />
       </div>
     </AuthContextProvider>
   );

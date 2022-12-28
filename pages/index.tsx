@@ -4,7 +4,7 @@ import readMd from "../util/readMd";
 import LogoNet from "../public/logos/logo_net.svgr";
 import LogoCg from "../public/logos/logo_cg.svgr";
 
-import PeopleMap, { PeopleContent } from "../components/PeopleMap";
+import { PeopleContent } from "../types";
 import preparePeopleContent from "../util/preparePeopleContent";
 
 interface Props {
@@ -27,12 +27,6 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
   const { attributes, body } = content;
   return (
     <main className={"AppComponent Home"}>
-      <div
-        className="AppComponentImage"
-        style={{
-          backgroundImage: `url("/img/europe.jpeg")`,
-        }}
-      />
       <div className={"Header"}>
         <div className={"Container relative fade-in"}>
           <div>
@@ -43,24 +37,25 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
           </div>
         </div>
       </div>
-      <div className="Body fade-in-slow">
-        <div className="BodyCard">
-          <div className={"BodyContainer attached"}>
-            <div className={"container"}>
-              <ReactMarkdown>{attributes.what}</ReactMarkdown>
-            </div>
-            <LogoNet />
+      <div className="Body">
+        <div className={"BodyContainer fade-in"}>
+          <div className={"container"}>
+            <ReactMarkdown>{attributes.what}</ReactMarkdown>
           </div>
-          <div className="MapContainer">
-            <div className="container">
-              <PeopleMap content={peopleContent} />
-            </div>
-            <div className="Who">
-              <LogoCg />
-              <ReactMarkdown>{attributes.who}</ReactMarkdown>
-            </div>
+          <LogoNet />
+        </div>
+        {/* <div className="MapContainer fade-in-slow">
+          <div className="container">
+            <PeopleMap content={peopleContent} />
+          </div>
+        </div> */}
+        <div className="BodyContainer inverse fade-in">
+          <ReactMarkdown>{attributes.who}</ReactMarkdown>
+          <div>
+            <LogoCg />
           </div>
         </div>
+
         {/* <div className={"BodyContainer"}>
           <LogoCg />
           <div className={"container"}>
@@ -70,8 +65,21 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
       </div>
 
       <div className="EmptyFlex" />
-      <div className="spacer wave" />
-      <div className="Underwater"></div>
+      <div className="Cost fade-in">
+        <div>
+          Opinion is funded by COST{"  "}
+          <a href="https://www.cost.eu/actions/CA21129/">(CA21129)</a>
+        </div>
+        <ReactMarkdown>
+          COST (European Cooperation in Science and Technology) is a funding
+          agency for research and innovation networks. Our Actions help connect
+          research initiatives across Europe and enable scientists to grow their
+          ideas by sharing them with their peers. This boosts their research,
+          career and innovation.
+        </ReactMarkdown>
+      </div>
+      {/* <div className="spacer wave" />
+      <div className="Underwater"></div> */}
     </main>
   );
 };

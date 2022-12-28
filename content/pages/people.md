@@ -1,4 +1,5 @@
 ---
+title: Over 130 members across 34 European countries, Israel and the US.
 people:
   - name: Ben Wagner
     homepage: https://benwagner.org
@@ -524,6 +525,7 @@ people:
       - Dissemination
     role: AC
     mc: 1
+    email: c.baden@mail.huji.ac.il
   - name: Igor Micevski
     homepage:
     country: MK

@@ -23,6 +23,7 @@ export default function preparePeopleContent(content: any) {
       workgroups: person.workgroups,
       role: person.role,
       mc: person.mc === 1,
+      email: person.email || "",
       country: country.name,
       countryCode: country.code,
       countryFlag: country.emoji,

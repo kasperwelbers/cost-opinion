@@ -3,7 +3,6 @@
   overflow: auto;
   display: flex;
   flex-direction: column;
-  background: var(--primary);
   position: relative;
   margin: 0 auto;
   min-height: 1800px;
@@ -12,8 +11,8 @@
 .WGsBody {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   overflow: auto;
-  padding-bottom: 70px;
 }
 
 .WGs .WorkingGroups {
@@ -23,7 +22,7 @@
   justify-content: center;
   padding: 0rem 2rem 2rem 2rem;
   margin: 0 auto;
-  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  font-size: 1.5rem;
 }
 
 .WGs .WorkingGroup {
@@ -47,6 +46,11 @@
   min-height: 6rem;
 }
 
+.WorkingGroupLabel p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .Mini .WorkingGroupLabel {
   transition: transform 1s, font-size 1s;
   transform: scale(0);
@@ -61,7 +65,6 @@
   max-height: 15rem;
   padding-bottom: 2rem;
   transition: transform 1s, max-height 1s, margin 1s;
-  font-size: 4rem;
 }
 
 .WGs.Mini .Title {
@@ -71,7 +74,7 @@
   margin-bottom: 0rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .WGs:not(.Mini) .WorkingGroups {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -162,6 +165,7 @@
 }
 
 .MembersLabel {
+  text-align: center;
   margin-top: 3rem;
   color: var(--primary-light);
 }
