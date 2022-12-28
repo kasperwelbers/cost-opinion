@@ -3,6 +3,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
+  padding: 2rem;
+  background: #0007;
+  border-radius: 5px;
+  backdrop-filter: blur(2px);
 }
 
 .PeopleList h2 {

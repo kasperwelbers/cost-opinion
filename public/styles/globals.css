@@ -242,7 +242,9 @@ blockquote {
 }
 
 .AppFooter img {
-  height: 50px;
+  max-height: 50px;
+  height: auto;
+  max-width: 35vw;
 }
 
 .AppFooter a {
