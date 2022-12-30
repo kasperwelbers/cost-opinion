@@ -1,5 +1,5 @@
 ---
-title: 1st Working Group Meeting, 27/01/2023 at VU Amsterdam
+title: "Announcement: 1st WG Meeting, 27.01.23 at VU Amsterdam"
 date: 2022-12-30T12:56:39.572Z
 author: Christian Baden
 image: img/update-vu.jpg
