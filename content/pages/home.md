@@ -1,8 +1,17 @@
 ---
 title: OPINION
 subtitle: Measuring Opinionated Communication
-who: Over 130 researchers across 34 European countries, Israel and the US. OPINION turns diversity into a key asset toward the development of a multilingual, culturally sensitive field of computational text analysis.
-what: OPINION is an international collaboration for developing united conceptual foundations, research agendas and computational measurement strategies for the study of **opinionated text**.
----
+who: OPINION unites more than 130 researchers across over 30 European countries
+  and beyond, comprising both computational and non-computational scholars from
+  all across the social sciences, the humanities, computer science and
+  artificial intelligence.
+what: >-
+  OPINION is an international network of researchers collaborating to develop
+  and integrate conceptual foundations, computational measurement strategies,
+  and research agendas for the study of textual expressions of evaluative
+  opinions.
 
-OPINION convenes early- and mid-career researchers from 34 European countries, Israel, and the US, integrating cutting-edge expertise from different disciplines (notably, communication science, computational linguistics, IT) while networking the many, hitherto largely disconnected language communities of textual researchers.
+
+  As a concerted effort to address one of the key challenges in the study of digital textual data, OPINION advances a transdisciplinary, multilingual, culturally sensitive, and collaborative approach to studying opinionated communication.
+---
+this text is not currently visible anywhere
