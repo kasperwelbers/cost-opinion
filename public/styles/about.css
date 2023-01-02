@@ -1,4 +1,5 @@
 .AboutContainer {
+  background: #0005;
 }
 
 .About {
@@ -26,11 +27,22 @@
 .AboutBody {
   grid-area: body;
   width: 100%;
-  padding: 2rem 0;
-  font-size: clamp(1.4rem, 1.5vw, 1.7rem);
-  max-width: 800px;
+  padding: 2rem;
+  font-size: clamp(1.5rem, 1.5vw, 1.7rem);
+  max-width: 960px;
   text-align: justify;
   justify-self: center;
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 5px;
+  background: #0005; */
+}
+
+.About img {
+  padding: 2rem;
+  margin: auto;
+  height: 150px;
+  backdrop-filter: blur(5px);
 }
 
 .About h1 {
@@ -51,7 +63,7 @@
 .About .Management {
   grid-area: management;
   padding: 2rem 0;
-  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+  font-size: clamp(1.4rem, 1.5vw, 1.5rem);
   max-width: 1000px;
   text-align: justify;
   justify-self: center;
@@ -60,7 +72,7 @@
 .About .People {
   grid-area: people;
   padding: 2rem 0;
-  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+  font-size: clamp(1.4rem, 1.5vw, 1.5rem);
   max-width: 800px;
   text-align: justify;
   justify-self: center;

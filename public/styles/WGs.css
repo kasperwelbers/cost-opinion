@@ -124,7 +124,7 @@
 .WGs .WorkingGroupDetails {
   text-align: justify;
   font-size: clamp(1.2rem, 2vw, 1.5rem);
-  padding: 1rem 5rem 5rem 5rem;
+  padding: 2rem 5rem 5rem 5rem;
   z-index: 10;
   color: white;
   margin: auto;
@@ -133,15 +133,22 @@
   background: #0005;
 }
 
+.WGs .WorkingGroupDetails h2 {
+  text-align: center;
+  color: var(--primary-light);
+  margin-bottom: 2rem;
+}
+
 .WGs .WorkingGroupDetails h1 {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .WGPeople {
   width: 100%;
   display: flex;
   flex-direction: column;
-  font-size: clamp(1.1rem, 1.6vw, 1.4rem);
+  font-size: clamp(1.4rem, 1.6vw, 1.5rem);
 }
 
 .WGChairs {

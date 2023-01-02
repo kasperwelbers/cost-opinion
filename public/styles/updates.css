@@ -98,11 +98,14 @@
   padding: 2rem;
   max-width: 1000px;
   margin: auto;
+  margin-top: 2rem;
+  backdrop-filter: blur(2px);
   flex: 1 1 auto;
   box-sizing: border-box;
   text-align: justify;
   color: white;
   hyphens: auto;
+  background: #0005;
 }
 
 .Update img {

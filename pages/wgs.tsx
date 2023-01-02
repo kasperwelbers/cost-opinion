@@ -111,7 +111,8 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg, people }) => {
 
   return (
     <div className="WorkingGroupDetails fade-in-slow">
-      <h1>Working Group: {wg.title}</h1>
+      <h1>{wg.title}</h1>
+      <h2>Working group</h2>
       <ReactMarkdown>{wg.body}</ReactMarkdown>
       <div className="WGPeople">
         <div className="WGChairs">

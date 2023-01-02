@@ -25,12 +25,15 @@ const About: NextPage<Props> = ({ content, peopleContent }) => {
         <div className="AboutBody">
           <h1>{attributes.title}</h1>
 
-          <ReactMarkdown>{attributes.aim_objectives}</ReactMarkdown>
+          <div>
+            <ReactMarkdown>{attributes.aim_objectives}</ReactMarkdown>
+          </div>
+          <img src="/img/opinion_i.gif" alt={"OPINION logo"} />
         </div>
+
         <div className="Management">
           <PeopleList roles={peopleContent.attributes.roles} />
         </div>
-        <div className="People"></div>
       </div>
     </div>
   );

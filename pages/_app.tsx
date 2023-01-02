@@ -34,12 +34,14 @@ function MyApp({ Component, pageProps }: AppProps) {
         }
       `}</style>
       <div className="AppContainer" style={{ position: "relative" }}>
-        <div
-          className="AppContainerImage"
-          style={{
-            backgroundImage: `url("/img/europe_alt.jpg")`,
-          }}
-        />
+        <div className="AppContainerBackground">
+          <div
+            className="AppContainerImage"
+            style={{
+              backgroundImage: `url("/img/europe_alt.jpg")`,
+            }}
+          />
+        </div>
         <div className="AppBody">
           <Navbar path={path} />
           <Component {...pageProps} />

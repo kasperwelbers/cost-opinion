@@ -180,20 +180,34 @@ blockquote {
   background: var(--primary);
 }
 
-.AppContainerImage {
+.AppContainerBackground {
   position: absolute;
   top: 0;
   left: 0;
-  height: calc(100% + 400px);
-  width: calc(100% + 400px);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.AppContainerImage {
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 30%;
+  background-position: 50% 30%;
   filter: saturate(0);
-  margin-top: -400px;
-  margin-left: -400px;
   opacity: 0.3;
+  /* animation: slowmove 60s; */
+}
+
+@keyframes slowmove {
+  0% {
+    background-position: 50% 30%;
+  }
+  100% {
+    background-position: 20% 30%;
+  }
 }
 
 .AppBody {
@@ -264,8 +278,6 @@ blockquote {
   display: flex;
   padding: 0.6rem 1rem 0.2rem 1rem;
   border-radius: 2px;
-  background: white;
-  border: 1px solid var(--primary-light);
 }
 
 .LogoAndName a {
@@ -279,7 +291,7 @@ blockquote {
 
 .LogoAndName .Name {
   cursor: default;
-  color: var(--primary);
+  color: white;
   font-weight: 600;
   padding-top: 2px;
   line-height: 2rem;

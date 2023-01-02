@@ -4,7 +4,6 @@
   justify-content: space-between;
   gap: 1rem;
   padding: 2rem;
-  background: #0007;
   border-radius: 5px;
   backdrop-filter: blur(2px);
 }
@@ -98,7 +97,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-size: clamp(1.4rem, 2vw, 1.5rem);
   font-weight: 500;
 }
 

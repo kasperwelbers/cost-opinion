@@ -15,7 +15,7 @@ export default function Footer() {
 
       <Link href="about">
         <div className="LogoAndName">
-          <img src="/img/opinion.gif" alt={"OPINION logo"} />
+          <img src="/img/opinion_i.gif" alt={"OPINION logo"} />
 
           <div className="Name">
             <span>OPINION</span>
