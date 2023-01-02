@@ -39,10 +39,10 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
       </div>
       <div className="Body">
         <div className={"BodyContainer fade-in"}>
-          <div className={"container"}>
-            <ReactMarkdown>{attributes.what}</ReactMarkdown>
+          <ReactMarkdown>{attributes.what}</ReactMarkdown>
+          <div>
+            <LogoNet />
           </div>
-          <LogoNet />
         </div>
         {/* <div className="MapContainer fade-in-slow">
           <div className="container">

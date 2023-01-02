@@ -99,7 +99,7 @@
   align-items: center;
   padding: 2rem 2rem 1rem 2rem;
   color: var(--primary-light);
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 2vw, 2rem);
   position: relative;
 
   text-align: center;
@@ -108,7 +108,7 @@
 
 .Cost p {
   color: white;
-  font-size: 1.3rem;
+  font-size: 0.75em;
 }
 
 .Cost svg {
@@ -129,7 +129,7 @@
 }
 
 .Body div {
-  font-size: clamp(1.6rem, 2vw, 2rem);
+  font-size: clamp(1.4rem, 2vw, 2rem);
   text-align: justify;
 }
 

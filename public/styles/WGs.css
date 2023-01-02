@@ -39,22 +39,19 @@
 }
 
 .WGs.Mini .WorkingGroup {
-  transform: scale(0.5);
-}
-
-.WorkingGroupLabel h3 {
-  min-height: 6rem;
+  transform: scale(0.6);
 }
 
 .WorkingGroupLabel p {
   text-align: justify;
   hyphens: auto;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
 
 .Mini .WorkingGroupLabel {
   transition: transform 1s, font-size 1s;
-  transform: scale(0);
-  font-size: 0;
+  transform: scale(1);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
 
 .WGs .Title {
@@ -68,10 +65,17 @@
 }
 
 .WGs.Mini .Title {
-  transform: translateY(-100px) scale(0);
+  transform: translateY(-100px) scale(1);
   max-height: 0rem;
   margin-top: 0rem;
   margin-bottom: 0rem;
+}
+
+.WGs .WorkingGroupLabel h3 {
+  min-height: 6rem;
+}
+.WGs.Mini .WorkingGroupLabel h3 {
+  min-height: 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -82,7 +86,7 @@
   }
   .WGs.Mini h3 {
     transition: font-size 0s;
-    font-size: 0rem;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
   }
 }
 
@@ -119,7 +123,7 @@
 
 .WGs .WorkingGroupDetails {
   text-align: justify;
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
   padding: 1rem 5rem 5rem 5rem;
   z-index: 10;
   color: white;
@@ -137,6 +141,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  font-size: clamp(1.1rem, 1.6vw, 1.4rem);
 }
 
 .WGChairs {
@@ -145,7 +150,7 @@
   border-bottom: 1px solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 100%;
   text-align: left;
   display: grid;

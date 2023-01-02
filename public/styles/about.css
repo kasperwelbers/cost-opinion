@@ -27,7 +27,7 @@
   grid-area: body;
   width: 100%;
   padding: 2rem 0;
-  font-size: 1.6rem;
+  font-size: clamp(1.3rem, 1.5vw, 1.5rem);
   max-width: 800px;
   text-align: justify;
   justify-self: center;
@@ -51,7 +51,7 @@
 .About .Management {
   grid-area: management;
   padding: 2rem 0;
-  font-size: clamp(1.5rem, 1.5vw, 2rem);
+  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
   max-width: 1000px;
   text-align: justify;
   justify-self: center;
@@ -60,7 +60,7 @@
 .About .People {
   grid-area: people;
   padding: 2rem 0;
-  font-size: clamp(1.5rem, 1.5vw, 2rem);
+  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
   max-width: 800px;
   text-align: justify;
   justify-self: center;

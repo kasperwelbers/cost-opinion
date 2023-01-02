@@ -108,7 +108,8 @@
 .Update img {
   margin: 2.5rem auto;
 
-  width: 100%;
+  width: 80%;
+  padding: 1rem 10%;
   height: 100%;
   float: right;
   border-radius: 5px;
@@ -120,13 +121,14 @@
   margin: auto;
   flex: 1 1 auto;
   box-sizing: border-box;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
 }
 
 @media (min-width: 800px) {
   .Update img {
     margin: 2.5rem 1rem 2rem 2rem;
-
     width: 50%;
+    padding: 0;
   }
 }
 

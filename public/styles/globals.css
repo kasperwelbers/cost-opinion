@@ -46,6 +46,7 @@ strong {
 p {
   margin-top: 0;
   margin-bottom: 1em;
+  hyphens: auto;
 }
 
 h1,
@@ -190,6 +191,7 @@ blockquote {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 30%;
   filter: saturate(0);
   margin-top: -400px;
   margin-left: -400px;

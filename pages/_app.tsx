@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <div
           className="AppContainerImage"
           style={{
-            backgroundImage: `url("/img/europe.jpeg")`,
+            backgroundImage: `url("/img/europe_alt.jpg")`,
           }}
         />
         <div className="AppBody">
