@@ -27,7 +27,7 @@
   grid-area: body;
   width: 100%;
   padding: 2rem 0;
-  font-size: clamp(1.3rem, 1.5vw, 1.5rem);
+  font-size: clamp(1.4rem, 1.5vw, 1.7rem);
   max-width: 800px;
   text-align: justify;
   justify-self: center;

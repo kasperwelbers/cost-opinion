@@ -96,7 +96,7 @@ function PeoplePerCountry(props: {
             max-height: 10000px;
           }
           .Country {
-            max-width: 500px;
+            max-width: 300px;
           }
         }
         .CountryLabel {

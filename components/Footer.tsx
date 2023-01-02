@@ -12,7 +12,19 @@ export default function Footer() {
         src="/img/EN-Funded by the EU-POS.jpg"
         alt={"Funded by the European Union"}
       />
+
       <Link href="about">
+        <div className="LogoAndName">
+          <img src="/img/opinion.gif" alt={"OPINION logo"} />
+
+          <div className="Name">
+            <span>OPINION</span>
+            <br />
+            <span>Network</span>
+          </div>
+        </div>
+      </Link>
+      {/* <Link href="about">
         <div className="LogoAndName">
           <LogoNet className="Logo" />
           <div className="Name">
@@ -21,7 +33,7 @@ export default function Footer() {
             <span>Network</span>
           </div>
         </div>
-      </Link>
+      </Link> */}
     </div>
   );
 }

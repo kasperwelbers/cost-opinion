@@ -30,8 +30,6 @@ body {
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;
-  letter-spacing: 0.01em;
-  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -264,7 +262,10 @@ blockquote {
 
 .LogoAndName {
   display: flex;
-  padding: 0.6rem 4rem 0 0;
+  padding: 0.6rem 1rem 0.2rem 1rem;
+  border-radius: 2px;
+  background: white;
+  border: 1px solid var(--primary-light);
 }
 
 .LogoAndName a {
@@ -278,7 +279,7 @@ blockquote {
 
 .LogoAndName .Name {
   cursor: default;
-  font-family: sans-serif;
+  color: var(--primary);
   font-weight: 600;
   padding-top: 2px;
   line-height: 2rem;

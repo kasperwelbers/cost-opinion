@@ -6,7 +6,7 @@
 
 .Home .Header {
   position: relative;
-  color: var(--primary-light);
+  color: white;
   height: 100%;
   width: 100%;
   padding: 5rem 0;
@@ -129,7 +129,7 @@
 }
 
 .Body div {
-  font-size: clamp(1.4rem, 2vw, 2rem);
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
   text-align: justify;
 }
 

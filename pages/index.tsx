@@ -39,7 +39,9 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
       </div>
       <div className="Body">
         <div className={"BodyContainer fade-in"}>
-          <ReactMarkdown>{attributes.what}</ReactMarkdown>
+          <div>
+            <ReactMarkdown>{attributes.what}</ReactMarkdown>
+          </div>
           <div>
             <LogoNet />
           </div>
@@ -50,7 +52,9 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
           </div>
         </div> */}
         <div className="BodyContainer inverse fade-in">
-          <ReactMarkdown>{attributes.who}</ReactMarkdown>
+          <div>
+            <ReactMarkdown>{attributes.who}</ReactMarkdown>
+          </div>
           <div>
             <LogoCg />
           </div>
@@ -70,13 +74,15 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
           Opinion is funded by COST{"  "}
           <a href="https://www.cost.eu/actions/CA21129/">(CA21129)</a>
         </div>
-        <ReactMarkdown>
-          COST (European Cooperation in Science and Technology) is a funding
-          agency for research and innovation networks. Our Actions help connect
-          research initiatives across Europe and enable scientists to grow their
-          ideas by sharing them with their peers. This boosts their research,
-          career and innovation.
-        </ReactMarkdown>
+        <div>
+          <ReactMarkdown>
+            COST (European Cooperation in Science and Technology) is a funding
+            agency for research and innovation networks. Our Actions help
+            connect research initiatives across Europe and enable scientists to
+            grow their ideas by sharing them with their peers. This boosts their
+            research, career and innovation.
+          </ReactMarkdown>
+        </div>
       </div>
       {/* <div className="spacer wave" />
       <div className="Underwater"></div> */}
