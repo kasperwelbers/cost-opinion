@@ -10289,7 +10289,7 @@
         {
           "arcs": [[-17, 427, 428, 429]],
           "type": "Polygon",
-          "properties": { "name": "Kosovo", "Alpha-2": null },
+          "properties": { "name": "Kosovo", "Alpha-2": "XK" },
           "id": "CS-KM"
         },
         {

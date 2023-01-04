@@ -65,7 +65,7 @@ const PeopleMap: FunctionComponent<Props> = ({ content }: Props) => {
       <style jsx>{`
         .PeopleMap {
           max-width: 1000px;
-          margin: auto;
+          /* margin: auto; */
           grid-area: map;
           border-radius: 20px;
           position: relative;

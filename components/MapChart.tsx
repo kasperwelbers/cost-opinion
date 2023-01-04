@@ -98,6 +98,7 @@ const MapChart: FunctionComponent<Props> = ({
             const missedCountries = new Set(Object.keys(countries));
             geographies = geographies.filter((geo, i) => {
               const code = geo.properties["Alpha-2"];
+
               const membercountry = countries[code];
               if (!showCountries.includes(code)) return false;
               if (membercountry) missedCountries.delete(code);
@@ -241,6 +242,7 @@ const showCountries = [
   "TR",
   "UA",
   "US",
+  "XK",
 ];
 
 export default memo(MapChart);
