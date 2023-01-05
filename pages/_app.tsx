@@ -16,6 +16,7 @@ import AuthContextProvider from "../contexts/authContext";
 import { Poppins } from "@next/font/google";
 
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 const font = Poppins({
   weight: "500",
@@ -35,11 +36,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       `}</style>
       <div className="AppContainer" style={{ position: "relative" }}>
         <div className="AppContainerBackground">
-          <div
-            className="AppContainerImage"
-            style={{
-              backgroundImage: `url("/img/europe_smaller.jpg")`,
-            }}
+          <Image
+            className="BackgroundImage"
+            src="/img/europe_smaller.jpg"
+            alt="Map of Europe"
+            fill={true}
           />
         </div>
         <div className="AppBody">

@@ -181,7 +181,7 @@ blockquote {
 }
 
 .AppContainerBackground {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
@@ -189,15 +189,12 @@ blockquote {
   overflow: hidden;
 }
 
-.AppContainerImage {
-  height: 100%;
+.BackgroundImage {
   width: 100%;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 30%;
+
   filter: saturate(0);
   opacity: 0.3;
+  object-fit: cover;
   /* animation: slowmove 60s; */
 }
 
