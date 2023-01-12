@@ -8,10 +8,7 @@ export default function Footer() {
       <a href="https://www.cost.eu">
         <Cost height="55px" />
       </a>
-      <img
-        src="/img/EN-Funded by the EU-POS.jpg"
-        alt={"Funded by the European Union"}
-      />
+      <img src="/img/eu.gif" alt={"Funded by the European Union"} />
 
       <Link href="about">
         <div className="LogoAndName">

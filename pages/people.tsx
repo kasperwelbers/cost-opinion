@@ -74,7 +74,7 @@ function PeoplePerCountry(props: {
           justify-content: flex-start;
           gap: 2rem;
           margin: auto;
-          max-height: 2200px;
+          max-height: 2500px;
           max-width: 1200px;
           color: white;
           padding: 2rem;

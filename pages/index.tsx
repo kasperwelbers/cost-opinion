@@ -71,8 +71,8 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
       <div className="EmptyFlex" />
       <div className="Cost fade-in">
         <div>
-          Opinion is funded by COST{"  "}
-          <a href="https://www.cost.eu/actions/CA21129/">(CA21129)</a>
+          Opinion is funded by COST{"  "}(
+          <a href="https://www.cost.eu/actions/CA21129/">CA21129</a>)
         </div>
         <div>
           <ReactMarkdown>
