@@ -28,15 +28,7 @@ There will not be a full hybrid format, though. Online participants can post que
 
 If you wish to follow online in real time, please use the following Zoom links:
 
-**Plenary Sessions**: https://huji.zoom.us/j/87270541945?pwd=MS8yZnNCa0R6UWJ5YndtR2xDR2djZz09 
-
-**WG1 Sessions**: https://huji.zoom.us/j/89721007727?pwd=dHNWRmcxdmdwRitpSm1FVi90NE9OQT09 
-
-**WG2 Sessions**: https://uva-live.zoom.us/j/84110221141 
-
-**WG3 Sessions**: https://us06web.zoom.us/j/82158312047?pwd=UFFScWowQ2xqVFgvTlVIVXZMTC9odz09 
-
-**WG4 Sessions**: https://usal-es.zoom.us/j/87169587032 
+**[Plenary Sessions](https://huji.zoom.us/j/87270541945?pwd=MS8yZnNCa0R6UWJ5YndtR2xDR2djZz09)** - **[WG1 Sessions](https://huji.zoom.us/j/89721007727?pwd=dHNWRmcxdmdwRitpSm1FVi90NE9OQT09)** - **[WG2 Sessions](https://uva-live.zoom.us/j/84110221141)** - **[WG3 Sessions](https://us06web.zoom.us/j/82158312047?pwd=UFFScWowQ2xqVFgvTlVIVXZMTC9odz09) - [WG4 Sessions](https://usal-es.zoom.us/j/87169587032)**
 
 The recordings will be made available to all members after the meeting.
 
