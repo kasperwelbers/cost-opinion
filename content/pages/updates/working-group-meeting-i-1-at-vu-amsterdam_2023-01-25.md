@@ -61,7 +61,7 @@ Theory (*Chair: Agnieszka Stepinska*), Room: 01A33
 * Introductions
 * Mapping Key Concepts
 
-Data (*Chair: Damian Trilling*), Room: 05A24
+Data (*Chair: Damian Trilling*), Room: 02A24
 
 * Introductions
 * Mapping Key Tools
