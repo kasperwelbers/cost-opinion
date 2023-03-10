@@ -28,7 +28,7 @@ const About: NextPage<Props> = ({ content, peopleContent }) => {
           <div>
             <ReactMarkdown>{attributes.aim_objectives}</ReactMarkdown>
           </div>
-          <img src="/img/opinion_i.gif" alt={"OPINION logo"} />
+          {/* <img src="/img/opinion_i.gif" alt={"OPINION logo"} /> */}
         </div>
 
         <div className="Management">

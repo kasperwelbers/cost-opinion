@@ -3,7 +3,7 @@
   color: var(--primary-light);
   box-shadow: 5px 0px 10px var(--primary);
   position: sticky;
-  width: 100vw;
+  /* width: 100vw; */
 
   padding-top: 0.5rem;
   top: 0;

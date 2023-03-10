@@ -80,6 +80,11 @@
   stroke: white;
 }
 
+.BodyContainer img {
+  height: 120px;
+  padding-left: 1rem;
+}
+
 .BodyContainer.inverse {
   flex-direction: row-reverse;
   background-color: #fffb;

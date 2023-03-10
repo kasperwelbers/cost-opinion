@@ -100,7 +100,7 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg, people }) => {
   const members = people.members;
 
   const printPerson = (person: Person) => {
-    if (!person) return "...";
+    if (!person) return "";
     return (
       <div style={{ display: "flex" }}>
         <span style={{ paddingRight: "1rem" }}>{person.countryFlag}</span>
@@ -118,21 +118,42 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg, people }) => {
         <div className="WGChairs">
           <div key="leader" className="Person">
             <label>CHAIR </label>{" "}
-            <FaEnvelope
-              style={{
-                padding: "0px 10px 0px 10px",
-                transform: "translateY(5px)",
-                cursor: "pointer",
-              }}
-              onClick={() => alert("implement send email")}
-            />
             <div style={{ marginTop: "10px" }}>{printPerson(leader)}</div>
           </div>
           <div key="vices" className="Person">
             <label>VICE CHAIRS</label>
-            <div key="v1">{printPerson(vices[0])}</div>
+            <div style={{ marginTop: "10px" }} key="v1">
+              {printPerson(vices[0])}
+            </div>
             <div key="v2">{printPerson(vices[1])}</div>
           </div>
+          <div className="Contact">
+            <a href={`mailto:${leader.email}`}>
+              <FaEnvelope
+                style={{
+                  fontSize: "1.6rem",
+                  paddingRight: "0.8rem",
+                  transform: "translateY(4px)",
+                  cursor: "pointer",
+                }}
+              />
+            </a>
+            {leader.email}
+          </div>
+          {/* <div key="contact" className="Person">
+            <label>CONTACT</label>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <FaEnvelope
+                style={{
+                  padding: "0",
+                  textAlign: "right",
+                  transform: "translateY(5px)",
+                  cursor: "pointer",
+                }}
+                onClick={() => window.open(`mailto:${leader.email}`)}
+              />
+            </div>
+          </div> */}
         </div>
 
         <h2 className="MembersLabel">MEMBERS</h2>

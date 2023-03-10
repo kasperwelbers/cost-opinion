@@ -17,13 +17,27 @@ export default function preparePeopleContent(content: any) {
         "Country in COST action participant list neither matches on ISO code or country name"
       );
 
+    const workgroups = [];
+    if (person.wg_theory) workgroups.push("wg_theory");
+    if (person.wg_tools) workgroups.push("wg_tools");
+    if (person.wg_data) workgroups.push("wg_data");
+    if (person.wg_dissemination) workgroups.push("wg_dissemination");
+
+    let chairMail = "";
+    if (person.role === "AC" || person.role === "ACV" || person.role === "GHSR")
+      chairMail = "leaders@opinion-network.eu";
+    if (person.role === "WG1L") chairMail = "wg1-leaders@opinion-network.eu";
+    if (person.role === "WG2L") chairMail = "wg2-leaders@opinion-network.eu";
+    if (person.role === "WG3L") chairMail = "wg3-leaders@opinion-network.eu";
+    if (person.role === "WG4L") chairMail = "wg4-leaders@opinion-network.eu";
+
     const personObj = {
       name: person.name,
       homepage: person.homepage,
-      workgroups: person.workgroups,
+      workgroups,
       role: person.role,
       mc: person.mc === 1,
-      email: person.email || "",
+      email: person.email || chairMail || "",
       country: country.name,
       countryCode: country.code,
       countryFlag: country.emoji,

@@ -116,20 +116,13 @@ export default {
               widget: "list",
               fields: [
                 { label: "Name", name: "name", widget: "string" },
+                { label: "WG Theory", name: "wg_theory", widget: "boolean" },
+                { label: "WG Tools", name: "wg_tools", widget: "boolean" },
+                { label: "WG Data", name: "wg_data", widget: "boolean" },
                 {
-                  label: "Primary workgroup",
-                  name: "workgroups",
-                  widget: "select",
-                  multiple: false,
-                  options: [
-                    { label: "Theory", value: "Theory" },
-                    { label: "Tools", value: "Tools" },
-                    { label: "Application & Data", value: "Data" },
-                    {
-                      label: "Inclusion & Dissemination",
-                      value: "Dissemination",
-                    },
-                  ],
+                  label: "WG Dissemination",
+                  name: "wg_dissemination",
+                  widget: "boolean",
                 },
                 { label: "MC", name: "mc", widget: "boolean" },
                 {

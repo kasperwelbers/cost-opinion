@@ -9,18 +9,16 @@ export default function Footer() {
         <Cost height="55px" />
       </a>
       <img src="/img/eu.gif" alt={"Funded by the European Union"} />
-
-      <Link href="about">
-        <div className="LogoAndName">
-          <img src="/img/opinion_i.gif" alt={"OPINION logo"} />
-
-          <div className="Name">
-            <span>OPINION</span>
-            <br />
-            <span>Network</span>
-          </div>
-        </div>
-      </Link>
+      <div className="LogoAndName">
+        <a href="https://vu.nl/en">
+          <img src="/img/vu.png" alt={"Vrije Universiteit Amsterdam Logo"} />
+        </a>
+        {/* <div className="Name">
+          <span>Vrije Universiteit</span>
+          <br />
+          <span>Amsterdam</span>
+        </div> */}
+      </div>
       {/* <Link href="about">
         <div className="LogoAndName">
           <LogoNet className="Logo" />

@@ -1,7 +1,7 @@
 import { NextPage, GetStaticProps } from "next";
 import prepareUpdatesList from "../util/prepareUpdatesList";
 import readMd from "../util/readMd";
-import { FunctionComponent, useState } from "react";
+import { FunctionComponent, useMemo, useState } from "react";
 import { useRouter } from "next/router";
 import { FaCaretDown, FaChevronCircleDown } from "react-icons/fa";
 
@@ -28,13 +28,38 @@ interface Update {
 const Updates: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
 
+  const [updates, announcements] = useMemo(() => {
+    const updates: Update[] = [];
+    const announcements: Update[] = [];
+
+    const now = Date.now();
+    for (const update of attributes.updates) {
+      if (Date.parse(update.date) >= now) {
+        announcements.push(update);
+      } else {
+        updates.push(update);
+      }
+    }
+    return [updates, announcements];
+  }, [attributes]);
+
   return (
     <div className={"AppComponent Updates"}>
-      <div className={"Header fade-in"}>
-        <h1>{attributes.title}</h1>
-      </div>
       <div className="Body">
-        <UpdateList updates={attributes.updates} />
+        {announcements.length > 0 && (
+          <div>
+            <div className={"Header fade-in"}>
+              <h1>Coming up</h1>
+            </div>
+            <UpdateList updates={announcements} />
+          </div>
+        )}
+        <div>
+          <div className={"Header fade-in"}>
+            <h1>{attributes.title}</h1>
+          </div>
+          <UpdateList updates={updates} />
+        </div>
       </div>
     </div>
   );

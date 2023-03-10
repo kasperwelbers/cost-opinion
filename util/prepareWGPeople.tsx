@@ -1,6 +1,6 @@
 import { Person } from "../types";
 
-const wgs = ["Theory", "Tools", "Data", "Dissemination"];
+const wgs = ["wg_theory", "wg_tools", "wg_data", "wg_dissemination"];
 
 export default function prepareWGPeople(people: Person[]) {
   const members: any = {};
@@ -16,7 +16,7 @@ export default function prepareWGPeople(people: Person[]) {
 
       if (p.role === code + "L") {
         members[wpi].leader = p;
-      } else if (p.role === code + "V") {
+      } else if (p.role?.slice(0, 4) === code + "V") {
         members[wpi].vices.push(p);
       } else {
         members[wpi].members.push(p);

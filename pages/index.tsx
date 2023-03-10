@@ -43,7 +43,8 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
             <ReactMarkdown>{attributes.what}</ReactMarkdown>
           </div>
           <div>
-            <LogoNet />
+            <img src="/img/opinion_i.gif" alt={"OPINION logo"} />
+            {/* <LogoNet /> */}
           </div>
         </div>
         {/* <div className="MapContainer fade-in-slow">
@@ -56,7 +57,7 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
             <ReactMarkdown>{attributes.who}</ReactMarkdown>
           </div>
           <div>
-            <LogoCg />
+            <LogoNet />
           </div>
         </div>
 

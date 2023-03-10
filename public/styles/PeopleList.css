@@ -6,6 +6,7 @@
   padding: 2rem;
   border-radius: 5px;
   backdrop-filter: blur(2px);
+  font-size: clamp(1.5rem, 1.5vw, 1.7rem);
 }
 
 .PeopleList h2 {
@@ -42,7 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 3.5rem;
+  min-height: 5rem;
 }
 
 .RoleGroupContainer h4 {
@@ -55,7 +56,6 @@
   color: var(--primary);
   font-size: 1.6rem;
   text-align: center;
-
   line-height: 2rem;
 }
 
@@ -97,12 +97,17 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: clamp(1.4rem, 2vw, 1.5rem);
+  font-size: clamp(1.5rem, 2vw, 1.8rem);
   font-weight: 500;
 }
 
-.Person .Mail {
-  cursor: pointer;
+.Mail {
+  padding: 0.3rem 1rem;
+  line-height: 1.4rem;
+  border-radius: 5px;
+  /* background: var(--primary-opacity); */
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .Person label {
