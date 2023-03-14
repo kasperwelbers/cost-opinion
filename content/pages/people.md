@@ -2,1326 +2,1353 @@
 title: Over 130 members across 34 European countries, Israel and the US.
 people:
   - name: Ben Wagner
+    wg_tools: 1
     homepage: https://benwagner.org
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: NL
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Nikolina Palamidovska-Sterjadovska
+    wg_tools: 0
     homepage: https://www.researchgate.net/profile/Nikolina-Palamidovska-Sterjadovska
-    country: MK
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: MK
+    wg_data: 0
   - name: Anita Ciunova-Shuleska
+    wg_tools: 0
     homepage: https://www.researchgate.net/profile/Anita_Ciunova
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: MK
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Anat Ben-David
+    wg_tools: 1
     homepage: https://www.researchgate.net/profile/Anat_Ben-David
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: IL
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Serap Durmus Ozturk
+    wg_tools: 1
     homepage: https://avesis.ktu.edu.tr/serapdurmus
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: TR
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Aleksandra Krstic
+    wg_tools: 0
     homepage: http://www.fpn.bg.ac.rs/profil/aleksandra-krstic?jezik=lat
-    country: RS
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 1
-    role:
+    wg_theory: 1
+    role: null
     mc: 1
+    country: RS
+    wg_data: 0
   - name: Indrek Ibrus
+    wg_tools: 1
     homepage: https://www.etis.ee/CV/Indrek_Ibrus/est
-    country: EE
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 1
+    country: EE
+    wg_data: 0
   - name: Halliki Harro-Loit
+    wg_tools: 0
     homepage: http://www.yti.ut.ee/et
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: EE
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Tamara Kunić
+    wg_tools: 0
     homepage: https://www.researchgate.net/profile/Tamara-Kunic
+    wg_dissemination: 1
+    wg_theory: 1
+    role: null
+    mc: 1
     country: HR
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 1
-    role:
-    mc: 1
   - name: Annie Waldherr
+    wg_tools: 0
     homepage: https://publizistik.univie.ac.at/en/waldherr-annie
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: AT
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Chakir Mahjoubi
+    wg_tools: 0
     homepage: http://www.lexsense.net
-    country: GB
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 1
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
-  - name: Silvia Majo-Vazquez
-    homepage: http://reutersinstitute.politics.ox.ac.uk/people/dr-silvia-majo-vazquez
     country: GB
-    wg_theory: 0
+    wg_data: 1
+  - name: Silvia Majo-Vazquez
     wg_tools: 0
-    wg_data: 0
+    homepage: http://reutersinstitute.politics.ox.ac.uk/people/dr-silvia-majo-vazquez
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
-  - name: Ana Milojevic
-    homepage: http://www.fpn.bg.ac.rs/profil/ana-milojevic
-    country: RS
-    wg_theory: 1
-    wg_tools: 1
+    country: GB
     wg_data: 0
+  - name: Ana Milojevic
+    wg_tools: 1
+    homepage: http://www.fpn.bg.ac.rs/profil/ana-milojevic
     wg_dissemination: 0
+    wg_theory: 1
     role: WG4V2
     mc: 0
-  - name: José Santana Pereira
-    homepage: https://www.researchgate.net/profile/Jose-Santana-Pereira; https://ciencia.iscte-iul.pt/authors/jose-santana-pereira/cv
-    country: PT
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Ardita Dylgjeri
-    homepage: https://uniel.ems.al/instructors/info/ff621af2-616a-40d0-a2c8-cccabba31298.aspx
-    country: AL
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
-    wg_dissemination: 1
-    role:
-    mc: 0
-  - name: Kristina Milić
-    homepage: https://www.fpn.bg.ac.rs/faculty/kristina-milic
     country: RS
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
+  - name: José Santana Pereira
+    wg_tools: 0
+    homepage: https://www.researchgate.net/profile/Jose-Santana-Pereira;
+      https://ciencia.iscte-iul.pt/authors/jose-santana-pereira/cv
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
-  - name: João Canavilhas
-    homepage: https://www.webjornalismo.pt
     country: PT
+    wg_data: 0
+  - name: Ardita Dylgjeri
+    wg_tools: 0
+    homepage: https://uniel.ems.al/instructors/info/ff621af2-616a-40d0-a2c8-cccabba31298.aspx
+    wg_dissemination: 1
     wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
-    wg_dissemination: 1
-    role:
-    mc: 1
-  - name: Gabriella Pigozzi
-    homepage: http://www.pigozzi.org/Home.html
-    country: FR
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
+    role: null
     mc: 0
-  - name: Mariken van der Velden
-    homepage:
-    country: NL
-    wg_theory: 0
-    wg_tools: 0
+    country: AL
     wg_data: 0
+  - name: Kristina Milić
+    wg_tools: 1
+    homepage: https://www.fpn.bg.ac.rs/faculty/kristina-milic
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
+    country: RS
+    wg_data: 0
+  - name: João Canavilhas
+    wg_tools: 0
+    homepage: https://www.webjornalismo.pt
     wg_dissemination: 1
+    wg_theory: 1
+    role: null
+    mc: 1
+    country: PT
+    wg_data: 0
+  - name: Gabriella Pigozzi
+    wg_tools: 1
+    homepage: http://www.pigozzi.org/Home.html
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
+    country: FR
+    wg_data: 0
+  - name: Mariken van der Velden
+    wg_tools: 0
+    homepage: null
+    wg_dissemination: 1
+    wg_theory: 0
     role: WG4V1
     mc: 0
-  - name: Ledia Kazazi
-    homepage:
-    country: AL
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Gabriella Szabó
-    homepage: https://politologia.tk.mta.hu/en/researcher/szabo-gabriella
-    country: HU
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
-  - name: Hilde Van den Bulck
-    homepage: http://www.ua.ac.be/hilde.vandenbulck
-    country: BE
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
-  - name: Chung-hong Chan
-    homepage:
-    country: DE
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Damian Trilling
-    homepage: https://www.damiantrilling.net; https://newsflows.eu
     country: NL
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
+  - name: Ledia Kazazi
+    wg_tools: 0
+    homepage: null
     wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
+    country: AL
+    wg_data: 1
+  - name: Gabriella Szabó
+    wg_tools: 1
+    homepage: https://politologia.tk.mta.hu/en/researcher/szabo-gabriella
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
+    country: HU
+    wg_data: 0
+  - name: Hilde Van den Bulck
+    wg_tools: 1
+    homepage: http://www.ua.ac.be/hilde.vandenbulck
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
+    country: BE
+    wg_data: 0
+  - name: Chung-hong Chan
+    wg_tools: 1
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
+    country: DE
+    wg_data: 0
+  - name: Damian Trilling
+    wg_tools: 1
+    homepage: https://www.damiantrilling.net; https://newsflows.eu
+    wg_dissemination: 0
+    wg_theory: 0
     role: WG2L
     mc: 1
-  - name: Gokhan Ozkan
-    homepage: http://personel.klu.edu.tr/gokhan.ozkan
-    country: TR
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Jorge Louca
-    homepage: https://www.complexsystems.academy/JorgeL/; https://ciencia.iscte-iul.pt/authors/jorge-louca/cv
-    country: PT
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Nicoleta Corbu
-    homepage: https://www.researchgate.net/profile/Nicoleta-Corbu
-    country: RO
-    wg_theory: 1
-    wg_tools: 1
+    country: NL
     wg_data: 0
+  - name: Gokhan Ozkan
+    wg_tools: 0
+    homepage: http://personel.klu.edu.tr/gokhan.ozkan
     wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
+    country: TR
+    wg_data: 1
+  - name: Jorge Louca
+    wg_tools: 1
+    homepage: https://www.complexsystems.academy/JorgeL/;
+      https://ciencia.iscte-iul.pt/authors/jorge-louca/cv
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
+    country: PT
+    wg_data: 1
+  - name: Nicoleta Corbu
+    wg_tools: 1
+    homepage: https://www.researchgate.net/profile/Nicoleta-Corbu
+    wg_dissemination: 0
+    wg_theory: 1
     role: WG1V2
     mc: 1
-  - name: Fabienne Lind
-    homepage: https://www.researchgate.net/profile/Fabienne-Lind
-    country: AT
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
-  - name: Hajo Boomgaarden
-    homepage:
-    country: AT
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Elena Negrea Busuioc
-    homepage: http://comunicare.ro/cv.php?id=123
     country: RO
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Tom Nicholls
-    homepage: https://orcid.org/0000-0002-6971-8614; https://www.liverpool.ac.uk/communication-and-media/staff/tom-nicholls/
-    country: GB
-    wg_theory: 0
+  - name: Fabienne Lind
     wg_tools: 1
-    wg_data: 1
+    homepage: https://www.researchgate.net/profile/Fabienne-Lind
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
-  - name: Asta Zelenkauskaite
-    homepage: https://scholar.google.com/citations?user=cDxS2wwAAAAJ&hl=en&oi=ao
-    country: LT
-    wg_theory: 1
+    country: AT
+    wg_data: 0
+  - name: Hajo Boomgaarden
     wg_tools: 0
-    wg_data: 1
+    homepage: null
     wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
+    country: AT
+    wg_data: 1
+  - name: Elena Negrea Busuioc
+    wg_tools: 0
+    homepage: http://comunicare.ro/cv.php?id=123
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
+    country: RO
+    wg_data: 0
+  - name: Tom Nicholls
+    wg_tools: 1
+    homepage: https://orcid.org/0000-0002-6971-8614;
+      https://www.liverpool.ac.uk/communication-and-media/staff/tom-nicholls/
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
+    country: GB
+    wg_data: 1
+  - name: Asta Zelenkauskaite
+    wg_tools: 0
+    homepage: https://scholar.google.com/citations?user=cDxS2wwAAAAJ&hl=en&oi=ao
+    wg_dissemination: 0
+    wg_theory: 1
     role: GACV
     mc: 1
-  - name: Aaron Hyzen
-    homepage: https://scholar.google.com/citations?user=hnLQ43IAAAAJ&hl=en; https://www.researchgate.net/profile/Aaron-Hyzen
-    country: BE
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Carlos Arcila Calderón
-    homepage: http://diarium.usal.es/carcila/
-    country: ES
-    wg_theory: 0
-    wg_tools: 1
+    country: LT
     wg_data: 1
+  - name: Aaron Hyzen
+    wg_tools: 1
+    homepage: https://scholar.google.com/citations?user=hnLQ43IAAAAJ&hl=en;
+      https://www.researchgate.net/profile/Aaron-Hyzen
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
+    country: BE
+    wg_data: 0
+  - name: Carlos Arcila Calderón
+    wg_tools: 1
+    homepage: http://diarium.usal.es/carcila/
     wg_dissemination: 1
+    wg_theory: 0
     role: WG4L
     mc: 1
+    country: ES
+    wg_data: 1
   - name: Dimitra Milioni
-    homepage:
+    wg_tools: 0
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: CY
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Anne Kroon
+    wg_tools: 1
     homepage: http://www.uva.nl/profiel/k/r/a.c.kroon/a.c.kroon.html
-    country: NL
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: NL
+    wg_data: 0
   - name: Thorsten Quandt
+    wg_tools: 0
     homepage: https://www.uni-muenster.de/Kowi/en/personen/thorsten-quandt.html
-    country: DE
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: DE
+    wg_data: 0
   - name: Susana Salgado
-    homepage: https://www.ics.ulisboa.pt/pessoa/susana-salgado; https://scholar.google.pt/citations?user=5Fr4LQEAAAAJ&hl=pt-PT
+    wg_tools: 0
+    homepage: https://www.ics.ulisboa.pt/pessoa/susana-salgado;
+      https://scholar.google.pt/citations?user=5Fr4LQEAAAAJ&hl=pt-PT
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: PT
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Jaromir Mazak
-    homepage:
+    wg_tools: 0
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: CZ
-    wg_theory: 0
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Sophia Hunger
+    wg_tools: 1
     homepage: https://wzb.eu/de/personen/sophia-hunger
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: DE
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Giorgia Aiello
-    homepage: http://media.leeds.ac.uk/people/giorgia-aiello/; https://www.unibo.it/sitoweb/giorgia.aiello2
+    wg_tools: 1
+    homepage: http://media.leeds.ac.uk/people/giorgia-aiello/;
+      https://www.unibo.it/sitoweb/giorgia.aiello2
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: IT
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Eike Mark Rinke
+    wg_tools: 0
     homepage: https://essl.leeds.ac.uk/politics/staff/1073/dr-eike-mark-rinke
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: GB
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Matthew Weber
+    wg_tools: 0
     homepage: http://www.matthewsweber.com
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: US
-    wg_theory: 0
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Valmora Gogo
+    wg_tools: 0
     homepage: https://www.beder.edu.al
-    country: AL
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: AL
+    wg_data: 0
   - name: Şule Yüksel Özmen
-    homepage:
+    wg_tools: 0
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: TR
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Aukse Balcytiene
+    wg_tools: 0
     homepage: http://www.vdu.lt/en/person/aukse-balcytiene
-    country: LT
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 1
-    role:
+    wg_theory: 1
+    role: null
     mc: 1
+    country: LT
+    wg_data: 0
   - name: Jurate Ruzaite
+    wg_tools: 1
     homepage: http://hmf.vdu.lt/katedros/germanistikos-ir-romanistikos-katedra/
-    country: LT
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 1
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: LT
+    wg_data: 1
   - name: Andrius Utka
+    wg_tools: 0
     homepage: http://donelaitis.vdu.lt/~andrius/
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: LT
-    wg_theory: 0
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Barbara Lewandowska-Tomaszczyk
+    wg_tools: 1
     homepage: https://www.pwsz.konin.edu.pl/
-    country: PL
+    wg_dissemination: 0
     wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
+    role: null
     mc: 0
-  - name: Besjana Mema Tosuni
-    homepage: https://albanianuniversity.edu.al/sq/kreu/
-    country: AL
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 1
-    wg_dissemination: 1
-    role:
-    mc: 1
-  - name: Kasper Welbers
-    homepage: https://research.vu.nl/en/persons/kasper-welbers
-    country: NL
-    wg_theory: 0
-    wg_tools: 1
+    country: PL
     wg_data: 0
+  - name: Besjana Mema Tosuni
+    wg_tools: 0
+    homepage: https://albanianuniversity.edu.al/sq/kreu/
+    wg_dissemination: 1
+    wg_theory: 0
+    role: null
+    mc: 1
+    country: AL
+    wg_data: 1
+  - name: Kasper Welberss
+    wg_tools: 1
+    homepage: https://research.vu.nl/en/persons/kasper-welbers
     wg_dissemination: 0
+    wg_theory: true
     role: GHSR
     mc: 1
+    country: NL
+    wg_data: 0
   - name: Kristina Juraite
+    wg_tools: 1
     homepage: https://pmdf.vdu.lt/en/about-the-faculty/department-of-public-communication/
-    country: LT
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: LT
+    wg_data: 0
   - name: Mario Haim
+    wg_tools: 0
     homepage: https://haim.it
-    country: DE
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
-  - name: Darius Amilevičius
-    homepage: https://ResearchGate
-    country: LT
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Carlos Cunha
-    homepage:
-    country: PT
-    wg_theory: 1
-    wg_tools: 0
+    country: DE
     wg_data: 0
+  - name: Darius Amilevičius
+    wg_tools: 1
+    homepage: https://ResearchGate
     wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
+    country: LT
+    wg_data: 1
+  - name: Carlos Cunha
+    wg_tools: 0
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 1
     role: WG1V1
     mc: 0
+    country: PT
+    wg_data: 0
   - name: Hartmut Wessler
+    wg_tools: 0
     homepage: http://mkw.uni-mannheim.de/english/prof_dr_hartmut_wessler/
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: DE
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Felicia Loecherbach
+    wg_tools: 1
     homepage: https://www.felicialoecherbach.com
-    country: NL
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: NL
+    wg_data: 0
   - name: Lenka Vochocova
-    homepage: http://www.polcore.cz
-    country: CZ
-    wg_theory: 1
     wg_tools: 0
-    wg_data: 0
+    homepage: http://www.polcore.cz
     wg_dissemination: 1
-    role:
+    wg_theory: 1
+    role: null
     mc: 1
-  - name: Srdjan Vesic
-    homepage: http://www.cril.univ-artois.fr/~vesic/
-    country: FR
-    wg_theory: 0
-    wg_tools: 1
+    country: CZ
     wg_data: 0
+  - name: Srdjan Vesic
+    wg_tools: 1
+    homepage: http://www.cril.univ-artois.fr/~vesic/
     wg_dissemination: 0
+    wg_theory: 0
     role: WG2V1
     mc: 1
-  - name: Agnieszka Stepinska
-    homepage: https://amu.academia.edu/AgnieszkaSt%C4%99pi%C5%84ska; http://agnieszkastepinska.pl/
-    country: PL
-    wg_theory: 1
-    wg_tools: 0
+    country: FR
     wg_data: 0
+  - name: Agnieszka Stepinska
+    wg_tools: 0
+    homepage: https://amu.academia.edu/AgnieszkaSt%C4%99pi%C5%84ska;
+      http://agnieszkastepinska.pl/
     wg_dissemination: 0
+    wg_theory: 1
     role: WG1L
     mc: 1
+    country: PL
+    wg_data: 0
   - name: Judith Möller
+    wg_tools: 0
     homepage: http://www.uva.nl/en/profile/m/o/j.e.moller1/j.e.moller.html
+    wg_dissemination: 1
+    wg_theory: 1
+    role: null
+    mc: 0
     country: NL
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 1
-    role:
-    mc: 0
   - name: Martijn Schoonvelde
+    wg_tools: 1
     homepage: http://mschoonvelde.com
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: IE
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Constantinos Djouvas
-    homepage:
+    wg_tools: 1
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: CY
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Emese Domahidi
+    wg_tools: 0
     homepage: https://www.tu-ilmenau.de/en/university/departments/department-of-economic-sciences-and-media/profile/institutes-and-groups/department-of-communication-science-with-focus-on-computational-communication-science
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: DE
-    wg_theory: 0
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Adina Marincea
+    wg_tools: 0
     homepage: https://www.researchgate.net/profile/Adina-Marincea
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: SK
-    wg_theory: 0
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Moran Yarchi
-    homepage:
-    country: IL
-    wg_theory: 0
     wg_tools: 0
-    wg_data: 1
+    homepage: null
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
+    country: IL
+    wg_data: 1
   - name: Agnieszka Hess
+    wg_tools: 1
     homepage: https://www.media.uj.edu.pl/agnieszka-hess
-    country: PL
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 1
+    country: PL
+    wg_data: 0
   - name: Roksana Zdunek
+    wg_tools: 1
     homepage: https://media.uj.edu.pl/roksana-zdunek
-    country: PL
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: PL
+    wg_data: 0
   - name: Janet Aver Adikpo
+    wg_tools: 0
     homepage: https://www.linkedin.com/in/aver-adikpo-49528132/
-    country: TR
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 1
-    role:
+    wg_theory: 1
+    role: null
     mc: 1
-  - name: Kinga Adamczewska
-    homepage: https://www.researchgate.net/profile/Kinga-Adamczewska
-    country: PL
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Christian Baden
-    homepage: https://scholars.huji.ac.il/christianbaden/
-    country: IL
-    wg_theory: 1
-    wg_tools: 0
+    country: TR
     wg_data: 0
+  - name: Kinga Adamczewska
+    wg_tools: 1
+    homepage: https://www.researchgate.net/profile/Kinga-Adamczewska
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
+    country: PL
+    wg_data: 1
+  - name: Christian Baden
+    wg_tools: 0
+    homepage: https://scholars.huji.ac.il/christianbaden/
     wg_dissemination: 1
+    wg_theory: 1
     role: AC
     mc: 1
+    country: IL
+    wg_data: 0
   - name: Igor Micevski
-    homepage:
-    country: MK
+    wg_tools: 0
+    homepage: null
+    wg_dissemination: 0
     wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
-    wg_dissemination: 0
-    role:
+    role: null
     mc: 1
+    country: MK
+    wg_data: 0
   - name: Anja Bechmann
-    homepage: Http://www.datalab.au.dk
-    country: DK
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 0
+    homepage: Http://www.datalab.au.dk
     wg_dissemination: 0
-    role:
-    mc: 1
-  - name: Helle Sjøvaag
-    homepage: https://sjovaaghelle.wordpress.com/
-    country: NO
     wg_theory: 0
-    wg_tools: 0
+    role: null
+    mc: 1
+    country: DK
     wg_data: 0
+  - name: Helle Sjøvaag
+    wg_tools: 0
+    homepage: https://sjovaaghelle.wordpress.com/
     wg_dissemination: 1
+    wg_theory: 0
     role: ACV
     mc: 1
+    country: NO
+    wg_data: 0
   - name: Bharathi Raja Chakravarthi
-    homepage: https://bharathichezhiyan.github.io/bharathiraja/; https://scholar.google.com/citations?user=irCl028AAAAJ&hl=en
+    wg_tools: 1
+    homepage: https://bharathichezhiyan.github.io/bharathiraja/;
+      https://scholar.google.com/citations?user=irCl028AAAAJ&hl=en
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: IE
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Marija Slavkovik
+    wg_tools: 0
     homepage: http://slavkovik.com
-    country: NO
+    wg_dissemination: 0
     wg_theory: 1
-    wg_tools: 0
+    role: null
+    mc: 0
+    country: NO
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Magdalena Bielenia-Grajewska
+    wg_tools: 0
     homepage: https://old-en.ug.edu.pl/pracownik/346/magdalena_bielenia-grajewska
-    country: PL
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 1
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: PL
+    wg_data: 1
   - name: Samia Touileb
-    homepage: http://www.mn.uio.no/ifi/english/people/aca/samiat/index.html
-    country: NO
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 1
+    homepage: http://www.mn.uio.no/ifi/english/people/aca/samiat/index.html
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
-  - name: Nina Springer
-    homepage: https://www.uni-muenster.de/Kowi/en/personen/nina-springer.html
-    country: DE
-    wg_theory: 1
-    wg_tools: 0
+    country: NO
     wg_data: 1
+  - name: Nina Springer
+    wg_tools: 0
+    homepage: https://www.uni-muenster.de/Kowi/en/personen/nina-springer.html
     wg_dissemination: 0
+    wg_theory: 1
     role: GAC
     mc: 0
-  - name: Aleksandra Urman
-    homepage:
-    country: CH
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 1
-    role:
-    mc: 1
-  - name: Maria Brown
-    homepage: https://www.um.edu.mt/profile/mariabrown; https://scholar.google.com/citations?user=xI8ZlAcAAAAJ&hl=en
-    country: MT
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 0
-    wg_dissemination: 1
-    role:
-    mc: 0
-  - name: Bruno Daniel Ferreira Costa
-    homepage: http://www.degois.pt/visualizador/curriculum.jsp?key=2143080511229662
-    country: PT
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
-    wg_dissemination: 1
-    role:
-    mc: 1
-  - name: Paulina Garcia Corral
-    homepage: https://www.hertie-school.org/en/research/faculty-and-researchers/profile/person/corral
     country: DE
-    wg_theory: 1
+    wg_data: 1
+  - name: Aleksandra Urman
     wg_tools: 1
+    homepage: null
+    wg_dissemination: 1
+    wg_theory: 0
+    role: null
+    mc: 1
+    country: CH
     wg_data: 0
-    wg_dissemination: 0
-    role:
+  - name: Maria Brown
+    wg_tools: 0
+    homepage: https://www.um.edu.mt/profile/mariabrown;
+      https://scholar.google.com/citations?user=xI8ZlAcAAAAJ&hl=en
+    wg_dissemination: 1
+    wg_theory: 0
+    role: null
     mc: 0
+    country: MT
+    wg_data: 0
+  - name: Bruno Daniel Ferreira Costa
+    wg_tools: 0
+    homepage: http://www.degois.pt/visualizador/curriculum.jsp?key=2143080511229662
+    wg_dissemination: 1
+    wg_theory: 1
+    role: null
+    mc: 1
+    country: PT
+    wg_data: 0
+  - name: Paulina Garcia Corral
+    wg_tools: 1
+    homepage: https://www.hertie-school.org/en/research/faculty-and-researchers/profile/person/corral
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
+    country: DE
+    wg_data: 0
   - name: Ilija Tomanic Trivundza
-    homepage: https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije; https://www.researchgate.net/profile/Tomanic-Trivundza-Ilija
+    wg_tools: 1
+    homepage: https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije;
+      https://www.researchgate.net/profile/Tomanic-Trivundza-Ilija
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: SI
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Franziska Marquart
-    homepage: https://orcid.org/0000-0002-8800-9303; https://comm.ku.dk/staff/?pure=en/persons/709163
+    wg_tools: 0
+    homepage: https://orcid.org/0000-0002-8800-9303;
+      https://comm.ku.dk/staff/?pure=en/persons/709163
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: DK
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Edlira Gugu
+    wg_tools: 1
     homepage: https://www.uniel.edu.al/
-    country: AL
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: AL
+    wg_data: 0
   - name: Damian Guzek
+    wg_tools: 0
     homepage: https://www.researchgate.net/profile/Damian_Guzek
-    country: PL
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: PL
+    wg_data: 0
   - name: Omnia Zayed
-    homepage: http://scholar.google.de/citations?user=5Eu_ZSwAAAAJ; https://www.linkedin.com/in/omnia-zayed-296b3726
-    country: IE
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 0
+    homepage: http://scholar.google.de/citations?user=5Eu_ZSwAAAAJ;
+      https://www.linkedin.com/in/omnia-zayed-296b3726
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: IE
+    wg_data: 0
   - name: Paul Buitelaar
+    wg_tools: 1
     homepage: http://www.paulbuitelaar.net/
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: IE
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Carlo Strapparava
-    homepage:
+    wg_tools: 1
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: IT
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Ardita Reçi
-    homepage: https://aab-edu.net/persons/ardita-reci/; https://www.researchgate.net/profile/Ardita-Reci; https://aab-edu.academia.edu/ArditaRe%C3%A7i
-    country: AL
-    wg_theory: 1
     wg_tools: 1
-    wg_data: 1
+    homepage: https://aab-edu.net/persons/ardita-reci/;
+      https://www.researchgate.net/profile/Ardita-Reci;
+      https://aab-edu.academia.edu/ArditaRe%C3%A7i
     wg_dissemination: 1
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: AL
+    wg_data: 1
   - name: Beatriz Herrero
+    wg_tools: 0
     homepage: https://www.researchgate.net/profile/Beatriz_Herrero2
-    country: ES
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
-  - name: Arta Sakja
-    homepage: https://albanianuniversity.edu.al
-    country: AL
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
-  - name: Felix Ortega
-    homepage: http://diarium.usal.es/fortega
     country: ES
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
+  - name: Arta Sakja
+    wg_tools: 1
+    homepage: https://albanianuniversity.edu.al
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: AL
+    wg_data: 0
+  - name: Felix Ortega
+    wg_tools: 1
+    homepage: http://diarium.usal.es/fortega
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
+    country: ES
+    wg_data: 0
   - name: Artur Lipiński
+    wg_tools: 1
     homepage: http://wnpid.amu.edu.pl/pl/kadra.html?pid=54&sid=223:dr-artur-lipiski
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: PL
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Mirjana Ilić
-    homepage:
+    wg_tools: 1
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: RS
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Bruno YUN
+    wg_tools: 1
     homepage: https://homepages.abdn.ac.uk/bruno.yun/pages/
-    country: GB
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: GB
+    wg_data: 0
   - name: Anna De Liddo
+    wg_tools: 1
     homepage: http://kmi.open.ac.uk/people/member/anna-de-liddo
-    country: GB
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: GB
+    wg_data: 0
   - name: Marios Koniaris
+    wg_tools: 1
     homepage: http://www.dbnet.ntua.gr/~mkoniari/
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: GR
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Yucel Saygin
-    homepage: https://people.sabanciuniv.edu/ysaygin; https://scholar.google.com/citations?user=2hVUXWMAAAAJ&hl=en
-    country: TR
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 1
+    homepage: https://people.sabanciuniv.edu/ysaygin;
+      https://scholar.google.com/citations?user=2hVUXWMAAAAJ&hl=en
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
-  - name: Marina Popescu
-    homepage:
-    country: RO
-    wg_theory: 1
-    wg_tools: 0
+    country: TR
     wg_data: 1
+  - name: Marina Popescu
+    wg_tools: 0
+    homepage: null
     wg_dissemination: 0
+    wg_theory: 1
     role: WG3L
     mc: 1
+    country: RO
+    wg_data: 1
   - name: Cengiz Erisen
-    homepage: https://www.researchgate.net/profile/Cengiz-Erisen; https://yeditepe.academia.edu/CengizErisen
+    wg_tools: 1
+    homepage: https://www.researchgate.net/profile/Cengiz-Erisen;
+      https://yeditepe.academia.edu/CengizErisen
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: TR
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Raluca Buturoiu
+    wg_tools: 1
     homepage: https://www.researchgate.net/profile/Raluca-Buturoiu-2
-    country: RO
-    wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: RO
+    wg_data: 0
   - name: Jamal Abdul Nasir
-    homepage: https://scholar.google.com.pk/citations?user=V86JSRwAAAAJ&hl=en&authuser=2; https://www.linkedin.com/in/jamal-nasir-44153ba/
+    wg_tools: 1
+    homepage: https://scholar.google.com.pk/citations?user=V86JSRwAAAAJ&hl=en&authuser=2;
+      https://www.linkedin.com/in/jamal-nasir-44153ba/
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: IE
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Henrik Örnebring
+    wg_tools: 0
     homepage: https://inslaget.kau.se/users/henrik-ornebring
-    country: SE
-    wg_theory: 1
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 1
+    country: SE
+    wg_data: 0
   - name: Leendert (Leon) van der Torre
+    wg_tools: 0
     homepage: icr.uni.lu
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: LU
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Sarah (Sally) Broughton Micova
+    wg_tools: 0
     homepage: https://research-portal.uea.ac.uk/en/persons/sally-broughton-micova
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: MK
-    wg_theory: 0
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Anne Kaun
+    wg_tools: 0
     homepage: www.sh.se
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: SE
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Louis Escouflaire
+    wg_tools: 1
     homepage: https://www.researchgate.net/profile/Louis-Escouflaire
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: BE
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Gal Harpaz
-    homepage: https://www.researchgate.net/profile/Gal-Harpaz; https://www.openu.ac.il/en/personalsites/GalHarpaz.aspx
-    country: IL
-    wg_theory: 1
     wg_tools: 0
-    wg_data: 1
+    homepage: https://www.researchgate.net/profile/Gal-Harpaz;
+      https://www.openu.ac.il/en/personalsites/GalHarpaz.aspx
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: IL
+    wg_data: 1
   - name: Tonja Jerele
+    wg_tools: 1
     homepage: https://www.fdv.uni-lj.si/obvestila-in-informacije/imenik-sodelavcev/raziskovalci/kartica/tonja-jerele/
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: SI
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Serena Villata
+    wg_tools: 1
     homepage: http://www-sop.inria.fr/members/Serena.Villata/
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: FR
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Truls Pedersen
+    wg_tools: 0
     homepage: https://www.uib.no/en/persons/Truls.Andr%C3%A9.Pedersen
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: NO
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Nelda Kote
-    homepage:
-    country: AL
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 1
+    homepage: null
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: AL
+    wg_data: 1
   - name: Anela Mulahmetović Ibrišimović
-    homepage: http://www.ff.untz.ba/index.php?page=ma-anela-mulahmetovic-ibrisimovic; https://www.researchgate.net/profile/Anela-Mulahmetovic
-    country: BA
-    wg_theory: 0
     wg_tools: 0
-    wg_data: 1
+    homepage: http://www.ff.untz.ba/index.php?page=ma-anela-mulahmetovic-ibrisimovic;
+      https://www.researchgate.net/profile/Anela-Mulahmetovic
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
+    country: BA
+    wg_data: 1
   - name: Madalina Botan
-    homepage: https://www.researchgate.net/profile/Madalina-Botan; https://www.comunicare.ro/en/uploads/Profesori/Madalina%20Botan/CV_MadalinaBotanEN.pdf
-    country: RO
-    wg_theory: 1
     wg_tools: 0
-    wg_data: 1
+    homepage: https://www.researchgate.net/profile/Madalina-Botan;
+      https://www.comunicare.ro/en/uploads/Profesori/Madalina%20Botan/CV_MadalinaBotanEN.pdf
     wg_dissemination: 0
-    role:
+    wg_theory: 1
+    role: null
     mc: 0
+    country: RO
+    wg_data: 1
   - name: Chaya Liebeskind
-    homepage:
+    wg_tools: 1
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: IL
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Alba Haveriku
+    wg_tools: 1
     homepage: https://www.researchgate.net/profile/Alba-Haveriku/research
-    country: AL
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 1
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: AL
+    wg_data: 1
   - name: Wouter van Atteveldt
-    homepage: https://vanatteveldt.com
-    country: NL
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 0
+    homepage: https://vanatteveldt.com
     wg_dissemination: 0
+    wg_theory: 0
     role: GHSRV
     mc: 0
+    country: NL
+    wg_data: 0
   - name: Michaela Maier
+    wg_tools: 1
     homepage: https://www.uni-koblenz-landau.de/de/landau/fb8/ikms/kompsych/mmaier
-    country: DE
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: DE
+    wg_data: 0
   - name: Neta Kligler Vilenchik
+    wg_tools: 0
     homepage: http://www.netakv.com
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 1
     country: IL
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Susan Vermeer
+    wg_tools: 1
     homepage: https://www.uva.nl/en/profile/v/e/s.a.m.vermeer/s.a.m.vermeer.html
-    country: NL
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: NL
+    wg_data: 0
   - name: Henning Wachsmuth
-    homepage:
-    country: DE
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 0
+    homepage: null
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: DE
+    wg_data: 0
   - name: Dren Gerguri
+    wg_tools: 1
     homepage: https://www.drengerguri.com
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: XK
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Dana Guy
-    homepage: https://www.linkedin.com/in/dana-guy-8973b475/; https://www.ucd.ie/spire/research/phdcandidateresearchareas/
+    wg_tools: 0
+    homepage: https://www.linkedin.com/in/dana-guy-8973b475/;
+      https://www.ucd.ie/spire/research/phdcandidateresearchareas/
+    wg_dissemination: 1
+    wg_theory: 1
+    role: null
+    mc: 0
     country: IE
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 1
-    role:
-    mc: 0
   - name: Simon Chauchard
+    wg_tools: 1
     homepage: https://www.simonchauchard.com
-    country: ES
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 1
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: ES
+    wg_data: 1
   - name: Ema Kristo
-    homepage: https://de.linkedin.com/in/ema-kristo-727702141; https://orcid.org/0000-0001-7715-222X
-    country: AL
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 0
+    homepage: https://de.linkedin.com/in/ema-kristo-727702141;
+      https://orcid.org/0000-0001-7715-222X
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: AL
+    wg_data: 0
   - name: Lasma Skestere
+    wg_tools: 0
     homepage: https://www.rsu.lv/en
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: LV
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Anna Baczkowska
-    homepage:
+    wg_tools: 1
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: PL
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Serghei Sprincean
+    wg_tools: 0
     homepage: http://www.icjp.asm.md/articol/serghei-sprincean
+    wg_dissemination: 1
+    wg_theory: 0
+    role: null
+    mc: 0
     country: MD
-    wg_theory: 0
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 1
-    role:
-    mc: 0
   - name: Boris Mance
-    homepage:
+    wg_tools: 1
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: SI
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Christina Viehmann
+    wg_tools: 1
     homepage: https://www.blogs.uni-mainz.de/fb02pubcomsc/team/christina-viehmann-dr/
-    country: DE
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 0
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: DE
+    wg_data: 0
   - name: Valerie Hase
-    homepage: https://www.en.ifkw.uni-muenchen.de/staff/academic_staff/hase_valerie/index.html; https://www.valerie-hase.com
+    wg_tools: 1
+    homepage: https://www.en.ifkw.uni-muenchen.de/staff/academic_staff/hase_valerie/index.html;
+      https://www.valerie-hase.com
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: DE
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Alper Ozcan
+    wg_tools: 1
     homepage: https://scholar.google.com.tr/citations?user=UGrer4cAAAAJ&hl=tr
+    wg_dissemination: 1
+    wg_theory: 1
+    role: null
+    mc: 0
     country: TR
-    wg_theory: 1
-    wg_tools: 1
     wg_data: 1
-    wg_dissemination: 1
-    role:
-    mc: 0
   - name: Johannes B. Gruber
-    homepage:
-    country: NL
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 0
+    homepage: null
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: NL
+    wg_data: 0
   - name: Eetu Mäkelä
+    wg_tools: 1
     homepage: https://iki.fi/eetu.makela
-    country: FI
-    wg_theory: 0
-    wg_tools: 1
-    wg_data: 1
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
+    country: FI
+    wg_data: 1
   - name: Anu Koivunen
+    wg_tools: 0
     homepage: https://research.utu.fi/converis/portal/detail/Person/59727269?auxfun=&lang=en_GB
+    wg_dissemination: 0
+    wg_theory: 1
+    role: null
+    mc: 0
     country: FI
-    wg_theory: 1
-    wg_tools: 0
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Daniela Sirinic
-    homepage:
+    wg_tools: 0
+    homepage: null
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 1
     country: HR
-    wg_theory: 0
-    wg_tools: 0
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 1
   - name: Laura Teruel
+    wg_tools: 0
     homepage: https://www.researchgate.net/profile/Laura-Rodriguez-75
-    country: ES
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 0
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: ES
+    wg_data: 0
   - name: Daniel Thiele
-    homepage: https://politikwissenschaft.univie.ac.at/en/about-us/staff/thiele/; https://www.weizenbaum-institut.de/en/spezialseiten/persons-details/p/daniel-thiele/; https://github.com/thieled
+    wg_tools: 1
+    homepage: https://politikwissenschaft.univie.ac.at/en/about-us/staff/thiele/;
+      https://www.weizenbaum-institut.de/en/spezialseiten/persons-details/p/daniel-thiele/;
+      https://github.com/thieled
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: AT
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Dimitra Dimitrakopoulou
+    wg_tools: 1
     homepage: http://dimitrakopoulou.wordpress.com/
+    wg_dissemination: 1
+    wg_theory: 0
+    role: null
+    mc: 1
     country: GR
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 0
-    wg_dissemination: 1
-    role:
-    mc: 1
   - name: Aleksandar Tomašević
-    homepage: https://www.atomasevic.com; https://www.researchgate.net/profile/Aleksandar-Tomasevic; https://www.scopus.com/authid/detail.uri?authorId=57205244304
+    wg_tools: 1
+    homepage: https://www.atomasevic.com;
+      https://www.researchgate.net/profile/Aleksandar-Tomasevic;
+      https://www.scopus.com/authid/detail.uri?authorId=57205244304
+    wg_dissemination: 0
+    wg_theory: 0
+    role: null
+    mc: 0
     country: RS
-    wg_theory: 0
-    wg_tools: 1
     wg_data: 1
-    wg_dissemination: 0
-    role:
-    mc: 0
   - name: Fabio Crestani
+    wg_tools: 1
     homepage: http://usi.to/f6o
-    country: CH
+    wg_dissemination: 0
     wg_theory: 1
-    wg_tools: 1
-    wg_data: 0
-    wg_dissemination: 0
-    role:
+    role: null
     mc: 1
+    country: CH
+    wg_data: 0
   - name: David Blanco-Herrero
-    homepage: https://www.researchgate.net/profile/David-Blanco-Herrero
-    country: ES
-    wg_theory: 0
     wg_tools: 1
-    wg_data: 0
+    homepage: https://www.researchgate.net/profile/David-Blanco-Herrero
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 0
+    country: ES
+    wg_data: 0
   - name: Selma Veseljević Jerković
+    wg_tools: 0
     homepage: http://www.untz.ba
-    country: BA
-    wg_theory: 0
-    wg_tools: 0
-    wg_data: 1
     wg_dissemination: 1
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
+    country: BA
+    wg_data: 1
   - name: Jonila Godole
-    homepage:
-    country: AL
-    wg_theory: 0
     wg_tools: 0
-    wg_data: 0
+    homepage: null
     wg_dissemination: 0
-    role:
+    wg_theory: 0
+    role: null
     mc: 1
-  - name: Aysen Şimsek
-    homepage: https://vu.nl
-    country: NL
-    wg_theory: 0
-    wg_tools: 0
+    country: AL
     wg_data: 0
+  - name: Aysen Şimsek
+    wg_tools: 0
+    homepage: https://vu.nl
     wg_dissemination: 0
+    wg_theory: 0
     role: GHM
     mc: 0
+    country: NL
+    wg_data: 0
 ---
