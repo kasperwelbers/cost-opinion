@@ -457,11 +457,11 @@ people:
     mc: 1
     country: AL
     wg_data: 1
-  - name: Kasper Welberss
+  - name: Kasper Welbers
     wg_tools: 1
     homepage: https://research.vu.nl/en/persons/kasper-welbers
     wg_dissemination: 0
-    wg_theory: true
+    wg_theory: false
     role: GHSR
     mc: 1
     country: NL
