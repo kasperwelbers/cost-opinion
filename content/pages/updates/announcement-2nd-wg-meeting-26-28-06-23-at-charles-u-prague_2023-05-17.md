@@ -1,5 +1,5 @@
 ---
-title: "Announcement: 2nd WG Meeting, 26-28.06.23 at Charles U Prague"
+title: "Announcement: WG & MC Meeting, 26-28.06.23 at Charles U Prague"
 date: 2023-05-17T18:30:20.701Z
 author: Christian Baden
 image: img/cuni.png
