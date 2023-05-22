@@ -459,7 +459,7 @@ people:
     wg_data: 1
   - name: Kasper Welbers
     wg_tools: 1
-    homepage: https://research.vu.nl/en/persons/kasper-welbers
+    homepage: https://research.vu.nl/en/persons/kasper-welbers?test=true
     wg_dissemination: 0
     wg_theory: false
     role: GHSR
