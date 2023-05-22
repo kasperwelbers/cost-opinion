@@ -4,6 +4,8 @@ date: 2023-01-27T21:18:37.869Z
 author: Christian Baden
 image: img/group-picture-wg-i.1.jpg
 ---
+
+
 - - -
 
 **VENUE**
@@ -167,4 +169,4 @@ All minutes and recordings of the Working Group meeting, concerning both the ple
 
 Each Working Group may decide to define specific tasks that members are expected to fulfil in order to be invited to subsequent meetings. Any such decisions will be communicated to all Working Group members by the WG chairs shortly after the meeting. These communications will also include information regarding how and by when such tasks should be completed.
 
-[t﻿est2](public/img/test.pdf)
+[](public/img/test.pdf)
