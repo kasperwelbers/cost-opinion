@@ -36,6 +36,13 @@ body {
 
 a {
   color: var(--primary-light);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+  hyphens: auto;
 }
 
 strong {
