@@ -43,7 +43,7 @@
 .WGs.Mini .WorkingGroup {
   /* transform: scale(0.8); */
   margin: clamp(0rem, 1vw, 5rem);
-  /* max-width: 100px; */
+  /* max-width: 200px; */
 }
 
 .WorkingGroupLabel p {
@@ -140,7 +140,7 @@
 
 .WGs .WorkingGroupDetails {
   text-align: justify;
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-size: clamp(1.5rem, 2vw, 1.7rem);
   padding: clamp(0.5rem, 5vw, 5rem);
   padding-top: 2rem;
   z-index: 10;

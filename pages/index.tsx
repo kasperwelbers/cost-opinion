@@ -2,10 +2,9 @@ import { NextPage, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
 import readMd from "../util/readMd";
 import LogoNet from "../public/logos/logo_net.svgr";
-
-import { PeopleContent } from "../types";
 import prepareUpdatesList from "../util/prepareUpdatesList";
 import UpdateList from "../components/UpdateList";
+import { Update } from "../types";
 
 interface Props {
   content: Content;
