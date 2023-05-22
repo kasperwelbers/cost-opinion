@@ -473,6 +473,12 @@ export default {
         { label: "Title", name: "title", widget: "string" },
         { label: "Date", name: "date", widget: "date" },
         { label: "Author", name: "author", widget: "string" },
+        {
+          label: "Announce until",
+          name: "announce_until",
+          widget: "date",
+          required: false,
+        },
         { label: "Body", name: "body", widget: "markdown" },
         { label: "Image", name: "image", widget: "image", required: false },
       ],

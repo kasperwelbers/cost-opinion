@@ -35,3 +35,12 @@ export interface PeopleAttributes {
   roles: { [role: string]: Person };
   countries: { [countryCode: string]: Person[] };
 }
+
+export interface Update {
+  id: string;
+  title: string;
+  date: string;
+  image: string;
+  author: string;
+  announce_until: string;
+}

@@ -1,9 +1,9 @@
 import { NextPage, GetStaticProps } from "next";
 import prepareUpdatesList from "../util/prepareUpdatesList";
 import readMd from "../util/readMd";
-import { FunctionComponent, useMemo, useState } from "react";
-import { useRouter } from "next/router";
-import { FaCaretDown, FaChevronCircleDown } from "react-icons/fa";
+import { useMemo } from "react";
+import { Update } from "../types";
+import UpdateList from "../components/UpdateList";
 
 interface Props {
   content: Content;
@@ -17,13 +17,6 @@ interface UpdatesAttributes {
   image: string;
   updates: Update[];
 }
-interface Update {
-  id: string;
-  title: string;
-  date: string;
-  image: string;
-  author: string;
-}
 
 const Updates: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
@@ -34,7 +27,7 @@ const Updates: NextPage<Props> = ({ content }) => {
 
     const now = Date.now();
     for (const update of attributes.updates) {
-      if (Date.parse(update.date) >= now) {
+      if (update.announce_until && Date.parse(update.announce_until) >= now) {
         announcements.push(update);
       } else {
         updates.push(update);
@@ -49,70 +42,18 @@ const Updates: NextPage<Props> = ({ content }) => {
         {announcements.length > 0 && (
           <div>
             <div className={"Header fade-in"}>
-              <h1>Coming up</h1>
+              <h2>Announcements</h2>
             </div>
             <UpdateList updates={announcements} />
           </div>
         )}
         <div>
           <div className={"Header fade-in"}>
-            <h1>{attributes.title}</h1>
+            <h2>{attributes.title}</h2>
           </div>
           <UpdateList updates={updates} />
         </div>
       </div>
-    </div>
-  );
-};
-
-interface UpdateListProps {
-  updates: Update[];
-}
-
-const UpdateList: FunctionComponent<UpdateListProps> = ({ updates }) => {
-  const pagesize = 5;
-  const [nItems, setNItems] = useState(pagesize);
-  const router = useRouter();
-
-  const showUpdates = updates.slice(0, nItems);
-  if (showUpdates.length === 0)
-    return (
-      <div style={{ textAlign: "center" }}>There are no updates yet :(</div>
-    );
-
-  return (
-    <div className="UpdatesList">
-      {showUpdates.map((update, i) => {
-        return (
-          <div
-            key={i + update.id}
-            className="UpdateLink fade-in"
-            onClick={() => router.push("updates/" + update.id)}
-          >
-            <div
-              className="Image"
-              style={{
-                backgroundImage: `url("${update.image}")`,
-              }}
-            />
-            <div className="Text">
-              <div className="Date">
-                <b>{update.date}</b>
-                <span style={{ paddingLeft: "1rem" }}>{update.author}</span>
-              </div>
-              <h3 className="Title">{update.title}</h3>
-            </div>
-          </div>
-        );
-      })}
-      {nItems >= updates.length ? null : (
-        <div className="ShowMore">
-          <FaChevronCircleDown
-            size="5rem"
-            onClick={() => setNItems((current) => current + pagesize)}
-          />
-        </div>
-      )}
     </div>
   );
 };

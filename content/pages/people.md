@@ -459,7 +459,7 @@ people:
     wg_data: 1
   - name: Kasper Welbers
     wg_tools: 1
-    homepage: https://research.vu.nl/en/persons/kasper-welbers?test=true
+    homepage: https://research.vu.nl/en/persons/kasper-welbers
     wg_dissemination: 0
     wg_theory: false
     role: GHSR
@@ -759,7 +759,8 @@ people:
     wg_data: 0
   - name: Ilija Tomanic Trivundza
     wg_tools: 1
-    homepage: https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije;
+    homepage:
+      https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije;
       https://www.researchgate.net/profile/Tomanic-Trivundza-Ilija
     wg_dissemination: 0
     wg_theory: 0
@@ -946,7 +947,8 @@ people:
     wg_data: 0
   - name: Jamal Abdul Nasir
     wg_tools: 1
-    homepage: https://scholar.google.com.pk/citations?user=V86JSRwAAAAJ&hl=en&authuser=2;
+    homepage:
+      https://scholar.google.com.pk/citations?user=V86JSRwAAAAJ&hl=en&authuser=2;
       https://www.linkedin.com/in/jamal-nasir-44153ba/
     wg_dissemination: 0
     wg_theory: 0
@@ -1047,7 +1049,8 @@ people:
     wg_data: 1
   - name: Anela Mulahmetović Ibrišimović
     wg_tools: 0
-    homepage: http://www.ff.untz.ba/index.php?page=ma-anela-mulahmetovic-ibrisimovic;
+    homepage:
+      http://www.ff.untz.ba/index.php?page=ma-anela-mulahmetovic-ibrisimovic;
       https://www.researchgate.net/profile/Anela-Mulahmetovic
     wg_dissemination: 1
     wg_theory: 0
@@ -1213,7 +1216,8 @@ people:
     wg_data: 0
   - name: Valerie Hase
     wg_tools: 1
-    homepage: https://www.en.ifkw.uni-muenchen.de/staff/academic_staff/hase_valerie/index.html;
+    homepage:
+      https://www.en.ifkw.uni-muenchen.de/staff/academic_staff/hase_valerie/index.html;
       https://www.valerie-hase.com
     wg_dissemination: 0
     wg_theory: 0
@@ -1277,7 +1281,8 @@ people:
     wg_data: 0
   - name: Daniel Thiele
     wg_tools: 1
-    homepage: https://politikwissenschaft.univie.ac.at/en/about-us/staff/thiele/;
+    homepage:
+      https://politikwissenschaft.univie.ac.at/en/about-us/staff/thiele/;
       https://www.weizenbaum-institut.de/en/spezialseiten/persons-details/p/daniel-thiele/;
       https://github.com/thieled
     wg_dissemination: 0

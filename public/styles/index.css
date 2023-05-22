@@ -4,12 +4,23 @@
   flex-direction: column;
 }
 
+.HomeAnnouncements {
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 4rem;
+  text-align: center;
+  color: white;
+}
+.HomeAnnouncements h2 {
+  text-align: center;
+}
+
 .Home .Header {
   position: relative;
   color: white;
   height: 100%;
   width: 100%;
-  padding: 5rem 0;
+  padding: 5rem 0 0rem 0;
   text-shadow: 1px 1px 5px black;
 }
 

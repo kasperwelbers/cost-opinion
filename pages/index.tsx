@@ -2,14 +2,14 @@ import { NextPage, GetStaticProps } from "next";
 import ReactMarkdown from "react-markdown";
 import readMd from "../util/readMd";
 import LogoNet from "../public/logos/logo_net.svgr";
-import LogoCg from "../public/logos/logo_cg.svgr";
 
 import { PeopleContent } from "../types";
-import preparePeopleContent from "../util/preparePeopleContent";
+import prepareUpdatesList from "../util/prepareUpdatesList";
+import UpdateList from "../components/UpdateList";
 
 interface Props {
   content: Content;
-  peopleContent: PeopleContent;
+  announcements: Update[];
 }
 interface Content {
   attributes: HomeAttributes;
@@ -23,7 +23,7 @@ interface HomeAttributes {
   image: string;
 }
 
-const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
+const HomePage: NextPage<Props> = ({ content, announcements }) => {
   const { attributes, body } = content;
   return (
     <main className={"AppComponent Home"}>
@@ -38,6 +38,14 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
         </div>
       </div>
       <div className="Body">
+        <div className="HomeAnnouncements">
+          {announcements.length > 0 && (
+            <>
+              {/* <h2>Announcements</h2> */}
+              <UpdateList updates={announcements} />
+            </>
+          )}
+        </div>
         <div className={"BodyContainer fade-in"}>
           <div>
             <ReactMarkdown>{attributes.what}</ReactMarkdown>
@@ -94,10 +102,14 @@ const HomePage: NextPage<Props> = ({ content, peopleContent }) => {
 export const getStaticProps: GetStaticProps = async () => {
   const content = readMd("content/pages/home.md");
 
-  const peopleMd = readMd("content/pages/people.md");
-  const peopleContent = preparePeopleContent(peopleMd);
+  const updates = prepareUpdatesList();
+  const announcements = updates.filter((update) => {
+    return (
+      update.announce_until && Date.parse(update.announce_until) >= Date.now()
+    );
+  });
 
-  return { props: { content, peopleContent } };
+  return { props: { content, announcements } };
 };
 
 export default HomePage;

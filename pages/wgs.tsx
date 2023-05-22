@@ -67,9 +67,8 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
                   {i === 3 && <LogoWG4 className={logoclass} />}
                   <div className="WorkingGroupLabel">
                     <h3>{wg.title}</h3>
-                    {selected === undefined ? (
-                      <ReactMarkdown>{wg.shortDescription}</ReactMarkdown>
-                    ) : null}
+
+                    <ReactMarkdown>{wg.shortDescription}</ReactMarkdown>
                   </div>
                 </div>
                 {/* <span>{wg.subtitle}</span> */}

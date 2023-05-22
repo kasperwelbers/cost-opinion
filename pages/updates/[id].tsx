@@ -74,6 +74,13 @@ export const getStaticProps: GetStaticProps = ({ params }) => {
     content.attributes.date = content.attributes.date
       .toISOString()
       .split("T")[0];
+  if (
+    content.attributes.announce_until &&
+    typeof content.attributes.announce_until !== "string"
+  )
+    content.attributes.announce_until = content.attributes.announce_until
+      .toISOString()
+      .split("T")[0];
   content.attributes.id = id;
 
   return {

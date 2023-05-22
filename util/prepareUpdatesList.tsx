@@ -13,6 +13,7 @@ export default function prepareUpdatesList() {
       image: attributes.image || "",
       date: attributes.date,
       author: attributes.author,
+      announce_until: attributes.announce_until || "",
     };
   });
 
@@ -21,6 +22,8 @@ export default function prepareUpdatesList() {
   return updates.map((update) => {
     if (typeof update.date !== "string")
       update.date = update.date.toISOString().split("T")[0];
+    if (typeof update.announce_until !== "string")
+      update.announce_until = update.announce_until.toISOString().split("T")[0];
     return update;
   });
 }

@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
-  padding: 2rem;
+  padding: 0;
   border-radius: 5px;
   backdrop-filter: blur(2px);
   font-size: clamp(1.5rem, 1.5vw, 1.7rem);
@@ -41,6 +41,7 @@
   background: white;
   border-radius: 5px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 5rem;
@@ -97,17 +98,18 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: clamp(1.5rem, 2vw, 1.8rem);
+  font-size: clamp(1.3rem, 2vw, 1.8rem);
   font-weight: 500;
 }
 
 .Mail {
-  padding: 0.3rem 1rem;
+  padding: 0rem 0rem 1rem 0rem;
   line-height: 1.4rem;
   border-radius: 5px;
+  color: var(--primary2);
   /* background: var(--primary-opacity); */
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .Person label {

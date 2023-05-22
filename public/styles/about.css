@@ -29,7 +29,7 @@
   width: 100%;
   padding: 2rem;
   font-size: clamp(1.5rem, 1.5vw, 1.7rem);
-  max-width: 960px;
+  max-width: 600px;
   text-align: justify;
   justify-self: center;
   display: flex;
