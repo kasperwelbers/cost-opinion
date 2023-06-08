@@ -25,12 +25,12 @@ The Meeting will take place at the Hollar building of the Charles University's F
 
 We recommend that you book your accommodation at one of the following seven hotels (ordered by price and distance; however, if you choose something different, that is up to you):
 
-- [Hotel William](https://www.hotelwilliam.cz/​en/](https://www.hotelwilliam.cz/en/)[](https://www.hotelwilliam.cz/en/)
-- [Residence Bologna](https://www.​pragueresidencebologna.com/en](https://www.pragueresidencebologna.com/en)
-- [Hotel Malá Strana](https://www.garzottohotels.cz/​en/hotel-mala-strana-prague/](https://www.garzottohotels.cz/en/hotel-mala-strana-prague/)
-- [Pytloun Old Armoury Hotel](https://www.​pytlounstarazbrojnicehotel.cz/​en/](https://www.pytlounstarazbrojnicehotel.cz/en/)
-- [Charles Bridge Palace](https://www.​charlesbridgepalace.com/en](https://www.charlesbridgepalace.com/en)
-- [MOODS Charles Bridge](https://www.​moodscharlesbridge.com/en/](https://www.moodscharlesbridge.com/en/)
+- [Hotel William](https://www.hotelwilliam.cz/​en/)
+- [Residence Bologna](https://www.​pragueresidencebologna.com/en)
+- [Hotel Malá Strana](https://www.garzottohotels.cz/​en/hotel-mala-strana-prague/)
+- [Pytloun Old Armoury Hotel](https://www.​pytlounstarazbrojnicehotel.cz/​en/)
+- [Charles Bridge Palace](https://www.​charlesbridgepalace.com/en)
+- [MOODS Charles Bridge](https://www.​moodscharlesbridge.com/en/)
 - [MANES Boutique Hotel](https://www.themanes.cz/)
 
 Invited participants are required to make their own travel arrangements. Long-distance travel costs will be reimbursed at face value, while most other costs are covered by a flat daily allowance, following the rules detailed below.

@@ -79,6 +79,25 @@
   justify-self: center;
 }
 
+.JoinLink {
+  display: block;
+  margin: auto;
+
+  width: max-content;
+  text-align: center;
+  background: white;
+  padding: 1rem;
+
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: var(--primary);
+  cursor: pointer;
+  text-decoration: none;
+}
+.About .JoinLink:hover {
+  background: var(--primary-light);
+}
+
 @media (min-width: 800px) {
   /* .People {
     grid-template-columns: minmax(250px, 1.5fr) repeat(3, minmax(125px, 1fr));

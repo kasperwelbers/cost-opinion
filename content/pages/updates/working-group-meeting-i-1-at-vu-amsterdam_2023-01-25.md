@@ -167,8 +167,3 @@ All minutes and recordings of the Working Group meeting, concerning both the ple
 _Tasks_
 
 Each Working Group may decide to define specific tasks that members are expected to fulfil in order to be invited to subsequent meetings. Any such decisions will be communicated to all Working Group members by the WG chairs shortly after the meeting. These communications will also include information regarding how and by when such tasks should be completed.
-<<<<<<< HEAD
-
-# [](public/img/test.pdf)
-
-> > > > > > > need to fix typescript before build

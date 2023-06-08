@@ -81,6 +81,16 @@ const Contact: NextPage = ({}) => {
             <button type="submit">Send</button>
           </p>
         </form>
+        <br />
+        <a
+          className="JoinLink"
+          href="https://cost.eu/actions/CA21129/#tabs+Name:Working%20Groups%20and%20Membership"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Apply to join OPINION
+        </a>
+        <p></p>
       </div>
     </main>
   );

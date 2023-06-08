@@ -19,6 +19,14 @@ export default function Footer() {
           <span>Amsterdam</span>
         </div> */}
       </div>
+      {/* <a
+        className="JoinLink"
+        href="https://cost.eu/actions/CA21129"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Apply to join OPINION
+      </a> */}
       {/* <Link href="about">
         <div className="LogoAndName">
           <LogoNet className="Logo" />
