@@ -109,4 +109,4 @@ The Management Committee discussed the Work and Budget Plan, which will be forma
 
 We will also host an informal **get-together at the ECREA European Communication Conference** in Aarhus in one month's time. This will not be a formal network event, so we will not reimburse any travel costs, but if you happen to be at ECREA, please feel warmly invited to drop by.
 
-*Read the Agenda of the MC Meeting [here](public/img/program-opinion-mc-meeting-brussels-2022.pdf), and the full Minutes [here](public/img/minutes-mc-i.1-brussels-22-09-2022.pdf).*
+*To download the Agenda of the MC Meeting, click [here](public/img/program-opinion-mc-meeting-brussels-2022.pdf); for the full Minutes, click [here](public/img/minutes-mc-i.1-brussels-22-09-2022.pdf).*
