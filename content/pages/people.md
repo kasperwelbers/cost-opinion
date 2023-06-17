@@ -551,12 +551,12 @@ people:
     wg_data: 0
   - name: Judith Möller
     wg_tools: 0
-    homepage: http://www.uva.nl/en/profile/m/o/j.e.moller1/j.e.moller.html
+    homepage: https://www.hans-bredow-institut.de/en/staff/judith-moeller
     wg_dissemination: 1
     wg_theory: 1
     role: null
     mc: 0
-    country: NL
+    country: DE
     wg_data: 0
   - name: Martijn Schoonvelde
     wg_tools: 1
@@ -592,7 +592,7 @@ people:
     wg_theory: 0
     role: null
     mc: 0
-    country: SK
+    country: RO
     wg_data: 1
   - name: Moran Yarchi
     wg_tools: 0
@@ -1285,7 +1285,7 @@ people:
     wg_theory: 0
     role: null
     mc: 0
-    country: AT
+    country: DE
     wg_data: 0
   - name: Dimitra Dimitrakopoulou
     wg_tools: 1
