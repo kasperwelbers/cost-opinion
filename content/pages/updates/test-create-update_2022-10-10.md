@@ -2,13 +2,12 @@
 title: OPINION Network officially launched
 date: 2022-09-22T07:01:21.550Z
 author: Christian Baden
+announce_until: 2023-06-17T11:52:00.351Z
 image: img/first_meeting.jpeg
 ---
 On Thursday, 22 September, the OPINION Management Committee officially launched the network with an inaugural meeting at the COST Organization in Brussels. With 26 representatives from 23 countries, we elected the network's leadership, laid down key policies for the conduct of the network, and created four working groups (on Theory, Tools, Data & Application, and Inclusion & Dissemination). Commencing our discussions, we focused on how to make the most out of the exciting joint work over the coming four years.
 
 These were the key decisions taken:
-
-
 
 ELECTIONS
 
@@ -32,8 +31,6 @@ The ten elected officers named above jointly make up the "**Core Group**", which
 In this context, the MC has created the position of Grant Holder Vice Representative (see above), as well as the positions of Vice Grant Coordination Officer as well as two Vice Chair positions per WG. It has also decided that the Science Communication Officer (see above) will act as WG4 Vice Chair *ex officio*.
 
 All Core Group positions have thus been elected. **The remaining eight positions** - Vice Grant Coordination Officer, 2 WG1 Vice Chairs, 2 WG2 Vice Chairs, 2 WG3 Vice Chairs and one WG4 Vice Chair - **will be elected at the first joint WG Meeting**.
-
-
 
 NETWORK POLICIES
 
@@ -98,8 +95,6 @@ We furthermore decided to establish publication targets and author/adoption rule
 
 In addition to establishing the above network policies, the MC has established the mandates for the Core Group, Working Groups, and Management Committee.
 
-
-
 WORKING GROUP APPLICATIONS
 
 The MC has approved the applications of 102 applicants to join OPINION Working Groups.
@@ -108,12 +103,10 @@ However, in line with the decision on **limiting the number of WGs** wherein a p
 
 Please note that we also decided that participants can subscribe to the email communications of as many WGs as they like, so you can still follow what is going on in WGs that you are not a full member of.
 
-
-
 NEXT STEPS
 
 The Management Committee discussed the Work and Budget Plan, which will be formally established and decided upon in the next weeks. Core stipulation of said plan is that there will be **two network-wide meetings** in the first Grant Period - one in **Winter**, tentatively in **Amsterdam**, and one in **Summer**, in an **Inclusion Target Country** (if you might be interested in hosting that meeting, please reach out). Dates will be sought as soon as possible once the Work and Budget Plan is formally adopted.
 
 We will also host an informal **get-together at the ECREA European Communication Conference** in Aarhus in one month's time. This will not be a formal network event, so we will not reimburse any travel costs, but if you happen to be at ECREA, please feel warmly invited to drop by.
 
-*Read the full Minutes of the MC Meeting here: (to be added)*
+*Read the Agenda of the MC Meeting [here](public/img/program-opinion-mc-meeting-brussels-2022.pdf), and the full Minutes [here](public/img/minutes-mc-i.1-brussels-22-09-2022.pdf).*
