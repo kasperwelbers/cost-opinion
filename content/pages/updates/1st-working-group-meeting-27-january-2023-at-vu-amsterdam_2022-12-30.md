@@ -2,11 +2,10 @@
 title: "Announcement: 1st WG Meeting, 27.01.23 at VU Amsterdam"
 date: 2022-12-30T12:56:39.572Z
 author: Christian Baden
+announce_until: 2023-06-17T12:00:21.396Z
 image: img/update-vu.jpg
 ---
 **The inaugural OPINION Working Group meeting will take place on Friday, 27 January 2023, at the Vrije University Amsterdam.** 
-
-
 
 THE PROGRAM
 
@@ -42,4 +41,6 @@ Travel costs related to the OPINION Network meeting will be reimbursed as follow
 * Please note also that, if you arrive from or continue to a destination other than your home institution, we will ask you to explain that in your reimbursement claim. If you travel to multiple destinations, we will only refund your travel costs from the preceding and to the next destination, and assume that any other legs of your trip are motivated by other purposes and covered otherwise. You are required to avoid double funding. Claiming reimbursement for expenses that are covered by other sources will be considered a violation of COST rules.
 * Also note that it is your responsibility to keep your bank contact data in your COST profile up to date, and to submit your receipts and refund claims within two weeks after the meeting.
 
-**For the full COST rules on travel reimbursements, please click [here](https://www.cost.eu/travel_​reimbursement_rules).**
+*For the full COST rules on travel reimbursements, please click [here](https://www.cost.eu/travel_​reimbursement_rules).*
+
+*To download the Program for the WG Meeting, click [here](public/img/program-opinion-wg-meeting-amsterdam-2023.pdf).*
