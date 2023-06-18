@@ -168,6 +168,4 @@ All minutes and recordings of the Working Group meeting, concerning both the ple
 
 Each Working Group may decide to define specific tasks that members are expected to fulfil in order to be invited to subsequent meetings. Any such decisions will be communicated to all Working Group members by the WG chairs shortly after the meeting. These communications will also include information regarding how and by when such tasks should be completed.
 
-
-
-*To download the Program of the WG Meeting, click [here](public/img/program-opinion-wg-meeting-amsterdam-2023.pdf); for the full Minutes, click [here](public/img/minutes-wg-i.1-amsterdam-27-01-2023.pdf).*
+*To download the Program of the WG Meeting, click [here](https://www.opinion-network.eu/img/program-opinion-wg-meeting-amsterdam-2023.pdf); for the full Minutes, click [here](https://www.opinion-network.eu/img/minutes-wg-i.1-amsterdam-27-01-2023.pdf).*
