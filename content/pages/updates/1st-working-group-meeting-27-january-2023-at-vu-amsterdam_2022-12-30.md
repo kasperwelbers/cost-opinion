@@ -41,6 +41,6 @@ Travel costs related to the OPINION Network meeting will be reimbursed as follow
 * Please note also that, if you arrive from or continue to a destination other than your home institution, we will ask you to explain that in your reimbursement claim. If you travel to multiple destinations, we will only refund your travel costs from the preceding and to the next destination, and assume that any other legs of your trip are motivated by other purposes and covered otherwise. You are required to avoid double funding. Claiming reimbursement for expenses that are covered by other sources will be considered a violation of COST rules.
 * Also note that it is your responsibility to keep your bank contact data in your COST profile up to date, and to submit your receipts and refund claims within two weeks after the meeting.
 
-*For the full COST rules on travel reimbursements, please click [here](https://www.cost.eu/travel_​reimbursement_rules).*
+*For the full COST rules on travel reimbursements, please click here.*
 
-*To download the Program for the WG Meeting, click [here](public/img/program-opinion-wg-meeting-amsterdam-2023.pdf).*
+*To download the Program for the WG Meeting, click [here](https://www.opinion-network.eu/img/program-opinion-wg-meeting-amsterdam-2023.pdf).*
