@@ -15,6 +15,7 @@
 
 .Nav .NavContainer {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -24,7 +25,7 @@
 
 .Nav .NavLink {
   padding: 0.3rem clamp(0.5rem, 2vw, 2rem);
-
+  white-space: nowrap;
   display: block;
   font-weight: 500;
   transition: color 0.2s, border-bottom-color 0.2s;

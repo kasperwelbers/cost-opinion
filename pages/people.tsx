@@ -5,10 +5,7 @@ import PeopleMap from "../components/PeopleMap";
 import { PeopleContent } from "../types";
 import { FaLink } from "react-icons/fa";
 
-import LogoWG1 from "../public/logos/logo_wg1.svgr";
-import LogoWG2 from "../public/logos/logo_wg2.svgr";
-import LogoWG3 from "../public/logos/logo_wg3.svgr";
-import LogoWG4 from "../public/logos/logo_wg4.svgr";
+import LogoMC from "../public/logos/logo_cg.svgr";
 
 interface Props {
   content: PeopleContent;
@@ -61,7 +58,14 @@ function PeoplePerCountry(props: {
 
   // somehow, in the most weird twists of all time, I cannot use CSS
   // to style the SVGs
-  const iconStyle = { height: "2rem", width: "2rem" };
+  const iconStyle = {
+    height: "2.3rem",
+    width: "3rem",
+    color: "white",
+    stroke: "white",
+    padding: "0.5rem",
+    cursor: "pointer",
+  };
 
   return (
     <div className="PersonPerCountry">
@@ -111,13 +115,16 @@ function PeoplePerCountry(props: {
         .PersonLabel {
           width: 100%;
           gap: 1rem;
-          display: flex;
           justify-content: space-between;
         }
         .IconGroup {
           display: flex;
           justify-content: flex-end;
           stroke: white;
+        }
+        .MC {
+          display: flex;
+          justify-content: space-between;
         }
       `}</style>
       {countryArray.map(([country, people]) => (
@@ -127,55 +134,50 @@ function PeoplePerCountry(props: {
             <h2>{country}</h2>
           </div>
 
+          <div className="MC">
+            <div>
+              {people.map((person, i) => {
+                if (!person.mc) return null;
+                return (
+                  <div key={person.name + i} className="PersonLabel">
+                    <div>
+                      · {person.name}{" "}
+                      {person.homepage ? (
+                        <a
+                          href={person.homepage}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FaLink size={12} />
+                        </a>
+                      ) : null}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <a
+              href={
+                "https://cost.eu/actions/CA21129/#tabs+Name:Management%20Committee"
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LogoMC style={iconStyle} className="Icon" />
+            </a>
+          </div>
+          <br />
           {people.map((person, i) => {
-            const workgroups = person.workgroups || [];
+            if (person.mc) return null;
             return (
               <div key={person.name + i} className="PersonLabel">
                 <div>
-                  {person.name}{" "}
+                  · {person.name}{" "}
                   {person.homepage ? (
                     <a href={person.homepage} target="_blank" rel="noreferrer">
                       <FaLink size={12} />
                     </a>
                   ) : null}
-                </div>
-
-                <div key="icongroup" className="IconGroup">
-                  {workgroups.map((wg) => {
-                    if (wg === "Theory")
-                      return (
-                        <LogoWG1
-                          key={"theory"}
-                          className="wtficon"
-                          style={iconStyle}
-                        />
-                      );
-                    if (wg === "Tools")
-                      return (
-                        <LogoWG2
-                          key={"tools"}
-                          className="Icon"
-                          style={iconStyle}
-                        />
-                      );
-                    if (wg === "Data")
-                      return (
-                        <LogoWG3
-                          key={"data"}
-                          className="Icon"
-                          style={iconStyle}
-                        />
-                      );
-                    if (wg === "Dissemination")
-                      return (
-                        <LogoWG4
-                          key={"dissemination"}
-                          className="Icon"
-                          style={iconStyle}
-                        />
-                      );
-                    return null;
-                  })}
                 </div>
               </div>
             );

@@ -4,6 +4,9 @@ const Contact: NextPage = ({}) => {
   return (
     <main className={"AppComponent"}>
       <style jsx>{`
+        .AppComponent {
+          background: #0005;
+        }
         .ContactForm {
           display: flex;
           flex-direction: column;
@@ -12,7 +15,6 @@ const Contact: NextPage = ({}) => {
           max-width: 400px;
           padding: 5rem 2rem 2rem 2rem;
           text-align: justify;
-          hyptens: auto;
         }
         .Title {
           text-align: center;
@@ -36,9 +38,11 @@ const Contact: NextPage = ({}) => {
         form input {
           height: 3rem;
           font-size: 2rem;
+          margin-top: 0.5rem;
         }
         form textarea {
           font-size: 2rem;
+          margin-top: 0.5rem;
         }
         button {
           cursor: pointer;
@@ -54,6 +58,9 @@ const Contact: NextPage = ({}) => {
         button:focus {
           background: var(--primary-light);
           color: var(--primary);
+        }
+        .LinkBox {
+          padding: 1rem 0;
         }
       `}</style>
       <div className="ContactForm">
@@ -82,15 +89,22 @@ const Contact: NextPage = ({}) => {
           </p>
         </form>
         <br />
-        <a
-          className="JoinLink"
-          href="https://cost.eu/actions/CA21129/#tabs+Name:Working%20Groups%20and%20Membership"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Apply to join OPINION
-        </a>
-        <p></p>
+        <br />
+        <div className="LinkBox">
+          <h2 className="Title">Join the network</h2>
+          <p>
+            Are you interested in joining the network? Please use the following
+            link for more details on how to apply
+          </p>
+          <a
+            className="JoinLink"
+            href="https://cost.eu/actions/CA21129/#tabs+Name:Working%20Groups%20and%20Membership"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Apply to join OPINION
+          </a>
+        </div>
       </div>
     </main>
   );
