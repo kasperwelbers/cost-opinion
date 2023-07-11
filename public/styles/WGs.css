@@ -36,8 +36,6 @@
 
 .WGs .WorkingGroup p {
   color: var(--primary-light);
-  margin-left: 10%;
-  max-width: 80%;
 }
 
 .WGs.Mini .WorkingGroup {
@@ -47,8 +45,10 @@
 }
 
 .WorkingGroupLabel p {
-  text-align: justify;
+  text-align: center;
+  max-width: 300px;
   hyphens: auto;
+
   /* font-size: clamp(1.2rem, 2vw, 1.5rem); */
 }
 
@@ -81,7 +81,7 @@
 }
 
 .WGs .WorkingGroupLabel h3 {
-  min-height: 6rem;
+  min-height: 3rem;
 }
 .WGs.Mini .WorkingGroupLabel h3 {
   min-height: 0;

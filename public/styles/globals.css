@@ -15,15 +15,17 @@
   --darkGreen: #306156;
 }
 
-html {
+* {
   box-sizing: border-box;
+}
+
+html {
   font-size: 62.5%;
   min-height: 100%;
   background: var(--lightGrey);
 }
 
 body {
-  box-sizing: border-box;
   margin: 0;
   min-height: 100%;
   position: relative;
@@ -249,10 +251,9 @@ blockquote {
   justify-content: space-evenly;
   align-items: center;
   gap: 1rem;
-  box-sizing: border-box;
   width: 100%;
   padding: 1rem;
-  background: #fff1;
+  background: #0003;
 
   color: white;
   stroke: white;

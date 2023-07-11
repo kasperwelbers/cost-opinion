@@ -19,12 +19,11 @@
   margin: auto;
   justify-content: center;
   align-items: center;
-  height: 5rem;
   padding: 0rem 1rem 1rem 1rem;
 }
 
 .Nav .NavLink {
-  padding: 0.3rem clamp(0.5rem, 2vw, 2rem);
+  padding: 1rem clamp(0.5rem, 2vw, 2rem);
   white-space: nowrap;
   display: block;
   font-weight: 500;
@@ -49,7 +48,7 @@
   height: 12px;
   position: absolute;
   z-index: 900;
-  bottom: -12px;
+  bottom: -6px;
   left: 0;
   background: url("./underline.svg") no-repeat center center/cover;
 }

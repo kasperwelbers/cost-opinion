@@ -450,6 +450,32 @@ export default {
           ],
         },
         {
+          label: "Grants",
+          name: "grants",
+          file: "content/pages/grants.md",
+          fields: [
+            {
+              label: "Title",
+              name: "title",
+              widget: "markdown",
+            },
+            {
+              label: "Grant types",
+              name: "grant_types",
+              widget: "list",
+              allow_add: true,
+              fields: [
+                { label: "Title", name: "title", widget: "markdown" },
+                { label: "Who", name: "who", widget: "markdown" },
+                { label: "What", name: "what", widget: "markdown" },
+                { label: "criteria", name: "criteria", widget: "markdown" },
+                { label: "How much", name: "how_much", widget: "markdown" },
+                { label: "How", name: "how", widget: "markdown" },
+              ],
+            },
+          ],
+        },
+        {
           label: "Updates",
           name: "updates",
           file: "content/pages/updates.md",

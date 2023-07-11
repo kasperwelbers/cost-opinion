@@ -14,7 +14,7 @@ const Contact: NextPage = ({}) => {
           color: white;
           max-width: 400px;
           padding: 5rem 2rem 2rem 2rem;
-          text-align: justify;
+          text-align: center;
         }
         .Title {
           text-align: center;
@@ -72,16 +72,16 @@ const Contact: NextPage = ({}) => {
         <form name="contact" method="post" data-netlify="true">
           <input type="hidden" name="form-name" value="contact" />
           <p>
-            <label>Your Name:</label>
+            <label>Name</label>
             <input type="text" name="name" />
           </p>
           <p>
-            <label>Your Email:</label>
+            <label>Email</label>
             <input type="email" name="email" />
           </p>
 
           <p>
-            <label>Message:</label>
+            <label>Message</label>
             <textarea rows={10} name="message"></textarea>
           </p>
           <p>

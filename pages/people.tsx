@@ -59,8 +59,8 @@ function PeoplePerCountry(props: {
   // somehow, in the most weird twists of all time, I cannot use CSS
   // to style the SVGs
   const iconStyle = {
-    height: "2.3rem",
-    width: "3rem",
+    height: "4rem",
+    width: "4rem",
     color: "white",
     stroke: "white",
     padding: "0.5rem",
@@ -71,18 +71,13 @@ function PeoplePerCountry(props: {
     <div className="PersonPerCountry">
       <style jsx>{`
         .PersonPerCountry {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: flex-start;
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
           gap: 2rem;
           margin: auto;
-          max-height: 2500px;
-          max-width: 1200px;
+          max-width: 1500px;
           color: white;
           padding: 2rem;
-          overflow: auto;
         }
 
         .Country {
@@ -90,17 +85,16 @@ function PeoplePerCountry(props: {
           backdrop-filter: blur(2px);
           flex: 1 1 auto;
           width: 100%;
-          max-width: 250px;
           padding: 1rem 1.5rem;
           border-radius: 5px;
           border: 1px solid var(--primary-light);
+          line-height: 1.8rem;
         }
-        @media (max-width: 900px) {
+        @media (max-width: 500px) {
           .PersonPerCountry {
-            max-height: 10000px;
+            grid-template-columns: repeat(1, 1fr);
           }
           .Country {
-            max-width: 300px;
           }
         }
         .CountryLabel {
@@ -113,7 +107,6 @@ function PeoplePerCountry(props: {
           padding: 0rem 1rem 1rem 0rem;
         }
         .PersonLabel {
-          width: 100%;
           gap: 1rem;
           justify-content: space-between;
         }
@@ -122,40 +115,33 @@ function PeoplePerCountry(props: {
           justify-content: flex-end;
           stroke: white;
         }
-        .MC {
+        .Country .MC {
           display: flex;
-          justify-content: space-between;
+          align-items: center;
+          gap: 1rem;
+        }
+        .Country .MC .Icon {
+          width: 10rem;
+          height: 10rem;
+          background: blue;
+        }
+        .Country .MC a {
+          color: white;
+        }
+
+        .Country .Members {
+          text-align: left;
+          hyphens: auto;
         }
       `}</style>
-      {countryArray.map(([country, people]) => (
-        <div key={country} className="Country">
+      {countryArray.map(([country, people], i) => (
+        <div key={country + String(i)} className="Country">
           <div className="CountryLabel">
             <div>{people[0].countryFlag}</div>
             <h2>{country}</h2>
           </div>
 
           <div className="MC">
-            <div>
-              {people.map((person, i) => {
-                if (!person.mc) return null;
-                return (
-                  <div key={person.name + i} className="PersonLabel">
-                    <div>
-                      · {person.name}{" "}
-                      {person.homepage ? (
-                        <a
-                          href={person.homepage}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FaLink size={12} />
-                        </a>
-                      ) : null}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
             <a
               href={
                 "https://cost.eu/actions/CA21129/#tabs+Name:Management%20Committee"
@@ -165,23 +151,39 @@ function PeoplePerCountry(props: {
             >
               <LogoMC style={iconStyle} className="Icon" />
             </a>
+            <div>
+              {people.map((person, i) => {
+                if (!person.mc) return null;
+                return (
+                  <div key={person.name + i} className="PersonLabel">
+                    <div>
+                      <a
+                        href={person.homepage}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {person.name}
+                      </a>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
           <br />
-          {people.map((person, i) => {
-            if (person.mc) return null;
-            return (
-              <div key={person.name + i} className="PersonLabel">
-                <div>
-                  · {person.name}{" "}
-                  {person.homepage ? (
-                    <a href={person.homepage} target="_blank" rel="noreferrer">
-                      <FaLink size={12} />
-                    </a>
-                  ) : null}
-                </div>
-              </div>
-            );
-          })}
+          <p className="Members">
+            {people.map((person, i) => {
+              if (person.mc) return null;
+              return (
+                <span key={person.name + person.homepage}>
+                  <a href={person.homepage} target="_blank" rel="noreferrer">
+                    {person.name}
+                  </a>
+                  {i === people.length - 1 ? null : <>,&nbsp;</>}
+                </span>
+              );
+            })}
+          </p>
         </div>
       ))}
     </div>
