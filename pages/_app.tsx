@@ -22,6 +22,7 @@ import Image from "next/image";
 const font = Poppins({
   weight: "500",
   subsets: ["devanagari"],
+  display: "swap",
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
