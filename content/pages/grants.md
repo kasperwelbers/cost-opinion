@@ -6,7 +6,7 @@ grant_types:
     what: Individual mobility grant for researchers to support collaborations, training activities or mentoring schemes with partners in another country
     criteria: Quality of proposal; contribution to OPINION’s objectives; priority will be given to applications that involve Early Career Scholars and Inclusion Target Countries
     how_much: Fixed contribution of up to € 160 per day, up to € 3,500 in total
-    how: For the current Call for Applications, please click here.
+    how: For the current Call for Applications, please [click here](updates/call-for-applications-short-term-scientific-missions_2023-05-17).
   - title: ITC Conference Grant
     who: Doctoral students, Early Career Scholars or young innovators affiliated in an  Inclusiveness Target Country or Near Neighbour Country
     what: Individual conference grant to present your own work at an international conference

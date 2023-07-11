@@ -36,7 +36,7 @@ const Grants: NextPage<Props> = ({ content }) => {
     <div className={`AppComponent Grants`}>
       <h1 className="Title">{title}</h1>
 
-      <div className="GrantsBody">
+      <div className={`GrantsBody ${selected != null ? "showDetails" : ""}`}>
         <div className="GrantTypes">
           {grant_types.map((grant, i) => {
             return (
@@ -54,7 +54,7 @@ const Grants: NextPage<Props> = ({ content }) => {
             );
           })}
         </div>
-        <div className="GrantTypeDetails">
+        <div className={`GrantTypeDetails`}>
           {selectedGrant && (
             <div className="GrantTypeBody fade-in">
               <div className="GrantTypeWho">
