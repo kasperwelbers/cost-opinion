@@ -459,6 +459,7 @@ export default {
               name: "title",
               widget: "markdown",
             },
+
             {
               label: "Grant types",
               name: "grant_types",
@@ -473,6 +474,7 @@ export default {
                 { label: "How", name: "how", widget: "markdown" },
               ],
             },
+            { label: "Body", name: "body", widget: "markdown" },
           ],
         },
         {

@@ -7,7 +7,7 @@ library(tidyverse)
 mc = read_csv('~/Downloads/cost_mc.csv')
 
 ## The csv export from WG Applications
-d = read_csv2('~/Downloads/WG_applications_export_27-12-2022.csv') %>%
+d = read_csv2('~/Downloads/WG_applications_export_10-03-2023.csv') %>%
   filter(status == 'approved')
 countries = read_csv('~/projects/cost-opinion/util/countries.csv')
 
@@ -80,7 +80,7 @@ d$email = NULL
 
 ## add GH manager (which might not be in member list)
 d = rbind(d, data.frame(
-  name = 'Ruud van Ooijen',
+  name = 'Aysen Şimsek',
   homepages = 'https://vu.nl',
   country_code = 'NL',
   role = 'GHM',
@@ -90,15 +90,18 @@ d = rbind(d, data.frame(
 
 d$role[is.na(d$role)] = ''
 d$homepages[is.na(d$homepages)] = ''
-
+d$workgroups
+tail(d)
 people = sapply(1:nrow(d), function(i) {
-  workgroups = strsplit(d$workgroups[i], ';')[[1]]
-  workgroups = paste(paste('    -', workgroups), collapse='\n')
-  sprintf('- name: %s\n  homepage: %s\n  country: %s\n  workgroups:\n%s\n  role: %s\n  mc: %s',
-          d$name[i], d$homepages[i], d$country_code[i], workgroups, d$role[i], as.numeric(d$mc[i]))
+  wg_theory = as.numeric(grepl('Theory', d$workgroups[i]))
+  wg_tools = as.numeric(grepl('Tools', d$workgroups[i]))
+  wg_data = as.numeric(grepl('Data', d$workgroups[i]))
+  wg_dissemination = as.numeric(grepl('Dissemination', d$workgroups[i]))
+  sprintf('- name: %s\n  homepage: %s\n  country: %s\n  wg_theory: %s\n  wg_tools: %s\n  wg_data: %s\n  wg_dissemination: %s\n  role: %s\n  mc: %s',
+          d$name[i], d$homepages[i], d$country_code[i], wg_theory, wg_tools, wg_data, wg_dissemination, d$role[i], as.numeric(d$mc[i]))
 })
 ## create yaml string for people
-cat('people:\n', paste(people, collapse='\n'))
+cat('people:\n', paste(head(people, 30), collapse='\n'))
 
 
 ## create option array for countries in config.js
