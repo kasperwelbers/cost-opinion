@@ -5,29 +5,33 @@ author: Christian Baden
 announce_until: 2023-07-25T15:05:48.071Z
 image: img/group-picture-2.jpg
 ---
-\---
+- - -
 
-VENUE
+**VENUE**
 
-\---
+- - -
 
 For this Working Group Meeting, we were guests of Charles University Prague.
 
 The Meeting venue was the Hollar building of the Faculty of Social Sciences, which is located at Smetanovo nábř. 6, on the banks of the Vltava river in Prague.
 
-\---
+
+
+- - -
 
 FOLLOW ONLINE / RECORDING
 
-\---
+- - -
 
 Given the meeting's emphasis on in-person interactions, only the opening plenary was streamed, and the recording was made available to all members.
 
-\---
+
+
+- - -
 
 PROGRAM
 
-\---
+- - -
 
 **Monday 26.06.2023**
 
@@ -37,9 +41,7 @@ PROGRAM
 
 * Welcome – *Christian Baden, Lenka Vochocova*
 * The OPINION Net-Work – *Christian Baden & Helle Sjøvaag*
-
 * Meeting Agendas of the Working Groups – *Agnieszka Stepinska, Srdjan Vesic, Marina Popescu, & Carlos Arcila Calderon*
-
 * Call for Applications: Mobility Grants – *Asta Zelenkauskaite*
 * Practical issues – *Kasper Welbers, Lenka Vochocova*
 
@@ -50,31 +52,24 @@ PROGRAM
 Theory (*Chair: Agnieszka Stepinska*), Room: 14
 
 * Literature overview across disciplines
-
 * Common ground, gaps, & controversies
 
 Tools (*Chair: Srdjan Vesic*), Room: 215
 
 * Plenary talks & subgroup presentations
-
 * Separate subgroup meetings
 
 Data & Applications (*Chair: Marina Popescu*), Room: 112
 
-
 * Definitions, applications and demands
-
 * Mission, current & future subgroups
 
 Inclusion & Dissemination (*Chair: Carlos Arcila Calderon*), Room: 115
 
 * Definition of training schools
-
 * Preparation of survey questions
 
 *19:00- Working Group Dinners for WG1 Theory & WG3 Data & Application*
-
-
 
 **Tuesday 27.06.2023**
 
@@ -84,56 +79,34 @@ Inclusion & Dissemination (*Chair: Carlos Arcila Calderon*), Room: 115
 
 Theory (*Chair: Agnieszka Stepinska*), Room: 14
 
-*  Discussion among sub-groups
-
+* Discussion among sub-groups
 * Joint session with WG1, WG2, WG3
-
 * Objectives and subjects of study
 * Discussions on a book
 
-
-
 Tools (*Chair: Srdjan Vesic*), Room: 215
 
-
 * Plenary discussion
-
 * Joint session with WG1, WG2, WG3
-
 * Subgroup meetings
-
 * Reconvention in plenary
-
-
 
 Data & Applications (*Chair: Marina Popescu*), Room: 212
 
-
 * Relevant data types and corpora
-
 * Joint session with WG1, WG2, WG3
-
 * Open data & community
-
 * Visions for a virtual lab
 
-
-
 Inclusion & Dissemination (*Chair: Carlos Arcila Calderon*), Room: 115
- 
 
 * Inventory of training materials
-
 * Master classes
-
 * Designing survey questions
-
 * Stakeholder strategy
   	
 
 *19:00- Working Group Dinners for WG2 Tools & WG4 Inclusion & Dissemination*
-
-
 
 **Wednesday 27.06.2023**
 
@@ -155,9 +128,7 @@ Data & Applications (*Chair: Marina Popescu*), Room: 112
 
 Inclusion & Dissemination (*Chair: Carlos Arcila Calderon*), Room: 115
 
-
 * Inclusion strategy & communication plan
-
 
 11:15-12:30 Closing Plenary (*Chair: Helle Sjøvaag*), Room: 215
 
@@ -170,11 +141,13 @@ Inclusion & Dissemination (*Chair: Carlos Arcila Calderon*), Room: 115
 
 13:15-14:30 Management Committee meeting (*Chair: Christian Baden*), Room: 215
 
-\---
+
+
+- - -
 
 AGENDA FOR THE MANAGEMENT COMMITTEE MEETING
 
-\---
+- - -
 
 Welcome (Christian Baden)
 
@@ -205,7 +178,6 @@ Planning & Network Policies
 
 8. Updates to GP1Work & Budget Plan/Draft of GP2 Work & Budget Plan
 
-
    1. WG Meetings in Fall
    2. Network Meeting in Winter
    3. Further Meetings
@@ -218,11 +190,13 @@ Any Other Business
 
 11. Summary of decisions & Closing
 
-\---
+
+
+- - -
 
 MINUTES & RECORDINGS
 
-\---
+- - -
 
 All minutes and recordings of the Working Group meeting, concerning both the plenary sessions and the Working Group sessions, will be made available to all members, including those who did not participate in person, within two weeks after the meeting.
 
