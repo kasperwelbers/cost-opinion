@@ -973,7 +973,7 @@ people:
     mc: 1
     country: LU
     wg_data: 0
-  - name: Sarah (Sally) Broughton Micova
+  - name: Sally Broughton Micova
     wg_tools: 0
     homepage: https://research-portal.uea.ac.uk/en/persons/sally-broughton-micova
     wg_dissemination: 0
