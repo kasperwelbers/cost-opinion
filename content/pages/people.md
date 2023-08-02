@@ -261,7 +261,7 @@ people:
     homepage: null
     wg_dissemination: 0
     wg_theory: 0
-    role: null
+    role: WG3V1
     mc: 0
     country: AT
     wg_data: 1
