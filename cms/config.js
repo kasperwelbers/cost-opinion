@@ -116,13 +116,29 @@ export default {
               widget: "list",
               fields: [
                 { label: "Name", name: "name", widget: "string" },
-                { label: "WG Theory", name: "wg_theory", widget: "boolean" },
-                { label: "WG Tools", name: "wg_tools", widget: "boolean" },
-                { label: "WG Data", name: "wg_data", widget: "boolean" },
+                {
+                  label: "WG Theory",
+                  name: "wg_theory",
+                  widget: "boolean",
+                  default: false,
+                },
+                {
+                  label: "WG Tools",
+                  name: "wg_tools",
+                  widget: "boolean",
+                  default: false,
+                },
+                {
+                  label: "WG Data",
+                  name: "wg_data",
+                  widget: "boolean",
+                  default: false,
+                },
                 {
                   label: "WG Dissemination",
                   name: "wg_dissemination",
                   widget: "boolean",
+                  default: false,
                 },
                 { label: "MC", name: "mc", widget: "boolean" },
                 {
@@ -137,6 +153,7 @@ export default {
                   name: "homepage",
                   required: false,
                   widget: "string",
+                  default: null,
                 },
                 {
                   label: "Role",

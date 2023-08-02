@@ -33,9 +33,9 @@ export default function preparePeopleContent(content: any) {
 
     const personObj = {
       name: person.name,
-      homepage: person.homepage,
+      homepage: person.homepage || null,
       workgroups,
-      role: person.role,
+      role: person.role || null,
       mc: person.mc === 1,
       email: person.email || chairMail || "",
       country: country.name,
