@@ -15,13 +15,26 @@
   margin-top: 4rem;
   z-index: 10;
   max-height: 15rem;
+  transition: all 1s;
+}
+
+.Grants .Description {
+  text-align: center;
+  color: white;
+  margin-top: 0rem;
+  z-index: 10;
+  padding: 0rem 2rem;
+  margin: auto;
+  hyphens: none;
+  max-width: 55rem;
+  max-height: 15rem;
   padding-bottom: 2rem;
   transition: all 1s;
 }
 
 .GrantsBody {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   padding: 0rem 2rem 2rem 2rem;
   gap: 1rem;
   margin: 1rem auto;
@@ -33,7 +46,7 @@
 
 .Grants .GrantType h3 {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .Grants .GrantTypes {
@@ -63,6 +76,8 @@
 
 .Grants .GrantTypeDetails {
   height: 100%;
+  flex: 1 1 auto;
+  font-size: 1.4rem;
 }
 
 .Grants .GrantTypeBody {
@@ -82,21 +97,31 @@
   margin-bottom: 18.6px;
 }
 
+.Grants .MembersOnly {
+  font-style: italic;
+}
+.Grants .MembersOnly p {
+  margin: 0;
+}
+
 .Grants .footnote {
-  background: #0003;
+  background: #0008;
   margin-top: auto;
   padding: 2rem;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
 }
 
 .Grants .footnote * {
   flex: 1 1 auto;
-  max-width: 600px;
+  max-width: 500px;
+  font-size: 1.4rem;
+}
+
+.Grants .footnote h1 {
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -107,10 +132,13 @@
     gap: 0.5rem;
   }
   .Grants .GrantType h3 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     text-align: center;
   }
   .Grants .GrantType {
     width: 100%;
+  }
+  .Grants .GrantTypeDetails {
+    font-size: 1.3rem;
   }
 }

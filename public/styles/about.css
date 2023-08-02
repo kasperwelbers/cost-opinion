@@ -27,10 +27,9 @@
 .AboutBody {
   grid-area: body;
   width: 100%;
-  padding: 2rem;
-  font-size: clamp(1.5rem, 1.5vw, 1.7rem);
+  font-size: clamp(1.3rem, 1.5vw, 1.5rem);
   max-width: 600px;
-  text-align: justify;
+  text-align: left;
   justify-self: center;
   display: flex;
   flex-direction: column;
@@ -64,9 +63,9 @@
 .About .Management {
   grid-area: management;
   padding: 2rem 0;
-  font-size: clamp(1.4rem, 1.5vw, 1.5rem);
+  font-size: clamp(1.3rem, 1.5vw, 1.5rem);
   max-width: 1000px;
-  text-align: justify;
+  text-align: left;
   justify-self: center;
 }
 
@@ -75,18 +74,18 @@
   padding: 2rem 0;
   font-size: clamp(1.4rem, 1.5vw, 1.5rem);
   max-width: 800px;
-  text-align: justify;
+  text-align: left;
   justify-self: center;
 }
 
 .JoinLink {
   display: block;
-  margin: auto;
 
   width: max-content;
   text-align: center;
   background: white;
   padding: 1rem;
+  margin: 3rem auto;
 
   border-radius: 10px;
   font-size: 1.5rem;

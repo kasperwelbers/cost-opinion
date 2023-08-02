@@ -191,7 +191,7 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
         .Member {
           display: flex;
           align-items: flex-end;
-          padding-left: 8px;
+
           position: relative;
         }
 
@@ -234,7 +234,7 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
           width: 2rem;
         }
         span {
-          font-size: 1.5rem;
+          font-size: 1.2rem;
         }
       `}</style>
       <span key="name">
@@ -245,17 +245,6 @@ const PersonPopupItem: FunctionComponent<PersonPopupItemProps> = ({
           </a>
         ) : null}
       </span>{" "}
-      {/* <div key="icongroup" className="IconGroup">
-        {p.workgroups.map((wg) => {
-          if (wg === "Theory")
-            return <LogoWG1 key={"theory"} className="Icon" />;
-          if (wg === "Tools") return <LogoWG2 key={"tools"} className="Icon" />;
-          if (wg === "Data") return <LogoWG3 key={"data"} className="Icon" />;
-          if (wg === "Dissemination")
-            return <LogoWG4 key={"dissemination"} className="Icon" />;
-          return null;
-        })}
-      </div> */}
     </div>
   );
 };

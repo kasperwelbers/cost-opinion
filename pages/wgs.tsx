@@ -59,6 +59,7 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
                     } else {
                       setPeople(wgPeople[i]);
                     }
+                    if (window) window.scrollTo({ top: 0, behavior: "smooth" });
                   }}
                 >
                   {i === 0 && <LogoWG1 className={logoclass} />}

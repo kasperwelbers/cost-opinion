@@ -476,7 +476,17 @@ export default {
               name: "title",
               widget: "markdown",
             },
+            {
+              label: "Description",
+              name: "description",
+              widget: "markdown",
+            },
 
+            {
+              label: "Members only text",
+              name: "members_only_text",
+              widget: "markdown",
+            },
             {
               label: "Grant types",
               name: "grant_types",
@@ -489,6 +499,12 @@ export default {
                 { label: "criteria", name: "criteria", widget: "markdown" },
                 { label: "How much", name: "how_much", widget: "markdown" },
                 { label: "How", name: "how", widget: "markdown" },
+                {
+                  label: "Members only",
+                  name: "members_only",
+                  widget: "boolean",
+                  default: false,
+                },
               ],
             },
             { label: "Body", name: "body", widget: "markdown" },

@@ -148,7 +148,7 @@
 
 .Body div {
   font-size: clamp(1.4rem, 2vw, 1.8rem);
-  text-align: justify;
+  text-align: left;
 }
 
 @media (max-width: 600px) {

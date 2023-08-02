@@ -25,22 +25,42 @@ const Update: NextPage<Props> = ({ content }) => {
   return (
     <div className={"AppComponent Updates"}>
       <div className={"Header fade-in"}>
-        <Link href="/updates">
-          <button
-            className="Button"
+        <div
+          style={{
+            display: "flex",
+            gap: "1rem",
+            alignItems: "flex-start",
+          }}
+        >
+          <Link href="/updates">
+            <button
+              className="Button"
+              style={{
+                width: "5rem",
+                background: "#fff3",
+                marginBottom: "2rem",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <div>
+                <FaBackward size="2rem" />
+              </div>
+            </button>
+          </Link>
+          <div
             style={{
-              width: "10rem",
-              background: "#fff3",
-              marginBottom: "2rem",
+              flex: "1 1 auto",
+              paddingRight: "5rem",
+              paddingTop: "0.2rem",
             }}
           >
-            <FaBackward size="2rem" />
-          </button>
-        </Link>
-        <h1>{attributes.title}</h1>
-        <b>{attributes.author}</b>
-        <br />
-        <span>{attributes.date}</span>
+            <b>{attributes.author}</b>
+            <br />
+            <span>{attributes.date}</span>
+          </div>
+        </div>
+        <h2>{attributes.title}</h2>
       </div>
       <div className="Update">
         {attributes.image ? (

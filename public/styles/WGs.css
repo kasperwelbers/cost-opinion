@@ -17,9 +17,9 @@
 
 .WGs .WorkingGroups {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-flow: column;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 1rem;
   padding: 0rem 2rem 2rem 2rem;
   margin: 0 auto;
   font-size: 1.5rem;
@@ -40,7 +40,7 @@
 
 .WGs.Mini .WorkingGroup {
   /* transform: scale(0.8); */
-  margin: clamp(0rem, 1vw, 5rem);
+
   /* max-width: 200px; */
 }
 
@@ -89,9 +89,12 @@
 
 @media screen and (max-width: 800px) {
   .WGs:not(.Mini) .WorkingGroups {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-row-gap: 5rem;
+  }
+  .WorkingGroup {
+    margin: 0;
   }
   .WGs.Mini h3 {
     transition: font-size 0s;
@@ -105,7 +108,6 @@
     padding: 1em; */
   border-radius: 10px;
   height: 100%;
-  margin: 5px;
   padding: 1rem 1rem 0 1rem;
   transition: all 0.5s;
   background: #0005;
@@ -139,8 +141,8 @@
 }
 
 .WGs .WorkingGroupDetails {
-  text-align: justify;
-  font-size: clamp(1.5rem, 2vw, 1.7rem);
+  text-align: left;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
   padding: clamp(0.5rem, 5vw, 5rem);
   padding-top: 2rem;
   z-index: 10;
