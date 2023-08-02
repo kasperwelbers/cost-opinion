@@ -1352,4 +1352,11 @@ people:
     mc: 0
     country: NL
     wg_data: 0
+  - name: Test
+    wg_theory: true
+    country: AE
+    wg_tools: true
+    mc: true
+    wg_dissemination: true
+    wg_data: true
 ---
