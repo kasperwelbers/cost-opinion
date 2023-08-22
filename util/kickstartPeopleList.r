@@ -7,7 +7,7 @@ library(tidyverse)
 mc = read_csv('~/Downloads/cost_mc.csv')
 
 ## The csv export from WG Applications
-d = read_csv2('~/Downloads/WG_applications_export_10-03-2023.csv') %>%
+d = read_csv2('~/Downloads/WG_applications_export_22-08-2023.csv') %>%
   filter(status == 'approved')
 countries = read_csv('~/projects/cost-opinion/util/countries.csv')
 
@@ -62,16 +62,25 @@ set_role = function(d, name, role) {
   d
 }
 
+d$name = str_to_title(d$name)
+
 d = d |>
   set_role('Christian Baden', 'AC') |>
   set_role('Helle Sjovaag', 'ACV') |>
   set_role('Kasper Welbers', 'GHSR') |>
-  set_role("Wouter van Atteveldt", "GHSRV") |>
+  set_role("Wouter Van Atteveldt", "GHSRV") |>
   set_role('Agnieszka Stepinska', "WG1L") |>
+  set_role('Carlos Cunha', 'WG1V1') |>
+  set_role('Nicoleta Corbu', 'WG1V2') |>
   set_role("Damian Trilling", "WG2L") |>
+  set_role('Srdjan Vesic', 'WG2V1') |>
   set_role("Marina Popescu", "WG3L") |>
+  set_role('Hajo Boomgaarden', 'WG3V1') |>
   set_role("Carlos Arcila Calderon", "WG4L") |>
+  set_role('Mariken Van Der Velden', "WG4V1") |>
+  set_role('Ana Milojevic', 'WG3V2') |>
   set_role('Nina Springer', 'GAC') |>
+  set_role('Asta Zelenkauskaite', 'GACV') |>
   set_role('Ana Milojevic', 'WG4V2')
 
 ## we won't publish the email address, just needed it
@@ -91,17 +100,27 @@ d = rbind(d, data.frame(
 d$role[is.na(d$role)] = ''
 d$homepages[is.na(d$homepages)] = ''
 d$workgroups
-tail(d)
+
 people = sapply(1:nrow(d), function(i) {
   wg_theory = as.numeric(grepl('Theory', d$workgroups[i]))
   wg_tools = as.numeric(grepl('Tools', d$workgroups[i]))
   wg_data = as.numeric(grepl('Data', d$workgroups[i]))
   wg_dissemination = as.numeric(grepl('Dissemination', d$workgroups[i]))
-  sprintf('- name: %s\n  homepage: %s\n  country: %s\n  wg_theory: %s\n  wg_tools: %s\n  wg_data: %s\n  wg_dissemination: %s\n  role: %s\n  mc: %s',
+  sprintf('  - name: %s\n    homepage: %s\n    country: %s\n    wg_theory: %s\n    wg_tools: %s\n    wg_data: %s\n    wg_dissemination: %s\n    role: %s\n    mc: %s',
           d$name[i], d$homepages[i], d$country_code[i], wg_theory, wg_tools, wg_data, wg_dissemination, d$role[i], as.numeric(d$mc[i]))
 })
-## create yaml string for people
-cat('people:\n', paste(head(people, 30), collapse='\n'))
+
+length(people)
+length(unique(d$country_code))
+
+people_md = sprintf("---
+title: OPINION unites over 170 researchers across more than 35 European
+countries, Israel and the US.
+people:
+%s
+---", paste(people, collapse='\n'))
+
+write_lines(people_md, '~/projects/cost-opinion/content/pages/people.md')
 
 
 ## create option array for countries in config.js

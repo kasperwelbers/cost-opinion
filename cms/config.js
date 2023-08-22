@@ -16,6 +16,18 @@ export default {
       label: "Pages",
       files: [
         {
+          label: "Policies",
+          name: "policies",
+          file: "content/pages/policies.md",
+          fields: [
+            {
+              label: "Body",
+              name: "body",
+              widget: "markdown",
+            },
+          ],
+        },
+        {
           label: "Home",
           name: "home",
           file: "content/pages/home.md",
@@ -140,7 +152,7 @@ export default {
                   widget: "boolean",
                   default: false,
                 },
-                { label: "MC", name: "mc", widget: "boolean" },
+                { label: "MC", name: "mc", widget: "boolean", required: false },
                 {
                   label: "Email",
                   name: "email",
@@ -189,6 +201,7 @@ export default {
                       value: "WG4V2",
                     },
                     { label: "Grant Awarding Coordinator", value: "GAC" },
+                    { label: "Vice Grant Awarding Coordinator", value: "GACV" },
                   ],
                 },
                 {

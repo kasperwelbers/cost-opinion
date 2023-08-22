@@ -36,7 +36,7 @@ export default function preparePeopleContent(content: any) {
       homepage: person.homepage || null,
       workgroups,
       role: person.role || null,
-      mc: person.mc === 1,
+      mc: !!person.mc,
       email: person.email || chairMail || "",
       country: country.name,
       countryCode: country.code,
