@@ -20,7 +20,7 @@ On this page, you can find all policies adopted by the OPINION network, concerni
 
 - - -
 
-<a name="membership"> </a>
+<a name="membership">Membership</a>
 
 **Membership**
 
