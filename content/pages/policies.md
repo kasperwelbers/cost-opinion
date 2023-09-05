@@ -79,7 +79,7 @@ Grants can be issued to both members and non-members of the network. *Priority* 
 
 **`<a name="SCP">`Science Communication Plan`</a>`**
 
-OPINION has adopted a Science Communication Plan that determines the objectives, strategies, and means of the network's outreach activities. The current Science Communication Plan can be downloaded here.
+OPINION has adopted a Science Communication Plan that determines the objectives, strategies, and means of the network's outreach activities. The current Science Communication Plan can be downloaded [here](https://www.opinion-network.eu/img/science-communication-plan-2023-07-21.pdf).
 
 - - -
 
