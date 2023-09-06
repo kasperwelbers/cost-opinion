@@ -41,7 +41,7 @@ Any termination of Working Group membership remains subject to Core Group valida
 
 - - -
 
-## Reimbursement
+### Reimbursement
 
 1. By default, all participants invited to Working Group or Management Committee meetings shall be reimbursed *fully*, in accordance with COST rules.
 
