@@ -63,7 +63,7 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
       >
         <Person key={"theory"} role={`WG1L`} label="chair" roles={roles} />
         <Person key="theory1" role={`WG1V1`} label="vice chair" roles={roles} />
-        <Person key="theory2" role={`WG1V2`} label="Theory" roles={roles} />
+        <Person key="theory2" role={`WG1V2`} label="vice chair" roles={roles} />
       </Group>
       <Group
         key={"wg2"}
