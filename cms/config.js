@@ -159,7 +159,6 @@ export default {
                   required: false,
                   widget: "string",
                 },
-
                 {
                   label: "Homepage",
                   name: "homepage",

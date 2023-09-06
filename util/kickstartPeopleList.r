@@ -63,6 +63,7 @@ set_role = function(d, name, role) {
 }
 
 d$name = str_to_title(d$name)
+d$homepages = gsub(';.*', '', d$homepages)
 
 d = d |>
   set_role('Christian Baden', 'AC') |>
@@ -113,12 +114,12 @@ people = sapply(1:nrow(d), function(i) {
 length(people)
 length(unique(d$country_code))
 
-people_md = sprintf("---
-title: OPINION unites over 170 researchers across more than 35 European
-countries, Israel and the US.
+people_md = sprintf('---
+title: "OPINION unites over 170 researchers across more than 35 European
+countries, Israel and the US."
 people:
 %s
----", paste(people, collapse='\n'))
+---', paste(people, collapse='\n'))
 
 write_lines(people_md, '~/projects/cost-opinion/content/pages/people.md')
 
