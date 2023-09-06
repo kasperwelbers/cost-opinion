@@ -2,7 +2,7 @@
 
 On this page, you can find all policies adopted by the OPINION network, concerning the following topics:
 
-[Membership](membership) - [Meetings](meetings) - [Reimbursement](reimbursement) - [Grants](grants) - [Science Communication Plan](science-communication-plan) - [Publications](publications) - [Communications](communications) - [Review](review)
+[Membership](#membership) - [Meetings](#meetings) - [Reimbursement](#reimbursement) - [Grants](#grants) - [Science Communication Plan](#science-communication-plan) - [Publications](#publications) - [Communications](#communications) - [Review](#review)
 
 - - -
 
