@@ -6,7 +6,7 @@ On this page, you can find all policies adopted by the OPINION network, concerni
 
 - - -
 
-**Membership**
+### Membership
 
 1. Working Group membership applications shall be approved generously, *as long as* the applicant’s contribution to the Working Group is made clear.
 
@@ -25,7 +25,7 @@ Any termination of Working Group membership remains subject to Core Group valida
 
 - - -
 
-**Meetings**
+### Meetings
 
 1. Physical network-wide meetings shall be held in conjunction with other events (e.g., Management Committee meetings, Conferences) as much as possible.
 
@@ -41,7 +41,7 @@ Any termination of Working Group membership remains subject to Core Group valida
 
 - - -
 
-**Reimbursement**
+## Reimbursement
 
 1. By default, all participants invited to Working Group or Management Committee meetings shall be reimbursed *fully*, in accordance with COST rules.
 
@@ -57,19 +57,19 @@ COST rules concerning most economic means of travel continue to apply.
 
 - - -
 
-**Grants**
+### Grants
 
 1. Grants can be issued to both members and non-members of the network. *Priority* shall be given to activities that involve junior members as well as ITC members and institutions.
 
 - - -
 
-**Science Communication Plan**
+### Science Communication Plan
 
 OPINION has adopted a Science Communication Plan that determines the objectives, strategies, and means of the network's outreach activities. The current Science Communication Plan can be downloaded [here](https://www.opinion-network.eu/img/science-communication-plan-2023-07-21.pdf).
 
 - - -
 
-**Publications**
+### Publications
 
 1. Joint publications based in the work of the Working Groups (“centripetal”):  
 a. Lead authorship is credited to leading contributors.  
@@ -87,7 +87,7 @@ Any publications of the above mentioned types are eligible for support (e.g., fo
 
 - - -
 
-**Communications**
+### Communications
 
 1. All communications:  
 a. by the Core Group, addressed to the entire network  
@@ -97,7 +97,7 @@ This does not include instructions for joining meetings.
 
 - - -
 
-**Review**
+### Review
 
 1. The above policies shall be reviewed at the first MC meeting after the completion of each grant period, and updated if needed.
 

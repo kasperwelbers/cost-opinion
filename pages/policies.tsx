@@ -11,7 +11,6 @@ interface Content {
 }
 
 const Policies: NextPage<Props> = ({ content }) => {
-  console.log(content.body);
   return (
     <div className={`AppComponent PoliciesContainer`}>
       <div className="Policies">

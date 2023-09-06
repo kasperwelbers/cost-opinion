@@ -35,7 +35,6 @@ const Grants: NextPage<Props> = ({ content }) => {
     content.attributes;
 
   const selectedGrant = selected != null && grant_types?.[selected];
-  console.log(members_only_text);
   return (
     <div className={`AppComponent Grants`}>
       <h1 className="Title">{title}</h1>
