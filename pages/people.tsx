@@ -3,7 +3,6 @@ import preparePeopleContent from "../util/preparePeopleContent";
 import readMd from "../util/readMd";
 import PeopleMap from "../components/PeopleMap";
 import { PeopleContent } from "../types";
-import { FaLink } from "react-icons/fa";
 
 import LogoMC from "../public/logos/logo_cg.svgr";
 

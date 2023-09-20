@@ -129,6 +129,13 @@ export default {
               fields: [
                 { label: "Name", name: "name", widget: "string" },
                 {
+                  label: "Homepage",
+                  name: "homepage",
+                  required: false,
+                  widget: "string",
+                  default: null,
+                },
+                {
                   label: "WG Theory",
                   name: "wg_theory",
                   widget: "boolean",
@@ -158,13 +165,6 @@ export default {
                   name: "email",
                   required: false,
                   widget: "string",
-                },
-                {
-                  label: "Homepage",
-                  name: "homepage",
-                  required: false,
-                  widget: "string",
-                  default: null,
                 },
                 {
                   label: "Role",

@@ -3,7 +3,7 @@ import config from "../cms/config";
 import Index from "pages/index.tsx";
 import WGs from "pages/wgs.tsx";
 import Updates from "./updates";
-import People from "./about";
+import People from "./people";
 import preparePeopleContent from "../util/preparePeopleContent";
 import Update from "./updates/[id]";
 
@@ -25,7 +25,7 @@ const CMS = dynamic(
     cms.registerPreviewTemplate("home", ({ entry }) => {
       return (
         <div className="AppContainer">
-          <Index content={asContent(entry)} />;
+          <Index content={asContent(entry)} announcements={[]} />;
         </div>
       );
     });

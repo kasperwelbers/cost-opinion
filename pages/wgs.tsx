@@ -14,7 +14,7 @@ import preparePeopleContent from "../util/preparePeopleContent";
 
 interface Props {
   content: Content;
-  wgPeople: Record<number, WGPeople>;
+  wgPeople?: Record<number, WGPeople>;
 }
 
 interface Content {
@@ -55,9 +55,10 @@ const WGs: NextPage<Props> = ({ content, wgPeople }) => {
                     setSelected(i);
                     if (selected === undefined) {
                       setPeople(undefined);
-                      setTimeout(() => setPeople(wgPeople[i]), 500);
+                      if (wgPeople)
+                        setTimeout(() => setPeople(wgPeople[i]), 500);
                     } else {
-                      setPeople(wgPeople[i]);
+                      if (wgPeople) setPeople(wgPeople[i]);
                     }
                     if (window) window.scrollTo({ top: 0, behavior: "smooth" });
                   }}
