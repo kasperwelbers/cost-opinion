@@ -111,7 +111,6 @@ export default {
             },
           ],
         },
-
         {
           label: "People",
           name: "people",

@@ -38,15 +38,15 @@ const CMS = dynamic(
       );
     });
 
-    cms.registerPreviewTemplate("people", ({ entry }) => {
-      const contentMd = asContent(entry);
-      const content = preparePeopleContent(contentMd);
-      return (
-        <div className="AppContainer">
-          <People content={content} />;
-        </div>
-      );
-    });
+    // cms.registerPreviewTemplate("people", ({ entry }) => {
+    //   const contentMd = asContent(entry);
+    //   const content = preparePeopleContent(contentMd);
+    //   return (
+    //     <div className="AppContainer">
+    //       <People content={content} />;
+    //     </div>
+    //   );
+    // });
 
     cms.registerPreviewTemplate("updates", ({ entry }) => {
       const content = asContent(entry);
