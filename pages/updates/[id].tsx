@@ -22,6 +22,16 @@ interface UpdateAttributes {
 
 const Update: NextPage<Props> = ({ content }) => {
   const { attributes, body } = content;
+
+  let imageURL = attributes.image || null;
+  let imageFromLink = false;
+  if (imageURL !== null) {
+    if (!imageURL.startsWith("http")) {
+      imageURL = "/" + imageURL;
+      imageFromLink = true;
+    }
+  }
+
   return (
     <div className={"AppComponent Updates"}>
       <div className={"Header fade-in"}>
@@ -63,9 +73,16 @@ const Update: NextPage<Props> = ({ content }) => {
         <h2>{attributes.title}</h2>
       </div>
       <div className="Update">
-        {attributes.image ? (
-          <img src={"/" + attributes.image} alt={attributes.image} />
-        ) : null}
+        <figure>
+          {imageURL !== null ? (
+            <img src={imageURL} alt={attributes.image} />
+          ) : null}
+          {imageFromLink && imageURL ? null : (
+            <figcaption>
+              <a href={imageURL || ""}>Image source</a>
+            </figcaption>
+          )}
+        </figure>
         <div className="UpdateBody">
           <ReactMarkdown>{body}</ReactMarkdown>
         </div>

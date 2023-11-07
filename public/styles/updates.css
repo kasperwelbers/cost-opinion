@@ -107,14 +107,13 @@
   background: #0008;
 }
 
-.Update img {
+.Update figure {
   margin: 2.5rem auto;
 
   width: 100%;
   padding: 1rem 10%;
   height: 100%;
   float: right;
-  border-radius: 5px;
 }
 .Update .UpdateBody {
   width: 100%;
@@ -125,8 +124,21 @@
   font-size: clamp(1.3rem, 2vw, 1.4rem);
 }
 
+.Update figcaption {
+  text-align: right;
+  padding: 0px 5px;
+  color: #bbb;
+  font-size: 1.2rem;
+}
+
+.Update img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
 @media (min-width: 800px) {
-  .Update img {
+  .Update figure {
     margin: 2.5rem 1rem 2rem 2rem;
     width: 50%;
     padding: 0;
