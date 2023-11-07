@@ -135,8 +135,10 @@
 
 .ShowMore {
   text-align: center;
-  color: var(--secondary);
+  color: white;
   padding-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 .ShowMore svg {
   cursor: pointer;

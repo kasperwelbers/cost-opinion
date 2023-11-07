@@ -47,6 +47,7 @@ const UpdateList: FunctionComponent<UpdateListProps> = ({ updates }) => {
         <div className="ShowMore">
           <FaChevronCircleDown
             size="5rem"
+            style={{ textAlign: "center" }}
             onClick={() => setNItems((current) => current + pagesize)}
           />
         </div>
