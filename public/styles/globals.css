@@ -15,6 +15,10 @@
   --darkGreen: #306156;
 }
 
+#netlify-identity-widget {
+  z-index: 9999 !important;
+}
+
 * {
   box-sizing: border-box;
 }
