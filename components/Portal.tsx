@@ -63,7 +63,7 @@ const Portal: FunctionComponent<Props> = ({
         position: "fixed",
         minWidth: "100px",
         maxWidth: "min(100%, 600px)",
-        zIndex: 1000,
+        zIndex: 50,
         background: "var(--primary-light)",
         padding: "10px",
         marginTop: "14px",
