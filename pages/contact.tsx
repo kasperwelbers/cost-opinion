@@ -28,6 +28,7 @@ const Contact: NextPage = ({}) => {
           padding: 1rem 2rem;
           border-radius: 5px;
           font-size: 2rem;
+          margin-top: 2rem;
         }
         form p {
           display: flex;
