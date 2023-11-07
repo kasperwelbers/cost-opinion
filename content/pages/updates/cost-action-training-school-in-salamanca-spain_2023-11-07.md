@@ -3,6 +3,7 @@ title: COST Action Training School in Salamanca, Spain
 date: 2024-06-12T13:23:00.757Z
 author: Carlos Arcila Calderón
 announce_until: 2024-06-12T13:23:00.763Z
+image: https://upload.wikimedia.org/wikipedia/commons/e/eb/Old_Library_in_University_of_Salamanca_01.jpg
 ---
 ## COST Action Training School in Computational Opinion Analysis - COpA
 
