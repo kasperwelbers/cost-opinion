@@ -703,7 +703,7 @@ people:
     wg_tools: true
     wg_data: false
     wg_dissemination: true
-    mc: false
+    mc: true
   - name: Damian Guzek
     homepage: https://www.researchgate.net/profile/Damian_Guzek
     country: PL
@@ -1410,7 +1410,7 @@ people:
     wg_tools: false
     wg_data: false
     wg_dissemination: false
-    mc: true
+    mc: false
   - name: Aysen Şimsek
     wg_tools: false
     homepage: https://vu.nl
