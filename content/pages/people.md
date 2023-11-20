@@ -1,5 +1,6 @@
 ---
-title: "OPINION unites over 170 researchers across more than 35 European countries, Israel and the US."
+title: OPINION unites over 170 researchers across more than 35 European
+  countries, Israel and the US.
 people:
   - name: Ben Wagner
     homepage: https://benwagner.org
@@ -98,14 +99,14 @@ people:
     wg_dissemination: true
     mc: true
   - name: Ana Milojevic
-    homepage: http://www.fpn.bg.ac.rs/profil/ana-milojevic
-    country: RS
-    wg_theory: true
     wg_tools: true
-    wg_data: false
+    homepage: http://www.fpn.bg.ac.rs/profil/ana-milojevic
     wg_dissemination: false
+    wg_theory: true
     role: WG4V2
     mc: false
+    country: RS
+    wg_data: false
   - name: José Santana Pereira
     homepage: https://www.researchgate.net/profile/Jose-Santana-Pereira
     country: PT
@@ -147,16 +148,16 @@ people:
     wg_dissemination: false
     mc: false
   - name: Mariken Van Der Velden
-    homepage: 
-    country: NL
-    wg_theory: false
     wg_tools: false
-    wg_data: false
+    homepage: null
     wg_dissemination: true
+    wg_theory: false
     role: WG4V1
     mc: false
+    country: NL
+    wg_data: false
   - name: Ledia Kazazi
-    homepage: 
+    homepage: null
     country: AL
     wg_theory: true
     wg_tools: false
@@ -180,7 +181,7 @@ people:
     wg_dissemination: false
     mc: true
   - name: Chung-Hong Chan
-    homepage: 
+    homepage: null
     country: DE
     wg_theory: false
     wg_tools: true
@@ -188,14 +189,14 @@ people:
     wg_dissemination: false
     mc: false
   - name: Damian Trilling
-    homepage: https://www.damiantrilling.net
-    country: NL
-    wg_theory: false
     wg_tools: true
-    wg_data: false
+    homepage: https://www.damiantrilling.net
     wg_dissemination: false
+    wg_theory: false
     role: WG2L
     mc: true
+    country: NL
+    wg_data: false
   - name: Gokhan Ozkan
     homepage: http://personel.klu.edu.tr/gokhan.ozkan
     country: TR
@@ -213,14 +214,14 @@ people:
     wg_dissemination: false
     mc: false
   - name: Nicoleta Corbu
-    homepage: https://www.researchgate.net/profile/Nicoleta-Corbu
-    country: RO
-    wg_theory: true
     wg_tools: true
-    wg_data: false
+    homepage: https://www.researchgate.net/profile/Nicoleta-Corbu
     wg_dissemination: false
+    wg_theory: true
     role: WG1V2
     mc: true
+    country: RO
+    wg_data: false
   - name: Fabienne Lind
     homepage: https://www.researchgate.net/profile/Fabienne-Lind
     country: AT
@@ -230,14 +231,14 @@ people:
     wg_dissemination: false
     mc: true
   - name: Hajo Boomgaarden
-    homepage: 
-    country: AT
-    wg_theory: false
     wg_tools: false
-    wg_data: true
+    homepage: null
     wg_dissemination: false
-    role: WG3V1
+    wg_theory: false
+    role: WG3L
     mc: false
+    country: AT
+    wg_data: true
   - name: Elena Negrea Busuioc
     homepage: http://comunicare.ro/cv.php?id=123
     country: RO
@@ -255,14 +256,14 @@ people:
     wg_dissemination: false
     mc: true
   - name: Asta Zelenkauskaite
-    homepage: https://scholar.google.com/citations?user=cDxS2wwAAAAJ&hl=en&oi=ao
-    country: LT
-    wg_theory: true
     wg_tools: false
-    wg_data: true
+    homepage: https://scholar.google.com/citations?user=cDxS2wwAAAAJ&hl=en&oi=ao
     wg_dissemination: false
+    wg_theory: true
     role: GACV
     mc: true
+    country: LT
+    wg_data: true
   - name: Aaron Hyzen
     homepage: https://scholar.google.com/citations?user=hnLQ43IAAAAJ&hl=en
     country: BE
@@ -272,16 +273,16 @@ people:
     wg_dissemination: false
     mc: false
   - name: Carlos Arcila Calderón
-    homepage: http://diarium.usal.es/carcila/
-    country: ES
-    wg_theory: false
     wg_tools: true
-    wg_data: true
+    homepage: http://diarium.usal.es/carcila/
     wg_dissemination: true
+    wg_theory: false
     role: WG4L
     mc: true
+    country: ES
+    wg_data: true
   - name: Dimitra Milioni
-    homepage: 
+    homepage: null
     country: CY
     wg_theory: true
     wg_tools: false
@@ -313,7 +314,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Jaromir Mazak
-    homepage: 
+    homepage: null
     country: CZ
     wg_theory: false
     wg_tools: false
@@ -361,7 +362,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Şule Yüksel Özmen
-    homepage: 
+    homepage: null
     country: TR
     wg_theory: true
     wg_tools: false
@@ -409,14 +410,14 @@ people:
     wg_dissemination: true
     mc: true
   - name: Kasper Welbers
-    homepage: https://research.vu.nl/en/persons/kasper-welbers
-    country: NL
-    wg_theory: false
     wg_tools: true
-    wg_data: false
+    homepage: https://research.vu.nl/en/persons/kasper-welbers
     wg_dissemination: false
+    wg_theory: false
     role: GHSR
     mc: true
+    country: NL
+    wg_data: false
   - name: Kristina Juraite
     homepage: https://pmdf.vdu.lt/en/about-the-faculty/department-of-public-communication/
     country: LT
@@ -442,14 +443,14 @@ people:
     wg_dissemination: false
     mc: false
   - name: Carlos Cunha
-    homepage: 
-    country: PT
-    wg_theory: true
     wg_tools: false
-    wg_data: false
+    homepage: null
     wg_dissemination: false
+    wg_theory: true
     role: WG1V1
     mc: false
+    country: PT
+    wg_data: false
   - name: Hartmut Wessler
     homepage: http://mkw.uni-mannheim.de/english/prof_dr_hartmut_wessler/
     country: DE
@@ -475,23 +476,23 @@ people:
     wg_dissemination: true
     mc: true
   - name: Srdjan Vesic
-    homepage: http://www.cril.univ-artois.fr/~vesic/
-    country: FR
-    wg_theory: false
     wg_tools: true
-    wg_data: false
+    homepage: http://www.cril.univ-artois.fr/~vesic/
     wg_dissemination: false
+    wg_theory: false
     role: WG2V1
     mc: true
-  - name: Agnieszka Stepinska
-    homepage: https://amu.academia.edu/AgnieszkaSt%C4%99pi%C5%84ska
-    country: PL
-    wg_theory: true
-    wg_tools: false
+    country: FR
     wg_data: false
+  - name: Agnieszka Stepinska
+    wg_tools: false
+    homepage: https://amu.academia.edu/AgnieszkaSt%C4%99pi%C5%84ska
     wg_dissemination: false
+    wg_theory: true
     role: WG1L
     mc: true
+    country: PL
+    wg_data: false
   - name: Judith Möller
     homepage: http://www.uva.nl/en/profile/m/o/j.e.moller1/j.e.moller.html
     country: DE
@@ -509,7 +510,7 @@ people:
     wg_dissemination: false
     mc: true
   - name: Constantinos Djouvas
-    homepage: 
+    homepage: null
     country: CY
     wg_theory: false
     wg_tools: true
@@ -533,7 +534,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Moran Yarchi
-    homepage: 
+    homepage: null
     country: IL
     wg_theory: false
     wg_tools: false
@@ -573,16 +574,16 @@ people:
     wg_dissemination: false
     mc: false
   - name: Christian Baden
-    homepage: https://scholars.huji.ac.il/christianbaden/
-    country: IL
-    wg_theory: true
     wg_tools: false
-    wg_data: false
+    homepage: https://scholars.huji.ac.il/christianbaden/
     wg_dissemination: true
+    wg_theory: true
     role: AC
     mc: true
+    country: IL
+    wg_data: false
   - name: Igor Micevski
-    homepage: 
+    homepage: null
     country: MK
     wg_theory: true
     wg_tools: false
@@ -598,14 +599,14 @@ people:
     wg_dissemination: false
     mc: true
   - name: Helle Sjøvaag
-    homepage: https://sjovaaghelle.wordpress.com/
-    country: NO
-    wg_theory: false
     wg_tools: false
-    wg_data: false
+    homepage: https://sjovaaghelle.wordpress.com/
     wg_dissemination: true
+    wg_theory: false
     role: ACV
     mc: true
+    country: NO
+    wg_data: false
   - name: Bharathi Raja Chakravarthi
     homepage: https://www.universityofgalway.ie/our-research/people/computer-science/bharathirajaasokachakravarthi/
     country: IE
@@ -639,16 +640,16 @@ people:
     wg_dissemination: false
     mc: true
   - name: Nina Springer
-    homepage: https://www.uni-muenster.de/Kowi/en/personen/nina-springer.html
-    country: DE
-    wg_theory: true
     wg_tools: false
-    wg_data: true
+    homepage: https://www.uni-muenster.de/Kowi/en/personen/nina-springer.html
     wg_dissemination: false
+    wg_theory: true
     role: GAC
     mc: false
+    country: DE
+    wg_data: true
   - name: Aleksandra Urman
-    homepage: 
+    homepage: null
     country: CH
     wg_theory: false
     wg_tools: true
@@ -728,7 +729,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Carlo Strapparava
-    homepage: 
+    homepage: null
     country: IT
     wg_theory: true
     wg_tools: true
@@ -776,7 +777,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Mirjana Ilić
-    homepage: 
+    homepage: null
     country: RS
     wg_theory: true
     wg_tools: true
@@ -816,14 +817,14 @@ people:
     wg_dissemination: false
     mc: true
   - name: Marina Popescu
-    homepage: 
-    country: RO
-    wg_theory: true
     wg_tools: false
-    wg_data: true
+    homepage: null
     wg_dissemination: false
-    role: WG3L
+    wg_theory: true
+    role: WG3V1
     mc: true
+    country: RO
+    wg_data: true
   - name: Cengiz Erisen
     homepage: https://www.researchgate.net/profile/Cengiz-Erisen
     country: TR
@@ -921,7 +922,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Nelda Kote
-    homepage: 
+    homepage: null
     country: AL
     wg_theory: false
     wg_tools: true
@@ -945,7 +946,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Chaya Liebeskind
-    homepage: 
+    homepage: null
     country: IL
     wg_theory: false
     wg_tools: true
@@ -961,14 +962,14 @@ people:
     wg_dissemination: false
     mc: false
   - name: Wouter Van Atteveldt
-    homepage: https://vanatteveldt.com
-    country: NL
-    wg_theory: false
     wg_tools: true
-    wg_data: false
+    homepage: https://vanatteveldt.com
     wg_dissemination: false
+    wg_theory: false
     role: GHSRV
     mc: false
+    country: NL
+    wg_data: false
   - name: Michaela Maier
     homepage: https://psy.rptu.de/aes/ikm/kommunikationspsychologie/team/prof-dr-michaela-maier
     country: DE
@@ -994,7 +995,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Henning Wachsmuth
-    homepage: 
+    homepage: null
     country: DE
     wg_theory: false
     wg_tools: true
@@ -1042,7 +1043,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Anna Baczkowska
-    homepage: 
+    homepage: null
     country: PL
     wg_theory: true
     wg_tools: true
@@ -1058,7 +1059,7 @@ people:
     wg_dissemination: true
     mc: false
   - name: Boris Mance
-    homepage: 
+    homepage: null
     country: SI
     wg_theory: false
     wg_tools: true
@@ -1082,7 +1083,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Milana Bolatbek
-    homepage: 
+    homepage: null
     country: KZ
     wg_theory: true
     wg_tools: true
@@ -1098,13 +1099,14 @@ people:
     wg_dissemination: true
     mc: false
   - name: Johannes B. Gruber
-    homepage: 
-    country: NL
-    wg_theory: false
     wg_tools: true
-    wg_data: false
+    homepage: null
     wg_dissemination: true
+    wg_theory: false
+    role: WG2V2
     mc: false
+    country: NL
+    wg_data: false
   - name: Eetu Mäkelä
     homepage: https://iki.fi/eetu.makela
     country: FI
@@ -1122,7 +1124,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Daniela Sirinic
-    homepage: 
+    homepage: null
     country: HR
     wg_theory: false
     wg_tools: false
@@ -1210,7 +1212,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Erik De Vries
-    homepage: 
+    homepage: null
     country: NL
     wg_theory: false
     wg_tools: true
@@ -1218,7 +1220,7 @@ people:
     wg_dissemination: false
     mc: false
   - name: Erika Lombart
-    homepage: 
+    homepage: null
     country: BE
     wg_theory: true
     wg_tools: false
@@ -1354,7 +1356,7 @@ people:
     wg_dissemination: true
     mc: false
   - name: Dayei Oh
-    homepage: 
+    homepage: null
     country: FI
     wg_theory: true
     wg_tools: false
@@ -1402,7 +1404,7 @@ people:
     wg_dissemination: true
     mc: true
   - name: Jonila Godole
-    homepage: 
+    homepage: null
     country: AL
     wg_theory: false
     wg_tools: false
@@ -1410,12 +1412,12 @@ people:
     wg_dissemination: false
     mc: true
   - name: Aysen Şimsek
-    homepage: https://vu.nl
-    country: NL
-    wg_theory: false
     wg_tools: false
-    wg_data: false
+    homepage: https://vu.nl
     wg_dissemination: false
+    wg_theory: false
     role: GHM
     mc: false
+    country: NL
+    wg_data: false
 ---
