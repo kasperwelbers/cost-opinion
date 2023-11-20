@@ -480,7 +480,7 @@ people:
     homepage: http://www.cril.univ-artois.fr/~vesic/
     wg_dissemination: false
     wg_theory: false
-    role: WG2V1
+    role: WG2V2
     mc: true
     country: FR
     wg_data: false
@@ -1103,7 +1103,7 @@ people:
     homepage: null
     wg_dissemination: true
     wg_theory: false
-    role: WG2V2
+    role: WG2V1
     mc: false
     country: NL
     wg_data: false
