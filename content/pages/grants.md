@@ -43,8 +43,7 @@ grant_types:
     criteria: Quality of proposal; contribution to OPINION’s objectives; priority
       will be given to applications that involve Early Career Scholars and
       Inclusion Target Countries
-    how_much: Registration fees up to € 500, plus a fixed contribution of up to €
-      160 per day, up to € 2,500 in total
+    how_much: Up to € 1,500 in total
     how: There is currently no open call for Virtual Mobility.
     members_only: true
   - title: Virtual Networking Support (VNS)
