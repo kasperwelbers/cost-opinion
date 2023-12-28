@@ -6,7 +6,10 @@ members_only_text: Eligibility is restricted to OPINION members affiliated in
   COST full or cooperating member countries, Near Neighbour countries, or
   European RTD organizations.
 grant_types:
-  - title: Short-term Scientific Mission (STSM)
+  - title: |-
+      ###### **OPEN CALL**
+
+      Short-term Scientific Mission (STSM)
     who: OPINION Members
     what: Individual mobility grant for researchers to support collaborations,
       training activities or mentoring schemes with partners in another country
@@ -17,7 +20,10 @@ grant_types:
     how: For the current Call for Applications, please [click
       here](updates/call-for-applications-short-term-scientific-missions-in-2024_2023-12-28).
     members_only: true
-  - title: ITC Conference Grant
+  - title: |-
+      ###### **OPEN CALL**
+
+      ITC Conference Grant
     who: Doctoral students, Early Career Scholars or young innovators affiliated in
       an  Inclusiveness Target Country or Near Neighbour Country
     what: Individual conference grant to present your own work at an international
