@@ -62,4 +62,4 @@ Grants envisaged in OPINION’s current Grant Period (GP2)
 * <https://www.cost.eu/uploads/2021/12/Grant-Awarding-userguide.pdf>
 * Examples of reports: <https://www.ntnu.edu/populistcommunication/stsm-2016/201>
 
-*To download this Call for Applications, please click [here](https://www.opinion-network.eu/img/).*
+*To download this Call for Applications, please click [here](https://www.opinion-network.eu/img/cfa_stsms-final_gp2.pdf).*
