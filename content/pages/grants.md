@@ -4,7 +4,7 @@ description: "OPINION supports mobility and exchanges among researchers in the
   network. There are four types of grants:"
 members_only_text: Eligibility is restricted to OPINION members affiliated in
   COST full or cooperating member countries, Near Neighbour countries, or
-  European RTD organizaions.
+  European RTD organizations.
 grant_types:
   - title: Short-term Scientific Mission (STSM)
     who: OPINION Members
