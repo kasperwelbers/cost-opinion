@@ -3,6 +3,7 @@ title: "Call for Applications: Short-Term Scientific Missions in 2024"
 date: 2023-12-08T11:56:42.724Z
 author: Nina Springer
 announce_until: ""
+image: img/europe_alt.jpg
 ---
 **CALL FOR APPLICATIONS: SHORT-TERM SCIENTIFIC MISSIONS (STSMs)**
 
