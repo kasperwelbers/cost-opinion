@@ -4,17 +4,10 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import prepareResultsList from "../util/prepareResultsList";
 
 interface Props {
-  content: Content;
+  results: Result[];
 }
 
-interface Content {
-  body: string;
-  attributes: {
-    results: ResultsAttributes[];
-  };
-}
-
-interface ResultsAttributes {
+interface Result {
   id: string;
   title: string;
   author: string;
@@ -23,7 +16,7 @@ interface ResultsAttributes {
   url: string;
 }
 
-const Results: NextPage<Props> = ({ content }) => {
+const Results: NextPage<Props> = ({ results }) => {
   return (
     <div className={`AppComponent`}>
       <style jsx>
@@ -62,6 +55,10 @@ const Results: NextPage<Props> = ({ content }) => {
             color: black;
             text-decoration: none;
           }
+          .author {
+            font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+            line-height: clamp(1.5rem, 2.2vw, 2rem);
+          }
         `}
       </style>
       <div className="Results">
@@ -69,7 +66,7 @@ const Results: NextPage<Props> = ({ content }) => {
           <h1>Results</h1>
           <hr />
           <br />
-          {content.attributes.results.map((result) => {
+          {results.map((result) => {
             return (
               <a
                 key={result.id}
@@ -79,10 +76,10 @@ const Results: NextPage<Props> = ({ content }) => {
                 rel="noreferrer"
               >
                 <h4>{result.title}</h4>
-                <span>
+                <div className="author">
                   {result.author} ({result.pub_year}).{" "}
                   <i>{result.published_in}</i>
-                </span>
+                </div>
               </a>
             );
           })}
@@ -141,19 +138,8 @@ const Results: NextPage<Props> = ({ content }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const content = readMd("content/pages/results.md");
-  content.attributes.results = prepareResultsList();
-  return { props: { content } };
-};
-
-const generateSlug = (string: string) => {
-  let str = string.replace(/^\s+|\s+$/g, "");
-  str = str.toLowerCase();
-  str = str
-    .replace(/[^a-z0-9 -]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-");
-  return str;
+  const results = prepareResultsList();
+  return { props: { results } };
 };
 
 export default Results;
