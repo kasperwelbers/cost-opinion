@@ -30,7 +30,7 @@ interface GrantType {
 }
 
 const Grants: NextPage<Props> = ({ content }) => {
-  const [selected, setSelected] = useState<number>();
+  const [selected, setSelected] = useState<number>(0);
   const { title, description, members_only_text, footnote, grant_types } =
     content.attributes;
 

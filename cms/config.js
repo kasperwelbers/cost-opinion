@@ -28,6 +28,18 @@ export default {
           ],
         },
         {
+          label: "Results",
+          name: "results",
+          file: "content/pages/results.md",
+          fields: [
+            {
+              label: "Body",
+              name: "body",
+              widget: "markdown",
+            },
+          ],
+        },
+        {
           label: "Home",
           name: "home",
           file: "content/pages/home.md",
@@ -533,6 +545,20 @@ export default {
             },
           ],
         },
+      ],
+    },
+    {
+      name: "result",
+      label: "Result",
+      folder: "content/pages/results",
+      create: true,
+      slug: "{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Author", name: "author", widget: "string" },
+        { label: "Published in", name: "published_in", widget: "string" },
+        { label: "Publication year", name: "pub_year", widget: "integer" },
+        { label: "url", name: "url", widget: "string" },
       ],
     },
     {

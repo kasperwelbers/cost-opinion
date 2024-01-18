@@ -11,6 +11,7 @@ const MENU_LIST = [
   { text: "Policies", href: "/policies" },
   { text: "Grants", href: "/grants" },
   { text: "Updates", href: "/updates" },
+  { text: "Results", href: "/results" },
   { text: "Contact", href: "/contact" },
 ];
 
