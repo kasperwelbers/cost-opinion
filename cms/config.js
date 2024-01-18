@@ -33,6 +33,11 @@ export default {
           file: "content/pages/results.md",
           fields: [
             {
+              label: "Title",
+              name: "title",
+              widget: "string",
+            },
+            {
               label: "Body",
               name: "body",
               widget: "markdown",

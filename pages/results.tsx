@@ -4,6 +4,8 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import prepareResultsList from "../util/prepareResultsList";
 
 interface Props {
+  title: string;
+  body: string;
   results: Result[];
 }
 
@@ -16,7 +18,7 @@ interface Result {
   url: string;
 }
 
-const Results: NextPage<Props> = ({ results }) => {
+const Results: NextPage<Props> = ({ title, body, results }) => {
   return (
     <div className={`AppComponent`}>
       <style jsx>
@@ -56,14 +58,15 @@ const Results: NextPage<Props> = ({ results }) => {
             text-decoration: none;
           }
           .author {
-            font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+            font-size: clamp(1.2rem, 1.8vw, 1rem);
             line-height: clamp(1.5rem, 2.2vw, 2rem);
           }
         `}
       </style>
       <div className="Results">
         <div className="Container">
-          <h1>Results</h1>
+          <h1>{title}</h1>
+          <ReactMarkdown className="NoMargin">{body}</ReactMarkdown>
           <hr />
           <br />
           {results.map((result) => {
@@ -138,8 +141,9 @@ const Results: NextPage<Props> = ({ results }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
+  const { attributes, body } = readMd("content/pages/results.md");
   const results = prepareResultsList();
-  return { props: { results } };
+  return { props: { title: attributes.title, body, results } };
 };
 
 export default Results;
