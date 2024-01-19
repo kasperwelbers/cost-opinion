@@ -9,6 +9,8 @@ image: https://upload.wikimedia.org/wikipedia/commons/e/eb/Old_Library_in_Univer
 
 W﻿e are thrilled to announce the first OPINION COST Action Training School in Computational Opinion Analysis. The meeting will take place in Salamanca, Spain, from June 13 to 14, 2024.
 
+
+
 **First Day, June 13**
 
 
@@ -31,6 +33,8 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 
 15:00-17:30 Processing text and text as data (Valerie Hase)
+
+
 
 
 
