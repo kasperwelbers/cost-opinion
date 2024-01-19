@@ -48,12 +48,22 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 10:45-12:15 Topic Modeling (Valerie Hase)
 
+
+
 12:15-12:30 Break
+
+
 
 12:30-13:20 Machine Learning for opinion research (Damian Trilling)
 
+
+
 13:20-15:00 Lunch
 
+
+
 15:00-16:45 Supervised text classification (Damian Trilling, Johannes Gruber)
+
+
 
 16:45-17:15 Conclusion (looking ahead) and evaluation (Carlos Arcila Calderon)
