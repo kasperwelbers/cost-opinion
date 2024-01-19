@@ -7,25 +7,24 @@ image: https://upload.wikimedia.org/wikipedia/commons/e/eb/Old_Library_in_Univer
 ---
 ## COST Action Training School in Computational Opinion Analysis - COpA
 
-W﻿e are thrilled to announce the first OPINION COST Action Training School in Computational Opinion Analysis. The meeting will take place in Salamanca, Spain, from June 12 to 14, 2024.
+W﻿e are thrilled to announce the first OPINION COST Action Training School in Computational Opinion Analysis. The meeting will take place in Salamanca, Spain, from June 13 to 14, 2024.
 
-### Wednesday 
-* **15:00-15:15** Registration 
-* **15:15-16:00** Presentation of the Training School 
-* **17:00-20:00** Parallel workshops for Coding (R & Python)
+**First Day, June 13**
+8:30-9:00 Registration and coffee
+9:00-9:30 Presentation of the Training School (Carlos Arcila Calderon)
+9:35-12:15 Parallel workshops for Coding (R & Python) (Mariken van der Velden R - Aleksander Tomasevic Python)
+12:15-12:30 Break
+12:30-13:20 Inspiring examples of text analysis for opinion research (Christian Baden & Mariken van der Velden)
+13:20-15:00 Lunch
+15:00-17:30 Processing text and text as data (Valerie Hase)
 
-### Thursday
-* **09:00-09:50** Inspiring examples of text analysis for opinion research 
-* **09:50-10:10** Break
-* **10:10-12:50** Processing text and text as data
-* **13:00-14:30** Lunch
-* **14:30-16:00** Lexicon-based approaches
-* **16:00-16:15** Break
-* **16:15-17:45** Topic Modeling
-
-### Friday
-* **09:00-09:50** Machine Learning for opinion research
-* **09:50-10:10** Break
-* **10:10-12:00** Supervised text classification
-* **12:00-12:15** Break
-* **12:15-13:00** Conclusion (looking ahead) and evaluation
+**Second Day, June 14**
+8:30-9:00 coffee
+9:00-10:30 Lexicon-based approaches (Johannes Gruber)
+10:30-10:45 Break
+10:45-12:15 Topic Modeling (Valerie Hase)
+12:15-12:30 Break
+12:30-13:20 Machine Learning for opinion research (Damian Trilling)
+13:20-15:00 Lunch
+15:00-16:45 Supervised text classification (Damian Trilling, Johannes Gruber)
+16:45-17:15 Conclusion (looking ahead) and evaluation (Carlos Arcila Calderon)
