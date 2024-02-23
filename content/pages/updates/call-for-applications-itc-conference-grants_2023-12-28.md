@@ -2,7 +2,7 @@
 title: "Call for Applications: ITC Conference Grants"
 date: 2023-12-08T12:42:06.782Z
 author: Nina Springer
-announce_until: 2023-12-28T12:42:06.790Z
+announce_until: 2024-04-30T11:42:06.790Z
 image: img/conference.jpg
 ---
 **CALL FOR APPLICATIONS: ITC Conference Grants**
