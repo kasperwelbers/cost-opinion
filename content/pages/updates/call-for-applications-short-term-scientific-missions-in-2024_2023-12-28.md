@@ -64,4 +64,4 @@ Grants envisaged in OPINION’s current Grant Period (GP2)
 
 * <https://www.cost.eu/uploads/2021/12/Grant-Awarding-userguide.pdf>
 
-*To download this Call for Applications, please click [here](https://www.opinion-network.eu/img/cfa_stsms-final_gp2.pdf).*
+*To download this Call for Applications, please click [here](https://www.opinion-network.eu/img/cfa_stsms-final_2023_24_V2.pdf).*
