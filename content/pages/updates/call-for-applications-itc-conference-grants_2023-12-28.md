@@ -30,11 +30,12 @@ Grants envisaged in OPINION’s current Grant Period (GP2)
 **Application**
 
 * Via e-COST: Grant Applications tab (<https://e-services.cost.eu/activity/grants>)
-* Documents to be provided to Grant Coordination Office ([grants@opinion-network.eu](mailto:grants@opinion-network.eu)):
+* Documents to be provided to Grant Coordination Office in English ([grants@opinion-network.eu](mailto:grants@opinion-network.eu)):
 
   * Filled-in ITC Conference Grant application form on e-COST
   * Evidence of acceptance to conference/inclusion in programme
-  * Rationale (800–1200 words), addressing contribution to OPINION’s objectives
+  * Rationale (800–1200 words), addressing contribution to OPINION’s objectivesand justifying the budget request. Please make sure to follow COST guidelines: <https://www.cost.eu/cost-actions/annotated-rules-qa/> 
+  * Budget overview to justify the requested amount of financial support.
   * CV
 
 **Evaluation and selection criteria**
@@ -51,10 +52,11 @@ Grants envisaged in OPINION’s current Grant Period (GP2)
 * Documentary evidence of the conference fee amount and payment
 * The Grantee must submit either a certificate of attendance or a report to the Grant Coordination Office and the Grant Holder Manager within 30 calendar days after the end of the Conference
 * Disbursement of the Grant is subject to the submitted documentation being approved by the Grant Coordination Office.
+* P﻿lease use this template: <https://www.cost.eu/DisseminationConference_Report> 
 
 **More Information**
 
 * [https://www.cost.eu/uploads/2018/11/Inclusiveness-Target-Countries-
   Conference-Grants-userguide-V2-003-Oct-2018-1.pdf](<https://www.cost.eu/uploads/2018/11/Inclusiveness-Target-Countries- Conference-Grants-userguide-V2-003-Oct-2018-1.pdf>)
 
-*To download this Call for Applications, please click [here](https://www.opinion-network.eu/img/cfa_ictconf-final_gp2.pdf).*
+*To download this Call for Applications, please click here.*
