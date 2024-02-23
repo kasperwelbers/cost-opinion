@@ -59,4 +59,4 @@ Grants envisaged in OPINION’s current Grant Period (GP2)
 * [https://www.cost.eu/uploads/2018/11/Inclusiveness-Target-Countries-
   Conference-Grants-userguide-V2-003-Oct-2018-1.pdf](<https://www.cost.eu/uploads/2018/11/Inclusiveness-Target-Countries- Conference-Grants-userguide-V2-003-Oct-2018-1.pdf>)
 
-*To download this Call for Applications, please click here.*
+*To download this Call for Applications, please click [here](https://www.opinion-network.eu/img/cfa_ICTconf-final_2023_24_V2.pdf).*
