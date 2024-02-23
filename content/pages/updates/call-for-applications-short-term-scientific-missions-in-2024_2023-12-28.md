@@ -2,7 +2,7 @@
 title: "Call for Applications: Short-Term Scientific Missions in 2024"
 date: 2023-12-08T11:56:42.724Z
 author: Nina Springer
-announce_until: ""
+announce_until: 2024-04-29T22:00:00.000Z
 image: img/europe_alt.jpg
 ---
 **CALL FOR APPLICATIONS: SHORT-TERM SCIENTIFIC MISSIONS (STSMs)**
@@ -36,12 +36,13 @@ Grants envisaged in OPINION’s current Grant Period (GP2)
 **Application**
 
 * Via e-COST: Grant Applications tab (<https://e-services.cost.eu/activity/grants>)
-* Documents to be provided to Grant Coordination Office ([grants@opinion-network.eu](mailto:grants@opinion-network.eu)):
+* Documents to be provided to Grant Coordination Office in English  ([grants@opinion-network.eu](mailto:grants@opinion-network.eu)):
 
   * Filled-in STSM Grant application form on e-COST
   * Invitation letter from host institution
-  * Work plan (800–1200 words), addressing contribution to OPINION’s objectives
-  * CV
+  * Work plan (800–1200 words), addressing contribution to OPINION’s objectives and justifying the budget request. Please make sure to follow COST guidelines.﻿ ([https://www.cost.eu/cost-actions/annotated-rules-qa](<* * https://www.cost.eu/cost-actions/annotated-rules-qa>))
+  * Budget overview to justify the requested amount of financial support.
+  * CV 
 
 **Evaluation and selection criteria**
 
@@ -57,10 +58,10 @@ Grants envisaged in OPINION’s current Grant Period (GP2)
 
 * Every grantee must submit a scientific report (1200–1800 words) to the Grant Coordination Office and to a senior researcher affiliated with the host institution within 30 calendar days after the end of the STSM. The report shall describe the work carried out, outcomes (incl. future collaboration), and how outcomes are relevant to OPINION
 * Disbursement of the Grant is subject to the STSM scientific report being approved by the Grant Coordination Office and by the senior researcher affiliated to the Host Institution.
+* Please use the report template: [https://www.cost.eu/STSM_Report](https://www.cost.eu/STSM_Report)   
 
 **More Information**
 
 * <https://www.cost.eu/uploads/2021/12/Grant-Awarding-userguide.pdf>
-* Examples of reports: <https://www.ntnu.edu/populistcommunication/stsm-2016/201>
 
 *To download this Call for Applications, please click [here](https://www.opinion-network.eu/img/cfa_stsms-final_gp2.pdf).*
