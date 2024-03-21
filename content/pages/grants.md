@@ -70,6 +70,9 @@ awarded_grants:
   - type: STSM
     who: Asta Zelenkauskaite  
     url: STSM_Report_Asta Zelenkauskaite.pdf
+  - type: STSM
+    who: Edlira Gugu  
+    url: STSM_Report_Edlira Gugu.pdf
 ---
 
 # If you are interested, please get in contact with OPINION's Grant Coordination Team!
