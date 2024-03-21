@@ -57,6 +57,19 @@ grant_types:
     how_much: Fixed contribution of up to € 4,000 in total per year
     how: There is currently no open call for Virtual Networking Support.
     members_only: true
+awarded_grants:
+  - type: STSM
+    who: Dren Gerguri
+    url: STSM_Report_Dren Gerguri.pdf 
+  - type: STSM
+    who: Ljubisa Bojic
+    url: STSM_Report_2_Ljubisa Bojic.pdf
+  - type: STSM
+    who: Lumani Zaçellari
+    url: STSM_Report_Manjola Lumani Zaçellari.pdf
+  - type: STSM
+    who: Asta Zelenkauskaite  
+    url: STSM_Report_Asta Zelenkauskaite.pdf
 ---
 
 # If you are interested, please get in contact with OPINION's Grant Coordination Team!

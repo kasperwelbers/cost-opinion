@@ -535,6 +535,17 @@ export default {
                 },
               ],
             },
+            {
+              label: "Awarded grants",
+              name: "awarded_grants",
+              widget: "list",
+              allow_add: true,
+              fields: [
+                { label: "Type", name: "type", widget: "markdown" },
+                { label: "Who", name: "who", widget: "markdown" },
+                { label: "Url", name: "url", widget: "string" },
+              ],
+            },
             { label: "Body", name: "body", widget: "markdown" },
           ],
         },

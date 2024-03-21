@@ -34,7 +34,7 @@ Grants envisaged in OPINION’s current Grant Period (GP2)
 
   * Filled-in ITC Conference Grant application form on e-COST
   * Evidence of acceptance to conference/inclusion in programme
-  * Rationale (800–1200 words), addressing contribution to OPINION’s objectivesand justifying the budget request. Please make sure to follow COST guidelines: <https://www.cost.eu/cost-actions/annotated-rules-qa/> 
+  * Rationale (800–1200 words), addressing contribution to OPINION’s objectives and justifying the budget request. Please make sure to follow COST guidelines: <https://www.cost.eu/cost-actions/annotated-rules-qa/> 
   * Budget overview to justify the requested amount of financial support.
   * CV
 

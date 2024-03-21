@@ -16,6 +16,7 @@
   z-index: 10;
   max-height: 15rem;
   transition: all 1s;
+  text-shadow: 0 0 20px black;
 }
 
 .Grants .Description {
@@ -102,6 +103,58 @@
 }
 .Grants .MembersOnly p {
   margin: 0;
+}
+
+.Grants .Awarded {
+  margin: auto;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Grants .AwardedList {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, 38rem);
+  gap: 1rem;
+}
+
+.Grants .AwardedItem {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  padding: 1rem;
+  background: #fffb;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.Grants .AwardedItem:hover {
+  transform: scale(1.02);
+}
+.Grants .AwardedType {
+  background-color: var(--primary);
+  color: white;
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.Grants .AwardedWho {
+  font-size: 1.6rem;
+  color: var(--primary);
 }
 
 .Grants .footnote {

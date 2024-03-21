@@ -1,15 +1,5 @@
-import React, {
-  Dispatch,
-  FunctionComponent,
-  memo,
-  SetStateAction,
-} from "react";
-import {
-  ComposableMap,
-  Geographies,
-  Geography,
-  Marker,
-} from "react-simple-maps";
+import React, { Dispatch, FunctionComponent, memo, SetStateAction } from "react";
+import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
 import { geoCentroid } from "d3-geo";
 import { Person } from "../types";
 
@@ -56,16 +46,11 @@ interface Props {
   countries: Record<string, Person[]>;
 }
 
-const MapChart: FunctionComponent<Props> = ({
-  setTooltipContent,
-  setPopup,
-  countries,
-}) => {
+const MapChart: FunctionComponent<Props> = ({ setTooltipContent, setPopup, countries }) => {
   const onClick = (countryCode: string, e: any) => {
     e.preventDefault();
     e.stopPropagation();
-    if (countries[countryCode])
-      setPopup(e.clientX, e.clientY, countries[countryCode]);
+    if (countries[countryCode]) setPopup(e.clientX, e.clientY, countries[countryCode]);
   };
 
   const onMouseEnter = (countryCode: string) => {
@@ -105,14 +90,9 @@ const MapChart: FunctionComponent<Props> = ({
               return true;
             });
 
-            const miniGeographies = geographies.filter((geo) =>
-              ["MT"].includes(geo.properties["Alpha-2"])
-            );
+            const miniGeographies = geographies.filter((geo) => ["MT"].includes(geo.properties["Alpha-2"]));
             if (missedCountries.size > 0) {
-              console.log(
-                "SOME MEMBER COUNTRIES NOT CORRECTLY MATCHED (CHECK THE COUNTRY CODES)",
-                missedCountries
-              );
+              console.log("SOME MEMBER COUNTRIES NOT CORRECTLY MATCHED (CHECK THE COUNTRY CODES)", missedCountries);
             }
 
             return (
