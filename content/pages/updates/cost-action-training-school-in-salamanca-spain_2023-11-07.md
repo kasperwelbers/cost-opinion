@@ -59,13 +59,17 @@ Christian Baden is Associate Professor at the [Department of Communication and J
 
 Dr. Valerie Hase is a postdoctoral researcher at the Department of Media and Communication at LMU Munich, Germany. She holds an M.Sc. in Social Research Methods from LSE and a Ph.D. in communication research from the University of Zurich. Her research focuses on automated content analysis, digital trace data, biases in CCS, and digital journalism.
 
-<https://www.youtube.com/watch?v=FgdF_hs4nkE>
+[](https://www.youtube.com/watch?v=FgdF_hs4nkE)
+
+
 
 #### **Damian Trilling**
 
 Damian Trilling is professor of journalism studies at Vrije Universiteit Amsterdam. He is an expert on computational social science and co-authored (with Wouter van Atteveldt and Carlos Arcila calderón) a textbook on "Computational Analysis of Communication" (<https://cssbook.net/>). His research interests center around the question how news and information is consumed and spread in the contemporary media environment. For this, he uses a wide range of innovative methods. In the context of COST OPINION, he is especially interested in how more subtle constructs (like opinions voiced in texts) can be measured in a reliable and scalable way. He has been teaching courses on automated content analysis using Python for more than 10 years and regularly gives guest lectures, seminars, and courses on this at various institutions.
 
-<https://www.youtube.com/watch?v=ggqhHas_CtI>
+
+
+
 
 #### **Mariken van der Velden**
 
