@@ -71,10 +71,6 @@ Damian Trilling is professor of journalism studies at Vrije Universiteit Amsterd
 
  ﻿
 
- .﻿
-
-﻿
-
 [](https://www.youtube.com/watch?v=ggqhHas_CtI)
 
 #### **Mariken van der Velden**
