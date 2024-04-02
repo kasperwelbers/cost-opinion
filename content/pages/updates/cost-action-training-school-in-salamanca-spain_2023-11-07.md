@@ -45,16 +45,13 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 16:45-17:15 Conclusion (looking ahead) and evaluation (Carlos Arcila Calderon)
 
- ﻿
-
 ## I﻿nstructors
 
 #### **Christian Baden**
 
 Christian Baden is Associate Professor at the [Department of Communication and Journalism](https://communication.huji.ac.il/) at the Hebrew University of Jerusalem, affiliated with the [Center for Interdisciplinary Data Science Research (CIDR)](http://cidr.staging.cs.huji.ac.il/en/), and Paul F. Lazarsfeld Guest Professor at the Vienna University's [Faculty of Social Sciences](https://sowi.univie.ac.at/). His research focuses on dynamic processes of meaning negotiation, contestation and consensus formation in public discourse, with specific attention to the role of framing, cultural resonance, meaning multiplicity, and diversity of presented viewpoints. Integrating computational and manual, quantitative and qualitative approaches, his work has proposed novel strategies for the operational modeling of complex semantic constructs in evolving natural discourse. Specifically, his work aims to illuminate challenges to measurement validity, nuance and accountability that arise from available methodological strategies and computational technologies in social science text analysis. Christian Baden chairs the European COST network OPINION, which brings together researchers across countries and disciplines to advance the study of opinionated text.
 
-<https://www.youtube.com/watch?v=xVazagdKyzw>
-
+`<iframe width="560" height="315" src="https://www.youtube.com/embed/xVazagdKyzw?si=fh0R7LvsWf1x4xQh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
  ﻿
 
 #### **Valerie Hase**
@@ -63,21 +60,15 @@ Dr. Valerie Hase is a postdoctoral researcher at the Department of Media and Com
 
 <https://www.youtube.com/watch?v=FgdF_hs4nkE>
 
- ﻿
-
 #### **Damian Trilling**
 
 Damian Trilling is professor of journalism studies at Vrije Universiteit Amsterdam. He is an expert on computational social science and co-authored (with Wouter van Atteveldt and Carlos Arcila calderón) a textbook on "Computational Analysis of Communication" (<https://cssbook.net/>). His research interests center around the question how news and information is consumed and spread in the contemporary media environment. For this, he uses a wide range of innovative methods. In the context of COST OPINION, he is especially interested in how more subtle constructs (like opinions voiced in texts) can be measured in a reliable and scalable way. He has been teaching courses on automated content analysis using Python for more than 10 years and regularly gives guest lectures, seminars, and courses on this at various institutions.
 
 <https://www.youtube.com/watch?v=ggqhHas_CtI>
 
- ﻿
-
 #### **Mariken van der Velden**
 
 I am an Associate Professor of Political Communication in the Department of Communication Science at the [Vrije Universiteit Amsterdam](https://vu.nl/en/about-vu/faculties/faculty-of-social-sciences/departments/communication-science). I received my PhD in Political Science from the [Vrije Universiteit Amsterdam](https://vu.nl/en/about-vu/faculties/faculty-of-social-sciences/departments/political-science-and-public-administration). Before joining the Department of Communication Science, I was a postdoctoral researcher at the [Institute of Political Science at the University of Zurich](https://www.ipz.uzh.ch/de.html), and visiting researcher of the Departments of Political Science at [the University of North Carolina](https://politicalscience.unc.edu/), Chapel Hill and [the University of Oxford](https://www.politics.ox.ac.uk/). My research interest comprise the areas of political communication, political behavior, and computational social science. I am motivated by key societal challenges that face democracies today, such as the crisis of representative democracy and increasing political fragmentation. Specifically, I apply advanced computational approaches to study the communication and rhetoric of politicians, and how this affects political decision making and its electoral consequences in multi-party systems. In my current work, I examine the legitimacy of political decision-making. 
-
- ﻿
 
 #### **Aleksandar Tomašević**
 
