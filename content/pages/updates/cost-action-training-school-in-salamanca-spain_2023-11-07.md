@@ -53,8 +53,6 @@ Christian Baden is Associate Professor at the [Department of Communication and J
 
 **Mariken van der Velden**
 
-![](img/mariken-van-der-velden.png)
-
 I am an Associate Professor of Political Communication in the Department of Communication Science at the [Vrije Universiteit Amsterdam](https://vu.nl/en/about-vu/faculties/faculty-of-social-sciences/departments/communication-science). I received my PhD in Political Science from the [Vrije Universiteit Amsterdam](https://vu.nl/en/about-vu/faculties/faculty-of-social-sciences/departments/political-science-and-public-administration). Before joining the Department of Communication Science, I was a postdoctoral researcher at the [Institute of Political Science at the University of Zurich](https://www.ipz.uzh.ch/de.html), and visiting researcher of the Departments of Political Science at [the University of North Carolina](https://politicalscience.unc.edu/), Chapel Hill and [the University of Oxford](https://www.politics.ox.ac.uk/). 
 
 My research interest comprise the areas of political communication, political behavior, and computational social science. I am motivated by key societal challenges that face democracies today, such as the crisis of representative democracy and increasing political fragmentation. Specifically, I apply advanced computational approaches to study the communication and rhetoric of politicians, and how this affects political decision making and its electoral consequences in multi-party systems. 
