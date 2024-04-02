@@ -44,9 +44,3 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 15:00-16:45 Supervised text classification (Damian Trilling, Johannes Gruber)
 
 16:45-17:15 Conclusion (looking ahead) and evaluation (Carlos Arcila Calderon)
-
-
-
-
-
-![](https://www.youtube.com/watch?v=zVldMxKRLTY)
