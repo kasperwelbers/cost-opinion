@@ -49,11 +49,7 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 **Christian Baden**
 
-![](img/cbaden.png)
-
 Christian Baden is Associate Professor at the [Department of Communication and Journalism](https://communication.huji.ac.il/) at the Hebrew University of Jerusalem, affiliated with the [Center for Interdisciplinary Data Science Research (CIDR)](http://cidr.staging.cs.huji.ac.il/en/), and Paul F. Lazarsfeld Guest Professor at the Vienna University's [Faculty of Social Sciences](https://sowi.univie.ac.at/). His research focuses on dynamic processes of meaning negotiation, contestation and consensus formation in public discourse, with specific attention to the role of framing, cultural resonance, meaning multiplicity, and diversity of presented viewpoints. Integrating computational and manual, quantitative and qualitative approaches, his work has proposed novel strategies for the operational modeling of complex semantic constructs in evolving natural discourse. Specifically, his work aims to illuminate challenges to measurement validity, nuance and accountability that arise from available methodological strategies and computational technologies in social science text analysis. Christian Baden chairs the European COST network OPINION, which brings together researchers across countries and disciplines to advance the study of opinionated text.
-
-
 
 **Mariken van der Velden**
 
@@ -63,19 +59,13 @@ My research interest comprise the areas of political communication, political be
 
 In my current work, I examine the legitimacy of political decision-making. In one project, I study the electoral ramifications of (un)compromising politicians. This research project is funded through an [Innovation Grant (VENI)](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-veni/2019) by the Netherlands Organisation for Scientific Research (NWO). In another project, I look at the perceived legitimacy of goverment communication, which is funded through a [National Science Agenda Grant](https://www.nwo.nl/en/researchprogrammes/dutch-research-agenda-nwa/innovation-and-networks-nwa/small-projects-nwa-routes) by NWO. Moreover, as part of the [OPTED H2020 consortium](https://opted.eu/) funded by the European Research Council, I work on methods to compare textual data in multilangual settings.
 
-
-
 **Aleksandar Tomašević**
 
 Aleksandar Tomašević is an Assistant Professor at the Department of Sociology, University of Novi Sad in Serbia. He obtained his PhD in 2019 from the same university. His research interests are centered around applying and developing statistical and computational methods across different social sciences (psychology, communication science, political science, sociology). The majority of his published works belong to the field of network psychometrics or computational social science. He is proficient in both R and Python. In 2022, he was a Fulbright Visiting Scholar at the University of Virginia, where he worked on developing the transforEmotion R package for sentiment analysis and emotion recognition in images and video.
 
-
-
 **Valerie Hase**
 
 Dr. Valerie Hase is a postdoctoral researcher at the Department of Media and Communication at LMU Munich, Germany. She holds an M.Sc. in Social Research Methods from LSE and a Ph.D. in communication research from the University of Zurich. Her research focuses on automated content analysis, digital trace data, biases in CCS, and digital journalism.
-
-
 
 **Damian Trilling**
 
