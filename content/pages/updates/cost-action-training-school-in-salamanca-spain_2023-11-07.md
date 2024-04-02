@@ -53,6 +53,8 @@ Christian Baden is Associate Professor at the [Department of Communication and J
 
 
 
+
+
 **Valerie Hase**
 
 Dr. Valerie Hase is a postdoctoral researcher at the Department of Media and Communication at LMU Munich, Germany. She holds an M.Sc. in Social Research Methods from LSE and a Ph.D. in communication research from the University of Zurich. Her research focuses on automated content analysis, digital trace data, biases in CCS, and digital journalism.
