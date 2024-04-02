@@ -45,25 +45,15 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 16:45-17:15 Conclusion (looking ahead) and evaluation (Carlos Arcila Calderon)
 
- ﻿
-
- ﻿
-
-### I﻿nstructors 
-
- ﻿
+### I﻿nstructors
 
 **Christian Baden**
-
-![](img/cbaden.png)
 
 Christian Baden is Associate Professor at the [Department of Communication and Journalism](https://communication.huji.ac.il/) at the Hebrew University of Jerusalem, affiliated with the [Center for Interdisciplinary Data Science Research (CIDR)](http://cidr.staging.cs.huji.ac.il/en/), and Paul F. Lazarsfeld Guest Professor at the Vienna University's [Faculty of Social Sciences](https://sowi.univie.ac.at/). His research focuses on dynamic processes of meaning negotiation, contestation and consensus formation in public discourse, with specific attention to the role of framing, cultural resonance, meaning multiplicity, and diversity of presented viewpoints. Integrating computational and manual, quantitative and qualitative approaches, his work has proposed novel strategies for the operational modeling of complex semantic constructs in evolving natural discourse. Specifically, his work aims to illuminate challenges to measurement validity, nuance and accountability that arise from available methodological strategies and computational technologies in social science text analysis. Christian Baden chairs the European COST network OPINION, which brings together researchers across countries and disciplines to advance the study of opinionated text.
 
 _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Mariken van der Velden**
-
-![](img/mariken-van-der-velden.png)
 
 I am an Associate Professor of Political Communication in the Department of Communication Science at the [Vrije Universiteit Amsterdam](https://vu.nl/en/about-vu/faculties/faculty-of-social-sciences/departments/communication-science). I received my PhD in Political Science from the [Vrije Universiteit Amsterdam](https://vu.nl/en/about-vu/faculties/faculty-of-social-sciences/departments/political-science-and-public-administration). Before joining the Department of Communication Science, I was a postdoctoral researcher at the [Institute of Political Science at the University of Zurich](https://www.ipz.uzh.ch/de.html), and visiting researcher of the Departments of Political Science at [the University of North Carolina](https://politicalscience.unc.edu/), Chapel Hill and [the University of Oxford](https://www.politics.ox.ac.uk/). 
 
@@ -75,22 +65,16 @@ _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Aleksandar Tomašević**
 
-![](img/aleksandar-tomašević.png)
-
 Aleksandar Tomašević is an Assistant Professor at the Department of Sociology, University of Novi Sad in Serbia. He obtained his PhD in 2019 from the same university. His research interests are centered around applying and developing statistical and computational methods across different social sciences (psychology, communication science, political science, sociology). The majority of his published works belong to the field of network psychometrics or computational social science. He is proficient in both R and Python. In 2022, he was a Fulbright Visiting Scholar at the University of Virginia, where he worked on developing the transforEmotion R package for sentiment analysis and emotion recognition in images and video.
 
 _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Valerie Hase**
 
-![](img/valeriehase_image.jpg)
-
 Dr. Valerie Hase is a postdoctoral researcher at the Department of Media and Communication at LMU Munich, Germany. She holds an M.Sc. in Social Research Methods from LSE and a Ph.D. in communication research from the University of Zurich. Her research focuses on automated content analysis, digital trace data, biases in CCS, and digital journalism.
 
 _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Damian Trilling**
-
-![](img/damiantrilling1a.jpg)
 
 Damian Trilling is professor of journalism studies at Vrije Universiteit Amsterdam. He is an expert on computational social science and co-authored (with Wouter van Atteveldt and Carlos Arcila calderón) a textbook on "Computational Analysis of Communication" (<https://cssbook.net/>). His research interests center around the question how news and information is consumed and spread in the contemporary media environment. For this, he uses a wide range of innovative methods. In the context of COST OPINION, he is especially interested in how more subtle constructs (like opinions voiced in texts) can be measured in a reliable and scalable way. He has been teaching courses on automated content analysis using Python for more than 10 years and regularly gives guest lectures, seminars, and courses on this at various institutions.
