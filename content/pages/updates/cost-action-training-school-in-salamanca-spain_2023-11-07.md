@@ -9,6 +9,8 @@ image: https://upload.wikimedia.org/wikipedia/commons/e/eb/Old_Library_in_Univer
 
 W﻿e are thrilled to announce the first OPINION COST Action Training School in Computational Opinion Analysis. The meeting will take place in Salamanca, Spain, from June 13 to 14, 2024.
 
+`<iframe width="560" height="315" src="https://www.youtube.com/embed/zVldMxKRLTY?si=HiDVJSOhD_hfn3gS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+
 **First Day, June 13**
 
 8:30-9:00 Registration and coffee
@@ -50,8 +52,6 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 #### **Christian Baden**
 
 Christian Baden is Associate Professor at the [Department of Communication and Journalism](https://communication.huji.ac.il/) at the Hebrew University of Jerusalem, affiliated with the [Center for Interdisciplinary Data Science Research (CIDR)](http://cidr.staging.cs.huji.ac.il/en/), and Paul F. Lazarsfeld Guest Professor at the Vienna University's [Faculty of Social Sciences](https://sowi.univie.ac.at/). His research focuses on dynamic processes of meaning negotiation, contestation and consensus formation in public discourse, with specific attention to the role of framing, cultural resonance, meaning multiplicity, and diversity of presented viewpoints. Integrating computational and manual, quantitative and qualitative approaches, his work has proposed novel strategies for the operational modeling of complex semantic constructs in evolving natural discourse. Specifically, his work aims to illuminate challenges to measurement validity, nuance and accountability that arise from available methodological strategies and computational technologies in social science text analysis. Christian Baden chairs the European COST network OPINION, which brings together researchers across countries and disciplines to advance the study of opinionated text.
-
-
 
 #### ﻿
 
