@@ -15,33 +15,33 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 9:00-9:30 Presentation of the Training School ([Carlos Arcila Calderon](https://www.youtube.com/watch?v=zVldMxKRLTY))
 
-9:35-12:15 Parallel workshops for Coding (R & Python) (Mariken van der Velden R - Aleksander Tomasevic Python)
+9:35-12:15 Parallel workshops for Coding (R & Python) (Mariken van der Velden R - Aleksander Tomasevic Python) [MATERIALS PYTHON](https://copa.atomasevic.com/)
 
 12:15-12:30 Break
 
-12:30-13:20 Inspiring examples of text analysis for opinion research ([Christian Baden](https://www.youtube.com/watch?v=xVazagdKyzw) & Mariken van der Velden)
+12:30-13:20 Inspiring examples of text analysis for opinion research ([Christian Baden](https://www.youtube.com/watch?v=xVazagdKyzw) & Mariken van der Velden) [MATERIALS CB](https://docs.google.com/document/d/14YB024ZYE6ysmbgaj9AVaiXVd3u2Uj38rX-2R9dQITE/edit?usp=drive_link)
 
 13:20-15:00 Lunch
 
-15:00-17:30 Processing text and text as data ([Valerie Hase](https://www.youtube.com/watch?v=FgdF_hs4nkE))
+15:00-17:30 Processing text and text as data ([Valerie Hase](https://www.youtube.com/watch?v=FgdF_hs4nkE)) [MATERIALS](https://github.com/valeriehase/Salamanca-CSS-SummerSchool)
 
 **Second Day, June 14**
 
 8:30-9:00 coffee
 
-9:00-10:30 Lexicon-based approaches (Johannes Gruber)
+9:00-10:30 Lexicon-based approaches (Johannes Gruber) [MATERIALS](https://github.com/JBGruber/copa_summer-school-dictionary)
 
 10:30-10:45 Break
 
-10:45-12:15 Topic Modeling ([Valerie Hase](https://www.youtube.com/watch?v=FgdF_hs4nkE))
+10:45-12:15 Topic Modeling ([Valerie Hase](https://www.youtube.com/watch?v=FgdF_hs4nkE)) [MATERIALS](https://github.com/valeriehase/Salamanca-CSS-SummerSchool)
 
 12:15-12:30 Break
 
-12:30-13:20 Machine Learning for opinion research ([Damian Trilling](https://www.youtube.com/watch?v=ggqhHas_CtI))
+12:30-13:30 Machine Learning for opinion research ([Damian Trilling](https://www.youtube.com/watch?v=ggqhHas_CtI)) [MATERIALS](https://github.com/damian0604/teaching-cost)
 
-13:20-15:00 Lunch
+13:30-15:00 Lunch
 
-15:00-16:45 Supervised text classification ([Damian Trilling,](https://www.youtube.com/watch?v=ggqhHas_CtI) Johannes Gruber)
+15:00-16:45 Supervised text classification ([Damian Trilling,](https://www.youtube.com/watch?v=ggqhHas_CtI) Johannes Gruber)[MATERIALS DT](https://github.com/damian0604/teaching-cost) [MATERIALS JB](https://github.com/JBGruber/copa_summer-school-dictionary) [](https://github.com/damian0604/teaching-cost)
 
 16:45-17:15 Conclusion (looking ahead) and evaluation ([Carlos Arcila Calderon](https://www.youtube.com/watch?v=zVldMxKRLTY))
 
