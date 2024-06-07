@@ -41,7 +41,7 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 13:30-15:00 Lunch
 
-15:00-16:45 Supervised text classification ([Damian Trilling,](https://www.youtube.com/watch?v=ggqhHas_CtI) Johannes Gruber)[MATERIALS DT](https://github.com/damian0604/teaching-cost) [MATERIALS JB](https://github.com/JBGruber/copa_summer-school-dictionary) [](https://github.com/damian0604/teaching-cost)
+15:00-16:45 Supervised text classification ([Damian Trilling,](https://www.youtube.com/watch?v=ggqhHas_CtI) Johannes Gruber)[MATERIALS DT](https://github.com/damian0604/teaching-cost)    [MATERIALS JB](https://github.com/JBGruber/copa_summer-school-dictionary) [](https://github.com/damian0604/teaching-cost)
 
 16:45-17:15 Conclusion (looking ahead) and evaluation ([Carlos Arcila Calderon](https://www.youtube.com/watch?v=zVldMxKRLTY))
 
