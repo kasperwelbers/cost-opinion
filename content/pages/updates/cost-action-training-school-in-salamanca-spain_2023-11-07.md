@@ -19,7 +19,7 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 12:15-12:30 Break
 
-12:30-13:20 Inspiring examples of text analysis for opinion research ([Christian Baden](https://www.youtube.com/watch?v=xVazagdKyzw) & Mariken van der Velden) [MATERIALS CB](https://docs.google.com/document/d/14YB024ZYE6ysmbgaj9AVaiXVd3u2Uj38rX-2R9dQITE/edit?usp=drive_link)[MATERIALS MvdV](https://github.com/ccs-amsterdam/r-course-material?tab=readme-ov-file)[](https://github.com/ccs-amsterdam/r-course-material?tab=readme-ov-file)
+12:30-13:20 Inspiring examples of text analysis for opinion research ([Christian Baden](https://www.youtube.com/watch?v=xVazagdKyzw) & Mariken van der Velden) [MATERIALS CB](https://docs.google.com/document/d/14YB024ZYE6ysmbgaj9AVaiXVd3u2Uj38rX-2R9dQITE/edit?usp=drive_link)  -  [MATERIALS MvdV](https://drive.google.com/file/d/1uEKzbjiJtflJqRhIk8AVsy_DmwC4sdfU/view?usp=drive_link)[](https://github.com/ccs-amsterdam/r-course-material?tab=readme-ov-file)
 
 13:20-15:00 Lunch
 
