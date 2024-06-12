@@ -15,7 +15,7 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 9:00-9:30 Presentation of the Training School ([Carlos Arcila Calderon](https://www.youtube.com/watch?v=zVldMxKRLTY))
 
-9:35-12:15 Parallel workshops for Coding (R & Python) (Mariken van der Velden R - Aleksander Tomasevic Python) [MATERIALS R](https://github.com/ccs-amsterdam/r-course-material?tab=readme-ov-file) -  [MATERIALS PYTHON](https://copa.atomasevic.com/)
+9:35-12:15 Parallel workshops for Coding (R & Python) (Mariken van der Velden R - Aleksander Tomasevic Python) [MATERIALS R](https://drive.google.com/file/d/1uEKzbjiJtflJqRhIk8AVsy_DmwC4sdfU/view?usp=sharing) -  [MATERIALS PYTHON](https://copa.atomasevic.com/)
 
 12:15-12:30 Break
 
