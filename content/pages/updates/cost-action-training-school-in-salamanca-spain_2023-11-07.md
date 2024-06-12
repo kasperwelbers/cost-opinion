@@ -15,11 +15,11 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 9:00-9:30 Presentation of the Training School ([Carlos Arcila Calderon](https://www.youtube.com/watch?v=zVldMxKRLTY))
 
-9:35-12:15 Parallel workshops for Coding (R & Python) (Mariken van der Velden R - Aleksander Tomasevic Python) [MATERIALS PYTHON](https://copa.atomasevic.com/)
+9:35-12:15 Parallel workshops for Coding (R & Python) (Mariken van der Velden R - Aleksander Tomasevic Python) [MATERIALS R](https://github.com/ccs-amsterdam/r-course-material?tab=readme-ov-file) -  [MATERIALS PYTHON](https://copa.atomasevic.com/)
 
 12:15-12:30 Break
 
-12:30-13:20 Inspiring examples of text analysis for opinion research ([Christian Baden](https://www.youtube.com/watch?v=xVazagdKyzw) & Mariken van der Velden) [MATERIALS CB](https://docs.google.com/document/d/14YB024ZYE6ysmbgaj9AVaiXVd3u2Uj38rX-2R9dQITE/edit?usp=drive_link)
+12:30-13:20 Inspiring examples of text analysis for opinion research ([Christian Baden](https://www.youtube.com/watch?v=xVazagdKyzw) & Mariken van der Velden) [MATERIALS CB](https://docs.google.com/document/d/14YB024ZYE6ysmbgaj9AVaiXVd3u2Uj38rX-2R9dQITE/edit?usp=drive_link)[MATERIALS MvdV ](https://github.com/ccs-amsterdam/r-course-material?tab=readme-ov-file)
 
 13:20-15:00 Lunch
 
