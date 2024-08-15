@@ -1,6 +1,6 @@
 ---
-title: OPINION unites over 180 researchers across more than 35 European
-  countries, Israel and the US.
+title: OPINION unites over 200 researchers across more than 40 countries all
+  across Europe and beyond.
 people:
   - name: Ben Wagner
     homepage: https://benwagner.org
