@@ -194,7 +194,7 @@ people:
     homepage: https://www.damiantrilling.net
     wg_dissemination: false
     wg_theory: false
-    role: WG1V2
+    role: WG2V1
     mc: true
     country: NL
     wg_data: false
