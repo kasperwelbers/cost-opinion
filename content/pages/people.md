@@ -165,13 +165,14 @@ people:
     wg_dissemination: false
     mc: false
   - name: Gabriella Szabó
-    homepage: https://politologia.tk.mta.hu/en/researcher/szabo-gabriella
-    country: HU
-    wg_theory: true
     wg_tools: true
-    wg_data: false
+    homepage: https://politologia.tk.mta.hu/en/researcher/szabo-gabriella
     wg_dissemination: false
+    wg_theory: true
+    role: WG1V2
     mc: true
+    country: HU
+    wg_data: false
   - name: Hilde Van Den Bulck
     homepage: http://www.ua.ac.be/hilde.vandenbulck
     country: BE
@@ -193,7 +194,7 @@ people:
     homepage: https://www.damiantrilling.net
     wg_dissemination: false
     wg_theory: false
-    role: WG2L
+    role: WG1V2
     mc: true
     country: NL
     wg_data: false
@@ -218,7 +219,7 @@ people:
     homepage: https://www.researchgate.net/profile/Nicoleta-Corbu
     wg_dissemination: false
     wg_theory: true
-    role: WG1V2
+    role: null
     mc: true
     country: RO
     wg_data: false
@@ -1103,7 +1104,7 @@ people:
     homepage: null
     wg_dissemination: true
     wg_theory: false
-    role: WG2V1
+    role: WG2L
     mc: false
     country: NL
     wg_data: false
