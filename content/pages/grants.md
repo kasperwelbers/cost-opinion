@@ -60,19 +60,28 @@ grant_types:
 awarded_grants:
   - type: STSM
     who: Dren Gerguri
-    url: STSM_Report_Dren Gerguri.pdf 
+    url: STSM_Report_Dren Gerguri.pdf
   - type: STSM
     who: Ljubisa Bojic
     url: STSM_Report_2_Ljubisa Bojic.pdf
   - type: STSM
-    who: Lumani Zaçellari
+    who: Manjola Lumani Zaçellari
     url: STSM_Report_Manjola Lumani Zaçellari.pdf
   - type: STSM
-    who: Asta Zelenkauskaite  
+    who: Asta Zelenkauskaite
     url: STSM_Report_Asta Zelenkauskaite.pdf
   - type: STSM
-    who: Edlira Gugu  
+    who: Edlira Gugu
     url: STSM_Report_Edlira Gugu.pdf
+  - type: I﻿TCG
+    who: L﻿edia Kazazi
+    url: itcg-report-l.kazazi.pdf
+  - type: S﻿TSM
+    who: A﻿leksandra Krstić
+    url: stsm-report_aleksandra-krstic.pdf
+  - who: Anna Baczkowska
+    type: S﻿TSM
+    url: stsm-report_anna-baczkowska.pdf
 ---
 
 # If you are interested, please get in contact with OPINION's Grant Coordination Team!
