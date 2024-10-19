@@ -44,6 +44,12 @@ const Results: NextPage<Props> = ({ title, body, results, deliverables }) => {
             margin-top: 2rem;
             padding: 2rem;
             max-width: 800px;
+            text-shadow: none;
+          }
+          .List {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
           }
           .Results h1 {
             text-align: center;
@@ -80,11 +86,14 @@ const Results: NextPage<Props> = ({ title, body, results, deliverables }) => {
             background: var(--primary);
             color: white;
             font-size: 1.5rem;
-            width: 3rem;
+            width: 4rem;
             border-radius: 5px;
             margin-bottom: 8px;
             height: 2.45rem;
             padding: 0 0.3rem 0 0.3rem;
+          }
+          .NoShadow {
+            text-shadow: none;
           }
         `}
       </style>
@@ -94,46 +103,54 @@ const Results: NextPage<Props> = ({ title, body, results, deliverables }) => {
           <ReactMarkdown className="NoMargin">{body}</ReactMarkdown>
           <hr />
           <br />
-          {deliverables.map((deliverable) => {
-            return (
-              <a
-                key={deliverable.id}
-                className="Item"
-                href={deliverable.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="DeliverableHeader">
-                  <h4>{deliverable.title}</h4>
-                  <div className="Deliverable">{deliverable.deliverable}</div>
-                </div>
-                <div className="author">{deliverable.workgroup}</div>
-              </a>
-            );
-          })}
+          <div className="List">
+            {deliverables.map((deliverable) => {
+              return (
+                <a
+                  key={deliverable.id}
+                  className="Item"
+                  href={deliverable.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="DeliverableHeader">
+                    <h4 className="NoShadow">{deliverable.title}</h4>
+                    {deliverable.deliverable ? (
+                      <div className="Deliverable">
+                        {deliverable.deliverable}
+                      </div>
+                    ) : null}
+                  </div>
+                  <div className="author">{deliverable.workgroup}</div>
+                </a>
+              );
+            })}
+          </div>
         </div>
         <div className="Container">
           <h1>Publications</h1>
           <ReactMarkdown className="NoMargin">{body}</ReactMarkdown>
           <hr />
           <br />
-          {results.map((result) => {
-            return (
-              <a
-                key={result.id}
-                className="Item"
-                href={result.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <h4>{result.title}</h4>
-                <div className="author">
-                  {result.author} ({result.pub_year}).{" "}
-                  <i>{result.published_in}</i>
-                </div>
-              </a>
-            );
-          })}
+          <div className="List">
+            {results.map((result) => {
+              return (
+                <a
+                  key={result.id}
+                  className="Item"
+                  href={result.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <h4 className="NoShadow">{result.title}</h4>
+                  <div className="author">
+                    {result.author} ({result.pub_year}).{" "}
+                    <i>{result.published_in}</i>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
         </div>
         {/* <ReactMarkdown
           className="NoMargin"

@@ -584,7 +584,12 @@ export default {
       create: true,
       slug: "{{slug}}",
       fields: [
-        { label: "Deliverable", name: "deliverable", widget: "string" },
+        {
+          label: "Deliverable",
+          name: "deliverable",
+          widget: "string",
+          required: false,
+        },
         { label: "Workgroup", name: "workgroup", widget: "string" },
         { label: "Title", name: "title", widget: "string" },
         { label: "Url", name: "url", widget: "string" },
