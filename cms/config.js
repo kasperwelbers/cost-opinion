@@ -578,6 +578,19 @@ export default {
       ],
     },
     {
+      name: "deliverables",
+      label: "Deliverable",
+      folder: "content/pages/deliverables",
+      create: true,
+      slug: "{{slug}}",
+      fields: [
+        { label: "Deliverable", name: "deliverable", widget: "string" },
+        { label: "Workgroup", name: "workgroup", widget: "string" },
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Url", name: "url", widget: "string" },
+      ],
+    },
+    {
       name: "update",
       label: "Update",
       folder: "content/pages/updates",

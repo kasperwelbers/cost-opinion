@@ -65,7 +65,30 @@ const Results: NextPage<Props> = ({ title, body, results }) => {
       </style>
       <div className="Results">
         <div className="Container">
-          <h1>{title}</h1>
+          <h1>Deliverables</h1>
+          <ReactMarkdown className="NoMargin">{body}</ReactMarkdown>
+          <hr />
+          <br />
+          {results.map((result) => {
+            return (
+              <a
+                key={result.id}
+                className="Item"
+                href={result.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h4>{result.title}</h4>
+                <div className="author">
+                  {result.author} ({result.pub_year}).{" "}
+                  <i>{result.published_in}</i>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+        <div className="Container">
+          <h1>Publications</h1>
           <ReactMarkdown className="NoMargin">{body}</ReactMarkdown>
           <hr />
           <br />
