@@ -86,7 +86,8 @@ const Results: NextPage<Props> = ({ title, body, results, deliverables }) => {
             background: var(--primary);
             color: white;
             font-size: 1.5rem;
-            width: 4rem;
+            width: 3.5rem;
+            text-align: center;
             border-radius: 5px;
             margin-bottom: 8px;
             height: 2.45rem;
