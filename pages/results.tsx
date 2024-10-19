@@ -2,11 +2,13 @@ import { GetStaticProps, NextPage } from "next";
 import readMd from "../util/readMd";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import prepareResultsList from "../util/prepareResultsList";
+import prepareDeliverablesList from "../util/prepareDeliverablesList";
 
 interface Props {
   title: string;
   body: string;
   results: Result[];
+  deliverables: Deliverable[];
 }
 
 interface Result {
@@ -18,7 +20,15 @@ interface Result {
   url: string;
 }
 
-const Results: NextPage<Props> = ({ title, body, results }) => {
+interface Deliverable {
+  id: string;
+  deliverable: string;
+  workgroup: string;
+  title: string;
+  url: string;
+}
+
+const Results: NextPage<Props> = ({ title, body, results, deliverables }) => {
   return (
     <div className={`AppComponent`}>
       <style jsx>
@@ -61,6 +71,21 @@ const Results: NextPage<Props> = ({ title, body, results }) => {
             font-size: clamp(1.2rem, 1.8vw, 1rem);
             line-height: clamp(1.5rem, 2.2vw, 2rem);
           }
+          .DeliverableHeader {
+            display: flex;
+            justify-content: space-between;
+            items-align: start;
+          }
+          .Deliverable {
+            background: var(--primary);
+            color: white;
+            font-size: 1.5rem;
+            width: 3rem;
+            border-radius: 5px;
+            margin-bottom: 8px;
+            height: 2.45rem;
+            padding: 0 0.3rem 0 0.3rem;
+          }
         `}
       </style>
       <div className="Results">
@@ -69,20 +94,20 @@ const Results: NextPage<Props> = ({ title, body, results }) => {
           <ReactMarkdown className="NoMargin">{body}</ReactMarkdown>
           <hr />
           <br />
-          {results.map((result) => {
+          {deliverables.map((deliverable) => {
             return (
               <a
-                key={result.id}
+                key={deliverable.id}
                 className="Item"
-                href={result.url}
+                href={deliverable.url}
                 target="_blank"
                 rel="noreferrer"
               >
-                <h4>{result.title}</h4>
-                <div className="author">
-                  {result.author} ({result.pub_year}).{" "}
-                  <i>{result.published_in}</i>
+                <div className="DeliverableHeader">
+                  <h4>{deliverable.title}</h4>
+                  <div className="Deliverable">{deliverable.deliverable}</div>
                 </div>
+                <div className="author">{deliverable.workgroup}</div>
               </a>
             );
           })}
@@ -165,8 +190,9 @@ const Results: NextPage<Props> = ({ title, body, results }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const { attributes, body } = readMd("content/pages/results.md");
-  const results = prepareResultsList();
-  return { props: { title: attributes.title, body, results } };
+  const results = prepareResultsList() || [];
+  const deliverables = prepareDeliverablesList() || [];
+  return { props: { title: attributes.title, body, results, deliverables } };
 };
 
 export default Results;
