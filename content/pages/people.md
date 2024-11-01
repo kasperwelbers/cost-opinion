@@ -1421,4 +1421,12 @@ people:
     mc: false
     country: NL
     wg_data: false
+  - wg_theory: true
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: false
+    name: Karolina Koc-Michalska
+    country: FR
+    email: kkocmichalska@audencia.com
+    mc: true
 ---
