@@ -1421,12 +1421,13 @@ people:
     mc: false
     country: NL
     wg_data: false
-  - wg_theory: true
+  - name: Karolina Koc-Michalska
     wg_tools: false
-    wg_data: true
+    homepage: https://faculte-recherche.audencia.com/en/cvs/cv/karolina-koc-michalska/?no_cache=1&cHash=6587a6b64775a7fc1e4c46bfcfe71826
     wg_dissemination: false
-    name: Karolina Koc-Michalska
-    country: FR
-    email: kkocmichalska@audencia.com
+    wg_theory: true
     mc: true
+    country: FR
+    wg_data: true
+    email: kkocmichalska@audencia.com
 ---
