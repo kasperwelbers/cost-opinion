@@ -1450,4 +1450,62 @@ people:
     wg_dissemination: false
     name: Yossi David
     country: IL
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: false
+    name: Amer Kurtović
+    homepage: https://www.researchgate.net/profile/Amer-Kurtovic
+    country: BA
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    name: Fatmanur Kaçar Aşcı
+    homepage: https://marmaraedu.academia.edu/FatmanurKaçar
+    country: TR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Milan Cabarkapa
+    homepage: https://fin.kg.ac.rs/sr/zaposleni/nastavnici/101-zaposleni/nastavnici/kat-elektrotehnika/1560-milan-cabarkapa
+    country: RS
+  - wg_theory: false
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Şeyhmus Aksoy
+    homepage: https://scholar.google.com/citations?user=g3hxhVQAAAAJ&hl=tr;
+      https://www.linkedin.com/in/%C5%9Fehmus-aksoy-phd-0091b9166/;
+      https://www.researchgate.net/profile/Sehmus-Aksoy;
+      https://independent.academia.edu/AKSOY%C5%9EEYHMUS
+    country: TR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Ayse Sunar
+    homepage: https://www.researchgate.net/profile/Ayse-Sunar
+    country: GB
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Olga Zagovora
+    homepage: https://psy.rptu.de/aes/ikm/kommunikationspsychologie/team/dr-olga-zagovora
+    country: DE
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: false
+    name: Anke Stoll
+    country: DE
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Michele Scotto di Vettimo
+    homepage: https://mscottodivettimo.github.io/
+    country: GB
 ---
