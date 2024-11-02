@@ -1382,7 +1382,7 @@ people:
     mc: false
   - name: Lydia Kollyri
     homepage: https://www.researchgate.net/profile/Lydia-Kollyri-2
-    country: CY
+    country: NL
     wg_theory: true
     wg_tools: false
     wg_data: false
