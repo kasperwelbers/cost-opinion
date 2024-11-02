@@ -1437,4 +1437,17 @@ people:
     name: Barbora Badurova
     homepage: https://www.pdf.umb.sk/bbadurova/
     country: SK
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    homepage: https://www.kau.se/en/researchers/peter-maurer
+    name: Peter Maurer
+    country: SE
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Yossi David
+    country: IL
 ---
