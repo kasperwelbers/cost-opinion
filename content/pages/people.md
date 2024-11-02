@@ -1430,4 +1430,11 @@ people:
     country: FR
     wg_data: true
     email: kkocmichalska@audencia.com
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: Barbora Badurova
+    homepage: https://www.pdf.umb.sk/bbadurova/
+    country: SK
 ---
