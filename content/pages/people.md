@@ -787,7 +787,7 @@ people:
     mc: true
   - name: Bruno Yun
     homepage: https://homepages.abdn.ac.uk/bruno.yun/pages/
-    country: GB
+    country: FR
     wg_theory: false
     wg_tools: true
     wg_data: false
