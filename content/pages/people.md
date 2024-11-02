@@ -139,6 +139,23 @@ people:
     wg_data: false
     wg_dissemination: true
     mc: true
+  - name: Hilde Van Den Bulck
+    homepage: http://www.ua.ac.be/hilde.vandenbulck
+    country: BE
+    wg_theory: true
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    mc: true
+  - name: Gabriella Szabó
+    wg_tools: true
+    homepage: https://politologia.tk.mta.hu/en/researcher/szabo-gabriella
+    wg_dissemination: false
+    wg_theory: true
+    role: WG1V2
+    mc: true
+    country: HU
+    wg_data: false
   - name: Gabriella Pigozzi
     homepage: https://www.lamsade.dauphine.fr/~pigozzi/
     country: FR
@@ -164,23 +181,6 @@ people:
     wg_data: true
     wg_dissemination: false
     mc: false
-  - name: Gabriella Szabó
-    wg_tools: true
-    homepage: https://politologia.tk.mta.hu/en/researcher/szabo-gabriella
-    wg_dissemination: false
-    wg_theory: true
-    role: WG1V2
-    mc: true
-    country: HU
-    wg_data: false
-  - name: Hilde Van Den Bulck
-    homepage: http://www.ua.ac.be/hilde.vandenbulck
-    country: BE
-    wg_theory: true
-    wg_tools: true
-    wg_data: false
-    wg_dissemination: false
-    mc: true
   - name: Chung-Hong Chan
     homepage: null
     country: DE
@@ -460,6 +460,22 @@ people:
     wg_data: false
     wg_dissemination: false
     mc: false
+  - name: Judith Möller
+    homepage: http://www.uva.nl/en/profile/m/o/j.e.moller1/j.e.moller.html
+    country: DE
+    wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    mc: false
+  - name: Martijn Schoonvelde
+    homepage: http://mschoonvelde.com
+    country: IE
+    wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    mc: true
   - name: Felicia Loecherbach
     homepage: https://www.felicialoecherbach.com
     country: NL
@@ -494,22 +510,6 @@ people:
     mc: true
     country: PL
     wg_data: false
-  - name: Judith Möller
-    homepage: http://www.uva.nl/en/profile/m/o/j.e.moller1/j.e.moller.html
-    country: DE
-    wg_theory: true
-    wg_tools: false
-    wg_data: false
-    wg_dissemination: true
-    mc: false
-  - name: Martijn Schoonvelde
-    homepage: http://mschoonvelde.com
-    country: IE
-    wg_theory: false
-    wg_tools: true
-    wg_data: false
-    wg_dissemination: false
-    mc: true
   - name: Constantinos Djouvas
     homepage: null
     country: CY
@@ -1236,14 +1236,6 @@ people:
     wg_data: true
     wg_dissemination: false
     mc: false
-  - name: Raul Ferrer-Conill
-    homepage: https://www.uis.no/en/profile/raul-ferrer-conill
-    country: NO
-    wg_theory: true
-    wg_tools: false
-    wg_data: false
-    wg_dissemination: true
-    mc: false
   - name: Manjola Lumani Zaçellari
     homepage: https://www.researchgate.net/profile/Manjola-Lumani-Zacellari
     country: AL
@@ -1251,6 +1243,14 @@ people:
     wg_tools: false
     wg_data: true
     wg_dissemination: false
+    mc: false
+  - name: Raul Ferrer-Conill
+    homepage: https://www.uis.no/en/profile/raul-ferrer-conill
+    country: NO
+    wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
     mc: false
   - name: Martina Novotná
     homepage: https://www.muni.cz/en/people/476286-martina-novotna
@@ -1332,22 +1332,6 @@ people:
     wg_data: false
     wg_dissemination: true
     mc: false
-  - name: Melis Yazici
-    homepage: https://akademik.yok.gov.tr/AkademikArama/view/viewAuthor.jsp
-    country: TR
-    wg_theory: true
-    wg_tools: true
-    wg_data: false
-    wg_dissemination: false
-    mc: false
-  - name: Gokce Nur Yilmaz
-    homepage: https://www.tedu.edu.tr/en/gokce-nur-yilmaz
-    country: TR
-    wg_theory: false
-    wg_tools: false
-    wg_data: true
-    wg_dissemination: true
-    mc: false
   - name: Jana Rosenfeldová
     homepage: https://www.researchgate.net/profile/Jana-Rosenfeldova-2
     country: CZ
@@ -1364,6 +1348,22 @@ people:
     wg_data: true
     wg_dissemination: false
     mc: false
+  - name: Melis Yazici
+    homepage: https://akademik.yok.gov.tr/AkademikArama/view/viewAuthor.jsp
+    country: TR
+    wg_theory: true
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    mc: false
+  - name: Gokce Nur Yilmaz
+    homepage: https://www.tedu.edu.tr/en/gokce-nur-yilmaz
+    country: TR
+    wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    mc: false
   - name: James Cross
     homepage: http://www.jamespcross.com
     country: IE
@@ -1372,6 +1372,15 @@ people:
     wg_data: false
     wg_dissemination: false
     mc: false
+  - name: Karolina Koc-Michalska
+    wg_tools: false
+    homepage: https://faculte-recherche.audencia.com/en/cvs/cv/karolina-koc-michalska/?no_cache=1&cHash=6587a6b64775a7fc1e4c46bfcfe71826
+    wg_dissemination: false
+    wg_theory: true
+    mc: true
+    country: FR
+    wg_data: true
+    email: kkocmichalska@audencia.com
   - name: Miklos Sebok
     homepage: http://politologia.tk.mta.hu/en/researcher/sebok-miklos
     country: HU
@@ -1396,14 +1405,6 @@ people:
     wg_data: false
     wg_dissemination: false
     mc: false
-  - name: Vuk Vukovic
-    homepage: https://www.ucg.ac.me/radnik/255233-vuk-vukovic
-    country: ME
-    wg_theory: true
-    wg_tools: false
-    wg_data: false
-    wg_dissemination: true
-    mc: true
   - name: Jonila Godole
     homepage: null
     country: AL
@@ -1421,15 +1422,6 @@ people:
     mc: false
     country: NL
     wg_data: false
-  - name: Karolina Koc-Michalska
-    wg_tools: false
-    homepage: https://faculte-recherche.audencia.com/en/cvs/cv/karolina-koc-michalska/?no_cache=1&cHash=6587a6b64775a7fc1e4c46bfcfe71826
-    wg_dissemination: false
-    wg_theory: true
-    mc: true
-    country: FR
-    wg_data: true
-    email: kkocmichalska@audencia.com
   - wg_theory: true
     wg_tools: false
     wg_data: false
@@ -1450,6 +1442,14 @@ people:
     wg_dissemination: false
     name: Yossi David
     country: IL
+  - name: Vuk Vukovic
+    homepage: https://www.ucg.ac.me/radnik/255233-vuk-vukovic
+    country: ME
+    wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    mc: true
   - wg_theory: false
     wg_tools: false
     wg_data: true
@@ -1490,11 +1490,11 @@ people:
     country: GB
   - wg_theory: false
     wg_tools: true
-    wg_data: true
+    wg_data: false
     wg_dissemination: false
-    name: Olga Zagovora
-    homepage: https://psy.rptu.de/aes/ikm/kommunikationspsychologie/team/dr-olga-zagovora
-    country: DE
+    name: Shubin Yu
+    homepage: www.shubinyu.com
+    country: NO
   - wg_theory: false
     wg_tools: false
     wg_data: true
@@ -1523,17 +1523,92 @@ people:
     homepage: https://www.um.edu.mt/profile/dylanseychell
     country: MT
   - wg_theory: false
-    wg_tools: true
-    wg_data: false
-    wg_dissemination: false
-    name: Shubin Yu
-    homepage: www.shubinyu.com
-    country: NO
-  - wg_theory: false
     wg_tools: false
     wg_data: true
     wg_dissemination: true
     name: Nenad Pantelić
     homepage: https://github.com/NenadPantelic
     country: RS
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Olga Zagovora
+    homepage: https://psy.rptu.de/aes/ikm/kommunikationspsychologie/team/dr-olga-zagovora
+    country: DE
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    name: Hüseyin Batuhan	Sar
+    homepage: https://iibf.yeditepe.edu.tr/tr/akademik-kadro/huseyin-batuhan-sar
+    role: null
+    country: TR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Katarina	Atanaskovic Samolov
+    homepage: https://www.researchgate.net/profile/Katarina-Atanaskovic-Samolov
+    country: RS
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    name: Huma Shah
+    homepage: https://scholar.google.co.uk/citations?user=cmS6qXQAAAAJ&hl=en&oi=ao;
+      https://pureportal.coventry.ac.uk/en/persons/huma-shah
+    country: GB
+  - wg_theory: true
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Dagmara Solska
+    country: PL
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: Aneta Dlutek
+    country: PL
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: Katarzyna Kukowicz-Zarska
+    homepage: https://www.researchgate.net/profile/Katarzyna-Kukowicz-Zarska
+    country: PL
+  - wg_theory: true
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: false
+    name: Celia Tsui
+    country: GB
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Julia Gottstein
+    homepage: https://www.researchgate.net/profile/Julia-Gottstein-2
+    country: CZ
+  - wg_theory: false
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Malgorzata Bielenia
+    country: PL
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    name: Kostas Gemenis
+    homepage: https://www.cut.ac.cy/faculties/comm/cis/staff/k.gemenis/
+    country: CY
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Anatoliy Khudoliy
+    homepage: https://www.researchgate.net/profile/Anatoliy-Khudoliy
+    country: UA
 ---
