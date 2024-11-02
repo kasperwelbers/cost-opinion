@@ -1508,4 +1508,32 @@ people:
     name: Michele Scotto di Vettimo
     homepage: https://mscottodivettimo.github.io/
     country: GB
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Alba Pérez-Montero
+    homepage: https://www.researchgate.net/profile/Alba-Perez-Montero-2
+    country: ES
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Dylan Seychell
+    homepage: https://www.um.edu.mt/profile/dylanseychell
+    country: MT
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Shubin Yu
+    homepage: www.shubinyu.com
+    country: NO
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    name: Nenad Pantelić
+    homepage: https://github.com/NenadPantelic
+    country: RS
 ---
