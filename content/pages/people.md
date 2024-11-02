@@ -2,6 +2,14 @@
 title: OPINION unites over 200 researchers across more than 40 countries all
   across Europe and beyond.
 people:
+  - name: Anat Ben-David
+    homepage: https://www.researchgate.net/profile/Anat_Ben-David
+    country: IL
+    wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    mc: false
   - name: Ben Wagner
     homepage: https://benwagner.org
     country: NL
@@ -23,14 +31,6 @@ people:
     country: MK
     wg_theory: true
     wg_tools: false
-    wg_data: false
-    wg_dissemination: false
-    mc: false
-  - name: Anat Ben-David
-    homepage: https://www.researchgate.net/profile/Anat_Ben-David
-    country: IL
-    wg_theory: false
-    wg_tools: true
     wg_data: false
     wg_dissemination: false
     mc: false
@@ -223,14 +223,6 @@ people:
     mc: true
     country: RO
     wg_data: false
-  - name: Fabienne Lind
-    homepage: https://www.researchgate.net/profile/Fabienne-Lind
-    country: AT
-    wg_theory: false
-    wg_tools: true
-    wg_data: false
-    wg_dissemination: false
-    mc: true
   - name: Hajo Boomgaarden
     wg_tools: false
     homepage: null
@@ -240,6 +232,14 @@ people:
     mc: false
     country: AT
     wg_data: true
+  - name: Aaron Hyzen
+    homepage: https://scholar.google.com/citations?user=hnLQ43IAAAAJ&hl=en
+    country: BE
+    wg_theory: true
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    mc: false
   - name: Elena Negrea Busuioc
     homepage: http://comunicare.ro/cv.php?id=123
     country: RO
@@ -256,6 +256,14 @@ people:
     wg_data: true
     wg_dissemination: false
     mc: true
+  - name: Fabienne Lind
+    homepage: https://www.researchgate.net/profile/Fabienne-Lind
+    country: AT
+    wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    mc: true
   - name: Asta Zelenkauskaite
     wg_tools: false
     homepage: https://scholar.google.com/citations?user=cDxS2wwAAAAJ&hl=en&oi=ao
@@ -265,14 +273,6 @@ people:
     mc: true
     country: LT
     wg_data: true
-  - name: Aaron Hyzen
-    homepage: https://scholar.google.com/citations?user=hnLQ43IAAAAJ&hl=en
-    country: BE
-    wg_theory: true
-    wg_tools: true
-    wg_data: false
-    wg_dissemination: false
-    mc: false
   - name: Carlos Arcila Calderón
     wg_tools: true
     homepage: http://diarium.usal.es/carcila/
@@ -394,6 +394,22 @@ people:
     wg_data: true
     wg_dissemination: false
     mc: false
+  - name: Kristina Juraite
+    homepage: https://pmdf.vdu.lt/en/about-the-faculty/department-of-public-communication/
+    country: LT
+    wg_theory: true
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    mc: false
+  - name: Mario Haim
+    homepage: https://haim.it
+    country: DE
+    wg_theory: false
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    mc: true
   - name: Barbara Lewandowska-Tomaszczyk
     homepage: https://www.pwsz.konin.edu.pl/
     country: PL
@@ -419,22 +435,6 @@ people:
     mc: true
     country: NL
     wg_data: false
-  - name: Kristina Juraite
-    homepage: https://pmdf.vdu.lt/en/about-the-faculty/department-of-public-communication/
-    country: LT
-    wg_theory: true
-    wg_tools: true
-    wg_data: false
-    wg_dissemination: false
-    mc: false
-  - name: Mario Haim
-    homepage: https://haim.it
-    country: DE
-    wg_theory: false
-    wg_tools: false
-    wg_data: false
-    wg_dissemination: true
-    mc: true
   - name: Darius Amilevičius
     homepage: https://ResearchGate
     country: LT
@@ -681,22 +681,6 @@ people:
     wg_data: false
     wg_dissemination: false
     mc: false
-  - name: Ilija Tomanic Trivundza
-    homepage: https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije
-    country: SI
-    wg_theory: false
-    wg_tools: true
-    wg_data: false
-    wg_dissemination: false
-    mc: true
-  - name: Franziska Marquart
-    homepage: https://orcid.org/0000-0002-8800-9303
-    country: DK
-    wg_theory: true
-    wg_tools: false
-    wg_data: false
-    wg_dissemination: false
-    mc: true
   - name: Edlira Gugu
     homepage: https://www.uniel.edu.al/
     country: AL
@@ -713,6 +697,22 @@ people:
     wg_data: false
     wg_dissemination: false
     mc: false
+  - name: Ilija Tomanic Trivundza
+    homepage: https://www.fdv.uni-lj.si/en/news-and-information/contacts/teachers/info/ilija-tomanic-trivundza#splosne-informacije
+    country: SI
+    wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    mc: true
+  - name: Franziska Marquart
+    homepage: https://orcid.org/0000-0002-8800-9303
+    country: DK
+    wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    mc: true
   - name: Omnia Zayed
     homepage: http://scholar.google.de/citations?user=5Eu_ZSwAAAAJ
     country: IE
@@ -1132,14 +1132,6 @@ people:
     wg_data: true
     wg_dissemination: false
     mc: true
-  - name: Laura Teruel
-    homepage: https://www.researchgate.net/profile/Laura-Rodriguez-75
-    country: ES
-    wg_theory: false
-    wg_tools: false
-    wg_data: false
-    wg_dissemination: true
-    mc: false
   - name: Daniel Thiele
     homepage: https://politikwissenschaft.univie.ac.at/en/about-us/staff/thiele/
     country: DE
@@ -1163,6 +1155,14 @@ people:
     wg_tools: true
     wg_data: true
     wg_dissemination: false
+    mc: false
+  - name: Laura Teruel
+    homepage: https://www.researchgate.net/profile/Laura-Rodriguez-75
+    country: ES
+    wg_theory: false
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
     mc: false
   - name: Fabio Crestani
     homepage: http://usi.to/f6o
@@ -1569,21 +1569,9 @@ people:
     wg_tools: false
     wg_data: false
     wg_dissemination: false
-    name: Aneta Dlutek
-    country: PL
-  - wg_theory: true
-    wg_tools: false
-    wg_data: false
-    wg_dissemination: false
     name: Katarzyna Kukowicz-Zarska
     homepage: https://www.researchgate.net/profile/Katarzyna-Kukowicz-Zarska
     country: PL
-  - wg_theory: true
-    wg_tools: false
-    wg_data: true
-    wg_dissemination: false
-    name: Celia Tsui
-    country: GB
   - wg_theory: false
     wg_tools: true
     wg_data: true
@@ -1611,4 +1599,85 @@ people:
     name: Anatoliy Khudoliy
     homepage: https://www.researchgate.net/profile/Anatoliy-Khudoliy
     country: UA
+  - wg_theory: true
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: false
+    name: Celia Tsui
+    country: GB
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: Aneta Dlutek
+    country: PL
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: true
+    name: Jelena Gledić
+    homepage: https://www.researchgate.net/profile/Jelena_Gledic2
+    country: RS
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Myrthe Reuver
+    homepage: https://myrthereuver.github.io/
+    country: NL
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: Snezana Bajceta
+    homepage: https://independent.academia.edu/Sne%C5%BEanaBaj%C4%8Deta
+    country: RS
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: true
+    name: Ana Langer
+    homepage: https://www.gla.ac.uk/schools/socialpolitical/staff/anaineslanger/
+    country: GB
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    name: Nuran Öksüz
+    homepage: https://www.researchgate.net/profile/Nuran-Oeksuez
+    country: TR
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: false
+    name: Alona Dolinsky
+    homepage: https://scholar.google.com/citations?user=heAuJqkAAAAJ&hl=en
+    country: NL
+  - wg_theory: true
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Andrea Stancea
+    homepage: https://sites.google.com/view/andreea-stancea/about-me
+    country: RO
+  - wg_theory: true
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: true
+    name: Endre Tvinnereim
+    homepage: tvinner.no
+    country: NO
+  - wg_theory: false
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: William Steven González Baquero
+    homepage: https://www.linkedin.com/in/william-gonzalez-baquero/
+    country: ES
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Christine Wendo King'ang'i
+    country: DE
 ---
