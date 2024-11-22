@@ -578,6 +578,25 @@ export default {
       ],
     },
     {
+      name: "projects",
+      label: "Projects",
+      folder: "content/pages/projects",
+      create: true,
+      slug: "{{slug}}",
+      fields: [
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Description", name: "author", widget: "markdown" },
+        {
+          label: "Logos",
+          name: "logos",
+          widget: "list",
+          allow_add: true,
+          fields: [{ label: "Logo", name: "logo", widget: "image" }],
+        },
+      ],
+    },
+
+    {
       name: "deliverables",
       label: "Deliverable",
       folder: "content/pages/deliverables",
