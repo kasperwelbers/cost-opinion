@@ -1,17 +1,14 @@
 ---
 title: How to study public opinion in a digitalized world?
-author: >-
-  
-
-  **INTERNATIONAL PROJECT**
-
-
-  **How to study public opinion in a digitalized world?**
+description: >-
 
 
 
 
-  **Project goals:**
+
+
+
+
 
 
   The main aim of this project is to broaden and deepen international research on one of the most important consequences of social changes occurring due to technological development in the media, i.e., on the dissemination of information and opinions on an unprecedented scale. The subjects of particular interest are methods of categorizing and measuring public opinion in the era of digital communication tools and artificial intelligence.
@@ -78,5 +75,7 @@ author: >-
 
   * Roksana Gloc, Jagiellonian University (Kraków), Poland
 logos:
-  - logo: https://www.opinion-network.eu/img/a1_asm_pds_ang_c.pdf
+  - logo: img/a1_logo1.png
+  - logo: img/a1_logo2.png
+  - logo: img/a1_logo3.png
 ---

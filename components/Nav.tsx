@@ -12,6 +12,7 @@ const MENU_LIST = [
   { text: "Grants", href: "/grants" },
   { text: "Updates", href: "/updates" },
   { text: "Results", href: "/results" },
+  { text: "Projects", href: "/projects" },
   { text: "Contact", href: "/contact" },
 ];
 

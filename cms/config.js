@@ -585,7 +585,7 @@ export default {
       slug: "{{slug}}",
       fields: [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Description", name: "author", widget: "markdown" },
+        { label: "Description", name: "description", widget: "markdown" },
         {
           label: "Logos",
           name: "logos",
