@@ -85,6 +85,18 @@ awarded_grants:
   - type: S﻿TSM
     who: C﻿engiz Erisen
     url: STSM_Report_Cengiz_Erisen.pdf
+  - type: ﻿STSM
+    who: Ana Jovančević
+    url: stsm_ana_jovancevic.pdf
+  - type: S﻿TSM
+    who: Ljubisa Bojic
+    url: stsm_bojic.pdf
+  - type: S﻿TSM
+    url: stsm_roksana_gloc.pdf
+    who: Roksana Gloc
+  - type: S﻿TSM
+    url: stsm_springer.pdf
+    who: Nina Springer
 ---
 
 # If you are interested, please get in contact with OPINION's Grant Coordination Team!
