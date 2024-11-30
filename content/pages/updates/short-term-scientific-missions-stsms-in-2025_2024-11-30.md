@@ -1,5 +1,5 @@
 ---
-title: Short-Term Scientific Missions (STSMs) in 2025
+title: "Call for Applications: Short-Term Scientific Missions (STSMs) in 2025"
 date: 2024-09-16T21:00:00.000Z
 author: Nina Springer
 announce_until: 2025-09-29T21:00:00.000Z
