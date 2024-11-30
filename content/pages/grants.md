@@ -18,7 +18,7 @@ grant_types:
       Inclusion Target Countries
     how_much: Fixed contribution of up to € 160 per day, up to € 3,500 in total
     how: For the current Call for Applications, please [click
-      here](updates/call-for-applications-short-term-scientific-missions-in-2024_2023-12-28).
+      here](https://opinion-network.eu/img/cfa_stsms_gp3.pdf).
     members_only: true
   - title: |-
       ###### **OPEN CALL**
@@ -33,7 +33,7 @@ grant_types:
     how_much: Registration fees up to € 500, plus a fixed contribution of up to €
       160  per day, up to € 2,500 in total
     how: For the current Call for Applications, please [click
-      here](updates/call-for-applications-itc-conference-grants_2023-12-28).
+      here](https://opinion-network.eu/img/cfa_ICTconf_gp3.pdf).
     members_only: false
   - title: Virtual Mobility (VM)
     who: OPINION Members
