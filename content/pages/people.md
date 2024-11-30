@@ -1680,4 +1680,17 @@ people:
     wg_dissemination: false
     name: Christine Wendo King'ang'i
     country: DE
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Kemal Gunay
+    country: TR
+  - wg_theory: false
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: Maria Luisa Azpiroz
+    homepage: https://upmx.academia.edu/Mar%C3%ADaLuisaAzp%C3%ADroz
+    country: MX
 ---
