@@ -1,5 +1,15 @@
-import React, { Dispatch, FunctionComponent, memo, SetStateAction } from "react";
-import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
+import React, {
+  Dispatch,
+  FunctionComponent,
+  memo,
+  SetStateAction,
+} from "react";
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+  Marker,
+} from "react-simple-maps";
 import { geoCentroid } from "d3-geo";
 import { Person } from "../types";
 
@@ -46,11 +56,16 @@ interface Props {
   countries: Record<string, Person[]>;
 }
 
-const MapChart: FunctionComponent<Props> = ({ setTooltipContent, setPopup, countries }) => {
+const MapChart: FunctionComponent<Props> = ({
+  setTooltipContent,
+  setPopup,
+  countries,
+}) => {
   const onClick = (countryCode: string, e: any) => {
     e.preventDefault();
     e.stopPropagation();
-    if (countries[countryCode]) setPopup(e.clientX, e.clientY, countries[countryCode]);
+    if (countries[countryCode])
+      setPopup(e.clientX, e.clientY, countries[countryCode]);
   };
 
   const onMouseEnter = (countryCode: string) => {
@@ -85,14 +100,20 @@ const MapChart: FunctionComponent<Props> = ({ setTooltipContent, setPopup, count
               const code = geo.properties["Alpha-2"];
 
               const membercountry = countries[code];
+              if (membercountry || NONEU.includes(code))
+                missedCountries.delete(code);
               if (!showCountries.includes(code)) return false;
-              if (membercountry) missedCountries.delete(code);
               return true;
             });
 
-            const miniGeographies = geographies.filter((geo) => ["MT"].includes(geo.properties["Alpha-2"]));
+            const miniGeographies = geographies.filter((geo) =>
+              ["MT"].includes(geo.properties["Alpha-2"]),
+            );
             if (missedCountries.size > 0) {
-              console.log("SOME MEMBER COUNTRIES NOT CORRECTLY MATCHED (CHECK THE COUNTRY CODES)", missedCountries);
+              console.log(
+                "SOME MEMBER COUNTRIES NOT CORRECTLY MATCHED (CHECK THE COUNTRY CODES)",
+                missedCountries,
+              );
             }
 
             return (
@@ -133,53 +154,39 @@ const MapChart: FunctionComponent<Props> = ({ setTooltipContent, setPopup, count
             );
           }}
         </Geographies>
-        <Marker
-          coordinates={[39, 63]}
-          style={memberCountryStyle}
-          onClick={(e) => onClick("US", e)}
-          onMouseEnter={() => onMouseEnter("US")}
-          onMouseLeave={onMouseLeave}
-        >
-          <text
-            style={{
-              fontSize: "12px",
-              cursor: "pointer",
-              stroke: "white",
-              strokeWidth: "0.3px",
-            }}
-            x="25"
-            y="15"
-          >
-            United States
-          </text>
-          <path d="M 0,10 20,0 20,20" />
-        </Marker>
-        <Marker
-          coordinates={[42, 58.5]}
-          style={memberCountryStyle}
-          onClick={(e) => onClick("IL", e)}
-          onMouseEnter={() => onMouseEnter("IL")}
-          onMouseLeave={onMouseLeave}
-        >
-          <text
-            style={{
-              fontSize: "12px",
-              cursor: "pointer",
-              stroke: "white",
-              strokeWidth: "0.3px",
-            }}
-            x="-3"
-            y="-7"
-          >
-            Israel
-          </text>
-          <path d="M 10,20 0,0 20,0" />
-        </Marker>
+        {NONEU.map((countryCode, i) => {
+          return (
+            <Marker
+              key={countryCode}
+              coordinates={[40 - i, 69 - i * 2.5]}
+              style={memberCountryStyle}
+              onClick={(e) => onClick(countryCode, e)}
+              onMouseEnter={() => onMouseEnter(countryCode)}
+              onMouseLeave={onMouseLeave}
+            >
+              <text
+                style={{
+                  fontSize: "12px",
+                  textAlign: "left",
+                  cursor: "pointer",
+                  stroke: "white",
+                  strokeWidth: "0.3px",
+                }}
+                x="15"
+                y="5"
+              >
+                {countryCode}
+              </text>
+              <circle r={9} fill="white" />
+            </Marker>
+          );
+        })}
       </ComposableMap>
     </div>
   );
 };
 
+const NONEU = ["US", "IL", "KZ", "MX"];
 const showCountries = [
   "AL",
   "AT",
@@ -201,7 +208,6 @@ const showCountries = [
   "HR",
   "HU",
   "IE",
-  "IL",
   "IT",
   "LT",
   "LU",
@@ -221,8 +227,6 @@ const showCountries = [
   "SE",
   "TR",
   "UA",
-  "US",
-  "XK",
 ];
 
 export default memo(MapChart);

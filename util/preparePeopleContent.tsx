@@ -14,7 +14,7 @@ export default function preparePeopleContent(content: any) {
 
     if (!country)
       throw new Error(
-        "Country in COST action participant list neither matches on ISO code or country name"
+        "Country in COST action participant list neither matches on ISO code or country name",
       );
 
     const workgroups = [];
