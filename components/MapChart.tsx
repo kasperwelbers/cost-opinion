@@ -158,7 +158,7 @@ const MapChart: FunctionComponent<Props> = ({
           return (
             <Marker
               key={countryCode}
-              coordinates={[40 - i, 69 - i * 2.5]}
+              coordinates={[40 - i * 0.9, 69 - i * (2.5 - i * 0.05)]}
               style={memberCountryStyle}
               onClick={(e) => onClick(countryCode, e)}
               onMouseEnter={() => onMouseEnter(countryCode)}
@@ -175,7 +175,7 @@ const MapChart: FunctionComponent<Props> = ({
                 x="15"
                 y="5"
               >
-                {countryCode}
+                {NONEUFULLNAME[countryCode]}
               </text>
               <circle r={9} fill="white" />
             </Marker>
@@ -186,7 +186,14 @@ const MapChart: FunctionComponent<Props> = ({
   );
 };
 
-const NONEU = ["US", "IL", "KZ", "MX"];
+const NONEUFULLNAME = {
+  US: "United States",
+  IL: "Israel",
+  KZ: "Kazakhstan",
+  MX: "Mexico",
+};
+const NONEU: (keyof typeof NONEUFULLNAME)[] = ["US", "IL", "KZ", "MX"];
+
 const showCountries = [
   "AL",
   "AT",
@@ -227,6 +234,7 @@ const showCountries = [
   "SE",
   "TR",
   "UA",
+  "XK",
 ];
 
 export default memo(MapChart);
