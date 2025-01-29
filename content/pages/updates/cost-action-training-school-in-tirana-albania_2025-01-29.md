@@ -2,7 +2,7 @@
 title: COST Action Training School in Tirana, Albania
 date: 2025-05-28T14:07:36.608Z
 author: Carlos Arcila Calderón
-announce_until: 2025-01-29T15:07:36.624Z
+announce_until: ""
 image: img/captura-de-pantalla-2025-01-29-160726.png
 ---
 COST Action Training School in Computational Opinion Analysis – COpA on Harmful on Opinions , May 28-29, 2024, 16 hours 
