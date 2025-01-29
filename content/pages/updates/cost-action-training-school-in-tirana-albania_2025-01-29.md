@@ -5,9 +5,11 @@ author: Carlos Arcila Calderón
 announce_until: ""
 image: img/captura-de-pantalla-2025-01-29-160726.png
 ---
-# **COST Action Training School in Computational Opinion Analysis – COpA on Harmful on Opinions , May 28-29, 2024, 16 hours** 
+# **COST Action Training School in Computational Opinion Analysis – COpA** 2nd Ed.
 
-##  ﻿
+## **May 28-29, 2025** 
+
+##  
 
  ﻿
 
