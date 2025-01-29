@@ -23,11 +23,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * 11:45 – 13:00 SNA
 * 13:00 – 14:00 Lunch
 * 14:00 – 16:00 SNA
-* 17:00  leave for Dinner in Tirana (from one of the hotels)
-
- ﻿
-
- ﻿
+* 17:00  leave for Dinner in Tirana (from one of the hotels)﻿
 
 ## Thursday
 
