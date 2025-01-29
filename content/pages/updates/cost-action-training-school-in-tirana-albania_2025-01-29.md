@@ -1,5 +1,5 @@
 ---
-title: COST Action Training School in Tirana, Albania
+title: COST Action Training School in Elbasan, Albania
 date: 2025-05-28T14:07:36.608Z
 author: Carlos Arcila Calderón
 announce_until: ""
