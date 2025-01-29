@@ -7,6 +7,10 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 ---
 # **COST Action Training School in Computational Opinion Analysis – COpA on Harmful on Opinions , May 28-29, 2024, 16 hours** 
 
+##  ﻿
+
+ ﻿
+
 ## Wednesday
 
 08:30 – 09:00: Registration 
@@ -27,7 +31,9 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 
 17:00  leave for Dinner  in Tirana (from one of the hotels)
 
-_﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+ ﻿
+
+ ﻿
 
 ## Thursday
 
