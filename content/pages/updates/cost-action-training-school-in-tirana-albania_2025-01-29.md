@@ -9,36 +9,34 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 
 ## **May 28-29, 2025** 
 
-
-
 **Wednesday:**
 
 * **08:30 – 09:00: Registration** Participant check-in for the event.
 * **09:00 – 09:45: Presentation of the Training School & Conceptual Introduction** General introduction to the purpose of the event and its conceptual framework.
 * **09:45 – 10:00: Break**.
-* **10:00 – 11:30: Algorithmic Bias** A focus on how algorithms can reflect biases and their implications.
+* **10:00 – 11:30: Algorithmic Bias** A focus on how algorithms can reflect biases and their implications.  **Alexandra Urman**
 * **11:30 – 11:45: Break**.
-* **11:45 – 13:00: SNA (Social Network Analysis)** Presentation and discussion on how social networks are analyzed and studied through mathematical and computational models.
+* **11:45 – 13:00: SNA (Social Network Analysis)** Presentation and discussion on how social networks are analyzed and studied through mathematical and computational models.  **Johannes Gruber**
 * **13:00 – 14:00: Lunch** 
-* **14:00 – 16:00: SNA (Social Network Analysis)** Continuation of the SNA topic, likely with practical examples or deeper exploration.
+* **14:00 – 16:00: SNA (Social Network Analysis)** Continuation of the SNA topic, likely with practical examples or deeper exploration.  **Johannes Gruber**
 * **17:00: Leave for Dinner in Tirana (from one of the hotels)**
 
 - - -
 
 **Thursday:**
 
-* **10:00 – 11:00: Multi-lingual** Discussion on managing and processing multiple languages, especially in the context of data or technology.
+* **10:00 – 11:00: Multi-lingual** Discussion on managing and processing multiple languages, especially in the context of data or technology.  **Jamal Nasir**
 * **11:00 – 11:15: Break.**
-* **11:15 – 13:15: Multi-lingual** Continuation of the topic, with further depth or practical examples.
+* **11:15 – 13:15: Multi-lingual** Continuation of the topic, with further depth or practical examples.  **Jamal Nasir**
 * **13:15 – 14:15: Lunch.**
-* **14:15 – 15:45: Multi-modal** Study of data and/or technologies involving multiple modalities, such as text, images, audio, etc.
+* **14:15 – 15:45: Multi-modal** Study of data and/or technologies involving multiple modalities, such as text, images, audio, etc.  **Felicia Loecherbach** 
 * **15:45 – 16:00: Break** 
-* **16:00 – 17:30: Multi-modal** Continuation of the Multi-modal topic, likely focusing on applications or case studies.
+* **16:00 – 17:30: Multi-modal** Continuation of the Multi-modal topic, likely focusing on applications or case studies.  **Felicia Loecherbach**
 * **17:30 – 18:00: Closing** Final summary, reflections on what was learned, and formal closing of the event.
 
 - - -
 
-###  ﻿
+### ﻿
 
 ### **Algorithmic Bias**
 
