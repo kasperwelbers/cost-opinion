@@ -14,11 +14,11 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **08:30 – 09:00: Registration** Participant check-in for the event.
 * **09:00 – 09:45: Presentation of the Training School & Conceptual Introduction** General introduction to the purpose of the event and its conceptual framework.
 * **09:45 – 10:00: Break**.
-* **10:00 – 11:30: Algorithmic Bias** A focus on how algorithms can reflect biases and their implications.  **Alexandra Urman**
+* **10:00 – 11:30: SNA (Social Network Analysis)** Continuation of the SNA topic, likely with practical examples or deeper exploration.  **Johannes Gruber** 
 * **11:30 – 11:45: Break**.
 * **11:45 – 13:00: SNA (Social Network Analysis)** Presentation and discussion on how social networks are analyzed and studied through mathematical and computational models.  **Johannes Gruber**
 * **13:00 – 14:00: Lunch** 
-* **14:00 – 16:00: SNA (Social Network Analysis)** Continuation of the SNA topic, likely with practical examples or deeper exploration.  **Johannes Gruber**
+* **14:00 – 16:00: Algorithmic Bias** A focus on how algorithms can reflect biases and their implications.  **Alexandra Urman**
 * **17:00: Leave for Dinner in Tirana (from one of the hotels)**
 
 - - -
