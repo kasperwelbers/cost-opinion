@@ -18,7 +18,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **11:30 – 11:45: Break**.
 * **11:45 – 13:00: SNA (Social Network Analysis)** Presentation and discussion on how social networks are analyzed and studied through mathematical and computational models.  **Johannes Gruber**
 * **13:00 – 14:00: Lunch** 
-* **14:00 – 16:00: Algorithmic Bias** A focus on how algorithms can reflect biases and their implications.  **Alexandra Urman**
+* **14:00 – 15:30: Algorithmic Bias** A focus on how algorithms can reflect biases and their implications.  **Alexandra Urman**
 * **17:00: Leave for Dinner in Tirana (from one of the hotels)**
 
 - - -
