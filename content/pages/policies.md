@@ -78,7 +78,7 @@ Any publications of the above mentioned types are eligible for support (e.g., fo
 
 ### Open Access
 
-OPINION offers a (limited) fund for supporting Open Access publications that emerge from the network and meet OPINION's criteria for network publications.
+OPINION offers a (limited) fund for supporting Open Access publications that emerge from the network and meet OPINION's <a href="#publications>criteria</a> for network publications.
 
 Open Access support is conditional upon independent peer review (i.e., publications that are not peer-reviewed or where the reviewing is handled solely by affiliated authors are ineligible).
 
