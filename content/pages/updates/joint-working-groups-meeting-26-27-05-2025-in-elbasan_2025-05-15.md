@@ -2,7 +2,7 @@
 title: Joint Working Groups Meeting, 26-27.05.2025 in Elbasan
 date: 2025-05-15T07:07:34.238Z
 author: Christian Baden
-announce_until: 2025-05-15T07:07:34.264Z
+announce_until: 2025-05-28T07:07:34.264Z
 image: img/elbasan.jpg
 ---
 From 26 to 27 May 2025, OPINION's 6th Joint Working Groups Meeting will take place at the University of Elbasan Aleksandër Xhuvani. Our host is Dr. Edlira Gugu at the Faculty of Education Sciences.
