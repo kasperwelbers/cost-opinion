@@ -1,8 +1,8 @@
 ---
 title: COST Action Training School in Elbasan, Albania
-date: 2025-05-28T14:07:36.608Z
+date: 2025-05-27T14:07:36.608Z
 author: Carlos Arcila Calderón
-announce_until: ""
+announce_until: 2025-05-27T21:00:00.000Z
 image: img/captura-de-pantalla-2025-01-29-160726.png
 ---
 # **COST Action Training School in Computational Opinion Analysis – COpA** 2nd Ed.
