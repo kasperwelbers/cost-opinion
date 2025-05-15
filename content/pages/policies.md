@@ -86,7 +86,9 @@ Authors can apply for OPINION's OA support only if they have no other ways of co
 
 OPINION aims to support 'centripetal' publications by its WGs as much as possible. Priority will be given to high-impact publications addressing international audiences (e.g., in international journals, with major book publishers).
 
-OPINION aims to cover the full Open Access costs whenever possible, up to a limit of 2500 EUR, but may decide to grant partial support if budgetary constraints require.
+OPINION aims to cover the full Open Access costs whenever possible, up to a limit of 2500 EUR, but may decide to grant partial support if budgetary constraints require.public
+
+Additional guidance on how to apply can be found <a href="https://www.opinion-network.eu/img/oa-policy.pdf" target="_blank">here</a>.
 
 - - -
 
