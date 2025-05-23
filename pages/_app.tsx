@@ -21,7 +21,7 @@ import Footer from "../components/Footer";
 import Image from "next/image";
 
 const font = Poppins({
-  weight: "500",
+  weight: ["200", "300", "400", "500", "600", "800"],
   subsets: ["devanagari"],
   display: "swap",
 });
