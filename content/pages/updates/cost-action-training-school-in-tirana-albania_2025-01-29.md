@@ -16,7 +16,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **09:45 – 10:00: Break**.
 * **10:00 – 11:30: SNA (Social Network Analysis)** Continuation of the SNA topic, likely with practical examples or deeper exploration.  **Johannes Gruber** 
 * **11:30 – 11:45: Break**.
-* **11:45 – 13:00: SNA (Social Network Analysis)** Presentation and discussion on how social networks are analyzed and studied through mathematical and computational models.  **Johannes Gruber**
+* **11:45 – 13:00: SNA (Social Network Analysis)** Presentation and discussion on how social networks are analyzed and studied through mathematical and computational models.  **Johannes Gruber - [Materials ](https://github.com/JBGruber/2025_SNA_COpA)**
 * **13:00 – 14:00: Lunch** 
 * **14:00 – 15:15: Algorithmic Bias (Part I)** A focus on how algorithms can reflect biases and their implications.  **Aleksandra Urman ([Slides](https://drive.google.com/drive/folders/1jzajKwvW3_eB0zkH14RUg3g0yMP9DcAY?usp=sharing))**
 * **1﻿5:15 - 15:30: Break.**
