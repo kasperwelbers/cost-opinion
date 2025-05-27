@@ -27,7 +27,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 
 **Thursday:**
 
-* **10:00 – 11:00: Multi-lingual** Discussion on managing and processing multiple languages, especially in the context of data or technology.  **Jamal Nasir**
+* **10:00 – 11:00: Multi-lingual** Discussion on managing and processing multiple languages, especially in the context of data or technology.  **Jamal Nasir - [Materials](https://github.com/jamal833/COpA2025-MultiLingual)**
 * **11:00 – 11:15: Break.**
 * **11:15 – 13:15: Multi-lingual** Continuation of the topic, with further depth or practical examples.  **Jamal Nasir**
 * **13:15 – 14:15: Lunch.**
