@@ -33,7 +33,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **13:15 – 14:15: Lunch.**
 * **14:15 – 15:45: Multi-modal** Study of data and/or technologies involving multiple modalities, such as text, images, audio, etc.  **Felicia Loecherbach** 
 * **15:45 – 16:00: Break** 
-* **16:00 – 17:30: Multi-modal** Continuation of the Multi-modal topic, likely focusing on applications or case studies.  **Felicia Loecherbach**
+* **16:00 – 17:30: Multi-modal** Continuation of the Multi-modal topic, likely focusing on applications or case studies.  **Felicia Loecherbach - [Materials](https://github.com/FeLoe/opinion-elbasan-image-analysis)**
 * **17:30 – 18:00: Closing** Final summary, reflections on what was learned, and formal closing of the event.
 
 - - -
