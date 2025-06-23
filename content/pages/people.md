@@ -1693,4 +1693,94 @@ people:
     name: Maria Luisa Azpiroz
     homepage: https://upmx.academia.edu/Mar%C3%ADaLuisaAzp%C3%ADroz
     country: MX
+  - wg_theory: false
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Şebnem Özdemir
+    homepage: https://avesis.cumhuriyet.edu.tr/sozdemir/
+    country: TR
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: Nava Tintarev
+    homepage: https://cris.maastrichtuniversity.nl/en/persons/nava-tintarev
+    country: NL
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: ÖZLEM Delal Abanoz
+    homepage: https://www.researchgate.net/profile/Oezlem-Delal
+    country: TR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Héloise Faure
+    country: FR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Esra Bozkanat
+    homepage: https://www.researchgate.net/profile/Esra-Bozkanat
+    country: TR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Ali Şükrü Özbay
+    homepage: https://www.researchgate.net/profile/Ali_Oezbay
+    country: TR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    homepage: https://www.researchgate.net/profile/Antoni-Brosa-Rodriguez
+    name: Antoni Brosa Rodríguez
+    country: ES
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Burak Toraman
+    homepage: https://www.researchgate.net/profile/Burak-Toraman?ev=hdr_xprf
+    country: TR
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Muhamet Jahiri
+    homepage: https://filologjia.uni-pr.edu/
+    country: XK
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Alban Zeneli
+    homepage: https://www.researchgate.net/profile/Alban-Zeneli/stats/report/weekly/2025-03-16?utm_medium=email&utm_source=researchgate&utm_campaign=re308&loginT=YWqe8eUFRJstwz3w0oP6rkoeZZaUM3e0g-_NYP14gXfvoHvj1dOz9-mGwjKtpM4ISKcc3lzZqDj80z0fz_fJ&pli=1&utm_term=re308_pubr&utm_content=re308_pubr_p3&cp=re308_pubr_p3&uid=EzXfHRipUeEhiAgyOVUQ8H21vtq0wH8C6xhi&ch=reg
+    country: XK
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Bekir Cetintav
+    homepage: https://www.researchgate.net/profile/Bekir_Cetintav
+    country: TR
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    name: Kristo Kristo
+    homepage: https://www.linkedin.com/in/christo-christou-a08070267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+    country: AL
+  - wg_theory: false
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Enes Abanoz
+    homepage: https://enesabanoz.weebly.com/
+    country: TR
 ---
