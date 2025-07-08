@@ -1783,4 +1783,28 @@ people:
     name: Enes Abanoz
     homepage: https://enesabanoz.weebly.com/
     country: TR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    country: ES
+    name: Daniel Barredo Ibáñez
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    country: ES
+    name: Lucía Caro Castaño
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    country: IE
+    name: Gaurav Negi
+  - wg_theory: false
+    wg_tools: true
+    wg_data: true
+    wg_dissemination: false
+    name: Asli Topsoy
+    country: TR
 ---
