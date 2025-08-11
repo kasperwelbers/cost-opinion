@@ -1,0 +1,19 @@
+.GlossaryContainer {
+    background: #0005;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Glossary {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+    max-width: 800px;
+
+    font-size: 1.2rem;
+}
+
+.Glossary font {
+    color: white;
+}

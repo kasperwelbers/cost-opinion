@@ -10,6 +10,7 @@ import "../public/styles/GridTable.css";
 import "../public/styles/PeopleList.css";
 import "../public/styles/grants.css";
 import "../public/styles/policies.css";
+import "../public/styles/glossary.css";
 
 import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";

@@ -561,6 +561,18 @@ export default {
             },
           ],
         },
+        {
+          label: "Glossary",
+          name: "glossary",
+          file: "content/pages/glossary.md",
+          fields: [
+            {
+              label: "HTML",
+              name: "body",
+              widget: "string",
+            },
+          ],
+        },
       ],
     },
     {
@@ -597,9 +609,9 @@ export default {
     },
 
     {
-      name: "glossary",
-      label: "Glossary",
-      folder: "content/pages/glossary",
+      name: "glossary_items",
+      label: "Glossary items",
+      folder: "content/pages/glossary_items",
       create: true,
       slug: "{{slug}}",
       fields: [{ label: "Body", name: "body", widget: "text" }],
