@@ -597,6 +597,15 @@ export default {
     },
 
     {
+      name: "glossary",
+      label: "Glossary",
+      folder: "content/pages/glossary",
+      create: true,
+      slug: "{{slug}}",
+      fields: [{ label: "Body", name: "body", widget: "text" }],
+    },
+
+    {
       name: "deliverables",
       label: "Deliverable",
       folder: "content/pages/deliverables",
