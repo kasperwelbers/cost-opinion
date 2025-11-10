@@ -123,7 +123,7 @@ awarded_grants:
     url: STSM-report-Stoll.pdf
   - type: S﻿TSM
     who: M﻿ariken van der Velden
-    url: STSM-van der Velden.pdf
+    url: STSM-van-der-Velden.pdf
 ---
 
 # If you are interested, please get in contact with OPINION's Grant Coordination Team!
