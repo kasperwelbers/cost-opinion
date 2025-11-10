@@ -97,6 +97,33 @@ awarded_grants:
   - type: S﻿TSM
     url: stsm_springer.pdf
     who: Nina Springer
+  - type: ITCG
+    who: D﻿ren Gerguri
+    url: ITCG_Dren_Gerguri.pdf
+  - type: I﻿TCG
+    who: E﻿dlira Gugu
+    url: ITCG-report-Edlira Gugu.pdf
+  - type: S﻿TSM
+    who: C﻿hristian Baden
+    url: STSM-Baden.pdf
+  - type: STSM
+    who: L﻿jubisa Bojic
+    url: STSM_Bojic3.pdf
+  - type: S﻿TSM
+    who: J﻿ohannes Gruber
+    url: STSM_Gruber.pdf
+  - type: S﻿TSM
+    who: V﻿alerie Hase
+    url: STSM_Hase.pdf
+  - type: S﻿TSM
+    who: B﻿arbara Lewandowska-Tomaszczyk
+    url: STSM_report_Lewandowska-Tomaszczyk.pdf
+  - type: S﻿TSM
+    who: A﻿nke Stoll
+    url: STSM-report-Stoll.pdf
+  - type: S﻿TSM
+    who: M﻿ariken van der Velden
+    url: STSM-van der Velden.pdf
 ---
 
 # If you are interested, please get in contact with OPINION's Grant Coordination Team!
