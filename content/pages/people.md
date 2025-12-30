@@ -169,7 +169,7 @@ people:
     homepage: null
     wg_dissemination: true
     wg_theory: false
-    role: WG4V1
+    role: null
     mc: false
     country: NL
     wg_data: false
@@ -1173,13 +1173,14 @@ people:
     wg_dissemination: false
     mc: true
   - name: David Blanco-Herrero
-    homepage: https://www.researchgate.net/profile/David-Blanco-Herrero
-    country: ES
-    wg_theory: false
     wg_tools: true
-    wg_data: false
+    homepage: https://www.researchgate.net/profile/David-Blanco-Herrero
     wg_dissemination: true
+    wg_theory: false
+    role: WG4V1
     mc: false
+    country: ES
+    wg_data: false
   - name: Selma Veseljević Jerković
     homepage: http://www.untz.ba
     country: BA
