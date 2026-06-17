@@ -16,16 +16,9 @@ import type { AppProps } from "next/app";
 import Navbar from "../components/Nav";
 import { useRouter } from "next/router";
 import AuthContextProvider from "../contexts/authContext";
-import { Poppins } from "@next/font/google";
 
 import Footer from "../components/Footer";
 import Image from "next/image";
-
-const font = Poppins({
-  weight: ["200", "300", "400", "500", "600", "800"],
-  subsets: ["devanagari"],
-  display: "swap",
-});
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -35,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <AuthContextProvider>
       <style jsx global>{`
         html {
-          font-family: ${font.style.fontFamily};
+          font-family: "Poppins", sans-serif;
         }
       `}</style>
       <div className="AppContainer" style={{ position: "relative" }}>
