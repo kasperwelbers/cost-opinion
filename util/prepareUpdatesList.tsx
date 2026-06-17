@@ -1,6 +1,12 @@
 import fs from "fs";
 import readMd from "./readMd";
 
+function toDateString(d: unknown): string {
+  if (d instanceof Date) return d.toISOString().split("T")[0];
+  if (typeof d === "string") return d.split("T")[0];
+  return "";
+}
+
 export default function prepareUpdatesList() {
   const dir = "content/pages/updates";
   const files = fs.readdirSync(dir);
@@ -11,19 +17,21 @@ export default function prepareUpdatesList() {
       id: f.replace(/\.md$/, ""),
       title: attributes.title,
       image: attributes.image || "",
-      date: attributes.date,
+      date: toDateString(attributes.date),
       author: attributes.author,
-      announce_until: attributes.announce_until || "",
+      announce_until: toDateString(attributes.announce_until),
     };
   });
 
-  updates.sort((a, b) => (a.date > b.date ? -1 : b.date > a.date ? 1 : 0));
-
-  return updates.map((update) => {
-    if (typeof update.date !== "string")
-      update.date = update.date.toISOString().split("T")[0];
-    if (typeof update.announce_until !== "string")
-      update.announce_until = update.announce_until.toISOString().split("T")[0];
-    return update;
+  // Sort descending by date. Dates are normalised to YYYY-MM-DD strings
+  // before sorting so the comparison is always a reliable lexicographic one,
+  // regardless of whether gray-matter returns Date objects or strings
+  // (behaviour that can change with the underlying js-yaml version).
+  updates.sort((a, b) => {
+    if (a.date > b.date) return -1;
+    if (a.date < b.date) return 1;
+    return 0;
   });
+
+  return updates;
 }
