@@ -5,7 +5,7 @@ author: Carlos Arcila Calderón
 announce_until: 2026-06-14T10:33:09.675Z
 image: img/captura-de-pantalla-2025-01-29-160726.png
 ---
-# **COST Action Training School in Computational Opinion Analysis – COpA** 3rd Ed.
+# **COST Action Training School in Computational Opinion Analysis – COpA** 3rd Ed.*
 
 ## August 26-27, 2026 
 
@@ -31,7 +31,11 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **13:15 – 14:15: Lunch.**
 * **14:15 – 15:45: Fine-tuning**. Fine-tuning LLMs. **Ljubisa Bojic**
 * **15:45 – 16:00: Break** 
-* **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic**
+* **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic\*\***
 * **17:30 – 18:00: Closing** Final summary, reflections on what was learned, and formal closing of the event. How to teach and transfer this knowledge. **Carlos Arcila Calderón  & David Blanco**
 
 - - -
+
+\*Participants are requiered to bring their own laptop. Internet access will be provided by the host.
+
+\*\* It is recommended to have previous access to LLMs. For example, access to web version (not API access) of Claude (preferred 20 dollars Pro plan) is desireble but not nessesary. Other LLMs that would be used for data collection can be free web versions, even without of creating an account, such as Gemini, Grok, ChatGPT, DeepSeek and Qwen.
