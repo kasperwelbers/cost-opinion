@@ -31,7 +31,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **13:15 – 14:15: Lunch.**
 * **14:15 – 15:45: Fine-tuning**. Fine-tuning LLMs. **Ljubisa Bojic**
 * **15:45 – 16:00: Break** 
-* **16:00 – 17:30:  Model evaluation.** Strategies to evaluate traditional and LLM models, generalization of findings.  **Ljubisa Bojic**
+* **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic**
 * **17:30 – 18:00: Closing** Final summary, reflections on what was learned, and formal closing of the event. How to teach and transfer this knowledge. **Carlos Arcila Calderón  & David Blanco**
 
 - - -
