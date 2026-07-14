@@ -14,7 +14,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **08:30 – 09:00: Registration** Participant check-in for the event.
 * **09:00 – 09:45: Presentation of the Training School & Conceptual Introduction** General introduction to the purpose of the event and its conceptual framework. Ethical framework. **Carlos Arcila Calderón & David Blanco**
 * **09:45 – 10:00: Break**.
-* **10:00 – 12:15: LLMs for Opinion Analysis**. Using LLMs as annotators or classifiers. **Ana Jovancevic**
+* **10:00 – 12:15: Using LLMs as annotators, classifiers, or ‘profilers’**. Using LLMs as annotators or classifiers. **Ana Jovancevic\*\***
 * **12:15 – 13:30: Lunch** 
 * **13:30 – 14:30: LLMs for Opinion Analysis**. A focus on biases, hallucinations, reproducibility. **Aleksandra Urman**
 * **1﻿4:30 - 14:45: Break.**
@@ -31,11 +31,13 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **13:15 – 14:15: Lunch.**
 * **14:15 – 15:45: Fine-tuning**. Fine-tuning LLMs. **Ljubisa Bojic**
 * **15:45 – 16:00: Break** 
-* **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic\*\***
+* **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic\*\****
 * **17:30 – 18:00: Closing** Final summary, reflections on what was learned, and formal closing of the event. How to teach and transfer this knowledge. **Carlos Arcila Calderón  & David Blanco**
 
 - - -
 
 \*Participants are requiered to bring their own laptop. Internet access will be provided by the host.
 
-\*\* It is recommended to have previous access to LLMs. For example, access to web version (not API access) of Claude (preferred 20 dollars Pro plan) is desireble but not nessesary. Other LLMs that would be used for data collection can be free web versions, even without of creating an account, such as Gemini, Grok, ChatGPT, DeepSeek and Qwen.
+\*\*Participants will need to have PyCharm installed (as well as dependencies of it) (https://pycharm-community-edition.en.softonic.com/). Participants will also need Ollama installed and running (https://ollama.com/)
+
+\*\** It is recommended to have previous access to LLMs. For example, access to web version (not API access) of Claude (preferred 20 dollars Pro plan) is desireble but not nessesary. Other LLMs that would be used for data collection can be free web versions, even without of creating an account, such as Gemini, Grok, ChatGPT, DeepSeek and Qwen.
