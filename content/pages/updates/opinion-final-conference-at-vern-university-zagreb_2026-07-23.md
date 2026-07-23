@@ -41,7 +41,7 @@ Tuesday 25 August 2026 (all times: CEST)
 
 **09:30-11:00 OPINION Matters: Practical Insights from OPINION Research (*Conference Panel*)**
 
-* **Shock and adaptation in opinion research: Incivility, disinformation and the authenticity challenge in synthetic generative AI content.** *Asta Zelenkauskaite, Vilnius Gediminas Technical University* *![🇱🇹](https://fonts.gstatic.com/s/e/notoemoji/17.0/1f1f1_1f1f9/72.png)*🇱🇹 *& Nina Springer, University of Münster* 🇩🇪
+* **Shock and adaptation in opinion research: Incivility, disinformation and the authenticity challenge in synthetic generative AI content.** *Asta Zelenkauskaite, Vilnius Gediminas Technical University* 🇱🇹 *& Nina Springer, University of Münster* 🇩🇪
 * **From silence to influence: How populist parties’ communication captured the young vote**. *Mariken van der Velden, Vrije University Amsterdam* 🇳🇱 *& Michaela Maier, Rhineland-Palatinate Technical University* 🇩🇪
 * **Multilingual opinion-making through humor: Framing, stance-ta-king and audience perceptions in Albanian and Moldovan contexts**. *Ema Kristo, University of Tirana* 🇦🇱 *& Larisa Mistrean, Academy of Economic Studies of Moldova* 🇲🇩
 * **Emotional appeals in political campaigns on social media: Strategic use and audience engagement**. *Edlira Palloshi-Disha, South East European University* 🇲🇰
@@ -71,9 +71,9 @@ Tuesday 25 August 2026 (all times: CEST)
 
 **16:15-17:45 OPINION Recommends: Shaping Future OPINION Research**  **(*Conference Panel*)**
 
-* **Studying public opinion in the digital era: Challenges and recommendations**. *Elena Negrea Busuioc, National University of Political Studies & Public Administration ![🇷🇴](https://fonts.gstatic.com/s/e/notoemoji/17.0/1f1f7_1f1f4/72.png)*
+* **Studying public opinion in the digital era: Challenges and recommendations**. *Elena Negrea Busuioc, National University of Political Studies & Public Administration* 🇷🇴
 * **Dictionaries, machine learning, transformers or generative LLMs? A framework for deciding which approach to use for computational opinion mining**. *Damian Trilling, Vrije University Amsterdam* 🇳🇱
-* **Are we closing the future? Towards CERN for AI and societal AI alignment benchmark**. *Ljubiša Bojić, University of Belgrade* *![🇷🇸](https://fonts.gstatic.com/s/e/notoemoji/17.0/1f1f7_1f1f8/72.png)*
+* **Are we closing the future? Towards CERN for AI and societal AI alignment benchmark**. *Ljubiša Bojić, University of Belgrade* 🇷🇸
 * **Towards a shared OPINION data pipeline: Findability, storage, and responsible reuse**. *Hajo Boomgaarden, University of Vienna* 🇦🇹
 * **Ethical challenges in the use of LLMs in multi-lingual text analysis**. *Dana Guy, University College Dublin* 🇮🇪 *& Dren Gërguri, University of Prishtina* 🇽🇰
 
