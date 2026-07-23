@@ -51,21 +51,21 @@ Tuesday 25 August 2026 (all times: CEST)
 
 **11:30-12:45 Weaponized opinions: Dealing with toxicity in digital discourse (*Roundtable Talk*)**
 
-* **\*Carlos Arcila Calderón**, University of Salamanca 🇪🇸*
-* **\*Ivan Buča**, 24sata 🇭🇷*
-* **\*Djordje Pavicevic**, ZLF 🇷🇸*
-* **\*Jūratė Ruzaitė**, Vytautas Magnus University 🇱🇹*
-* **\*Lenka Vochocová**, Charles University Prague 🇨🇿*
+* **Carlos Arcila Calderón**, University of Salamanca 🇪🇸
+* **Ivan Buča**, 24sata 🇭🇷
+* **Djordje Pavicevic**, ZLF 🇷🇸
+* **Jūratė Ruzaitė**, Vytautas Magnus University 🇱🇹
+* **Lenka Vochocová**, Charles University Prague 🇨🇿
 
 - - -
 
 **14:30-15:45 Public opinion in the digital age: Participation, polarization, & pressure politics (*Roundtable Talk*)**
 
-* **\*Christian Baden**, The Hebrew University of Jerusalem 🇮🇱*
-* **\*Mihail Daniel Jurcan**, Romanian Institute for Evaluation & Strategy 🇷🇴*
-* **\*Peter Maurer**, Karlstad University 🇸🇪*
-* **\*Gábor Polyák**, Mérték Media Monitor 🇭🇺*
-* **\*Helle Sjøvaag**, University of Stavanger 🇳🇴*
+* **Christian Baden**, The Hebrew University of Jerusalem 🇮🇱
+* **Mihail Daniel Jurcan**, Romanian Institute for Evaluation & Strategy 🇷🇴
+* **Peter Maurer**, Karlstad University 🇸🇪
+* **Gábor Polyák**, Mérték Media Monitor 🇭🇺
+* **Helle Sjøvaag**, University of Stavanger 🇳🇴
 
 - - -
 
