@@ -19,7 +19,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **13:30 – 14:30: LLMs for Opinion Analysis**. A focus on biases, hallucinations, reproducibility. **Aleksandra Urman**
 * **1﻿4:30 - 14:45: Break.**
 * **14:45 – 16:30: Validation and interpretability**. Related to validation, biases, explainability. **Aleksandra Urman**
-* **17:00: Social event**
+* **18:00: Dinner at Korčula Restaurant** (https://www.restoran-korcula.hr/).
 
 - - -
 
