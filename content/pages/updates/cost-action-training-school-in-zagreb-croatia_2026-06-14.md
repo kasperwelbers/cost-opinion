@@ -15,7 +15,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **09:00 – 09:45: Presentation of the Training School & Conceptual Introduction** General introduction to the purpose of the event and its conceptual framework. Ethical framework. **Carlos Arcila Calderón & David Blanco**
 * **09:45 – 10:00: Break**.
 * **10:00 – 12:15: Using LLMs as annotators, classifiers, or ‘profilers’**. Using LLMs as annotators or classifiers. **Ana Jovancevic\*\***
-* **12:15 – 13:30: Lunch** 
+* **12:15 – 13:30: Lunch** **at SOL Tapas (**approximately €25 per person).
 * **13:30 – 14:30: LLMs for Opinion Analysis**. A focus on biases, hallucinations, reproducibility. **Aleksandra Urman**
 * **1﻿4:30 - 14:45: Break.**
 * **14:45 – 16:30: Validation and interpretability**. Related to validation, biases, explainability. **Aleksandra Urman**
@@ -28,7 +28,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **10:00 – 11:00: Comparative and cross-context analysis.** Inspiring application cases of multi-lingual and multi-modal analysis. **Christian Baden**
 * **11:00 – 11:15: Break.**
 * **11:15 – 13:15: Annotation, gold standards, Disagreement.** Types of annotation (crowd vs experts), dealing with ambiguity, intercoder reliability. **Mariken van der Velden**
-* **13:15 – 14:15: Lunch.**
+* **13:15 – 14:15: Lunch at Batak Grill.**
 * **14:15 – 15:45: Fine-tuning**. Fine-tuning LLMs. **Ljubisa Bojic**
 * **15:45 – 16:00: Break** 
 * **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic\*\****
