@@ -14,7 +14,7 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **08:30 – 09:00: Registration** Participant check-in for the event.
 * **09:00 – 09:45: Presentation of the Training School & Conceptual Introduction** General introduction to the purpose of the event and its conceptual framework. Ethical framework. **Carlos Arcila Calderón & David Blanco**
 * **09:45 – 10:00: Break**.
-* **10:00 – 12:15: Using LLMs as annotators, classifiers, or ‘profilers’**. Using LLMs as annotators or classifiers. **Ana Jovancevic\*\***
+* **10:00 – 12:15: Using LLMs as annotators, classifiers, or ‘profilers’**. Using LLMs as annotators or classifiers. **Ana Jovancevic\*\*. ([See materials here](https://github.com/AnaJovancevic/CoPA_III_LLMs-as-annotators-and-profilers.git))**
 * **12:15 – 13:30: Lunch** **at SOL Tapas (**approximately €25 per person).
 * **13:30 – 14:30: LLMs for Opinion Analysis**. A focus on biases, hallucinations, reproducibility. **Aleksandra Urman**
 * **1﻿4:30 - 14:45: Break.**
