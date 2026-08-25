@@ -14,13 +14,14 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 **Wednesday:**
 
 * **08:30 – 09:00: Registration** Participant check-in for the event.
-* **09:00 – 09:45: Presentation of the Training School & Conceptual Introduction** General introduction to the purpose of the event and its conceptual framework. Ethical framework. **Carlos Arcila Calderón & David Blanco**
-* **09:45 – 10:00: Break**.
-* **10:00 – 12:15: Using LLMs as annotators, classifiers, or ‘profilers’**. Using LLMs as annotators or classifiers. **Ana Jovancevic\*\*. ([See materials here](https://github.com/AnaJovancevic/CoPA_III_LLMs-as-annotators-and-profilers.git))**
-* **12:15 – 13:30: Lunch** **at SOL Tapas (**approximately €25 per person).
-* **13:30 – 14:30: LLMs for Opinion Analysis**. A focus on biases, hallucinations, reproducibility. **Aleksandra Urman**
+* **09:00 – 09:45: Presentation of the Training School & Conceptual Introduction** General introduction to the purpose of the event and its conceptual framework. Ethical framework. **Carlos Arcila Calderón**
+* **09:45 – 10:45: Using LLMs as annotators, classifiers, or ‘profilers’**. Using LLMs as annotators or classifiers (I). **Ana Jovancevic\*\*. ([See materials here](https://github.com/AnaJovancevic/CoPA_III_LLMs-as-annotators-and-profilers.git))**
+* **10:45 – 11:00: Break**.
+* **11:00 – 12:00: Using LLMs as annotators, classifiers, or ‘profilers’**. Using LLMs as annotators or classifiers (II). **Ana Jovancevic\*\*. ([See materials here](https://github.com/AnaJovancevic/CoPA_III_LLMs-as-annotators-and-profilers.git))**
+* **12:00 – 13:30: Lunch** **at SOL Tapas (**approximately €25 per person).
+* **13:30 – 14:30: LLMs for Opinion Analysis**. A focus on biases, hallucinations, reproducibility. **Aleksandra Urman** ([See materials here](https://seafile.ifi.uzh.ch/d/16c4554abe284f1cb4dc/))
 * **1﻿4:30 - 14:45: Break.**
-* **14:45 – 16:30: Validation and interpretability**. Related to validation, biases, explainability. **Aleksandra Urman**
+* **14:45 – 16:30: Validation and interpretability**. Related to validation, biases, explainability. **Aleksandra Urman** ([See materials here](https://seafile.ifi.uzh.ch/d/16c4554abe284f1cb4dc/))
 * **18:00: Dinner at Korčula Restaurant** (https://www.restoran-korcula.hr/).
 
 - - -
@@ -31,10 +32,10 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 * **11:00 – 11:15: Break.**
 * **11:15 – 13:15: Annotation, gold standards, Disagreement.** Types of annotation (crowd vs experts), dealing with ambiguity, intercoder reliability. **Mariken van der Velden**
 * **13:15 – 14:15: Lunch at Batak Grill.**
-* **14:15 – 15:45: Fine-tuning**. Fine-tuning LLMs. **Ljubisa Bojic**
+* **14:15 – 15:45: Fine-tuning**. Fine-tuning LLMs. **Ljubisa Bojic** ([See materials here](https://osf.io/h6nw3/overview))
 * **15:45 – 16:00: Break** 
-* **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic\*\****
-* **17:30 – 18:00: Closing** Final summary, reflections on what was learned, and formal closing of the event. How to teach and transfer this knowledge. **Carlos Arcila Calderón  & David Blanco**
+* **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic\*\**** ([See materials here](https://osf.io/h6nw3/overview))
+* **17:30 – 18:00: Closing** Final summary, reflections on what was learned, and formal closing of the event. How to teach and transfer this knowledge. **Carlos Arcila Calderón**
 
 - - -
 
