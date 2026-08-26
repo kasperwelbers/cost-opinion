@@ -28,10 +28,10 @@ image: img/captura-de-pantalla-2025-01-29-160726.png
 
 **Thursday:**
 
-* **10:00 – 11:00: Comparative and cross-context analysis.** Inspiring application cases of multi-lingual and multi-modal analysis. **Christian Baden**
-* **11:00 – 11:15: Break.**
-* **11:15 – 13:15: Annotation, gold standards, Disagreement.** Types of annotation (crowd vs experts), dealing with ambiguity, intercoder reliability. **Mariken van der Velden**
-* **13:15 – 14:15: Lunch at Batak Grill.**
+* **09:30 – 10:30: Comparative and cross-context analysis.** Inspiring application cases of multi-lingual and multi-modal analysis. **Christian Baden**
+* **10:30 – 10:45: Break.**
+* **10:45 – 12:45: Annotation, gold standards, Disagreement.** Types of annotation (crowd vs experts), dealing with ambiguity, intercoder reliability. **Mariken van der Velden**
+* **12:45 – 14:15: Lunch at Batak Grill.**
 * **14:15 – 15:45: Fine-tuning**. Fine-tuning LLMs. **Ljubisa Bojic** ([See materials here](https://osf.io/h6nw3/overview))
 * **15:45 – 16:00: Break** 
 * **16:00 – 17:30:  LLM evaluation.**  Exercise.  **Ljubisa Bojic\*\**** ([See materials here](https://osf.io/h6nw3/overview))
