@@ -129,7 +129,7 @@ awarded_grants:
     url: ITCG-report-Ardita-Reci.pdf
   - type: I﻿TC
     who: E﻿dlira Gugu
-    url: ITCG-report-Edlira-Gugu.pdf
+    url: ITCG-report-Edlira-Gugu-2.pdf
   - type: I﻿TC
     who: D﻿ren Greguri
     url: ITC-report_Dren Greguri.pdf
