@@ -124,6 +124,39 @@ awarded_grants:
   - type: S﻿TSM
     who: M﻿ariken van der Velden
     url: stsm-van-der-velden.pdf
+  - type: I﻿TC
+    who: A﻿rdita Reci
+    url: ITCG-report-Ardita-Reci.pdf
+  - type: I﻿TC
+    who: E﻿dlira Gugu
+    url: ITCG-report-Edlira-Gugu.pdf
+  - type: I﻿TC
+    who: D﻿ren Greguri
+    url: ITC-report_Dren Greguri.pdf
+  - type: S﻿TSM
+    who: A﻿gnieszka Hess
+    url: STSM_AgnieszkaHESS
+  - type: S﻿TSM
+    who: E﻿lena Negrea Busuioc
+    url: STSM-Elena Negrea-Busuioc.pdf
+  - type: S﻿TSM
+    who: J﻿ana Bernhard Harrer
+    url: STSM-Jana-Bernhard-Harrer.pdf
+  - type: S﻿TSM
+    who: B﻿arbora Badurova
+    url: STSM-Barbora-Badurova.pdf
+  - type: S﻿TSM
+    who: E﻿nes Abanoz
+    url: STSM-Report_Enes Abanoz.pdf
+  - who: Ana Jovančević
+    url: YRI-Ana-Jovancevic.pdf
+    type: Y﻿RI
+  - type: Y﻿RI
+    who: O﻿lga Zagovora
+    url: YRI_Olga-Zagovora.pdf
+  - type: Y﻿RI
+    who: Özlem Abanoz
+    url: YRI-Ozlem-Abanoz.pdf
 ---
 
 # If you are interested, please get in contact with OPINION's Grant Coordination Team!
