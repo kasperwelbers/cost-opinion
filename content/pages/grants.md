@@ -150,11 +150,11 @@ awarded_grants:
     url: STSM-Report_Enes Abanoz.pdf
   - who: Ana Jovančević
     url: YRI-Ana-Jovancevic.pdf
-    type: Y﻿RI
-  - type: Y﻿RI
+    type: I﻿TC
+  - type: I﻿TC
     who: O﻿lga Zagovora
     url: YRI_Olga-Zagovora.pdf
-  - type: Y﻿RI
+  - type: I﻿TC
     who: Özlem Abanoz
     url: YRI-Ozlem-Abanoz.pdf
 ---
