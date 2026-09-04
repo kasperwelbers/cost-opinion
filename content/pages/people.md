@@ -1808,4 +1808,32 @@ people:
     wg_dissemination: false
     name: Asli Topsoy
     country: TR
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Asef Abdelhadi
+    country: TN
+    email: a.hadigtc@gmail.com
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Edlira Palloshi-Disha
+    email: e.palloshi@seeu.edu.mk
+    country: MK
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: true
+    name: Ayaz Ahmed Siddiqui
+    email: siddiqui.aayaz@gmail.com
+    country: ES
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: false
+    name: Jana Bernhard-Harrer
+    email: jana.bernhard@univie.ac.at
+    country: AT
 ---
