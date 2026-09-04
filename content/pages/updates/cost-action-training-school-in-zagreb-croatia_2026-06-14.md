@@ -3,7 +3,7 @@ title: COST Action Training School in Zagreb, Croatia
 date: 2026-08-26T10:33:09.647Z
 author: Carlos Arcila Calderón
 announce_until: 2026-06-14T10:33:09.675Z
-image: img/captura-de-pantalla-2025-01-29-160726.png
+image: img/day-2-cost-opinion-final-conference-24_25-8-2026-web-146.jpg
 ---
 # **COST Action Training School in Computational Opinion Analysis – COpA** 3rd Ed.*
 
