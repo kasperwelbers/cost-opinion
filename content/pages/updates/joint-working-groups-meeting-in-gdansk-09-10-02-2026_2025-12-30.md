@@ -41,7 +41,7 @@ Tuesday, 10 February 2026
 
 18:00 - Management Committee Meeting (hybrid)
 
-`<img src="https://www.opinion-network.eu/img/img-20260210-wa0016.jpg">`
+`<img src="/img/img-20260210-wa0016.jpg">`
 
 - - -
 
