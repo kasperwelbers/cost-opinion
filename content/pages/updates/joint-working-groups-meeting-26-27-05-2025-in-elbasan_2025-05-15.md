@@ -5,7 +5,7 @@ author: Christian Baden
 announce_until: 2025-05-28T07:07:34.264Z
 image: img/elbasan.jpg
 ---
-From 26 to 27 May 2025, OPINION's 6th Joint Working Groups Meeting will take place at the University of Elbasan Aleksandër Xhuvani. Our host is Dr. Edlira Gugu at the Faculty of Human Sciences.
+From 26 to 27 May 2025, OPINION's 6th Joint Working Groups Meeting took place at the University of Elbasan Aleksandër Xhuvani. Our host is Dr. Edlira Gugu at the Faculty of Human Sciences.
 
 PROGRAM
 
@@ -47,3 +47,7 @@ State of affairs panel: Haves & Needs
 13:45-17:15	Working Group Sessions II (parallel sessions)
 
 17:30-18:00	Closing Plenary & Wrap-up
+
+`<hl>`
+
+To download the Minutes of the Working Group Meeting, [click here](https://www.opinion-network.eu/img/minutes-opinion-wg-meeting-elbasan-2025.pdf).
