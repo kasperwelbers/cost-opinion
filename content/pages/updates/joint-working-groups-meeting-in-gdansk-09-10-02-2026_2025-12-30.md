@@ -5,9 +5,7 @@ author: Christian Baden
 announce_until: 2026-02-09T22:00:00.000Z
 image: img/gdansk.jpg
 ---
-From 9 to 10 February 2026, OPINION's 7th Joint Working Groups Meeting will take place at the University of Gdansk. Our host is Dr. Anna Baczkowska at the Department of English and American Studies.
-
-
+From 9 to 10 February 2026, OPINION's 7th Joint Working Groups Meeting took place at the University of Gdansk. Our host is Dr. Anna Baczkowska at the Department of English and American Studies.
 
 PROGRAM
 
@@ -42,3 +40,9 @@ Tuesday, 10 February 2026
 17:00 - Closing Plenary & Wrap-up (streamed)
 
 18:00 - Management Committee Meeting (hybrid)
+
+`<hr>`
+
+To download the Minutes of the Working Group Meeting, [click here](https://www.opinion-network.eu/img/minutes-opinion-wg-meeting-gdansk-2026.pdf).
+
+To download the Minutes of the Management Committee Meeting, [click here](https://www.opinion-network.eu/img/minutes-mc-iv.1-gdansk-10-02-2026.pdf).
