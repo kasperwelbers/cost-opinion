@@ -1051,14 +1051,6 @@ people:
     wg_data: false
     wg_dissemination: false
     mc: false
-  - name: Serghei Sprincean
-    homepage: http://www.icjp.asm.md/articol/serghei-sprincean
-    country: MD
-    wg_theory: false
-    wg_tools: false
-    wg_data: true
-    wg_dissemination: true
-    mc: false
   - name: Boris Mance
     homepage: null
     country: SI
@@ -1835,5 +1827,33 @@ people:
     wg_dissemination: false
     name: Jana Bernhard-Harrer
     email: jana.bernhard@univie.ac.at
+    country: AT
+  - wg_theory: false
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Asli Telli
+    email: asli.telli@uni-siegen.de
+    country: DE
+  - wg_theory: true
+    wg_tools: false
+    wg_data: false
+    wg_dissemination: false
+    name: Regina Seiwald
+    email: r.seiwald@bham.ac.uk
+    country: GB
+  - wg_theory: true
+    wg_tools: true
+    wg_data: false
+    wg_dissemination: false
+    name: Aleksandra Chmarzynska
+    email: aleksandra.chmarzynska@ug.edu.pl
+    country: PL
+  - wg_theory: false
+    wg_tools: false
+    wg_data: true
+    wg_dissemination: true
+    name: Huan Lai
+    email: huan.lai@univie.ac.at
     country: AT
 ---
