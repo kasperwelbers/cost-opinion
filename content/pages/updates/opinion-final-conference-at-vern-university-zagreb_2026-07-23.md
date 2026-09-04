@@ -5,8 +5,6 @@ author: Christian Baden
 announce_until: 2026-08-25T16:18:53.649Z
 image: img/zagreb.jpg
 ---
-<!--StartFragment-->
-
 The **[OPINION Network](https://www.opinion-network.eu/)** comprises over 230 researchers all across and beyond Europe, dedicated to the study of opinionated text and public opinion expressed in contemporary digital spaces. Over four years, the network has advanced theory, methods, tools and strategies for the computational analysis of opinionated text, identifying key challenges, highlighting current developments, and offering recommendations for future research and practice.
 
 On Tuesday 25 August, the network will convene for its final conference at VERN' University Zagreb to present key outcomes and engage in discussions with stakeholders from media, digital industries, politics, and civil society.
@@ -52,7 +50,7 @@ Tuesday 25 August 2026 (all times: CEST)
 **11:30-12:45 Weaponized opinions: Dealing with toxicity in digital discourse (*Roundtable Talk*)**
 
 * **Carlos Arcila Calderón**, University of Salamanca 🇪🇸
-* **Ivan Buča**, 24sata 🇭🇷
+* **Martina Pauček Šljivak**, 24sata 🇭🇷
 * **Djordje Pavicevic**, ZLF 🇷🇸
 * **Jūratė Ruzaitė**, Vytautas Magnus University 🇱🇹
 * **Lenka Vochocová**, Charles University Prague 🇨🇿
@@ -81,4 +79,4 @@ Tuesday 25 August 2026 (all times: CEST)
 
 **17:45-18:00 Closing**
 
-<!--EndFragment-->
+To download the Minutes of the Conference, [click here](https://www.opinion-network.eu/img/minutes-opinion-final-conference-zagreb-2026.pdf).
