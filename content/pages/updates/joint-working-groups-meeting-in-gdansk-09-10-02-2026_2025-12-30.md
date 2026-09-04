@@ -1,6 +1,6 @@
 ---
 title: Joint Working Groups Meeting in Gdansk, 09-10.02.2026
-date: 2025-12-30T10:29:19.411Z
+date: 2026-02-17T10:29:19.411Z
 author: Christian Baden
 announce_until: 2026-02-09T22:00:00.000Z
 image: img/gdansk.jpg
@@ -41,7 +41,7 @@ Tuesday, 10 February 2026
 
 18:00 - Management Committee Meeting (hybrid)
 
-`<img src="https:www.opinion-network.eu/img/img-20260210-wa0016.jpg">`
+`<img src="https://www.opinion-network.eu/img/img-20260210-wa0016.jpg">`
 
 - - -
 
