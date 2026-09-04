@@ -41,7 +41,7 @@ Tuesday, 10 February 2026
 
 18:00 - Management Committee Meeting (hybrid)
 
-`<hr>`
+`<hl>`
 
 To download the Minutes of the Working Group Meeting, [click here](https://www.opinion-network.eu/img/minutes-opinion-wg-meeting-gdansk-2026.pdf).
 
