@@ -1,6 +1,5 @@
 ---
-title: "Announcement: Joint Working Group Meeting, 18-19.01.24 at Cyprus U of
-  Technology"
+title: Joint Working Group Meeting, 18-19.01.24 at Cyprus U of Technology, Limassol
 date: 2024-01-26T17:05:53.030Z
 author: Christian Baden
 announce_until: 2024-01-17T22:00:00.000Z
