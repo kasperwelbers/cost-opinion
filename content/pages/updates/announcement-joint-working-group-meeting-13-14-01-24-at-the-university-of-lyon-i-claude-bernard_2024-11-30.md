@@ -11,7 +11,7 @@ Our local host was Bruno Yun.
 
 For the full program, please [click here](https://www.opinion-network.eu/img/program-opinion-wg-meeting-lyon-2025.pdf).
 
-- - -
+![image](/img/20250114_171603.jpg)
 
 To download the Minutes of the Working Group Meeting, [click here](https://www.opinion-network.eu/img/minutes-wg-iii.1-lyon-13-01-2025.pdf).
 
