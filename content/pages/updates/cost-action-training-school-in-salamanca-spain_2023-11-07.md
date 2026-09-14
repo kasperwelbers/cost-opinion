@@ -45,6 +45,8 @@ W﻿e are thrilled to announce the first OPINION COST Action Training School in 
 
 16:45-17:15 Conclusion (looking ahead) and evaluation ([Carlos Arcila Calderon](https://www.youtube.com/watch?v=zVldMxKRLTY))
 
+![image](/img/whatsapp-image-2024-06-14-at-14.41.10.jpeg)
+
 ## I﻿nstructors
 
 #### [Carlos Arcila Calderón](https://www.youtube.com/watch?v=zVldMxKRLTY)
