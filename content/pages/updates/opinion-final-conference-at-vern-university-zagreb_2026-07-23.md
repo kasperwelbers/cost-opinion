@@ -79,4 +79,6 @@ Tuesday 25 August 2026 (all times: CEST)
 
 **17:45-18:00 Closing**
 
+![image](/img/day-2-cost-opinion-final-conference-24_25-8-2026-web-129.jpg)
+
 To download the Minutes of the Conference, [click here](https://www.opinion-network.eu/img/minutes-opinion-final-conference-zagreb-2026.pdf).
