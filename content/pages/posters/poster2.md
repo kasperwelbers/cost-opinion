@@ -1,5 +1,6 @@
 ---
-thumbnail: https://marketplace.canva.com/xHPJk/MAHA8XxHPJk/1/tl/canva-MAHA8XxHPJk.jpg
-title: Poster 2
-url: https://zenodo.org/records/15865458
+thumbnail: /img/opinion-poster-asta-nina.png
+title: "Asta Zelenkauskaite & Nina Springer: Three shockwaves disrupting public
+  spheres"
+url: /img/opinion-poster-asta-nina.pdf
 ---
