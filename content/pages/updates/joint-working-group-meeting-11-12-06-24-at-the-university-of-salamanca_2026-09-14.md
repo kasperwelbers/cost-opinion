@@ -3,6 +3,7 @@ title: Joint Working Group Meeting, 11-12.06.24 at the University of Salamanca
 date: 2024-04-14T21:00:00.000Z
 author: Christian Baden
 announce_until: 2024-06-11T21:00:00.000Z
+image: img/salamanca.jpg
 ---
 OPINION's fourth joint network meeting took place on Monday 11 and Tuesday 12 June 2024 at the University of Salamanca. 
 
