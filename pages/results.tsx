@@ -3,12 +3,14 @@ import readMd from "../util/readMd";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import prepareResultsList from "../util/prepareResultsList";
 import prepareDeliverablesList from "../util/prepareDeliverablesList";
+import preparePostersList from "../util/preparePostersList";
 
 interface Props {
   title: string;
   body: string;
   results: Result[];
   deliverables: Deliverable[];
+  posters: Poster[];
 }
 
 interface Result {
@@ -20,6 +22,13 @@ interface Result {
   url: string;
 }
 
+interface Poster {
+  id: string;
+  thumbnail: string;
+  title: string;
+  url: string;
+}
+
 interface Deliverable {
   id: string;
   deliverable: string;
@@ -28,7 +37,13 @@ interface Deliverable {
   url: string;
 }
 
-const Results: NextPage<Props> = ({ title, body, results, deliverables }) => {
+const Results: NextPage<Props> = ({
+  title,
+  body,
+  results,
+  posters,
+  deliverables,
+}) => {
   return (
     <div className={`AppComponent`}>
       <style jsx>
@@ -96,6 +111,25 @@ const Results: NextPage<Props> = ({ title, body, results, deliverables }) => {
           .NoShadow {
             text-shadow: none;
           }
+          .Thumbnails {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+          }
+          .Thumbnails .Item {
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .Thumbnails .Item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+          }
         `}
       </style>
       <div className="Results">
@@ -148,6 +182,31 @@ const Results: NextPage<Props> = ({ title, body, results, deliverables }) => {
                     {result.author} ({result.pub_year}).{" "}
                     <i>{result.published_in}</i>
                   </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="Container">
+          <h1>Posters</h1>
+          <ReactMarkdown className="NoMargin">{body}</ReactMarkdown>
+          <hr />
+          <br />
+          <div className="Thumbnails">
+            {posters.map((poster) => {
+              return (
+                <a
+                  key={poster.id}
+                  className="Item"
+                  href={poster.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {poster.thumbnail ? (
+                    // If poster.url points to an image, show it as a thumbnail
+                    <img src={poster.thumbnail} alt={poster.title} />
+                  ) : null}
                 </a>
               );
             })}
@@ -210,7 +269,11 @@ export const getStaticProps: GetStaticProps = async () => {
   const { attributes, body } = readMd("content/pages/results.md");
   const results = prepareResultsList() || [];
   const deliverables = prepareDeliverablesList() || [];
-  return { props: { title: attributes.title, body, results, deliverables } };
+  const posters = preparePostersList() || [];
+
+  return {
+    props: { title: attributes.title, body, results, posters, deliverables },
+  };
 };
 
 export default Results;

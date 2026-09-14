@@ -11,6 +11,7 @@ image: img/day-2-cost-opinion-final-conference-24_25-8-2026-web-146.jpg
 
 **Venue: V**ERN’ University’s main building in Palmotićeva 82/1, 10000 Zagreb, Room 099 on the ground floor. 
 
+
 **Wednesday:**
 
 * **08:30 – 09:00: Registration** Participant check-in for the event.

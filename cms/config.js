@@ -618,6 +618,18 @@ export default {
     },
 
     {
+      name: "posters",
+      label: "Posters",
+      folder: "content/pages/posters",
+      create: true,
+      slug: "{{slug}}",
+      fields: [
+        { label: "thumbnail", name: "thumbnail", widget: "string" },
+        { label: "Title", name: "title", widget: "string" },
+        { label: "Url", name: "url", widget: "string" },
+      ],
+    },
+    {
       name: "deliverables",
       label: "Deliverable",
       folder: "content/pages/deliverables",
