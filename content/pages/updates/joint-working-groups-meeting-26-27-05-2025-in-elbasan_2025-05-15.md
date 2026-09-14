@@ -48,6 +48,6 @@ State of affairs panel: Haves & Needs
 
 17:30-18:00	Closing Plenary & Wrap-up
 
-`<hl>`
+![image](/img/_mg_7325.jpg)
 
 To download the Minutes of the Working Group Meeting, [click here](https://www.opinion-network.eu/img/minutes-opinion-wg-meeting-elbasan-2025.pdf).
