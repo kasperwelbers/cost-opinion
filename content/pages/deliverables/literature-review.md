@@ -1,6 +1,6 @@
 ---
 deliverable: 1.1
-workgroup: "Work Group 1: Theory | Edited by Agnieszka Stępińska, Nicoleta
+workgroup: "Working Group 1: Theory | Edited by Agnieszka Stępińska, Nicoleta
   Corbu, & Carlos Cunha | With contributions by Barbara Lewandowska-Tomaszczyk,
   Jūratė Ruzaitė, & Gal Harpaz; Christian Baden, Carlos Cunha, Valmora Gogo,
   Agnieszka Hess, & Marc Jungblut; Artur Lipiński, Jana Rosenfeldová, Gabriella
