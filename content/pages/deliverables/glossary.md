@@ -1,6 +1,6 @@
 ---
 deliverable: ""
-workgroup: "Work Group 1: Theory | Edited by Gabriella Szabó, Carlos Cunha,
+workgroup: "Working Group 1: Theory | Edited by Gabriella Szabó, Carlos Cunha,
   Jūratė Ruzaitė, & Tamara Kunić | With contributions by: Janet Adikpo, Anna
   Bączkowska, Christian Baden, Barbora Baďurová, Madalina Boțan, Anita
   Ciunova-Shuleska, Nicoleta Corbu, Carlos Cunha, Ardita Dylgjeri, Dren Gërguri,
