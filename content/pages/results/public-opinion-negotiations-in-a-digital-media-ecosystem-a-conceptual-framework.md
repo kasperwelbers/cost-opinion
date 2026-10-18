@@ -1,6 +1,6 @@
 ---
 title: "Public opinion negotiations in a digital media ecosystem: A conceptual
-  framework"
+  framewor"
 author: Christian Baden, Neta Kligler-Vilenchik, Nina Springer, Marc Jungblut,
   Asta Zelenkauskaite, Auksė Balčytienė, Susana Salgado, Artur Lipiński,
   Aleksandra Krstic, & Anna Bączkowska (2025)
