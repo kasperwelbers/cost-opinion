@@ -1,6 +1,6 @@
 ---
 title: Everybody counts? Re-conceptualizing the aggregation of public opinion
-  dynamics in digital spaces.
+  dynamics in digital spaces
 author: Christian Baden, Anna Bączkowska, Aukse Balčytienė, Marc Jungblut, Neta
   Kligler-Vilenchik, Aleksandra Krstić, Artur Lipiński, Susana Salgado, Nina
   Springer, & Asta Zelenkauskaite (2024)
