@@ -1,5 +1,5 @@
 ---
-deliverable: "1.2"
+deliverable: ""
 workgroup: "Working Group 1: Theory | Edited by Elena Negrea Busuioc, Christian
   Baden, Agnieszka Stepinska, & Carlos Cunha. With Barbora Badurova, Anita
   Ciunova-Shuleska, Dren Gërguri, Gal Harpaz, Agnieszka Hess, Tamara Kunić,
