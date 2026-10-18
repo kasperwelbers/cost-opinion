@@ -1,6 +1,6 @@
 ---
 title: "Public opinion as discursive process in a digital media ecosystem: A
-  conceptual framework."
+  conceptual framework"
 author: Christian Baden, Anna Bączkowska, Aukse Balčytienė, Marc Jungblut, Neta
   Kligler-Vilenchik, Aleksandra Krstić, Artur Lipiński, Susana Salgado, Nina
   Springer, & Asta Zelenkauskaite (2024)
