@@ -11,7 +11,7 @@ workgroup: "Working Group 1: Theory | Edited by Gabriella Szabó, Carlos Cunha,
   Martina Novotná, Şule Yüksel Özmen, Serap Durmuş Öztürk, Nikolina
   Palamidovska-Sterjadovska, Alena Pospíšil Macková, Jana Rosenfeldová, Jūratė
   Ruzaitė, Nina Springer, Agnieszka Stępińska, Gabriella Szabó, Lenka Vochocová,
-  Annie Waldherr, & Asta Zelenkauskaite"
+  Annie Waldherr, & Asta Zelenkauskaite."
 title: The OPINION Glossary
 url: https://zenodo.org/records/15865458
 ---
