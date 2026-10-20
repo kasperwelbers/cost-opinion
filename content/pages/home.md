@@ -1,7 +1,7 @@
 ---
 title: OPINION
 subtitle: Measuring Opinionated Communication
-who: OPINION united more than 240 researchers across 40+ European countries and
+who: OPINION unites more than 240 researchers across 40+ European countries and
   beyond, comprising both computational and non-computational scholars from all
   across the social sciences, the humanities, computer science and artificial
   intelligence.
