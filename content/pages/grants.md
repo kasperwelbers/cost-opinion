@@ -158,10 +158,4 @@ awarded_grants:
     who: Özlem Abanoz
     url: YRI-Ozlem-Abanoz.pdf
 ---
-
-# If you are interested, please get in contact with OPINION's Grant Coordination Team!
-
-[Nina Springer \& Asta Zelenkauskaite](mailto:grants@opinion-network.eu)
-
-All grants will be awarded taking into account both research excellence and various diversity and inclusion criteria, including gender balance, inclusion targets, country balance disciplinary diversity, career stage, and affiliation with OPINION’s WGs.
-[Click here for more details on Grant Awarding guidelines](https://www.cost.eu/uploads/2021/12/Grant-Awarding-userguide.pdf)
+ 
