@@ -1,5 +1,5 @@
 ---
-title: OPINION unites over 200 researchers across more than 40 countries all
+title: OPINION united over 200 researchers across more than 40 countries all
   across Europe and beyond.
 people:
   - name: Anat Ben-David

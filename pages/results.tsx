@@ -169,6 +169,7 @@ const Results: NextPage<Props> = ({
           <br />
           <div className="List">
             {results.map((result) => {
+              const year = result.pub_year ? `(${result.pub_year})` : "";
               return (
                 <a
                   key={result.id}
@@ -179,7 +180,7 @@ const Results: NextPage<Props> = ({
                 >
                   <h4 className="NoShadow">{result.title}</h4>
                   <div className="author">
-                    {result.author} ({result.pub_year}).{" "}
+                    {result.author} {year}.{" "}
                     <i>{result.published_in}</i>
                   </div>
                 </a>

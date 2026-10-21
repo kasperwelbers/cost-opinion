@@ -129,7 +129,7 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg, people }) => {
             <div key="v2">{printPerson(vices[1])}</div>
           </div>
           <div className="Contact">
-            <a href={`mailto:${leader.email}`}>
+            {/*<a href={`mailto:${leader.email}`}>
               <FaEnvelope
                 style={{
                   fontSize: "1.6rem",
@@ -138,8 +138,8 @@ const WorkingGroupDetails: NextPage<WGDetailsProps> = ({ wg, people }) => {
                   cursor: "pointer",
                 }}
               />
-            </a>
-            {leader.email}
+            </a>*/}
+            {/*{leader.email}*/}
           </div>
           {/* <div key="contact" className="Person">
             <label>CONTACT</label>

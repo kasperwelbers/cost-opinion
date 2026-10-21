@@ -29,14 +29,14 @@ const About: NextPage<Props> = ({ content, peopleContent }) => {
             <ReactMarkdown>{attributes.aim_objectives}</ReactMarkdown>
           </div>
 
-          <a
+          {/*<a
             className="JoinLink"
             href="https://cost.eu/actions/CA21129/#tabs+Name:Working%20Groups%20and%20Membership"
             target="_blank"
             rel="noreferrer"
           >
             Apply to join OPINION
-          </a>
+          </a>*/}
           {/* <img src="/img/opinion_i.gif" alt={"OPINION logo"} /> */}
         </div>
 

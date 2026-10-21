@@ -17,8 +17,16 @@ export default function prepareResultsList() {
     };
   });
 
-  results.sort((a, b) =>
-    a.pub_year > b.pub_year ? -1 : b.pub_year > a.pub_year ? 1 : 0
-  );
+  // forthcoming / in press first, then by year (newest first), then undated
+  const sortKey = (r: { author: string; pub_year: string | number }) => {
+    if (/\((?:Eds?\.,\s*)?(?:forthcoming|in press)\)\.?\s*$/i.test(r.author))
+      return Infinity;
+    return Number(r.pub_year) || -Infinity;
+  };
+  results.sort((a, b) => {
+    const ka = sortKey(a);
+    const kb = sortKey(b);
+    return ka > kb ? -1 : kb > ka ? 1 : 0;
+  });
   return results;
 }

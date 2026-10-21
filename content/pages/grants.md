@@ -1,7 +1,7 @@
 ---
 title: Grants
-description: "OPINION supports mobility and exchanges among researchers in the
-  network. There are four types of grants:"
+description: "OPINION supported mobility and exchanges among researchers in the
+  network. There were four types of grants:"
 members_only_text: Eligibility is restricted to OPINION members affiliated in
   COST full or cooperating member countries, Near Neighbour countries, or
   European RTD organizations.
@@ -158,4 +158,3 @@ awarded_grants:
     who: Özlem Abanoz
     url: YRI-Ozlem-Abanoz.pdf
 ---
- 

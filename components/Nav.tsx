@@ -14,7 +14,7 @@ const MENU_LIST = [
   { text: "Results", href: "/results" },
   { text: "Projects", href: "/projects" },
   { text: "Glossary", href: "/glossary" },
-  { text: "Contact", href: "/contact" },
+  // { text: "Contact", href: "/contact" },
 ];
 
 interface Props {

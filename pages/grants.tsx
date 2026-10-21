@@ -44,7 +44,7 @@ const Grants: NextPage<Props> = ({ content }) => {
   const selectedGrant = selected != null && grant_types?.[selected];
   return (
     <div className={`AppComponent Grants`}>
-      <h1 className="Title">Apply for grants</h1>
+      <h1 className="Title">Grants applied by OPINION</h1>
 
       <p className="Description">{description}</p>
 
@@ -83,13 +83,14 @@ const Grants: NextPage<Props> = ({ content }) => {
               </div>
               <div className="GrantTypeHow">
                 <h3>How to apply</h3>
-                <ReactMarkdown className="NoMargin">{selectedGrant.how}</ReactMarkdown>
+                No longer possible. The project has already ended
+                {/*<ReactMarkdown className="NoMargin">{selectedGrant.how}</ReactMarkdown>*/}
               </div>
-              {selectedGrant.members_only && (
+              {/*{selectedGrant.members_only && (
                 <div className="MembersOnly">
                   <ReactMarkdown className="NoMargin">{"*" + members_only_text}</ReactMarkdown>
                 </div>
-              )}
+              )}*/}
             </div>
           ) : (
             <div />

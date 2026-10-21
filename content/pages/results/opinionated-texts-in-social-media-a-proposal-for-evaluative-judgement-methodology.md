@@ -5,7 +5,8 @@ author: Anna Bączkowska,  Elena Negrea-Busuioc, Damian Guzek, Chaya Liebeskind,
   Agnieszka Hess, Fabio Crestani, Federico Ravenda, Tamara Kunić, Artur
   Lipiński, Erika Lombart, Martina Novotna, Ledia Kazazi, Alena Macková, Ardita
   Dylgjeri, Ana Milojevic, Carlos Cunha, Jūratė Ruzaite, Kristina Krstic,
-  Kristina Milić, & Aneta Dłutek (2024)
+  Kristina Milić, & Aneta Dłutek
 published_in: Beyond Philology, 21(1), 203-280.
+pub_year: 2024
 url: https://doi.org/10.26881/bp.2024.1.07
 ---

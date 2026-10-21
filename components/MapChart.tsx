@@ -10,6 +10,7 @@ import {
   Geography,
   Marker,
 } from "react-simple-maps";
+// @ts-ignore
 import { geoCentroid } from "d3-geo";
 import { Person } from "../types";
 

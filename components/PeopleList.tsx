@@ -23,7 +23,7 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
         key="leaders"
         name="Action Management & Workgroups"
         type="management"
-        mail="leaders@opinion-network.eu"
+        // mail="leaders@opinion-network.eu"
       >
         <Person role="AC" label="action chair" roles={roles} />
         <Person role="ACV" label="action vice chair" roles={roles} />
@@ -59,7 +59,7 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
         key={"wg1"}
         name={`Theory`}
         type="workgroup"
-        mail="wg1-leaders@opinion-network.eu"
+        // mail="wg1-leaders@opinion-network.eu"
       >
         <Person key={"theory"} role={`WG1L`} label="chair" roles={roles} />
         <Person key="theory1" role={`WG1V1`} label="vice chair" roles={roles} />
@@ -69,7 +69,7 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
         key={"wg2"}
         name={`Tools`}
         type="workgroup"
-        mail="wg2-leaders@opinion-network.eu"
+        // mail="wg2-leaders@opinion-network.eu"
       >
         <Person key={"tools"} role={`WG2L`} label="chair" roles={roles} />
         <Person key="tools1" role={`WG2V1`} label="vice chair" roles={roles} />
@@ -79,7 +79,7 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
         key={"wg3"}
         name={`Application & Data`}
         type="workgroup"
-        mail="wg3-leaders@opinion-network.eu"
+        // mail="wg3-leaders@opinion-network.eu"
       >
         <Person key={"data"} role={`WG3L`} label="chair" roles={roles} />
         <Person key="data1" role={`WG3V1`} label="vice chair" roles={roles} />
@@ -89,7 +89,7 @@ const PeopleList: NextPage<Props> = ({ roles }) => {
         key={"wg4"}
         name={`Inclusion & Dissemination`}
         type="workgroup"
-        mail="wg4-leaders@opinion-network.eu"
+        // mail="wg4-leaders@opinion-network.eu"
       >
         <Person
           key={"dissemination"}

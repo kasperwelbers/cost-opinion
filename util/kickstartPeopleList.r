@@ -115,7 +115,7 @@ length(people)
 length(unique(d$country_code))
 
 people_md = sprintf('---
-title: "OPINION unites over 170 researchers across more than 35 European
+title: "OPINION united over 170 researchers across more than 35 European
 countries, Israel and the US."
 people:
 %s
@@ -127,4 +127,3 @@ write_lines(people_md, '~/projects/cost-opinion/content/pages/people.md')
 ## create option array for countries in config.js
 items = sprintf('{label: "%s", value: "%s"}', countries$name, countries$code)
 cat('[', paste(items, collapse=','), ']')
-

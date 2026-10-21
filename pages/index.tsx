@@ -79,7 +79,7 @@ const HomePage: NextPage<Props> = ({ content, announcements }) => {
       <div className="EmptyFlex" />
       <div className="Cost fade-in">
         <div>
-          Opinion is funded by COST{"  "}(
+          Opinion was funded by COST{"  "}(
           <a href="https://www.cost.eu/actions/CA21129/">CA21129</a>)
         </div>
         <div>
